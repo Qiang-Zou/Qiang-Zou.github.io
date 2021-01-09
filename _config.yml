@@ -73,7 +73,7 @@ author:
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   github           : #"academicpages"
   linkedin         :  "https://www.linkedin.com/in/qiang-zou/"
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : #"http://orcid.org/yourorcidurl"
  
 
 
