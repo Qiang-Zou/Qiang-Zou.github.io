@@ -1,10 +1,8 @@
 ---
+layout: archive
+title: "Group"
 permalink: /group/
-title: "Markdown"
 author_profile: true
-redirect_from: 
-  - /group/
-  - /group.html
 ---
 
 Under Construction...
