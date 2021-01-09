@@ -11,6 +11,6 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %} -->
 
-1. Geometric Modeling (CPSC 424, UBC) 2018 Teaching Assistant.
+1. 2018, Geometric Modeling (CPSC 424) UBC, Teaching Assistant.
 
-1. Mechanical Design (MECH 325, UBC) 2015 – 2017 Teaching Assistant.
+1. 2015 – 2017, Mechanical Design (MECH 325) UBC, Teaching Assistant.
