@@ -34,6 +34,11 @@ author_profile: true
 <!-- 15. Jibin Zhao, Qiang Zou, Dianhai Liu, Lun Li, CNC trajectory generation for triangle meshes based on conformal parametrization, CN104570928A. 2015. (Chinese Patent) -->
 
 
+Talks
+======
+
+1. Invited talk, Direct Modeling for Computer Aided Design, CAD & CG State Key Lab, Zhejiang University, Jan. 2020.
+
 
 <!-- {% include base_path %}
 
