@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Portfolio"
-permalink: /portfolio/
+title: "Codels"
+permalink: /codes/
 author_profile: true
 ---
 
