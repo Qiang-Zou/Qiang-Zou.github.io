@@ -82,39 +82,15 @@ analytics:
 author:
   name             : "Qiang Zou"
   avatar           : "profile.png"
-  bio              : "Assistant Professor of CAD/CAM in CAD&CG State Key Lab, Zhejiang University"
+  bio              : "Assistant Professor of CAD/CAM in State Key Lab of CAD&CG at Zhejiang University"
   location         : "Hangzhou, China"
-  employer         :
-  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=en"
-  email            :
+  email            :  "qiangzou@cad.zju.end.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
   github           : #"academicpages"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         :
+  linkedin         :  "https://www.linkedin.com/in/qiang-zou/"
   orcid            : "http://orcid.org/yourorcidurl"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : #"replacethistwitterhandle"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
+ 
 
 
 # Reading Files
