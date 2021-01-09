@@ -10,7 +10,7 @@ main:
     url: /services/    
     
   - title: "Codes"
-    url: /cv/
+    url: /codes/
 
   - title: "Group"
     url: /group/
