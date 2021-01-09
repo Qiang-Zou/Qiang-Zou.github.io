@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Qiang Zou's DMA Lab"
+title                    : "Qiang Zou, DMAL"
 title_separator          : "-"
 name                     : &name "Qiang Zou"
 description              : &description "personal description"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Qiang Zou"
   avatar           : "profile.png"
-  bio              : "Assistant Professor in CAD&CG State Key Lab, Zhejiang University, Ph.D. in CAD/CAM"
+  bio              : "Assistant Professor of CAD/CAM in CAD&CG State Key Lab, Zhejiang University"
   location         : "Hangzhou, China"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
