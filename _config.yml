@@ -81,8 +81,8 @@ analytics:
 # Site Author
 author:
   name             : "Qiang Zou"
-  avatar           : "profile.png"
-  bio              : "Assistant Professor of Computer Science (ZJU)  Ph.D. in CAD/CAM (UBC, 19')"
+  avatar           : "profile.jpeg"
+  bio              : "Assistant Professor of Computer Science (ZJU), Ph.D. in CAD/CAM (UBC, 19')"
   location         : "Hangzhou, China"
   googlescholar    : "https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=en"
   email            :  "qiangzou@cad.zju.end.cn"
