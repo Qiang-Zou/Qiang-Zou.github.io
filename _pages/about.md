@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-Assistant Professor in the State Key Lab of CAD&CG at ZJU, Ph.D. in CAD/CAM (UBC 19', with Dr. Hsi-Yung Feng). My research and engineering experience revolves around geometry, engineering, and optimization to develop simpler algorithms for design and manufacturing. I am currently working on direct & parametric modeling in CAD, and tool path planning for CNC machining and 3D printing in CAM.
+I am an Assistant Professor in the State Key Lab of CAD&CG at Zhejiang University. I got my Ph.D. from UBC in 2019, working with Dr. Hsi-Yung Feng. My research revolves around geomeric problems in design and manufacturing, in particular, design modeling and manufacturing simulation. I am currently working on direct & parametric modeling in CAD, and tool path planning for CNC machining and 3D printing in CAM.
 
-I am looking for highly motivated graduate students (Master’s and Ph.D.) to join our group to develop next-generation software for engineering design and manufacturing (CNC machining & 3D printing). A solid background in Mechanical Engeering and Programming is a plus. Please shoot me an email if you are interested.
+Highly motivated graduate students (Master’s and Ph.D.) are welcome to join our group to develop next-generation software for engineering design and manufacturing (CNC machining & 3D printing). A solid background in Mechanical Engeering and Programming is a plus. Please shoot me an email if you are interested.
 
 News
 ======
