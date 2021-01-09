@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Qiang Zou, DMAL"
+title                    : "Qiang Zou, Design and Manufacturing"
 title_separator          : "-"
 name                     : &name "Qiang Zou"
 description              : &description "personal description"
