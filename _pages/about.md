@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to Design and Manufacturing Automation Lab (DMAL)"
+title: "About"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
