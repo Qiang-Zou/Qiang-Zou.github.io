@@ -14,6 +14,6 @@ Highly motivated graduate students (Master’s and Ph.D.) are welcome to join ou
 
 News
 ======
-Dec 2020. I am serving on the Program Committee for CAD/Graphics 2021. Welcome to share your excellent work at this amazing event.
+Dec 2020. I am serving on the Program Committee of CAD/Graphics 2021. Welcome to share your excellent work at this amazing event.
 
 
