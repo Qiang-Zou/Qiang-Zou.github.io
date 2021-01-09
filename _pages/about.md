@@ -8,8 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-I am an Assistant Professor in the State Key Lab of CAD&CG at Zhejiang University. I got my Ph.D. from UBC in 2019, working with Dr. Hsi-Yung Feng. My research interest lies in computational principles behind engineering design processes and manufacturing operations, as well as their algorithmic implementations. Current research work includes:  
-(1) Design modeling: direct modeling and parametric modeling in CAD  
+I am an Assistant Professor in the State Key Lab of CAD&CG at Zhejiang University. I got my Ph.D. from UBC in 2019, working with Dr. Hsi-Yung Feng. My research interest lies in computational principles behind engineering design processes and manufacturing operations, as well as their algorithmic implementations.\
+
+Current research work includes:\
+(1) Design modeling: direct modeling and parametric modeling in CAD\
 (2) Manufacturing simulation: CNC machining and 3D printing path optimization in CAM
 
 Highly motivated graduate students (Master’s and Ph.D.) are welcome to join our group to develop next-generation software for design and manufacturing. A solid background in Mechanical Engineering and Programming is a plus. Please shoot me an email if you are interested.
