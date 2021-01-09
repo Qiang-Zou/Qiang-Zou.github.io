@@ -8,7 +8,6 @@ author_profile: true
 Publications
 ======
 
-
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
@@ -41,8 +40,11 @@ Publications
 Talks
 ======
 
-1. Invited talk, Direct Modeling for Computer Aided Design, CAD & CG State Key Lab, Zhejiang University, Jan. 2020.
+1. Direct Modeling for Computer Aided Design, State Key Lab of CAD&CG, Zhejiang University, Jan. 2020.
 
+1. Fabrication in Computer Graphics, G&GC Lab at school of mathematical sciences, May 2014.
+
+1. Iso-level Method: A New Framework for Tool Path Planning, Mid-term evaluation on the "973" project "Mathematics Mechanization and Digital Design and Manufacturing", USTC, June 2013.
 
 <!-- {% include base_path %}
 
