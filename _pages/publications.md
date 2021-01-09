@@ -12,9 +12,14 @@ Publications
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
-1. Qiang Zou, Hsi-Yung Feng, On limitations of the witness configuration method for geometric constraint solving in CAD modeling . To Be Submitted.
-1. Qiang Zou, Charlie C. L. Wang, Hsi-Yung Feng, Length-optimal tool path planning for freeform surfaces with preferred feed directions, Computer-Aided Design. Under Review.
+1. Qiang Zou, Hsi-Yung Feng, On limitations of the witness configuration method for geometric constraint solving in CAD modeling. To Be Submitted.
+
+1. Junhao Ding^*, Qiang Zou^*, Shuo Qu, Paulo Bartolo, Xu Song, Charlie C. L. Wang, STL-free digital design and manufacturing paradigm for high-precision selective laser melting, CIRP Annuals. (* Equal Contributions) Under Review.
+
+1. Qiang Zou, Length-optimal tool path planning for freeform surfaces with preferred feed directions, Computer-Aided Design. Under Review.
+
 1. Shengjun Liu, Tao Liu, Qiang Zou, Weiming Wang, Eugeni L. Doubrovski, Charlie C. L. Wang, Memory-Efficient Modeling and Slicing of Large-Scale Adaptive Lattice Structures, ASME Trans. JCISE. Under Review.
+
 1. Qiang Zou, Hsi-Yung Feng, A robust direct CAD modeling method for quadric B-rep models based on geometry- topology inconsistency tracking, Engineering with Computers. Under Review.
 
 1. Qiang Zou, Robust and efficient tool path generation for machining low-quality mesh surfaces, International Journal of Production Research. Accepted, 2020.

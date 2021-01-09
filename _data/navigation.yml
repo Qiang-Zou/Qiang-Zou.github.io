@@ -7,13 +7,10 @@ main:
     url: /teaching/  
 
   - title: "Services"
-    url: /talks/    
+    url: /services/    
 
   - title: "Codes"
-    url: /portfolio/
+    url: /codes/
         
   - title: "Group"
-    url: /year-archive/
-    
-  - title: "Guide"
     url: /markdown/
