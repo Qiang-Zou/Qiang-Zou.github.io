@@ -1,6 +1,6 @@
 ---
 layout: archive
-#title: "Publications and Talks"
+title: "Publications, Talks & Awards"
 permalink: /research/
 author_profile: true
 ---
@@ -50,6 +50,17 @@ Talks
 1. Fabrication in Computer Graphics, G&GC Lab at school of mathematical sciences, May 2014.
 
 1. Iso-level Method: A New Framework for Tool Path Planning, Mid-term evaluation on the "973" project "Mathematics Mechanization and Digital Design and Manufacturing", USTC, June 2013.
+
+Awards
+====
+
+1. Faculty of Applied Science Graduate Award, UBC, 2014 & 2018
+
+1. Departmental Scholar, UBC, 2015
+
+1. UBC 4YF Doctoral Fellowship, UBC, 2014
+
+1. Academic Research Award, Liaoning Province, China, 2014
 
 <!-- {% include base_path %}
 
