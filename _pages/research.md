@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Publications, Talks & Awards"
-permalink: /research/
+permalink: research/
 author_profile: true
 ---
 
@@ -14,7 +14,7 @@ Publications
 
 1. Qiang Zou, Hsi-Yung Feng, On limitations of the witness configuration method for geometric constraint solving in CAD modeling. To Be Submitted.
 
-1. Junhao Ding^*, Qiang Zou^*, Shuo Qu, Paulo Bartolo, Xu Song, Charlie C. L. Wang, STL-free digital design and manufacturing paradigm for high-precision selective laser melting, CIRP Annuals. (* Equal Contributions) Under Review.
+1. Junhao Ding^, Qiang Zou^, Shuo Qu, Paulo Bartolo, Xu Song, Charlie C. L. Wang, STL-free digital design and manufacturing paradigm for high-precision selective laser melting, CIRP Annuals. (^ Equal Contributions) Under Review.
 
 1. Qiang Zou, Length-optimal tool path planning for freeform surfaces with preferred feed directions, Computer-Aided Design. Under Review.
 
@@ -47,7 +47,7 @@ Talks
 
 1. Direct Modeling for Computer Aided Design, State Key Lab of CAD&CG, Zhejiang University, Jan. 2020.
 
-1. Fabrication in Computer Graphics, G&GC Lab at school of mathematical sciences, May 2014.
+1. Fabrication in Computer Graphics, G&GC Lab at school of mathematical sciences, USTC, May 2014.
 
 1. Iso-level Method: A New Framework for Tool Path Planning, Mid-term evaluation on the "973" project "Mathematics Mechanization and Digital Design and Manufacturing", USTC, June 2013.
 
