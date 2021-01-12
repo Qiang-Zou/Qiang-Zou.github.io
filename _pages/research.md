@@ -51,7 +51,7 @@ Talks
 
 1. Iso-level Method: A New Framework for Tool Path Planning, Mid-term evaluation on the "973" project "Mathematics Mechanization and Digital Design and Manufacturing", USTC, June 2013.
 
-Awards
+Selected Awards
 ====
 
 1. Faculty of Applied Science Graduate Award, UBC, 2014 & 2018
