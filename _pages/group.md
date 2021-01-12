@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Group"
+title: “Design and Manufacturing Automation Lab (DMAL)“
 permalink: /group/
 author_profile: true
 ---
