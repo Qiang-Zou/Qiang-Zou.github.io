@@ -5,7 +5,14 @@ permalink: /group/
 author_profile: true
 ---
 
-Under Construction...
+Ph.D. Students
+
+1. Hongzhi Tang, 2019 - , Co-supervised with Prof. Shuming Gao
+
+1. Harron (Aaron) Ijaz, 2020 - , Co-supervised with Prof. Ming Li
+
+1. 
+
 ========
 
 <!-- 
