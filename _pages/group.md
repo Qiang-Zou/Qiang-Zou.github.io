@@ -7,7 +7,7 @@ author_profile: true
 
 Ph.D. Students
 
-1. Hongzhi Tang, 2019 - , Co-supervised with Prof. Shuming Gao, Research topic: parametric CAD modeling
+1. Zhihong Tang, 2019 - , Co-supervised with Prof. Shuming Gao, Research topic: geometric constraint analysis for CAD
 
 1. Harron (Aaron) Ijaz, 2020 - , Co-supervised with Prof. Ming Li, Research topic: geometric modeling for 3D printing
 
