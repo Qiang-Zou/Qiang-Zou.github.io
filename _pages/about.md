@@ -14,6 +14,8 @@ I am an Assistant Professor in the College of Computer Science and the State Key
 
 News
 ======
+Feb 2021. One paper accepted by ASME Trans. JCISE.
+
 Dec 2020. I am serving on the Program Committee of CAD/Graphics 2021.
 
 

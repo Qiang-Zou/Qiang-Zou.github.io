@@ -18,9 +18,9 @@ Publications
 
 1. Qiang Zou, Length-optimal tool path planning for freeform surfaces with preferred feed directions, Computer-Aided Design. Under Review.
 
-1. Shengjun Liu, Tao Liu, Qiang Zou, Weiming Wang, Eugeni L. Doubrovski, Charlie C. L. Wang, Memory-Efficient Modeling and Slicing of Large-Scale Adaptive Lattice Structures, ASME Trans. JCISE. Under Review.
-
 1. Qiang Zou, Hsi-Yung Feng, A robust direct CAD modeling method for quadric B-rep models based on geometry- topology inconsistency tracking, Engineering with Computers. Under Review.
+
+1. Shengjun Liu, Tao Liu, Qiang Zou, Weiming Wang, Eugeni L. Doubrovski, Charlie C. L. Wang, Memory-Efficient Modeling and Slicing of Large-Scale Adaptive Lattice Structures, ASME Trans. JCISE. Accepted, 2021.
 
 1. Qiang Zou, Robust and efficient tool path generation for machining low-quality mesh surfaces, International Journal of Production Research. Accepted, 2020.
 
