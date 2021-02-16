@@ -21,7 +21,7 @@ author_profile: true
 
 1. Session Coordinator, International CAD Conference (CAD’16), June 2016.
 
-1. Reviewer for CAD journal, ASME JCISE, and CAGD etc.
+1. Reviewer for CAD, ASME JCISE, and CAGD etc.
 
 
 
