@@ -14,7 +14,6 @@ I am currently an Assistant Professor at the College of Computer Science and the
 
 News
 ======
-# Feb 2021. One paper accepted by the prestigious CIRP Annuals.
 
 Feb 2021. One paper accepted by the prestigious ASME Trans. JCISE.
 
