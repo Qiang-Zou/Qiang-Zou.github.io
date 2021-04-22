@@ -14,10 +14,12 @@ I am currently an Assistant Professor at the College of Computer Science and the
 
 News
 ======
-Mar 2021. One paper accepted by the prestigious journal of CIRP Annals.
+Apr. 2021. I am serving on the Program Committee of CAD&CG 2021.
 
-Feb 2021. One paper accepted by the prestigious ASME Trans. JCISE.
+Mar. 2021. One paper accepted by the prestigious journal of CIRP Annals.
 
-Dec 2020. I am serving on the Program Committee of CAD/Graphics 2021.
+Feb. 2021. One paper accepted by the prestigious ASME Trans. JCISE.
+
+Dec. 2020. I am serving on the Program Committee of CAD/Graphics 2021.
 
 
