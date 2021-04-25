@@ -12,7 +12,9 @@ Publications
   You can also find my articles at <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
-1. Qiang Zou, Hsi-Yung Feng, On limitations of the witness configuration method for geometric constraint solving in CAD modeling. To Be Submitted.
+1. Qiang Zou^*, Hsi-Yung Feng, On limitations of the witness configuration method for geometric constraint solving in CAD modeling. To Be Submitted.
+
+1. Zhihong Tang, Qiang Zou, Shuming Gao, Towards computing complete parameter ranges in geometric constraint solving. SPM 2021, Under Review.
 
 1. Qiang Zou, Length-optimal tool path planning for freeform surfaces with preferred feed directions, Computer-Aided Design. Under Review.
 
@@ -26,9 +28,9 @@ Publications
 
 1. Cheng Su, Xin Jiang, Guanying Huo, Qiang Zou, Zhiming Zheng, Hsi-Yung Feng, Accurate model construction of deformed aero-engine blades for remanufacturing, International Journal of Advanced Manufacturing Technology. 106 (2020) 3239-3251.
 
-1. Qiang Zou, Hsi-Yung Feng,A decision-support method for information inconsistency resolution in direct modeling of CAD models, Advanced Engineering Informatics. 44 (2020) 101087.
+1. Qiang Zou, Hsi-Yung Feng, A decision-support method for information inconsistency resolution in direct modeling of CAD models, Advanced Engineering Informatics. 44 (2020) 101087.
 
-1. Qiang Zou, Hsi-Yung Feng,Variational B-rep model analysis for direct modeling using geometric perturbation, Journal of Computational Design and Engineering. 6 (4) (2019) 606-616.
+1. Qiang Zou, Hsi-Yung Feng, Variational B-rep model analysis for direct modeling using geometric perturbation, Journal of Computational Design and Engineering. 6 (4) (2019) 606-616.
 
 1. Qiang Zou, Hsi-Yung Feng, Push-pull direct modeling of solid CAD models, Advances in Engineering Software 127 (2019): 59-69.
 
