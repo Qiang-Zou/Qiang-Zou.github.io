@@ -12,7 +12,7 @@ Publications
   You can also find my articles at <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
-1. Qiang Zou^*, Hsi-Yung Feng, On limitations of the witness configuration method for geometric constraint solving in CAD modeling. To Be Submitted.
+1. Qiang Zou<sup>*</sup>, Hsi-Yung Feng, On limitations of the witness configuration method for geometric constraint solving in CAD modeling. To Be Submitted.
 
 1. Zhihong Tang, Qiang Zou, Shuming Gao, Towards computing complete parameter ranges in geometric constraint solving. SPM 2021, Under Review.
 
