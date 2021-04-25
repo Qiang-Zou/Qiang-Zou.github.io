@@ -14,6 +14,7 @@ author_profile: true
 {% for post in site.talks reversed %}
   {% include archive-single-talk.html %}
 {% endfor %} -->
+1. Program Committee, CAD&CG 2021, Aug. 2021.
 
 1. Program Committee, CAD/Graphics 2021, May 2021.
 
