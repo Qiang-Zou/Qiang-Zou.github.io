@@ -20,7 +20,7 @@ Publications
 
 1. Qiang Zou*, Hsi-Yung Feng, A robust direct CAD modeling method for quadric B-rep models based on geometry- topology inconsistency tracking, Engineering with Computers. Accepted, 2021.
 
-1. Junhao Ding^, Qiang Zou^, Shuo Qu, Paulo Bartolo, Xu Song*, Charlie C. L. Wang*, STL-free digital design and manufacturing paradigm for high-precision selective laser melting, CIRP Annals. (^ Equal Contributions) Accepted, 2021.
+1. Junhao Ding^, Qiang Zou^, Shuo Qu, Paulo Bartolo, Xu Song, Charlie C. L. Wang*, STL-free digital design and manufacturing paradigm for high-precision selective laser melting, CIRP Annals. (^ Equal Contributions) Accepted, 2021.
 
 1. Shengjun Liu, Tao Liu, Qiang Zou, Weiming Wang, Eugeni L. Doubrovski, Charlie C. L. Wang*, Memory-Efficient Modeling and Slicing of Large-Scale Adaptive Lattice Structures, ASME Trans. JCISE. Accepted, 2021.
 
