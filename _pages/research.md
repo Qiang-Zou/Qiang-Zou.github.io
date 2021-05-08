@@ -11,7 +11,7 @@ Publications
 {% if author.googlescholar %}
   You can also find my articles at <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
-
+# CAD Papers:
 1. Qiang Zou*, Hsi-Yung Feng, On limitations of the witness configuration method for geometric constraint solving in CAD modeling. To Be Submitted.
 
 1. Zhihong Tang, Qiang Zou, Shuming Gao*, Towards computing complete parameter ranges in geometric constraint solving. Under Review.
@@ -24,6 +24,7 @@ Publications
 
 1. Shengjun Liu, Tao Liu, Qiang Zou, Weiming Wang, Eugeni L. Doubrovski, Charlie C. L. Wang*, Memory-Efficient Modeling and Slicing of Large-Scale Adaptive Lattice Structures, ASME Trans. JCISE. Accepted, 2021.
 
+# CAM Papers:
 1. Qiang Zou*, Robust and efficient tool path generation for machining low-quality mesh surfaces, International Journal of Production Research. Accepted, 2020.
 
 1. Cheng Su, Xin Jiang*, Guanying Huo, Qiang Zou, Zhiming Zheng, Hsi-Yung Feng, Accurate model construction of deformed aero-engine blades for remanufacturing, International Journal of Advanced Manufacturing Technology. 106 (2020) 3239-3251.
