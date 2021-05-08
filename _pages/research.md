@@ -13,9 +13,9 @@ Publications
 {% endif %}
 1. Qiang Zou*, Hsi-Yung Feng, On limitations of the witness configuration method for geometric constraint solving in CAD modeling. To Be Submitted.
 
-1. Zhihong Tang, Qiang Zou, Shuming Gao*, Towards computing complete parameter ranges in geometric constraint solving. Under Review.
+1. Zhihong Tang, Qiang Zou, Shuming Gao*, Towards computing complete parameter ranges in geometric constraint solving, Computer-Aided Design, Under Review.
 
-1. Qiang Zou*, Length-optimal tool path planning for freeform surfaces with preferred feed directions, Under Review.
+1. Qiang Zou*, Length-optimal tool path planning for freeform surfaces with preferred feed directions, Computer-Aided Design, Under Review.
 
 1. Qiang Zou*, Hsi-Yung Feng, A robust direct CAD modeling method for quadric B-rep models based on geometry- topology inconsistency tracking, Engineering with Computers. Accepted, 2021.
 
@@ -35,7 +35,9 @@ Publications
 
 1. Jibin Zhao*, Qiang Zou, Lun Li, Bo Zhou, Tool path planning based on conformal parameterization for meshes, Chinese Journal of Aeronautics 28 (5) (2015) 1555–1563.
 
-<img style="float:left;width:200px;" src="../images/isolevel.png"> 1. Qiang Zou, Juyong Zhang*, Bailin Deng, Jibin Zhao, Iso-level tool path planning for free-form surfaces, Computer-Aided Design 53 (11) (2014) 117–125. (has been included in MIT Course MAS.865)
+<!-- <img style="float:left;width:200px;" src="../images/isolevel.png">  -->
+
+1. Qiang Zou, Juyong Zhang*, Bailin Deng, Jibin Zhao, Iso-level tool path planning for free-form surfaces, Computer-Aided Design 53 (11) (2014) 117–125. (has been included in MIT Course MAS.865)
 
 1. Qiang Zou, Jibin Zhao*, Yanguo Zhao, Guangbao Liu, Haiyang Jin, Geodesic based conformal mesh parameterization, Proceedings of SPIE, Fifth International Conference on Graphics and Image Processing. 2014.
 
