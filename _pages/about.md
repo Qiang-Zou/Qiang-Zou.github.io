@@ -14,7 +14,7 @@ I am currently an Assistant Professor at the College of Computer Science and the
 
 News
 ======
-May. 2021. I am serving on Board Committee of SIG on Intelligent Graphics, China Society of Image and Graphics (CSIG)
+May. 2021. I am serving on the Board Committee of SIG on Intelligent Graphics, China Society of Image and Graphics (CSIG)
 
 Apr. 2021. One paper accepted by the journal of Engineering with Computers.
 
