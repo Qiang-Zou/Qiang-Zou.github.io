@@ -16,7 +16,9 @@ Current research work includes design modeling and manufacturing simulation with
 
 News
 ======
-May. 2021. I am serving on the Board Committee of SIG on Intelligent Graphics, China Society of Image and Graphics (CSIG)
+June 2021. One paper accepted by the prestigious journal of Computer-Aided Design.
+
+May 2021. I am serving on the Board Committee of SIG on Intelligent Graphics, China Society of Image and Graphics (CSIG)
 
 Apr. 2021. One paper accepted by the journal of Engineering with Computers.
 
