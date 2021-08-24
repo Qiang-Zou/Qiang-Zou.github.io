@@ -11,7 +11,9 @@ Ph.D. Students
 
 1. Harron (Aaron) Ijaz, 2020 - , Co-supervised with Prof. Ming Li, Research topic: geometric modeling for 3D printing
 
+MASc Students
 
+1. Zihuan Bao, 2021 - , Research topic: geometric modeling/simulation for 3D printing
 
 
 ========
