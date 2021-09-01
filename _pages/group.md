@@ -13,7 +13,7 @@ Ph.D. Students
 
 MASc Students
 
-1. Zihuan Bao, 2021 - , Research topic: geometric modeling/simulation for 3D printing
+1. Ziheng Bao, 2021 - , Research topic: geometric modeling/simulation for 3D printing
 
 
 ========
