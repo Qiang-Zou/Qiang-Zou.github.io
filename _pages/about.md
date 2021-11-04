@@ -16,6 +16,8 @@ Current research work includes design modeling and manufacturing simulation with
 
 News
 ======
+Nov. 2021. One paper accepted by the prestigious journal of ASME Trans. JCISE.
+
 Oct. 2021. Won the best poster award at GDC2021.
 
 June 2021. One paper accepted by the prestigious journal of Computer-Aided Design.

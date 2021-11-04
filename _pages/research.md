@@ -15,6 +15,8 @@ Publications
 
 1. Zhihong Tang, Qiang Zou, Shuming Gao*, Towards computing complete parameter ranges in geometric constraint solving, Computer-Aided Design, Under Review.
 
+1. Guan Wang, Qiang Zou*, Chuke Zhao, Yusheng Liu*, Xiaoping Ye, An improved grey wolf optimizer for bi-level problems using dominance determination process, ASME Trans. JCISE. Accepted, 2021. 
+
 1. Qiang Zou*, Length-optimal tool path planning for freeform surfaces with preferred feed directions based on Poisson formulation, Computer-Aided Design, Accepted, 2021.
 
 1. Qiang Zou*, Hsi-Yung Feng, A robust direct CAD modeling method for quadric B-rep models based on geometry- topology inconsistency tracking, Engineering with Computers. Accepted, 2021.
