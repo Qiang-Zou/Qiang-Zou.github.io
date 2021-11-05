@@ -59,7 +59,7 @@ Talks
 
 Selected Awards
 ====
-
+1. Best Poster Award, GDC, 2021
 1. Faculty of Applied Science Graduate Award, UBC, 2014 & 2018
 
 1. Departmental Scholar, UBC, 2015
