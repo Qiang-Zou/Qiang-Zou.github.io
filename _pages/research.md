@@ -49,7 +49,7 @@ Publications
 
 Talks
 ====
-1. On Flexibility and robustness of Computer-Aided Design Modeling, GAMES, Oct. 2021.
+1. On Flexibility and robustness of Computer-Aided Design Modeling, GAMES, Oct. 2021. http://games-cn.org/games-webinar-20211014-203/
 
 1. Direct Modeling for Computer Aided Design, State Key Lab of CAD&CG, Zhejiang University, Jan. 2020.
 
