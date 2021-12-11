@@ -9,8 +9,6 @@ Ph.D. Students
 
 1. Zhihong Tang, 2019 - , Co-supervised with Prof. Shuming Gao, Research topic: geometric constraint analysis for CAD
 
-1. Harron (Aaron) Ijaz, 2020 - , Co-supervised with Prof. Ming Li, Research topic: geometric modeling for 3D printing
-
 MASc Students
 
 1. Ziheng Bao, 2021 - , Research topic: geometric modeling/simulation for 3D printing
