@@ -17,15 +17,15 @@ Publications
 
 1. Guan Wang, Qiang Zou\*, Chuke Zhao, Yusheng Liu\*, Xiaoping Ye, A highly efficient approach for bi-level programming problems based on dominance determination, ASME Trans. JCISE. Accepted, 2021. 
 
-1. Qiang Zou*, Length-optimal tool path planning for freeform surfaces with preferred feed directions based on Poisson formulation, Computer-Aided Design, Accepted, 2021.
+1. Qiang Zou*, Length-optimal tool path planning for freeform surfaces with preferred feed directions based on Poisson formulation, Computer-Aided Design, 2021, 139:103072
 
 1. Qiang Zou*, Hsi-Yung Feng, A robust direct CAD modeling method for quadric B-rep models based on geometry- topology inconsistency tracking, Engineering with Computers. Accepted, 2021.
 
-1. Junhao Ding^, Qiang Zou^, Shuo Qu, Paulo Bartolo, Xu Song, Charlie C. L. Wang*, STL-free digital design and manufacturing paradigm for high-precision selective laser melting, CIRP Annals. (^ Equal Contributions) Accepted, 2021.
+1. Junhao Ding^, Qiang Zou^, Shuo Qu, Paulo Bartolo, Xu Song, Charlie C. L. Wang*, STL-free digital design and manufacturing paradigm for high-precision selective laser melting, CIRP Annals. (^ Equal Contributions) 2021 70(1): 167-170.
 
-1. Shengjun Liu, Tao Liu, Qiang Zou, Weiming Wang, Eugeni L. Doubrovski, Charlie C. L. Wang*, Memory-Efficient Modeling and Slicing of Large-Scale Adaptive Lattice Structures, ASME Trans. JCISE. Accepted, 2021.
+1. Shengjun Liu, Tao Liu, Qiang Zou, Weiming Wang, Eugeni L. Doubrovski, Charlie C. L. Wang*, Memory-Efficient Modeling and Slicing of Large-Scale Adaptive Lattice Structures, ASME Trans. JCISE. 21.6 (2021): 061003.
 
-1. Qiang Zou*, Robust and efficient tool path generation for machining low-quality mesh surfaces, International Journal of Production Research. Accepted, 2020.
+1. Qiang Zou*, Robust and efficient tool path generation for machining low-quality mesh surfaces, International Journal of Production Research. 2021 59(24), 7457-7467.
 
 1. Cheng Su, Xin Jiang*, Guanying Huo, Qiang Zou, Zhiming Zheng, Hsi-Yung Feng, Accurate model construction of deformed aero-engine blades for remanufacturing, International Journal of Advanced Manufacturing Technology. 106 (2020) 3239-3251.
 
