@@ -5,6 +5,13 @@ permalink: research/
 author_profile: true
 ---
 
+Theses
+====
+1. Variational direct modeling for computer-aided design, Ph.D. degree, The University of British Columbia，<u><a href="{{https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0379562r}}">go to -></a>.</u>
+
+1. Conformal geometry-based tool path planning for point clouds, Master's degree, University of Chinese Academy of Sciences, <u><a href="{{https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0379562r}}">go to -></a>.</u>
+
+
 Publications
 ====
 
