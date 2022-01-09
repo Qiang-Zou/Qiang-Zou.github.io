@@ -7,9 +7,9 @@ author_profile: true
 
 Theses
 ====
-1. Variational direct modeling for computer-aided design, Ph.D. degree, The University of British Columbia，<u><a href="{{https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0379562r}}">go to -></a>.</u>
+1. Variational direct modeling for computer-aided design, Ph.D. degree, The University of British Columbia.
 
-1. Conformal geometry-based tool path planning for point clouds, Master's degree, University of Chinese Academy of Sciences, <u><a href="{{https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0379562r}}">go to -></a>.</u>
+1. Conformal geometry-based tool path planning for point clouds, Master's degree, University of Chinese Academy of Sciences. (In Chinese)
 
 
 Publications
@@ -19,6 +19,8 @@ Publications
   You can also find my articles at <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 1. Qiang Zou*, Hsi-Yung Feng, On limitations of the witness configuration method for geometric constraint solving in CAD modeling. To Be Submitted.
+
+1. Qiang Zou, Qiqiang Zheng, Zhihong Tang, Shuming Gao*, Variational design for a structural family of CAD models, Under Review.
 
 1. Zhihong Tang, Qiang Zou, Shuming Gao*, Towards computing complete parameter ranges in geometric constraint solving, Computer-Aided Design, Under Review.
 
@@ -56,6 +58,8 @@ Publications
 
 Talks
 ====
+1. Implicit Tool Path Optimization: Iso-Level Framework, Tool Path in Diffusion, Poisson Tool Path Generation, UCAS, Dec. 27, 2021
+
 1. On Flexibility and robustness of Computer-Aided Design Modeling, GAMES, Oct. 2021. http://games-cn.org/games-webinar-20211014-203/
 
 1. Direct Modeling for Computer Aided Design, State Key Lab of CAD&CG, Zhejiang University, Jan. 2020.
@@ -64,9 +68,11 @@ Talks
 
 1. Iso-level Method: A New Framework for Tool Path Planning, Mid-term evaluation on the "973" project "Mathematics Mechanization and Digital Design and Manufacturing", USTC, June 2013.
 
+
 Selected Awards
 ====
 1. Best Poster Award, GDC, 2021
+
 1. Faculty of Applied Science Graduate Award, UBC, 2014 & 2018
 
 1. Departmental Scholar, UBC, 2015
