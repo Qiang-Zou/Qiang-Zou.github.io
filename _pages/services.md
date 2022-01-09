@@ -14,6 +14,8 @@ author_profile: true
 {% for post in site.talks reversed %}
   {% include archive-single-talk.html %}
 {% endfor %} -->
+1. Board Committee Member, SIG on CAD&CG, China Computer Federation (CCF)
+
 1. Board Committee Member, SIG on Intelligent Graphics, China Society of Image and Graphics (CSIG)
 
 1. Program Committee Member , CAD&CG 2021, Aug. 2021.
