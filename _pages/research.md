@@ -4,13 +4,13 @@ title: "Publications, Talks & Awards"
 permalink: research/
 author_profile: true
 ---
-
+<!-- 
 Theses
 ====
 1. Variational direct modeling for computer-aided design, Ph.D. degree, The University of British Columbia.
 
 1. Conformal geometry-based tool path planning for point clouds, Master's degree, University of Chinese Academy of Sciences. (In Chinese)
-
+-->
 
 Publications
 ====
