@@ -7,7 +7,7 @@ author_profile: true
 
 Ph.D. Students
 
-1. Sifan Chen, 2022 - , Research topic: geometric modeling for “big" CAD model
+1. Sifan Chen, 2022 - , Research topic: geometric modeling for “big" 3D printed parts
 
 MASc Students
 
