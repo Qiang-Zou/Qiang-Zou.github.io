@@ -7,11 +7,11 @@ author_profile: true
 
 Ph.D. Students
 
-1. Zhihong Tang, 2019 - , Co-supervised with Prof. Shuming Gao, Research topic: geometric constraint analysis for CAD
+1. Sifan Chen, 2022 - , Research topic: geometric modeling for “big" CAD model
 
 MASc Students
 
-1. Ziheng Bao, 2021 - , Research topic: geometric modeling/simulation for 3D printing
+1. Ziheng Bao, 2021 - , Research topic: NURBS modeling and geometric simulation for CAD/CAM
 
 
 ========
