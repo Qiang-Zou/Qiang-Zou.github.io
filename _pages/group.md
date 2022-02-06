@@ -11,7 +11,7 @@ Ph.D. Students
 
 MASc Students
 
-1. Ziheng Bao, 2021 - , Research topic: NURBS modeling and geometric simulation for CAD/CAM
+1. Ziheng Bao, 2021 - , Research topic: geometric simulation for CNC machining/3D printing
 
 
 ========
