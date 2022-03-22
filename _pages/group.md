@@ -7,12 +7,13 @@ author_profile: true
 
 Ph.D. Students
 
-1. Sifan Chen, 2022 - , Research topic: geometric modeling for extremely complex parts
+1. Sifan Chen, 2022.2 - , Research topic: geometric modeling for extremely complex parts
 
 MASc Students
 
-1. Ziheng Bao, 2021 - , Research topic: geometric simulation for CNC machining/3D printing
+1. Ziheng Bao, 2021.9 - , Research topic: geometric simulation for CNC machining/3D printing
 
+1. Qitong Dong, 2022.3 - , Research topic: geometric simulation for CNC machining/3D printing
 
 ========
 
