@@ -7,7 +7,7 @@ author_profile: true
 
 Ph.D. Students
 
-1. Sifan Chen, 2022.2 - , Research topic: geometric modeling for extremely complex structures
+1. Sifan Chen, 2022.2 - , Research topic: geometric modeling for highly complex structures
 
 MASc Students
 
