@@ -5,9 +5,39 @@ permalink: /group/
 author_profile: true
 ---
 
+In DMAL, we are interested in questions like: How are creative design and manufacturing processes done in mind? What are computational principles and models underlying them? How can we model and simulate them in the computer, especially in terms of form? These are the sort of stuff we are trying to understand and apply, with the goal of automating design and manufacturing.
+
+<!-- 如何进行跨媒体表达？如何实现大数据融合、匹配与协同计算？如何得出人工智能感知、推理、决策的高效模型？如何实现更具有感受、理解与交互能力的智能系统？ -->
+
+In the short term, research topics revolve around “form-process-property”, having
+
+1. Geometric modeling of designs
+
+    1. Intelligent and direct modeling (complex surfaces and solids)
+
+    2. Efficient and robust structure modeling (highly complex structures: large-scale, multi-resolution, and dynamic)
+
+1. Geometric simulation of manufacturing processes
+
+    1. Fast and high-precision simulation of multi-axis machining and 3D printing
+
+    2. Optimal process planning for multi-axis machining and 3D printing
+
+
+Funding:
+===
+
+1. Robust direct modeling for complex products, 2022.1 - 2024.12, from NSFC
+
+1. Intelligent direct modeling for computer-aided design, 2022.1 - 2024.12, From NSF of Zhejiang
+
+
+Students
+===
+
 Ph.D. Students
 
-1. Sifan Chen, 2022.2 - , Research topic: geometric modeling for highly complex structures
+1. Sifan Chen, 2022.2 - , Research topic: geometric modeling for highly complex structures (HCS)
 
 MASc Students
 
