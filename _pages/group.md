@@ -9,7 +9,7 @@ In DMAL, we are interested in questions like: Which part is computerizable in de
 
 <!-- 如何进行跨媒体表达？如何实现大数据融合、匹配与协同计算？如何得出人工智能感知、推理、决策的高效模型？如何实现更具有感受、理解与交互能力的智能系统？ -->
 
-In the short term, our research topics revolve around “form-process-property”, including
+In the short term, we are working on the following “form-process-property” problems:
 
 1. Geometric modeling of designs
 
