@@ -13,9 +13,9 @@ In the short term, we are working on the following “form-process-property” p
 
 1. Geometric modeling of designs
 
-    1. Intelligent and direct CAD modeling (complex surfaces, solids, and parametrics)
+    1. Structure modeling (highly complex structures (HCS): large-scale, multi-resolution/material, and dynamic)
 
-    2. Structure modeling (highly complex structures (HCS): large-scale, multi-resolution, and dynamic)
+    2. Intelligent and direct CAD modeling (deep learning + complex surfaces, solids, and parametrics)
 
 1. Geometric simulation of manufacturing processes
 
@@ -32,7 +32,7 @@ Funding:
 1. Intelligent direct modeling for computer-aided design, 2022.1 - 2024.12, From NSF of Zhejiang
 
 
-Students
+Students:
 ===
 
 Ph.D. Students
@@ -45,7 +45,6 @@ MASc Students
 
 1. Qitong Dong, 2022.3 - , Research topic: geometric simulation for CNC machining/3D printing
 
-========
 
 <!-- 
 ## Locations of key files/directories
