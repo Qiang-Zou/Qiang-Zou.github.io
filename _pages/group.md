@@ -5,7 +5,7 @@ permalink: /group/
 author_profile: true
 ---
 
-In DMAL, we are interested in questions like: Which part is computerizable in design and manufacturing processes, especially for those form-related tasks? What are general computational principles underlying design and manufacturing? How can we apply the principles and build tools to automate the processes? These are the sort of stuff we are trying to understand in shaping what it means to design by the computer, and to manufacture in the computer.
+In DMAL, we are interested in questions like: Which parts are computerizable in design and manufacturing processes, especially for those form-related tasks? What are general computational principles underlying design and manufacturing? How can we apply the principles and build tools to automate the processes? These are the sort of stuff we are trying to understand in shaping what it means to **design by the computer and to manufacture in the computer**.
 
 <!-- 如何进行跨媒体表达？如何实现大数据融合、匹配与协同计算？如何得出人工智能感知、推理、决策的高效模型？如何实现更具有感受、理解与交互能力的智能系统？ -->
 
@@ -13,23 +13,23 @@ In the short term, we are working on the following “form-process-property” p
 
 1. Geometric modeling of designs
 
-    1. Structure modeling (highly complex structures (HCS): large-scale, multi-resolution/material, and dynamic)
+    1. Structure modeler (**H**ighly **C**omplex **S**tructures (HCS): large-scale, multi-resolution/material, and dynamic)
 
-    2. Intelligent and direct CAD modeling (deep learning + complex surfaces, solids, and parametrics)
+    2. Intelligent and direct CAD modeler (deep learning + complex surfaces, solids, and parametrics)
 
-1. Geometric simulation of manufacturing processes
+2. Geometric simulation of manufacturing processes
 
-    1. Fast and high-precision simulation of multi-axis machining and 3D printing
+    1. Fast and high-precision simulation of freeform surface machining
 
-    2. Optimal process planning for multi-axis machining and 3D printing
+    2. Optimal process planning for 3D printing
 
 
 Funding:
 ===
 
-1. Robust direct modeling for complex products, 2022.1 - 2024.12, from NSFC
+1. Robust direct modeling for complex products, 2022.1 - 2024.12, From NSF of China
 
-1. Intelligent direct modeling for computer-aided design, 2022.1 - 2024.12, From NSF of Zhejiang
+1. Intelligent direct modeling for computer-aided design, 2022.1 - 2024.12, From NSF of Zhejiang Province
 
 
 Students:
@@ -37,13 +37,13 @@ Students:
 
 Ph.D. Students
 
-1. Sifan Chen, 2022.2 - , Research topic: geometric modeling for highly complex structures (HCS)
+1. Sifan Chen, 2022.2 - , Research topic: geometric modeling of highly complex structures (HCS)
 
 MASc Students
 
-1. Ziheng Bao, 2021.9 - , Research topic: geometric simulation for CNC machining/3D printing
+1. Ziheng Bao, 2021.9 - , Research topic: geometric simulation of CNC machining/3D printing
 
-1. Qitong Dong, 2022.3 - , Research topic: geometric simulation for CNC machining/3D printing
+1. Qitong Dong, 2022.3 - , Research topic: geometric simulation of CNC machining/3D printing
 
 
 <!-- 
