@@ -23,5 +23,4 @@ A lightweight slicer for TPMS models (TPMSSlicer)
 [Code](https://github.com/Qiang-Zou/TPMSSlicer) [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0007850621000123)
 
 
-========
 
