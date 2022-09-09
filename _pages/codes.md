@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Codes"
+title: "Free to Take"
 permalink: /codes/
 author_profile: true
 ---
