@@ -12,7 +12,8 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %} -->
 
-1. Implicit and Direct Slicer for Highly Complex Structures (ImplicitSlicer)
+
+1. <img style="float: right;" src="./figures/codes/TPMSSlicer.png"> Implicit and Direct Slicer for Highly Complex Structures (ImplicitSlicer)
 [Code](https://github.com/Qiang-Zou/ImplicitSlicer) [Paper](https://asmedigitalcollection.asme.org/computingengineering/article/21/6/061003/1100541/Memory-Efficient-Modeling-and-Slicing-of-Large)
 
 1. A lightweight slicer for TPMS models (TPMSSlicer)
