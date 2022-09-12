@@ -31,6 +31,7 @@ Funding:
 
 1. Intelligent direct modeling for computer-aided design, 2022.1 - 2024.12, From NSF of Zhejiang Province
 
+1. Geometric modeling and constraint solving kernels, 2022.1 - 2023.6, From Key R&D Program of Zhenjiang Province
 
 Students:
 ===
