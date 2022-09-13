@@ -4,6 +4,8 @@ title: Graduate Student Must-Knows
 permalink: /group/must_know/
 author_profile: true
 toc: true
+toc_label: "Table of Contents"
+toc_icon: "cog"
 ---
 
 ## Your role has changed
