@@ -24,8 +24,7 @@ In the short term, we are working on the following “form-process-property” p
     2. Optimal process planning for 3D printing
 
 
-Funding:
-===
+## Funding:
 
 1. Robust direct modeling for complex products, 2022.1 - 2024.12, From NSF of China
 
@@ -33,15 +32,15 @@ Funding:
 
 1. Geometric modeling and constraint solving kernels, 2022.1 - 2023.6, From Key R&D Program of Zhenjiang Province
 
-Students:
-===
-Some [must-knows](must_knows.md) when working in our group.
+## Students:
 
-Ph.D. Students
+Some [must-knows](must_knows.md) before working in our group.
+
+### Ph.D. Students
 
 1. Sifan Chen, 2022.2 - , Research topic: geometric modeling of highly complex structures (HCS)
 
-MASc Students
+### MASc Students
 
 1. Ziheng Bao, 2021.9 - , Research topic: geometric simulation of CNC machining/3D printing
 
