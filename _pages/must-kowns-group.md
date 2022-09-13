@@ -6,7 +6,7 @@ author_profile: false
 ---
 
 Graduate Student Must-Knows
-======
+===
 
 1. Your role has changed
 
@@ -16,7 +16,7 @@ Because being a research trainee is a privilege, not a right (your tuition fee c
 
 2. Contact me formally
 
-Please make sure you sending me emails/messages at least three days ahead of the expected date of processing your stuff¬¬¬—I’m very busy and not working on an interrupt mechanism.  Also, you should be aware that you are not particularly special who I must give immediate attentions.
+Please make sure you sending me emails/messages at least three days ahead of the expected date of processing your stuff—I’m very busy and not working on an interrupt mechanism.  Also, you should be aware that you are not particularly special who I must give immediate attentions.
 
 If contacting me by emails, please first go find some tutorials on *how to write a proper email*.  Also, please make sure your email address is properly named—I hate email addresses with a string of strange numbers…
 
