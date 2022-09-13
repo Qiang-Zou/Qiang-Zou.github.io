@@ -35,7 +35,7 @@ Funding:
 
 Students:
 ===
-Some [must-knows](must-knows-group.md) when working in our group.
+Some [must-knows](must-knows.md) when working in our group.
 
 Ph.D. Students
 

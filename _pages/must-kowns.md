@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: Graduate Student Must-Knows
-permalink: /_pages/
+permalink: /group/must-knows.md
 author_profile: false
 ---
 
