@@ -2,7 +2,7 @@
 layout: archive
 title: Graduate Student Must-Knows
 permalink: /group/must_knows.md
-author_profile: false
+author_profile: true
 ---
 
 Graduate Student Must-Knows
