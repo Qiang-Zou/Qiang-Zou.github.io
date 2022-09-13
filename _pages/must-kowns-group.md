@@ -2,11 +2,11 @@
 layout: archive
 title: Graduate Student Must-Knows
 permalink: 
-author_profile: true
+author_profile: false
 ---
 
 Graduate Student Must-Knows
-===
+======
 
 1. Your role has changed
 

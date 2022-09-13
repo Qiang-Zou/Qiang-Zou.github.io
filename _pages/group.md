@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: Design and Manufacturing Automation Lab (DMAL)
-permalink: /group/
+permalink: /
 author_profile: true
 ---
 
