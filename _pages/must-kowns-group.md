@@ -1,7 +1,6 @@
 ---
 layout: archive
 title: Graduate Student Must-Knows
-permalink: /
 author_profile: false
 ---
 
