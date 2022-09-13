@@ -24,7 +24,7 @@ If contacting me by instant messaging, which I don’t like, please be aware tha
 
 ## Weekly meeting protocols
 
-Before the meeting, please be well-prepared: knowing what you want to discuss and presenting them with serious slides.  I believe this implies that you do want to have a discussion, and this can also make our communications easy.
+Before the meeting, please be well prepared: knowing what you want to discuss and presenting them with serious slides.  I believe this implies that you do want to have a discussion, and this can also make our communications easy.
 
 A 4 Ws method you may use in the meeting: (1) what was the plan we drafted last week; (2) what is the plan’s implementation progress in the last week; (3) what are the issues you ran into in the last week; and (4) what is the plan for the next week.  The issues and next-week plans are the focus of our meetings.  One suggestion: you can use one PPT file through all meetings so that the accumulated material can serve as a base for your thesis defense slides.
 
