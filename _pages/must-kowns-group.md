@@ -1,11 +1,13 @@
 ---
 layout: archive
 title: Graduate Student Must-Knows
-permalink: /group/
+permalink: 
 author_profile: true
 ---
 
-## Thinks You Should Know in Our Group
+Graduate Student Must-Knows
+===
+
 1. Your role has changed
 
 As a graduate student, you are a researcher in training, not an undergrad++.  From now on, your job is to learn all necessary skills for problem solving and to produce new knowledge, not just accumulating existing knowledge as what you do in your undergraduate studies.
