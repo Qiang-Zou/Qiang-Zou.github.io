@@ -1,11 +1,10 @@
 ---
-layout: archive
+layout: splash
 title: Graduate Student Must-Knows
 permalink: /group/must_know/
-author_profile: true
+author_profile: false
 toc: true
-toc_label: "Table of Contents"
-toc_icon: "cog"
+toc_sticky: true
 ---
 
 ## Your role has changed
