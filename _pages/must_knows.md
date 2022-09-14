@@ -10,7 +10,7 @@ toc_icon: "cog"
 
 ## Your role has changed
 
-As a graduate student, you are a researcher in training, not an undergrad++.  From now on, your job is to learn all necessary skills for problem solving and to produce new knowledge, not just accumulating existing knowledge as what you do in your undergraduate study.
+As a graduate student, you are a researcher in training, not an undergrad++.  From now on, your job is to learn all necessary skills for problem solving and to produce new knowledge, not just accumulating existing knowledge as what you did in your undergraduate study.
 
 Because being a research trainee is a privilege, not a right (your tuition fee counts for little), you have some responsibilities; you, of course, also have your rights.  IMHO, your primary responsibility is sincerely following instructions on how to read papers, give impressive talks, implement your brilliant ideas, and write them up to be papers and thesis.  Your primary right is saying no to anything that is assigned to you but with no relevance to your research.  Similarly, I can do the same thing to your requests/plans that are not relevant to your research and only for your own interests!
 
