@@ -5,7 +5,7 @@ permalink: /group/
 author_profile: true
 ---
 
-In DMAL, we are interested in questions like: Which parts are computerizable in design and manufacturing processes, especially for those form-related tasks? What are general computational principles underlying design and manufacturing? How can we apply the principles and build tools to automate the processes? These are the sort of stuff we are trying to understand in shaping what it means to **design by the computer and to manufacture in the computer**.
+In DMAL, we are interested in questions like: Which parts are computerizable in design and manufacturing processes, especially for those form-related tasks? What are general computational principles underlying design and manufacturing? How can we apply the principles and build tools to automate the processes? These are the sort of stuff we are trying to understand in shaping what it means to **design by the computer and manufacture in the computer**.
 
 <!-- 如何进行跨媒体表达？如何实现大数据融合、匹配与协同计算？如何得出人工智能感知、推理、决策的高效模型？如何实现更具有感受、理解与交互能力的智能系统？ -->
 
