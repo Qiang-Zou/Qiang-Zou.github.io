@@ -9,19 +9,37 @@ In DMAL, we are interested in questions like: Which parts are computerizable in 
 
 <!-- 如何进行跨媒体表达？如何实现大数据融合、匹配与协同计算？如何得出人工智能感知、推理、决策的高效模型？如何实现更具有感受、理解与交互能力的智能系统？ -->
 
-In the short term, we are working on the following “form-process-property” problems:
+<!-- In the short term, we are working on the following basic“form-process-property”problems:
 
-1. Geometric modeling of designs
+1. Geometric and physical modeling of surfaces, solids, structures, and parametrics
 
-    1. Structure modeler (**H**ighly **C**omplex **S**tructures (HCS): large-scale, multi-resolution/material, and dynamic)
+    1. NURBS/B-rep computing, learning, and modeling
 
-    2. Intelligent and direct CAD modeler (deep learning + complex surfaces, solids, and parametrics)
+    2. Direct/parametric integration
 
-2. Geometric simulation of manufacturing processes
+    3. Structure modeling (**H**ighly **C**omplex **S**tructures (HCS): large-scale, multi-resolution/material, and dynamic)
 
-    1. Fast and high-precision simulation of freeform surface machining
+With applied research on
 
-    2. Optimal process planning for 3D printing
+    1. Intelligent and intuitive CAD modeling: AI + direct modeling + NURBS
+
+    2. Manufacturing Automation: process planning and  simulation-->
+
+In the short term, we are working on the following "form-process-property" problems:
+
+1. Basic research on geometric and physical modeling of surfaces, solids, structures, and parametrics:
+
+    1. NURBS/B-rep computing, learning, and modeling
+
+    2. Direct/parametric solid modeling
+
+    3. Structure modeling (**H**ighly **C**omplex **S**tructures (HCS): large-scale, multi-resolution/material, and dynamic)
+
+2. With applied research on:
+
+    1. Intelligent and intuitive CAD
+
+    2. Virtual manufacturing
 
 
 ## Funding:
