@@ -1,11 +1,11 @@
 ---
 layout: archive
-title: Design and Manufacturing Automation Lab (DMAL)
+title: Design and Manufacturing Automation Lab (DMA Lab)
 permalink: /group/
 author_profile: true
 ---
 
-In DMAL, we are interested in questions like: Which parts are computerizable in design and manufacturing processes, especially for those form-related tasks? What are general computational principles underlying design and manufacturing? How can we apply the principles and build tools to automate the processes? These are the sort of stuff we are trying to understand in shaping what it means to **design by the computer and manufacture in the computer**.
+In DMA Lab, we are interested in questions like: Which parts are computerizable in design and manufacturing processes, especially for those form-related tasks? What are general computational principles underlying design and manufacturing? How can we apply the principles and build tools to automate the processes? These are the sort of stuff we are trying to understand in shaping what it means to **design by the computer and manufacture in the computer**.
 
 <!-- 如何进行跨媒体表达？如何实现大数据融合、匹配与协同计算？如何得出人工智能感知、推理、决策的高效模型？如何实现更具有感受、理解与交互能力的智能系统？ -->
 
@@ -56,13 +56,27 @@ Some [must-knows](must_knows.md) before working in our group.
 
 ### Ph.D. Students
 
-1. Sifan Chen, 2022.2 - , Research topic: geometric modeling of highly complex structures (HCS)
+1. Sifan Chen, 2022.2 - , Research topic: geometric computing for micro-geometries
+
+1. Guoyue Luo, 2022.9 - , Research topic: geometric computing for micro-geometries
 
 ### MASc Students
+1. Lizhen Zhu, 2023.9 - , Research topic: geometric learning for NURBS/B-rep models
 
-1. Ziheng Bao, 2021.9 - , Research topic: geometric simulation of CNC machining/3D printing
+1. Yunzhu Gao, 2022.9 - , Research topic: geometric computing for micro-geometries
 
-1. Qitong Dong, 2022.3 - , Research topic: geometric simulation of CNC machining/3D printing
+1. Ke Zang, 2022.9 - , Research topic: geometric computing for machining simulation
+
+1. Jianan Wang, 2022.9 - , Research topic: CAD software testing
+
+1. Qitong Dong, 2022.3 - , Research topic: geometric optimization for tool path planning
+
+1. Ziheng Bao, 2021.9 - , Research topic: geometric computing for NURBS models
+
+
+
+
+
 
 
 <!-- 
