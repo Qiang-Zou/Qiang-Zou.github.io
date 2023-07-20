@@ -16,22 +16,14 @@ Current research work includes design modeling and manufacturing simulation with
 
 News
 ======
-Dec. 2021. I am serving on the Board Committee of SIG on CAD&CG, China Computer Federation (CCF)
+Jul. 2023. One paper accepted by the prestigious journal of Computer-Aided Design.
 
-Nov. 2021. One paper accepted by the prestigious journal of ASME Trans. JCISE.
+Jul. 2023. One paper accepted by the prestigious journal of Computer-Aided Design.
 
-Oct. 2021. Won the best poster award at GDC2021.
+May 2023. One paper accepted by the prestigious journal of Computer-Aided Design.
 
-June 2021. One paper accepted by the prestigious journal of Computer-Aided Design.
+Apr. 2023. One paper accepted by the journal of Advanced Engineering Informatics.
 
-May 2021. I am serving on the Board Committee of SIG on Intelligent Graphics, China Society of Image and Graphics (CSIG)
+Feb. 2023. One paper accepted by the prestigious journal of IEEE Transactions on Antennas and Propagation.
 
-Apr. 2021. One paper accepted by the journal of Engineering with Computers.
-
-Apr. 2021. I am serving on the Program Committee of CAD&CG 2021.
-
-Mar. 2021. One paper accepted by the prestigious journal of CIRP Annals.
-
-Feb. 2021. One paper accepted by the prestigious ASME Trans. JCISE.
-
-Dec. 2020. I am serving on the Program Committee of CAD/Graphics 2021.
+Jan. 2023. One paper accepted by the prestigious journal of Computer-Aided Design.
