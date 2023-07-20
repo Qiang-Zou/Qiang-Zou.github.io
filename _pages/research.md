@@ -32,7 +32,7 @@ Publications
 
 1. Qiang Zou*. A note on solid modeling: history, state of the art, future. Journal of Graphics, 2022, 43(6): 987-1001.
 
-1. MA Hong-yu , SHEN Li-yong , JIANG Xin , ZOU Qiang , YUAN Chun-ming. A survey of path planning and feedrate interpolation in computer numerical control. Journal of Graphics, 2022, 43(6): 967-986.
+1. MA Hong-yu , SHEN Li-yong*, JIANG Xin , ZOU Qiang , YUAN Chun-ming. A survey of path planning and feedrate interpolation in computer numerical control. Journal of Graphics, 2022, 43(6): 967-986.
 
 1. Guan Wang, Qiang Zou\*, Chuke Zhao, Yusheng Liu\*, and Xiaoping Ye. A highly efficient approach for bi-level programming problems based on dominance determination. ASME Trans.  JCISE 22, no. 4 (2022): 041006. 
 
