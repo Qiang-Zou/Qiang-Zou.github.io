@@ -18,17 +18,23 @@ Publications
 {% if author.googlescholar %}
   You can also find my articles at <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
-1. Qiang Zou*, Hsi-Yung Feng, On limitations of the witness configuration method for geometric constraint solving in CAD modeling. To Be Submitted.
+1. Li, Ming, Chengfeng Lin, Wei Chen, Yusheng Liu, Shuming Gao, and Qiang Zou*. XVoxel-Based Parametric Design Optimization of Feature Models. Computer-Aided Design 160 (2023): 103528.
 
-1. Qiang Zou, Qiqiang Zheng, Zhihong Tang, Shuming Gao*, Variational design for a structural family of CAD models, Under Review.
+1. Guoyue Luo, and Qiang Zou*. A Simple Point-Based Iso-Scallop Tool Path Planning Method for Noisy Point Clouds with High Robustness and Controlled Errors. Computer-Aided Design (2023): 103560.
 
-1. Zhihong Tang, Qiang Zou, Shuming Gao*, Towards computing complete parameter ranges in geometric constraint solving, Computer-Aided Design, Under Review.
+1. Zhihong Tang, Qiang Zou, and Shuming Gao*. A decision-support method for multi-parameter editing of parametric CAD models. Advanced Engineering Informatics 56 (2023): 101997.
 
-1. Guan Wang, Qiang Zou\*, Chuke Zhao, Yusheng Liu\*, Xiaoping Ye, A highly efficient approach for bi-level programming problems based on dominance determination, ASME Trans. JCISE. Accepted, 2021. 
+1. Qiang Zou*, Hsi-Yung Feng, and Shuming Gao. "Variational Direct Modeling: A framework towards integration of parametric modeling and direct modeling in CAD." Computer-Aided Design 157 (2023): 103465.
+
+1. Han Wang, Qiang Zou\*, and Hai Lin\*. "A Quasi-Optimal Shape Design Method for Electromagnetic Scatterers Based on NURBS Surfaces and Filter-Enhanced GWO." IEEE Transactions on Antennas and Propagation (2023).
+
+1. Qiang ZOU*. A note on solid modeling: history, state of the art, future [J]. Journal of Graphics, 2022, 43(6): 987-1001.
+
+1. Guan Wang, Qiang Zou\*, Chuke Zhao, Yusheng Liu\*, and Xiaoping Ye. A highly efficient approach for bi-level programming problems based on dominance determination. ASME Trans.  JCISE 22, no. 4 (2022): 041006. 
 
 1. Qiang Zou*, Length-optimal tool path planning for freeform surfaces with preferred feed directions based on Poisson formulation, Computer-Aided Design, 2021, 139:103072
 
-1. Qiang Zou*, Hsi-Yung Feng, A robust direct CAD modeling method for quadric B-rep models based on geometry- topology inconsistency tracking, Engineering with Computers. Accepted, 2021.
+1. Qiang Zou*, Hsi-Yung Feng, A robust direct CAD modeling method for quadric B-rep models based on geometry- topology inconsistency tracking, Engineering with Computers 38 (4), 3815-3830
 
 1. Junhao Ding^, Qiang Zou^, Shuo Qu, Paulo Bartolo, Xu Song, Charlie C. L. Wang*, STL-free digital design and manufacturing paradigm for high-precision selective laser melting, CIRP Annals. (^ Equal Contributions) 2021 70(1): 167-170.
 
