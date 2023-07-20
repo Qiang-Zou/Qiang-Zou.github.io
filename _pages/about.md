@@ -16,9 +16,9 @@ Current research work includes design modeling and manufacturing simulation with
 
 News
 ======
-Jul. 2023. One paper accepted by the prestigious journal of Computer-Aided Design.
+July 2023. One paper accepted by the prestigious journal of Computer-Aided Design.
 
-Jul. 2023. One paper accepted by the prestigious journal of Computer-Aided Design.
+June 2023. One paper accepted by the prestigious journal of Computer-Aided Design.
 
 May 2023. One paper accepted by the prestigious journal of Computer-Aided Design.
 
