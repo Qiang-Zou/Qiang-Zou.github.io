@@ -27,9 +27,9 @@ With applied research on
 
 In the short term, we are working on the following "form-process-property" problems:
 
-1. Basic research on geometric and physical modeling of surfaces, solids, structures:
+1. Basic research on geometric and physical modeling of surfaces, solids, and structures:
 
-    1. NURBS/B-rep computing, learning, and modeling
+    1. NURBS/B-rep computing, learning, and optimization
 
     2. Direct/parametric solid modeling
 
@@ -62,17 +62,17 @@ Some [must-knows](must_knows.md) before working in our group.
 1. Guoyue Luo, 2022.9 - , Research topic: micro-geometry modeling
 
 ### MASc Students
-1. Lizhen Zhu, 2023.9 - , Research topic: AI for NURBS/B-rep modeling
+1. Lizhen Zhu, 2023.9 - , Research topic: AI + NURBS/B-rep modeling
 
-1. Yunzhu Gao, 2022.9 - , Research topic: solid modeling
+1. Yunzhu Gao, 2022.9 - , Research topic: GPU-based solid modeling
 
-1. Ke Zang, 2022.9 - , Research topic: solid modeling
+1. Ke Zang, 2022.9 - , Research topic: GPU-based solid modeling
 
 1. Jianan Wang, 2022.9 - , Research topic: CAD software testing
 
 1. Qitong Dong, 2022.3 - , Research topic: NURBS modeling
 
-1. Ziheng Bao, 2021.9 - , Research topic: NURBS modeling
+1. Ziheng Bao, 2021.9 - , Research topic: GPU-based NURBS modeling
 
 
 
