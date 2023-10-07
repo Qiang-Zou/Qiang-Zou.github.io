@@ -66,8 +66,6 @@ Some [must-knows](must_knows.md) before working in our group.
 
 1. Yunzhu Gao, 2022.9 - , Research topic: GPU-based solid modeling
 
-1. Ke Zang, 2022.9 - , Research topic: GPU-based solid modeling
-
 1. Jianan Wang, 2022.9 - , Research topic: CAD software testing
 
 1. Qitong Dong, 2022.3 - , Research topic: NURBS modeling
