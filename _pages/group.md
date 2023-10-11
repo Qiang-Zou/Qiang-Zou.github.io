@@ -37,11 +37,8 @@ In the short term, we are working on the following "form-process-property" probl
 
 ## Funding:
 1. Intelligent 3D CAD Modeling, 2023.1 - 2024.12, From Fundamental Research Funds for the Central Universities, China
-
 1. Robust direct modeling for complex products, 2022.1 - 2024.12, From NSF of China
-
 1. Intelligent direct modeling for computer-aided design, 2022.1 - 2024.12, From NSF of Zhejiang Province
-
 1. Geometric modeling and constraint solving kernels, 2022.1 - 2023.6, From Key R&D Program of Zhenjiang Province
 
 ## Students:
@@ -51,18 +48,13 @@ Some [must-knows](must_knows.md) before working in our group.
 ### Ph.D. Students
 
 1. Sifan Chen, 2022.2 - , Research topic: micro-geometry modeling
-
 1. Guoyue Luo, 2022.9 - , Research topic: micro-geometry modeling
 
 ### MASc Students
 1. Lizhen Zhu, 2023.9 - , Research topic: AI + NURBS/B-rep modeling
-
 1. Yunzhu Gao, 2022.9 - , Research topic: GPU-based solid modeling
-
 1. Jianan Wang, 2022.9 - , Research topic: CAD software testing
-
 1. Qitong Dong, 2022.3 - , Research topic: NURBS modeling
-
 1. Ziheng Bao, 2021.9 - , Research topic: GPU-based NURBS modeling
 
 
