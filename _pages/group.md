@@ -26,17 +26,13 @@ With applied research on
     2. Manufacturing Automation: process planning and  simulation-->
 
 In the short term, we are working on the following "form-process-property" problems:
-¬
 1. Basic research on geometric and physical modeling of surfaces, solids, and structures:
     1. NURBS/B-rep computing, learning, and optimization
-    2. Direct/parametric solid modeling
-    3. Microgeometry modeling (microstructure representation and operations)
-
-2. With applied research on:
-
+    1. Direct/parametric solid modeling
+    1. Microgeometry modeling (microstructure representation and operations)
+1. With applied research on:
     1. Intelligent and intuitive CAD
-
-    2. Virtual manufacturing (tool path planning, machining/3D printing simulation and optimization)
+    1. Virtual manufacturing (tool path planning, machining/3D printing simulation and optimization)
 
 
 ## Funding:
