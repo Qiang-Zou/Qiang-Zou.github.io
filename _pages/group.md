@@ -33,7 +33,7 @@ In the short term, we are working on the following "form-process-property" probl
 
     2. Direct/parametric solid modeling
 
-    3. Microgeometry modeling (including microstructure modeling and microsurface modeling)
+    3. Microgeometry modeling (microstructure representation and operations)
 
 2. With applied research on:
 
