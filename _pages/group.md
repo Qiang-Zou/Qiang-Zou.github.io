@@ -28,7 +28,7 @@ With applied research on
 In the short term, we are working on the following "form-process-property" problems:
 1. Basic research on geometric and physical modeling of surfaces, solids, and structures:
     1. NURBS/B-rep computing, learning, and optimization
-    1. Direct/parametric solid modeling
+    1. Generative/Direct solid modeling
     1. Microgeometry modeling (microstructure representation and operations)
 1. With applied research on:
     1. Intelligent and intuitive CAD
