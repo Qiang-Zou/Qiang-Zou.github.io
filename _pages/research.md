@@ -30,9 +30,13 @@ Publications
 
 1. Han Wang, Qiang Zou\*, and Hai Lin\*. A Quasi-Optimal Shape Design Method for Electromagnetic Scatterers Based on NURBS Surfaces and Filter-Enhanced GWO. IEEE Transactions on Antennas and Propagation (2023).
 
-1. Jincheng Mei, Qiang Zou. 3D CAD: Historical Development and Trends. CCCF Communications (2023):10.
+1. Jincheng Mei, Qiang Zou. 3D CAD: Historical Development and Trends. CCF Communications (2023):10.
 
 1. Ziheng Bao, Wu liu, and Qiang Zou\*. Parallel Inverse Evaluation of NURBS Surfaces Based on Matrix Representation. Journal of Computer-Aided Design & Computer Graphics (2023):35.
+
+1. Yimin Feng, Chenchu Zhou, Qiang Zou\*, Yusheng Liu\*, Jiyuan Lyu, Xinfeng Wu. A goal-based approach for modeling and simulation of different types of system-of-systems. Journal of Systems Engineering and Electronics (2023):34(3), 627-640.
+
+1. Yimin Feng, Qiang Zou\*, Chenchu Zhou, Yusheng Liu\*, Qibo Peng. Ontology-Based Architecture Process of System-of-Systems: From Capability Development to Operational Modeling. Journal of Systems Engineering and Electronics (2023):13(9), 5419.
 
 1. Qiang Zou*. A note on solid modeling: history, state of the art, future. Journal of Graphics, 2022, 43(6): 987-1001.
 
