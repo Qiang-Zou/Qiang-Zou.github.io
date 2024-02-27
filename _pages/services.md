@@ -18,11 +18,11 @@ author_profile: true
 
 1. Board Committee Member: CSIG SIG on Intelligent Graphics
 
-1. Program Committee Member: SMI, CVM, CAD&CG, CAD/Graphics, GDC
+1. Program Committee Member: SPM, SMI, GMP, CVM, etc.
 
-1. Session Chair: ICED16, CAD' 16
+1. Session Chair: ICED16, CAD16
 
-1. Reviewer: CAD, ASME JCISE, and CAGD etc.
+1. Reviewer: CAD, ASME JCISE, CAGD etc.
 
 
 

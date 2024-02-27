@@ -9,37 +9,22 @@ In DMA Lab, we are interested in questions like: Which parts are computerizable 
 
 <!-- 如何进行跨媒体表达？如何实现大数据融合、匹配与协同计算？如何得出人工智能感知、推理、决策的高效模型？如何实现更具有感受、理解与交互能力的智能系统？ -->
 
-<!-- In the short term, we are working on the following basic“form-process-property”problems:
-
-1. Geometric and physical modeling of surfaces, solids, structures, and parametrics
-
-    1. NURBS/B-rep computing, learning, and modeling
-
-    2. Direct/parametric integration
-
-    3. Structure modeling (**H**ighly **C**omplex **S**tructures (HCS): large-scale, multi-resolution/material, and dynamic)
-
-With applied research on
-
-    1. Intelligent and intuitive CAD modeling: AI + direct modeling + NURBS
-
-    2. Manufacturing Automation: process planning and  simulation-->
-
 In the short term, we are working on the following "form-process-property" problems:
 1. Basic research on geometric and physical modeling of surfaces, solids, and structures:
     1. NURBS/B-rep computing, learning, and optimization
     1. Generative/Direct solid modeling
-    1. Microgeometry modeling (microstructure representation and operations)
+    1. Microgeometry modeling (microstructure and microsurfaces)
 1. With applied research on:
     1. Intelligent and intuitive CAD
     1. Virtual manufacturing (tool path planning, machining/3D printing simulation and optimization)
 
 
 ## Funding:
-1. Intelligent 3D CAD Modeling, 2023.1 - 2024.12, From Fundamental Research Funds for the Central Universities, China
-1. Robust direct modeling for complex products, 2022.1 - 2024.12, From NSF of China
-1. Intelligent direct modeling for computer-aided design, 2022.1 - 2024.12, From NSF of Zhejiang Province
-1. Geometric modeling and constraint solving kernels, 2022.1 - 2023.6, From Key R&D Program of Zhenjiang Province
+1. 3D CAD Modeler for Intelligent Engineering Design, 2024.1 - 2026.12, Key R&D Program of Zhenjiang Province, China
+1. Intelligent 3D CAD Modeling, 2023.1 - 2024.12, Fundamental Research Funds for the Central Universities, China
+1. Robust direct modeling for complex products, 2022.1 - 2024.12, NSF of China
+1. Intelligent direct modeling for computer-aided design, 2022.1 - 2024.12, NSF of Zhejiang Province
+1. Geometric modeling and constraint solving kernels, 2022.1 - 2023.6, Key R&D Program of Zhenjiang Province
 
 ## Students:
 
