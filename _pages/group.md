@@ -18,12 +18,13 @@ In DMA Lab, we are interested in questions like: Which parts are computerizable 
     1. Intelligent and intuitive CAD
     1. Virtual manufacturing (tool path planning, machining/3D printing simulation and optimization) -->
 
-In the short term, we are working on the following "concept-shape-property-process" problems:
+In the short term, we are working on the following "concept-shape-process" problems:
 1. Geometric modeling:
-    1. Surface and solid modeling
-    1. Microstructure representation and manipulation
+    1. Surfaces: NURBS computing, learning, and optimization
+    1. Solids: generation, editing, and learning
+    1. Microstructures: representation and manipulation
 1. Geometric design:
-    1. AI for shape generation
+    1. AI for CAD/CAM: generative CAD modeling and CAM planning
     1. Physics-driven shape optimization
 
 
