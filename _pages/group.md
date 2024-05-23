@@ -24,7 +24,7 @@ In the short term, we are working on the following "concept-shape-process" probl
     1. Solids: generation, editing, and learning
     1. Microstructures: representation and manipulation
 1. Geometric design:
-    1. AI for CAD/CAM: controllable 3D AIGC for design modeling and process planning
+    1. AI for CAD/CAM: controllable 3D AIGC for CAD modeling and CAM planning
     1. Physics-informed curve, surface, solid, and microstructure design
 
 
