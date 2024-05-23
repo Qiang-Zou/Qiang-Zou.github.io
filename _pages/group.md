@@ -45,7 +45,7 @@ Some [must-knows](must_knows.md) before working in our group.
 1. Guoyue Luo, 2022.9 - , Research topic: microstructure modeling
 1. Yuntao Ma, 2023.9 - , Research topic: GPU-based solid modeling
 1. Ziqi Hao, 2023.9 - , Research topic: GPU-based solid modeling
-1. Yaonaiming Zhao, 2023.9 - , Research topic: micro-geometry modeling
+1. Yaonaiming Zhao, 2023.9 - , Research topic: microstructure modeling
 
 ### MASc Students
 1. Qitong Dong, 2022.3 - , Research topic: NURBS modeling
