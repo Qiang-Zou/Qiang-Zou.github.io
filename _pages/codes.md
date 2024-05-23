@@ -29,6 +29,8 @@ TPMSSlicer: A lightweight slicer for TPMS models\
 GPULatticeSlicer: A GPU-based parallel implicit slicing method for modeling and fabricating highly complex lattice structures\
 [Code](https://github.com/Qiang-Zou/GPULatticeSlicer) [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0007850621000123)
 
+<br />
+
 <img align="left" width="100" height="100" src="/images/codes/DirtyMeshSlicer.png"> 
 DirtyMeshSlicer: A robust slicer for meshes with defeats like holes, cracks, flipped normals etc.\
 [Code](https://github.com/Qiang-Zou/DirtyMeshSlicer)
