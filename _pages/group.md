@@ -21,7 +21,7 @@ In DMA Lab, we are interested in questions like: Which parts are computerizable 
 In the short term, we are working on the following "concept-shape-process" problems:
 1. Geometric modeling:
     1. Surfaces: NURBS computing and learning
-    1. Solids: generation, editing, and learning
+    1. Solids: B-rep generation, editing, and learning
     1. Microstructures: representation and manipulation
 1. Geometric design:
     1. AI for CAD/CAM: controllable 3D AIGC for CAD modeling and CAM planning
@@ -57,7 +57,7 @@ Some [must-knows](must_knows.md) before working in our group.
 
 
 ### Alumni
-1. Ziheng Bao, 2021.9 - 2024.3, Research topic: GPU-based NURBS modeling, Now VoxelDance
+1. Ziheng Bao, 2021.9 - 2024.3, Research topic: GPU-based NURBS modeling, Now ByteDance
 
 
 
