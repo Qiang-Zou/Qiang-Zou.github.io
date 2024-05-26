@@ -31,7 +31,7 @@ GPULatticeSlicer: A GPU-based parallel implicit slicing method for modeling and 
 
 <br />
 
-<img align="left" width="100" height="100" src="/images/codes/DirtyMeshSlicer.png"> 
-DirtyMeshSlicer: A robust slicer for meshes with defeats like holes, cracks, flipped normals etc. \quad [Code](https://github.com/Qiang-Zou/DirtyMeshSlicer)
+<img align="left" width="100" height="200" src="/images/codes/DirtyMeshSlicer.png"> 
+DirtyMeshSlicer: A robust slicer for meshes with defeats like holes, cracks, flipped normals etc. [Code](https://github.com/Qiang-Zou/DirtyMeshSlicer)
 
 
