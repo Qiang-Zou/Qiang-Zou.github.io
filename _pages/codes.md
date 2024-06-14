@@ -34,4 +34,10 @@ GPULatticeSlicer: A GPU-based parallel implicit slicing method for modeling and 
 <img align="left" width="100" height="200" src="/images/codes/DirtyMeshSlicer.png"> 
 DirtyMeshSlicer: A robust slicer for meshes with defeats like holes, cracks, flipped normals etc. [Code](https://github.com/Qiang-Zou/DirtyMeshSlicer)
 
+<br />
+
+<img align="left" width="100" height="100" src="/images/codes/GPU-NURBS.png"> 
+GPU-NURBS: GPU parallel evaluation and inverse evaluation of NURBS curves/surfaces\
+[Code](https://github.com/Qiang-Zou/GPU-NURBS) [Paper](https://www.jcad.cn/cn/article/doi/10.3724/SP.J.1089.2023.2023-00003)
+
 

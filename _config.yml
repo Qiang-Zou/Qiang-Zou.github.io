@@ -61,10 +61,10 @@ yandex_site_verification :
 #   google:
 #     tracking_id          :
 analytics:
-  provider: "google-gtag"
+  provider: "google"
   google:
-    tracking_id: "UA-1234567-8"
-    anonymize_ip: false # default
+#     tracking_id: "UA-1234567-8"
+    anonymize_ip: true # default
 
 
 # Site Author
