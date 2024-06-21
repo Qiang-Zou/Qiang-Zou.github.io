@@ -40,4 +40,9 @@ DirtyMeshSlicer: A robust slicer for meshes with defeats like holes, cracks, fli
 GPU-NURBS: GPU parallel evaluation and inverse evaluation of NURBS curves/surfaces\
 [Code](https://github.com/Qiang-Zou/GPU-NURBS) [Paper](https://www.jcad.cn/cn/article/doi/10.3724/SP.J.1089.2023.2023-00003)
 
+<br />
+
+<img align="left" width="100" height="100" src="/images/codes/GPU-NURBS.png"> 
+TPMS2STEP: A lightweight tool for converting TPMS models to STEP files to be used in conventional CAD/CAM/CAE pipeline\
+[Code](https://github.com/Qiang-Zou/TPMS2STEP) [Paper](https://doi.org/10.1016/j.cad.2024.103726)
 
