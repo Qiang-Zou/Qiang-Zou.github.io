@@ -42,7 +42,7 @@ GPU-NURBS: GPU parallel evaluation and inverse evaluation of NURBS curves/surfac
 
 <br />
 
-<img align="left" width="100" height="100" src="/images/codes/GPU-NURBS.png"> 
+<img align="left" width="100" height="100" src="/images/codes/TPMS2STEP.png"> 
 TPMS2STEP: A lightweight tool for converting TPMS models to STEP files to be used in conventional CAD/CAM/CAE pipeline\
 [Code](https://github.com/Qiang-Zou/TPMS2STEP) [Paper](https://doi.org/10.1016/j.cad.2024.103726)
 
