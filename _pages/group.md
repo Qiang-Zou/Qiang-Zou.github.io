@@ -22,13 +22,13 @@ In the short term, we are working on the following "concept-shape-process" probl
 1. Geometric modeling:
     1. Surfaces & Solids: NURBS computing and B-rep editing
     1. Microstructures: representation and manipulation
-1. Geometric design:
+1. Geometric design and manufacturing:
     1. AI + CAD/CAM: controllable 3D AIGC for CAD modeling and CAM planning
     1. Physics-informed curve, surface, solid, and microstructure design
 
 
 ## Funding:
-1. 3D CAD Modeler for Intelligent Engineering Design, 2024.1 - 2026.12, Key R&D Program of Zhenjiang Province, China
+1. 3D CAD Modeler for Intelligent Engineering Design, 2024.1 - 2026.12, Key R&D Program of Zhenjiang Province
 1. Intelligent 3D CAD Modeling, 2023.1 - 2024.12, Fundamental Research Funds for the Central Universities, China
 1. Robust direct modeling for complex products, 2022.1 - 2024.12, NSF of China
 1. Intelligent direct modeling for computer-aided design, 2022.1 - 2024.12, NSF of Zhejiang Province
