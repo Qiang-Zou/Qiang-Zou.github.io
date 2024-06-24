@@ -23,7 +23,7 @@ In the short term, we are working on the following "concept-shape-process" probl
     1. Surfaces & Solids: NURBS computing and B-rep editing
     1. Microstructures: representation and manipulation
 1. Intelligent design and manufacturing:
-    1. AI + CAD/CAM: controllable 3D AIGC for CAD modeling and CAM planning
+    1. AI4CAD/CAM: controllable 3D AIGC for CAD modeling and CAM planning
     1. Physics-informed curve, surface, solid, and microstructure design
 
 
