@@ -14,8 +14,6 @@ Theses
 
 Publications （Selected）
 ====
-See [Google Scholar](https://github.com/Qiang-Zou/ImplicitSlicer) for the complete list.
-
 {% if author.googlescholar %}
   You can also find my articles at <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
@@ -78,6 +76,7 @@ See [Google Scholar](https://github.com/Qiang-Zou/ImplicitSlicer) for the comple
 <!-- 1. Jibin Zhao*, Bo Zhong, Qiang Zou, Honjun Liu, Tool orientation planning for five-axis CNC machining of open free-form surfaces. Journal of Systems Science and Complexity 26 (5) (2013) 667–675. -->
 <!-- 15. Jibin Zhao, Qiang Zou, Dianhai Liu, Lun Li, CNC trajectory generation for triangle meshes based on conformal parametrization, CN104570928A. 2015. (Chinese Patent) -->
 
+See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=en) for the complete list.
 
 Talks
 ====
