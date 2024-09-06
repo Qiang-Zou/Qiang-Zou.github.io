@@ -12,11 +12,8 @@ Theses
 1. Conformal geometry-based tool path planning for point clouds, Master's degree, University of Chinese Academy of Sciences. (In Chinese)
 -->
 
-Publications （Selected）
+Selected Publications [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=en).
 ====
-{% if author.googlescholar %}
-  You can also find my articles at <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
 1. Qiang Zou\*, Yunzhu Gao, Guoyue Luo, Sifan Chen, Meta-meshing and triangulating lattice structures at a large scale, Computer-Aided Design (2024).
 
 1. Yaonaiming Zhao, Qiang Zou\*, Guoyue Luo, Jiayu Wu, Sifan Chen, Depeng Gao, Minghao Xuan, Fuyu Wang, TPMS2STEP: error-controlled and C2 continuity-preserving translation of TPMS models to STEP files based on constrained-PIA, Computer-Aided Design (2024).
@@ -52,8 +49,6 @@ Publications （Selected）
 1. Qiang Zou, Juyong Zhang*, Bailin Deng, Jibin Zhao, Iso-level tool path planning for free-form surfaces, Computer-Aided Design 53 (11) (2014) 117–125. (has been included in MIT Course MAS.865)
 
 1. Qiang Zou, Jibin Zhao*, Iso-parametric tool-path planning for point clouds, Computer-Aided Design 45 (11) (2013) 1459–1468.
-
-See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=en) for the complete list.
 
 <!-- 1. Qiang Zou\*, Yunzhu Gao, Guoyue Luo, Sifan Chen, Meta-meshing and triangulating lattice structures at a large scale, Computer-Aided Design (2024).
 
