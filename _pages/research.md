@@ -132,7 +132,7 @@ Talks
 1. Iso-level Method: A New Framework for Tool Path Planning, Mid-term evaluation on the "973" project "Mathematics Mechanization and Digital Design and Manufacturing", USTC, June 2013.
 
 
-Selected Awards
+Awards (Selected)
 ====
 1. Anual Provincial Best Paper Award, Zhejiang Province, 2023
 
@@ -145,6 +145,16 @@ Selected Awards
 1. UBC 4YF Doctoral Fellowship, UBC, 2014
 
 1. Academic Research Award, Liaoning Province, China, 2014
+
+
+<!-- Applications (Selected)
+====
+1. Academic Research Award, Liaoning Province, China, 2014
+
+1. Academic Research Award, Liaoning Province, China, 2014
+
+1. Academic Research Award, Liaoning Province, China, 2014
+-->
 
 <!-- {% include base_path %}
 
