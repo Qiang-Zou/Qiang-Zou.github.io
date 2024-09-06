@@ -14,7 +14,7 @@ Theses
 
 Publications (Selected)
 ====
-1. Qiang Zou\*, Yunzhu Gao, Guoyue Luo, Sifan Chen, Meta-meshing and triangulating lattice structures at a large scale, Computer-Aided Design (2024).
+<!-- 1. Qiang Zou\*, Yunzhu Gao, Guoyue Luo, Sifan Chen, Meta-meshing and triangulating lattice structures at a large scale, Computer-Aided Design (2024).
 1. Yaonaiming Zhao, Qiang Zou\*, Guoyue Luo, Jiayu Wu, Sifan Chen, Depeng Gao, Minghao Xuan, Fuyu Wang, TPMS2STEP: error-controlled and C2 continuity-preserving translation of TPMS models to STEP files based on constrained-PIA, Computer-Aided Design (2024).
 1. Zirui Wang, Shibo Liu, Ligang Liu, Qiang Zou\*, Xiao-Ming Fu\*, Computing smooth preferred feed direction fields with high material removal rates for efficient CNC tool paths, Computer-Aided Design (2023): 103591.
 1. Guoyue Luo, and Qiang Zou*. A Simple Point-Based Iso-Scallop Tool Path Planning Method for Noisy Point Clouds with High Robustness and Controlled Errors. Computer-Aided Design (2023): 103560.
@@ -31,8 +31,7 @@ Publications (Selected)
 1. Qiang Zou, Hsi-Yung Feng*, A decision-support method for information inconsistency resolution in direct modeling of CAD models, Advanced Engineering Informatics. 44 (2020) 101087.
 1. Qiang Zou, Hsi-Yung Feng*, Push-pull direct modeling of solid CAD models, Advances in Engineering Software 127 (2019): 59-69.
 1. Qiang Zou, Juyong Zhang*, Bailin Deng, Jibin Zhao, Iso-level tool path planning for free-form surfaces, Computer-Aided Design 53 (11) (2014) 117–125. (has been included in MIT Course MAS.865)
-1. Qiang Zou, Jibin Zhao*, Iso-parametric tool-path planning for point clouds, Computer-Aided Design 45 (11) (2013) 1459–1468.
-
+1. Qiang Zou, Jibin Zhao*, Iso-parametric tool-path planning for point clouds, Computer-Aided Design 45 (11) (2013) 1459–1468. -->
 1. Qiang Zou\*, Yunzhu Gao, Guoyue Luo, Sifan Chen, Meta-meshing and triangulating lattice structures at a large scale, Computer-Aided Design (2024).
 1. Yaonaiming Zhao, Qiang Zou\*, Guoyue Luo, Jiayu Wu, Sifan Chen, Depeng Gao, Minghao Xuan, Fuyu Wang, TPMS2STEP: error-controlled and C2 continuity-preserving translation of TPMS models to STEP files based on constrained-PIA, Computer-Aided Design (2024).
 1. Zirui Wang, Shibo Liu, Ligang Liu, Qiang Zou\*, Xiao-Ming Fu\*, Computing smooth preferred feed direction fields with high material removal rates for efficient CNC tool paths, Computer-Aided Design (2023): 103591.
@@ -44,11 +43,8 @@ Publications (Selected)
 <!-- 1. Jincheng Mei, Qiang Zou. 3D CAD: Historical Development and Trends. CCF Communications (2023):10. -->
 <!-- 1. Ziheng Bao, Wu liu, and Qiang Zou\*. Parallel Inverse Evaluation of NURBS Surfaces Based on Matrix Representation. Journal of Computer-Aided Design & Computer Graphics (2023):35. -->
 <!-- 1. Yimin Feng, Chenchu Zhou, Qiang Zou\*, Yusheng Liu\*, Jiyuan Lyu, Xinfeng Wu. A goal-based approach for modeling and simulation of different types of system-of-systems. Journal of Systems Engineering and Electronics (2023):34(3), 627-640. -->
-
 <!-- 1. Yimin Feng, Qiang Zou\*, Chenchu Zhou, Yusheng Liu\*, Qibo Peng. Ontology-Based Architecture Process of System-of-Systems: From Capability Development to Operational Modeling. Journal of Systems Engineering and Electronics (2023):13(9), 5419. -->
-
 <!-- 1. Qiang Zou*. A note on solid modeling: history, state of the art, future. Journal of Graphics, 2022, 43(6): 987-1001. -->
-
 <!-- 1. MA Hong-yu , SHEN Li-yong*, JIANG Xin , ZOU Qiang , YUAN Chun-ming. A survey of path planning and feedrate interpolation in computer numerical control. Journal of Graphics, 2022, 43(6): 967-986. -->
 1. Guan Wang, Qiang Zou\*, Chuke Zhao, Yusheng Liu\*, and Xiaoping Ye. A highly efficient approach for bi-level programming problems based on dominance determination. ASME Trans.  JCISE 22, no. 4 (2022): 041006.
 1. Qiang Zou*, Hsi-Yung Feng, A robust direct CAD modeling method for quadric B-rep models based on geometry- topology inconsistency tracking, Engineering with Computers 2022 38 (4), 3815-3830
