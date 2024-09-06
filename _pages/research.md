@@ -12,7 +12,7 @@ Theses
 1. Conformal geometry-based tool path planning for point clouds, Master's degree, University of Chinese Academy of Sciences. (In Chinese)
 -->
 
-Selected Publications [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=en).
+Publications (Selected)
 ====
 1. Qiang Zou\*, Yunzhu Gao, Guoyue Luo, Sifan Chen, Meta-meshing and triangulating lattice structures at a large scale, Computer-Aided Design (2024).
 
@@ -109,7 +109,7 @@ Selected Publications [Google Scholar](https://scholar.google.com/citations?user
 1. Jibin Zhao*, Bo Zhong, Qiang Zou, Honjun Liu, Tool orientation planning for five-axis CNC machining of open free-form surfaces. Journal of Systems Science and Complexity 26 (5) (2013) 667–675. -->
 <!-- 15. Jibin Zhao, Qiang Zou, Dianhai Liu, Lun Li, CNC trajectory generation for triangle meshes based on conformal parametrization, CN104570928A. 2015. (Chinese Patent) -->
 
-
+See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=en) for the complete list.
 
 Talks
 ====
