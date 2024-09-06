@@ -15,13 +15,9 @@ Theses
 Publications (Selected)
 ====
 1. Qiang Zou\*, Yunzhu Gao, Guoyue Luo, Sifan Chen, Meta-meshing and triangulating lattice structures at a large scale, Computer-Aided Design (2024).
-
 1. Yaonaiming Zhao, Qiang Zou\*, Guoyue Luo, Jiayu Wu, Sifan Chen, Depeng Gao, Minghao Xuan, Fuyu Wang, TPMS2STEP: error-controlled and C2 continuity-preserving translation of TPMS models to STEP files based on constrained-PIA, Computer-Aided Design (2024).
-
 1. Zirui Wang, Shibo Liu, Ligang Liu, Qiang Zou\*, Xiao-Ming Fu\*, Computing smooth preferred feed direction fields with high material removal rates for efficient CNC tool paths, Computer-Aided Design (2023): 103591.
-
 1. Guoyue Luo, and Qiang Zou*. A Simple Point-Based Iso-Scallop Tool Path Planning Method for Noisy Point Clouds with High Robustness and Controlled Errors. Computer-Aided Design (2023): 103560.
-
 1. Li Ming, Chengfeng Lin, Wei Chen, Yusheng Liu, Shuming Gao, and Qiang Zou*. XVoxel-Based Parametric Design Optimization of Feature Models. Computer-Aided Design 160 (2023): 103528.
 
 1. Qiang Zou*, Hsi-Yung Feng, and Shuming Gao. Variational Direct Modeling: A framework towards integration of parametric modeling and direct modeling in CAD. Computer-Aided Design 157 (2023): 103465.
@@ -114,36 +110,23 @@ See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=e
 Talks
 ====
 1. Data-Driven B-Spline Modeling, SAC, Aug, 2024
-
 1. Geometric Modeling for Microstructure Design and Manufacturing, SAC, April, 2024
-
 1. From Tool Path Generation To Tool Path Optimization: An Implicit Framework, Tianyuan Math Cener, Aug., 2024
-
 1. Structure Modeling: Efficient and Robust Geometric Modeling for Highly Complex Structures (HCS), GDC, Aug., 2022
-
 1. Implicit Tool Path Optimization: Iso-Level Framework, Tool Path in Diffusion, Poisson Tool Path Generation, UCAS, Dec. 27, 2021
-
 1. On Flexibility and robustness of Computer-Aided Design Modeling, GAMES, Oct. 2021. http://games-cn.org/games-webinar-20211014-203/
-
 1. Direct Modeling for Computer Aided Design, State Key Lab of CAD&CG, Zhejiang University, Jan. 2020.
-
 1. Fabrication in Computer Graphics, G&GC Lab at school of mathematical sciences, USTC, May 2014.
-
 1. Iso-level Method: A New Framework for Tool Path Planning, Mid-term evaluation on the "973" project "Mathematics Mechanization and Digital Design and Manufacturing", USTC, June 2013.
 
 
 Awards (Selected)
 ====
 1. Anual Provincial Best Paper Award, Zhejiang Province, 2023
-
 1. Best Poster Award, GDC, 2021
-
 1. Faculty of Applied Science Graduate Award, UBC, 2014 & 2018
-
 1. Departmental Scholar, UBC, 2015
-
 1. UBC 4YF Doctoral Fellowship, UBC, 2014
-
 1. Academic Research Award, Liaoning Province, China, 2014
 
 
