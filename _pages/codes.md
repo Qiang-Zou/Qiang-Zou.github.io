@@ -4,6 +4,7 @@ title: "Free to Take"
 permalink: /codes/
 author_profile: true
 ---
+
 ## Microstructure Modeling:
 <img align="left" width="100" height="100" src="/images/codes/ImplicitSlicer.png">
 ImplicitSlicer: Implicit and Direct Slicer for Highly Complex Structures\
@@ -40,13 +41,16 @@ LatticeMetaMesher: A lightweight tool for metameshing and triangulating large-sc
 
 <br />
 
+## AI for CAD/CAM:
+Appear soon...
+
 ## NURBS/B-rep Modeling:
 <img align="left" width="100" height="100" src="/images/codes/GPU-NURBS.png"> 
 GPU-NURBS: GPU parallel evaluation and inverse evaluation of NURBS curves/surfaces\
 [Code](https://github.com/Qiang-Zou/GPU-NURBS) [Paper](https://www.jcad.cn/cn/article/doi/10.3724/SP.J.1089.2023.2023-00003)
 
-## AI for CAD/CAM:
-Appear soon...
+<br />
+
 
 
 
