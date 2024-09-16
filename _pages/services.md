@@ -5,26 +5,11 @@ permalink: /services/
 author_profile: true
 ---
 
-<!-- {% if site.talkmap_link == true %}
-
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
-{% endif %}
-
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %} -->
 1. Secretary: CCF SIG on CAD&CG
-
 1. Board Committee Member: CSIG SIG on Intelligent Graphics
-
 1. Program Committee Member: SPM, SMI, GMP, CVM, etc.
-
 1. Session Chair: ICED16, CAD16
-
 1. Reviewer: CAD, ASME JCISE, CAGD etc.
-
-
 
 ## Webinars Hosted:
 ### AI for CAD/CAM    
@@ -36,7 +21,7 @@ author_profile: true
 1. Deep Learning-Based CAD Modeling, June 15, 2023, [Video](https://www.bilibili.com/video/BV1PW4y1X73m) 
 
 
-### Geometric Modeling for CAD/CAM
+### Geometric and Physical Modeling for CAD/CAM
 1. Multi-body Simulation with Affine Body Dynamics, Aug. 14, 2022, [Video](https://www.bilibili.com/video/BV1BV4y1s77u) [Pdf](https://games-1312234642.cos.ap-guangzhou.myqcloud.com/pdf/Games2022242%E6%9D%8E%E6%97%BB%E8%BE%B0.pdf)
 1. Mesh Distortion Optimization, Aug. 14, 2022, [Video](https://www.bilibili.com/video/BV1dt4y1g7Wd) [Pdf](https://games-1312234642.cos.ap-guangzhou.myqcloud.com/pdf/Games2022242%E6%9C%B1%E5%AE%87%E5%B3%B0.pdf)
 1. Introduction to ZW3D CAD: All-in-One CAX, Mar. 24, 2022, [Video](https://www.bilibili.com/video/BV1jT4y1i7ej) [Pdf](https://games-1312234642.cos.ap-guangzhou.myqcloud.com/pdf/Games2022222%E6%9D%8E%E4%BC%9A%E6%B1%9F.pdf)

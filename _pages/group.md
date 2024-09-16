@@ -23,8 +23,8 @@ In the short term, we are working on the following "concept-shape-process" probl
     1. Surfaces and Solids: NURBS computing and B-rep editing
     1. Structures: large-scale, multi-scale microstructure representation and manipulation
 1. Intelligent design and manufacturing:
-    1. AI4CAD/CAM: generative CAD modeling and CAM planning
-    1. Physics-informed curve, surface, solid, and microstructure design
+    1. AI4CAD/CAM: CAD modeling and CAM planning
+    1. Physics-driven geometric design (curves, surfaces, solids, and microstructures)
 
 
 ## Funding:
@@ -35,11 +35,9 @@ In the short term, we are working on the following "concept-shape-process" probl
 1. Geometric modeling and constraint solving kernels, 2022.1 - 2023.6, Key R&D Program of Zhenjiang Province
 
 ## Students:
-
 Some [must-knows](must_knows.md) before working in our group.
 
 ### Ph.D. Students
-
 1. Sifan Chen, 2022.2 - , Research topic: microstructure modeling
 1. Guoyue Luo, 2022.9 - , Research topic: microstructure modeling
 1. Yuntao Ma, 2023.9 - , Research topic: GPU-based solid modeling
