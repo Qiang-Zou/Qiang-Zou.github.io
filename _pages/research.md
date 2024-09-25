@@ -12,8 +12,7 @@ Theses
 1. Conformal geometry-based tool path planning for point clouds, Master's degree, University of Chinese Academy of Sciences. (In Chinese)
 -->
 
-Publications (Selected)
-====
+## Publications (Selected):
 1. Qiang Zou\*, Lizhen Zhu, Jiayu Wu, Zhijie Yang, SplineGen: approximating unorganized points through generative AI, Computer-Aided Design (2024).
 1. Qiang Zou\*, Yunzhu Gao, Guoyue Luo, Sifan Chen, Meta-meshing and triangulating lattice structures at a large scale, Computer-Aided Design (2024).
 1. Yaonaiming Zhao, Qiang Zou\*, Guoyue Luo, Jiayu Wu, Sifan Chen, Depeng Gao, Minghao Xuan, Fuyu Wang, TPMS2STEP: error-controlled and C2 continuity-preserving translation of TPMS models to STEP files based on constrained-PIA, Computer-Aided Design (2024).
@@ -48,8 +47,8 @@ Publications (Selected)
 
 See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=en) for the complete list.
 
-Talks
-====
+
+## Talks:
 1. Data-Driven B-Spline Modeling, SAC, Aug, 2024
 1. Geometric Modeling for Microstructure Design and Manufacturing, SAC, April, 2024
 1. From Tool Path Generation To Tool Path Optimization: An Implicit Framework, Tianyuan Math Cener, Aug., 2024
@@ -61,8 +60,7 @@ Talks
 1. Iso-level Method: A New Framework for Tool Path Planning, Mid-term evaluation on the "973" project "Mathematics Mechanization and Digital Design and Manufacturing", USTC, June 2013.
 
 
-Awards (Selected)
-====
+## Awards (Selected):
 1. Annual Provincial Best Paper Award, Zhejiang Province, 2023
 1. Best Poster Award, GDC, 2021
 1. Faculty of Applied Science Graduate Award, UBC, 2014 & 2018
