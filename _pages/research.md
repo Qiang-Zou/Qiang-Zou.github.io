@@ -14,6 +14,7 @@ Theses
 
 Publications (Selected)
 ====
+1. Qiang Zou\*, Lizhen Zhu, Jiayu Wu, Zhijie Yang, SplineGen: approximating unorganized points through generative AI, Computer-Aided Design (2024).
 1. Qiang Zou\*, Yunzhu Gao, Guoyue Luo, Sifan Chen, Meta-meshing and triangulating lattice structures at a large scale, Computer-Aided Design (2024).
 1. Yaonaiming Zhao, Qiang Zou\*, Guoyue Luo, Jiayu Wu, Sifan Chen, Depeng Gao, Minghao Xuan, Fuyu Wang, TPMS2STEP: error-controlled and C2 continuity-preserving translation of TPMS models to STEP files based on constrained-PIA, Computer-Aided Design (2024).
 1. Zirui Wang, Shibo Liu, Ligang Liu, Qiang Zou\*, Xiao-Ming Fu\*, Computing smooth preferred feed direction fields with high material removal rates for efficient CNC tool paths, Computer-Aided Design (2023): 103591.
@@ -62,7 +63,7 @@ Talks
 
 Awards (Selected)
 ====
-1. Anual Provincial Best Paper Award, Zhejiang Province, 2023
+1. Annual Provincial Best Paper Award, Zhejiang Province, 2023
 1. Best Poster Award, GDC, 2021
 1. Faculty of Applied Science Graduate Award, UBC, 2014 & 2018
 1. Departmental Scholar, UBC, 2015
