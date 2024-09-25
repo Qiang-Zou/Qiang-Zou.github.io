@@ -6,7 +6,7 @@ author_profile: true
 ---
 <!-- 
 Theses
-====
+======
 1. Variational direct modeling for computer-aided design, Ph.D. degree, The University of British Columbia.
 
 1. Conformal geometry-based tool path planning for point clouds, Master's degree, University of Chinese Academy of Sciences. (In Chinese)
@@ -44,7 +44,6 @@ Publications (Selected)
 <!-- 1. Qiang Zou, Jibin Zhao*, Yanguo Zhao, Guangbao Liu, Haiyang Jin, Geodesic based conformal mesh parameterization, Proceedings of SPIE, Fifth International Conference on Graphics and Image Processing. 2014. -->
 1. Qiang Zou, Jibin Zhao*, Iso-parametric tool-path planning for point clouds, Computer-Aided Design 45 (11) (2013) 1459–1468.
 <!-- 1. Jibin Zhao*, Bo Zhong, Qiang Zou, Honjun Liu, Tool orientation planning for five-axis CNC machining of open free-form surfaces. Journal of Systems Science and Complexity 26 (5) (2013) 667–675. -->
-<!-- 15. Jibin Zhao, Qiang Zou, Dianhai Liu, Lun Li, CNC trajectory generation for triangle meshes based on conformal parametrization, CN104570928A. 2015. (Chinese Patent) -->
 
 See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=en) for the complete list.
 
