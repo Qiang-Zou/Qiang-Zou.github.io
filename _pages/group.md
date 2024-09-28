@@ -23,9 +23,8 @@ In the short term, we are working on the following "concept-shape-process" probl
     1. Surfaces and Solids: NURBS computing and B-rep editing
     1. Structures: large-scale, multi-scale microstructure representation and manipulation
 1. Intelligent design and manufacturing:
-    1. AI4CAD/CAM: CAD modeling and CAM planning
-    1. Physics-driven geometric design (curves, surfaces, solids, and microstructures)
-
+    1. AI4CAD/CAM: concepts, CAD modeling, and CAM planning
+    1. Physics-informed CAD/CAM: surfaces, solids, microstructures, and process paths
 
 ## Funding:
 1. 3D CAD Modeler for Intelligent Engineering Design, 2024.1 - 2026.12, Key R&D Program of Zhenjiang Province
