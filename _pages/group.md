@@ -20,11 +20,11 @@ In DMA Lab, we are interested in questions like: Which parts are computerizable 
 
 In the short term, we are working on the following "concept-shape-process" problems:
 * Geometric and physical modeling:
- - Surfaces and Solids: NURBS computing and B-rep editing
- - Structures: large-scale, multi-scale microstructure representation and manipulation
+  - Surfaces and Solids: NURBS computing and B-rep editing
+  - Structures: large-scale, multi-scale microstructure representation and manipulation
 * Intelligent design and manufacturing:
- - AI4CAD/CAM: concepts, CAD modeling, and CAM planning
- - Physics-informed CAD/CAM: surfaces, solids, microstructures, and process paths
+  - AI4CAD/CAM: concepts, CAD modeling, and CAM planning
+  - Physics-informed CAD/CAM: surfaces, solids, microstructures, and process paths
 
 ## Funding:
 1. 3D CAD Modeler for Intelligent Engineering Design, 2024.1 - 2026.12, Key R&D Program of Zhenjiang Province
