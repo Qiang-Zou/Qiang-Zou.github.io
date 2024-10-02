@@ -16,6 +16,8 @@ Current research work includes geometric modeling and design with emphasis on (1
 
 News
 ======
+Oct. 2024. One paper accepted by the journal of Visual Informatics.
+
 Sep. 2024. One paper accepted by the prestigious journal of Computer-Aided Design.
 
 May 2024. Two papers accepted by the prestigious journal of Computer-Aided Design.
