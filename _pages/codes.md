@@ -49,7 +49,11 @@ LatticeMetaMesher: A lightweight tool for metameshing and triangulating large-sc
 <br />
 
 ## AI for CAD/CAM:
-Appear soon...
+<img align="left" width="100" height="100" src="/images/codes/splinegen.png"> 
+SplineGen: data-driven, generative AI-based B-spline modeling\
+[Code](https://github.com/Qiang-Zou/SplineGen) [Paper](https://doi.org/10.1016/j.cad.2024.103809)
+
+<br />
 
 
 
