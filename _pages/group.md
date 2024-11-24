@@ -27,11 +27,11 @@ In the short term, we are working on the following "concept-shape-process" probl
   - Physics-informed CAD/CAM: surfaces, solids, microstructures, and process paths
 
 ## Funding:
-1. 3D CAD Modeler for Intelligent Engineering Design, 2024.1 - 2026.12, Key R&D Program of Zhenjiang Province
+1. 3D CAD Modeler for Intelligent Engineering Design, 2024.1 - 2026.12, Key R&D Program of Zhejiang Province
 1. Intelligent 3D CAD Modeling, 2023.1 - 2024.12, Fundamental Research Funds for the Central Universities, China
 1. Robust direct modeling for complex products, 2022.1 - 2024.12, NSF of China
 1. Intelligent direct modeling for computer-aided design, 2022.1 - 2024.12, NSF of Zhejiang Province
-1. Geometric modeling and constraint solving kernels, 2022.1 - 2023.6, Key R&D Program of Zhenjiang Province
+1. Geometric modeling and constraint solving kernels, 2022.1 - 2023.6, Key R&D Program of Zhejiang Province
 
 ## Students:
 Some [must-knows](must_knows.md) before working in our group.

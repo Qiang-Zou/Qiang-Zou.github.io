@@ -16,6 +16,8 @@ Current research work includes CAD/CAM with emphasis on (1) the basic research o
 
 News
 ======
+Nov. 2024. One paper accepted by the prestigious journal of Computer-Aided Design.
+
 Oct. 2024. One paper accepted by the journal of Visual Informatics.
 
 Sep. 2024. One paper accepted by the prestigious journal of Computer-Aided Design.

@@ -14,6 +14,7 @@ Theses
 
 Publications (Selected)
 ======
+1. Qiang Zou\*, Guoyue Luo, Geometric modeling for microstructure design and manufacturing, Computer-Aided Design (2024).
 1. Qiang Zou\*, Yincai Wu, Zhenyu Liu, Weiwei Xu, Shuming Gao, Intelligent CAD 2.0, Visual Informatics (2024).
 1. Qiang Zou\*, Lizhen Zhu, Jiayu Wu, Zhijie Yang, SplineGen: approximating unorganized points through generative AI, Computer-Aided Design (2024).
 1. Qiang Zou\*, Yunzhu Gao, Guoyue Luo, Sifan Chen, Meta-meshing and triangulating lattice structures at a large scale, Computer-Aided Design (2024).
@@ -22,7 +23,7 @@ Publications (Selected)
 1. Guoyue Luo, and Qiang Zou*. A Simple Point-Based Iso-Scallop Tool Path Planning Method for Noisy Point Clouds with High Robustness and Controlled Errors. Computer-Aided Design (2023): 103560.
 1. Li Ming, Chengfeng Lin, Wei Chen, Yusheng Liu, Shuming Gao, and Qiang Zou*. XVoxel-Based Parametric Design Optimization of Feature Models. Computer-Aided Design 160 (2023): 103528.
 1. Qiang Zou*, Hsi-Yung Feng, and Shuming Gao. Variational Direct Modeling: A framework towards integration of parametric modeling and direct modeling in CAD. Computer-Aided Design 157 (2023): 103465.
-1. Zhihong Tang, Qiang Zou, and Shuming Gao*. A decision-support method for multi-parameter editing of parametric CAD models. Advanced Engineering Informatics 56 (2023): 101997.
+<!-- 1. Zhihong Tang, Qiang Zou, and Shuming Gao*. A decision-support method for multi-parameter editing of parametric CAD models. Advanced Engineering Informatics 56 (2023): 101997. -->
 1. Han Wang, Qiang Zou\*, and Hai Lin\*. A Quasi-Optimal Shape Design Method for Electromagnetic Scatterers Based on NURBS Surfaces and Filter-Enhanced GWO. IEEE Transactions on Antennas and Propagation (2023).
 <!-- 1. Jincheng Mei, Qiang Zou. 3D CAD: Historical Development and Trends. CCF Communications (2023):10. -->
 <!-- 1. Ziheng Bao, Wu liu, and Qiang Zou\*. Parallel Inverse Evaluation of NURBS Surfaces Based on Matrix Representation. Journal of Computer-Aided Design & Computer Graphics (2023):35. -->
