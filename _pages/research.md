@@ -14,16 +14,16 @@ Theses
 
 Publications (Selected)
 ======
-(See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=en) for the complete list, and [Codes Page](https://qiang-zou.github.io//codes/) for relevant codes.)
+See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=en) for the complete list, and [Codes Page](https://qiang-zou.github.io//codes/) for relevant codes.
 1. Qiang Zou\*, Guoyue Luo, Geometric modeling for microstructure design and manufacturing, Computer-Aided Design (2024).
 1. Qiang Zou\*, Yingcai Wu, Zhenyu Liu, Weiwei Xu, Shuming Gao, Intelligent CAD 2.0, Visual Informatics (2024).
 1. Qiang Zou\*, Lizhen Zhu, Jiayu Wu, Zhijie Yang, SplineGen: approximating unorganized points through generative AI, Computer-Aided Design (2024).
 1. Qiang Zou\*, Yunzhu Gao, Guoyue Luo, Sifan Chen, Meta-meshing and triangulating lattice structures at a large scale, Computer-Aided Design (2024).
 1. Yaonaiming Zhao, Qiang Zou\*, Guoyue Luo, Jiayu Wu, Sifan Chen, Depeng Gao, Minghao Xuan, Fuyu Wang, TPMS2STEP: error-controlled and C2 continuity-preserving translation of TPMS models to STEP files based on constrained-PIA, Computer-Aided Design (2024).
 1. Zirui Wang, Shibo Liu, Ligang Liu, Qiang Zou\*, Xiao-Ming Fu\*, Computing smooth preferred feed direction fields with high material removal rates for efficient CNC tool paths, Computer-Aided Design (2023): 103591.
-1. Guoyue Luo, and Qiang Zou*. A Simple Point-Based Iso-Scallop Tool Path Planning Method for Noisy Point Clouds with High Robustness and Controlled Errors. Computer-Aided Design (2023): 103560.
-1. Li Ming, Chengfeng Lin, Wei Chen, Yusheng Liu, Shuming Gao, and Qiang Zou*. XVoxel-Based Parametric Design Optimization of Feature Models. Computer-Aided Design 160 (2023): 103528.
-1. Qiang Zou*, Hsi-Yung Feng, and Shuming Gao. Variational Direct Modeling: A framework towards integration of parametric modeling and direct modeling in CAD. Computer-Aided Design 157 (2023): 103465.
+1. Guoyue Luo, and Qiang Zou\*. A Simple Point-Based Iso-Scallop Tool Path Planning Method for Noisy Point Clouds with High Robustness and Controlled Errors. Computer-Aided Design (2023): 103560.
+1. Li Ming, Chengfeng Lin, Wei Chen, Yusheng Liu, Shuming Gao, and Qiang Zou\*. XVoxel-Based Parametric Design Optimization of Feature Models. Computer-Aided Design 160 (2023): 103528.
+1. Qiang Zou\*, Hsi-Yung Feng, and Shuming Gao. Variational Direct Modeling: A framework towards integration of parametric modeling and direct modeling in CAD. Computer-Aided Design 157 (2023): 103465.
 <!-- 1. Zhihong Tang, Qiang Zou, and Shuming Gao*. A decision-support method for multi-parameter editing of parametric CAD models. Advanced Engineering Informatics 56 (2023): 101997. -->
 1. Han Wang, Qiang Zou\*, and Hai Lin\*. A Quasi-Optimal Shape Design Method for Electromagnetic Scatterers Based on NURBS Surfaces and Filter-Enhanced GWO. IEEE Transactions on Antennas and Propagation (2023).
 <!-- 1. Jincheng Mei, Qiang Zou. 3D CAD: Historical Development and Trends. CCF Communications (2023):10. -->
@@ -47,7 +47,6 @@ Publications (Selected)
 <!-- 1. Qiang Zou, Jibin Zhao*, Yanguo Zhao, Guangbao Liu, Haiyang Jin, Geodesic based conformal mesh parameterization, Proceedings of SPIE, Fifth International Conference on Graphics and Image Processing. 2014. -->
 1. Qiang Zou, Jibin Zhao*, Iso-parametric tool-path planning for point clouds, Computer-Aided Design 45 (11) (2013) 1459–1468.
 <!-- 1. Jibin Zhao*, Bo Zhong, Qiang Zou, Honjun Liu, Tool orientation planning for five-axis CNC machining of open free-form surfaces. Journal of Systems Science and Complexity 26 (5) (2013) 667–675. -->
-
 
 
 Talks
