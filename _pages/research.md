@@ -14,8 +14,7 @@ Theses
 
 Publications (Selected)
 ======
-See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=en) for the complete list.
-See [Codes Page](https://qiang-zou.github.io//codes/) for relevant codes.
+(See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=en) for the complete list, and [Codes Page](https://qiang-zou.github.io//codes/) for relevant codes.)
 1. Qiang Zou\*, Guoyue Luo, Geometric modeling for microstructure design and manufacturing, Computer-Aided Design (2024).
 1. Qiang Zou\*, Yingcai Wu, Zhenyu Liu, Weiwei Xu, Shuming Gao, Intelligent CAD 2.0, Visual Informatics (2024).
 1. Qiang Zou\*, Lizhen Zhu, Jiayu Wu, Zhijie Yang, SplineGen: approximating unorganized points through generative AI, Computer-Aided Design (2024).
