@@ -15,6 +15,8 @@ Theses
 Publications (Selected)
 ======
 See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=en) for the complete list, and [Codes Page](https://qiang-zou.github.io//codes/) for relevant codes.
+
+1. Depeng Gao, Yuanzhi Zhang, Qiang Zou, Hongwei Lin, Persistent Homology-Driven Optimization of Effective Relative Density Range for Triply Periodic Minimal Surfaces, Computer-Aided Design (2024).
 1. Qiang Zou\*, Guoyue Luo, Geometric modeling for microstructure design and manufacturing, Computer-Aided Design (2024).
 1. Qiang Zou\*, Yingcai Wu, Zhenyu Liu, Weiwei Xu, Shuming Gao, Intelligent CAD 2.0, Visual Informatics (2024).
 1. Qiang Zou\*, Lizhen Zhu, Jiayu Wu, Zhijie Yang, SplineGen: approximating unorganized points through generative AI, Computer-Aided Design (2024).
@@ -33,7 +35,7 @@ See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=e
 <!-- 1. Qiang Zou*. A note on solid modeling: history, state of the art, future. Journal of Graphics, 2022, 43(6): 987-1001. -->
 <!-- 1. MA Hong-yu , SHEN Li-yong*, JIANG Xin , ZOU Qiang , YUAN Chun-ming. A survey of path planning and feedrate interpolation in computer numerical control. Journal of Graphics, 2022, 43(6): 967-986. -->
 1. Guan Wang, Qiang Zou\*, Chuke Zhao, Yusheng Liu\*, and Xiaoping Ye. A highly efficient approach for bi-level programming problems based on dominance determination. ASME Trans.  JCISE 22, no. 4 (2022): 041006.
-1. Qiang Zou*, Hsi-Yung Feng, A robust direct CAD modeling method for quadric B-rep models based on geometry- topology inconsistency tracking, Engineering with Computers 2022 38 (4), 3815-3830
+<!-- 1. Qiang Zou*, Hsi-Yung Feng, A robust direct CAD modeling method for quadric B-rep models based on geometry-topology inconsistency tracking, Engineering with Computers 2022 38 (4), 3815-3830 -->
 1. Qiang Zou*, Length-optimal tool path planning for freeform surfaces with preferred feed directions based on Poisson formulation, Computer-Aided Design, 2021, 139:103072
 1. Qiang Zou*, Robust and efficient tool path generation for machining low-quality mesh surfaces, International Journal of Production Research. 2021 59(24), 7457-7467.
 1. Junhao Ding^, Qiang Zou^, Shuo Qu, Paulo Bartolo, Xu Song, Charlie C. L. Wang*, STL-free digital design and manufacturing paradigm for high-precision selective laser melting, CIRP Annals. (^ Equal Contributions) 2021 70(1): 167-170.
