@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Publications, Talks & Awards"
+title: "Publications (Selected)"
 permalink: research/
 author_profile: true
 ---
@@ -12,8 +12,6 @@ Theses
 1. Conformal geometry-based tool path planning for point clouds, Master's degree, University of Chinese Academy of Sciences. (In Chinese)
 -->
 
-Publications (Selected)
-======
 See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=en) for the complete list, and [Codes Page](https://qiang-zou.github.io//codes/) for relevant codes.
 
 1. Depeng Gao, Yuanzhi Zhang, Qiang Zou, Hongwei Lin\*, Persistent Homology-Driven Optimization of Effective Relative Density Range for Triply Periodic Minimal Surfaces, Computer-Aided Design (2024).
