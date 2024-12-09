@@ -5,7 +5,7 @@ permalink: research/
 author_profile: true
 ---
 <!-- 
-Theses
+Theses 
 ======
 1. Variational direct modeling for computer-aided design, Ph.D. degree, The University of British Columbia.
 
