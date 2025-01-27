@@ -16,7 +16,7 @@ Current research work includes CAD/CAM with emphasis on (1) the basic research o
 
 News
 ======
-Jan. 2025. One paper accepted by the journal of IEEE Transactions on Visualization and Computer Graphics.
+Jan. 2025. One paper accepted by the prestigious journal of IEEE Transactions on Visualization and Computer Graphics.
 
 Dec. 2024. One paper accepted by the prestigious journal of Computer-Aided Design.
 
