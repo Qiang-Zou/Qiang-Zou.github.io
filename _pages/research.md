@@ -40,7 +40,7 @@ See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=e
 1. Junhao Ding, Qiang Zou, Shuo Qu, Paulo Bartolo, Xu Song, Charlie C. L. Wang*, STL-free digital design and manufacturing paradigm for high-precision selective laser melting, CIRP Annals. 2021 70(1): 167-170.
 1. Shengjun Liu, Tao Liu, Qiang Zou, Weiming Wang, Eugeni L. Doubrovski, Charlie C. L. Wang*, Memory-Efficient Modeling and Slicing of Large-Scale Adaptive Lattice Structures, ASME Trans. JCISE. 21.6 (2021): 061003.
 <!-- 1. Cheng Su, Xin Jiang*, Guanying Huo, Qiang Zou, Zhiming Zheng, Hsi-Yung Feng, Accurate model construction of deformed aero-engine blades for remanufacturing, International Journal of Advanced Manufacturing Technology. 106 (2020) 3239-3251. -->
-Qiang Zou, Hsi-Yung Feng*, A decision-support method for information inconsistency resolution in direct modeling of CAD models, Advanced Engineering Informatics. 44 (2020) 101087.
+1. Qiang Zou, Hsi-Yung Feng*, A decision-support method for information inconsistency resolution in direct modeling of CAD models, Advanced Engineering Informatics. 44 (2020) 101087.
 <!-- 1. Qiang Zou, Hsi-Yung Feng*, Variational B-rep model analysis for direct modeling using geometric perturbation, Journal of Computational Design and Engineering. 6 (4) (2019) 606-616. -->
 1. Qiang Zou, Hsi-Yung Feng*, Push-pull direct modeling of solid CAD models, Advances in Engineering Software 127 (2019): 59-69.
 <!-- 1. Jibin Zhao*, Qiang Zou, Lun Li, Bo Zhou, Tool path planning based on conformal parameterization for meshes, Chinese Journal of Aeronautics 28 (5) (2015) 1555–1563. -->
