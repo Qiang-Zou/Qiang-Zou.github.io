@@ -14,6 +14,7 @@ Theses
 
 See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=en) for the complete list, and [Codes Page](https://qiang-zou.github.io//codes/) for relevant codes.
 
+1. Zhihong Tang, Qiang Zou*, Shuming Gao*, Determining valid parameter ranges for multiparameter editing of 3D parametric CAD models, ASME Trans. JCISE. 2025.
 1. Aijia Zhang, Weiqiang Jia\*, Qiang Zou\*, Yixiong Feng, Xiaoxiang Wei, Ye Zhang, Diffusion-CAD: Controllable Diffusion Model for Generating Computer-Aided Design Models, IEEE TVCG, 2025
 1. Qiang Zou\*, Yingcai Wu, Zhenyu Liu, Weiwei Xu, Shuming Gao, Intelligent CAD 2.0, Visual Informatics (2024).
 1. Qiang Zou\*, Lizhen Zhu, Jiayu Wu, Zhijie Yang, SplineGen: approximating unorganized points through generative AI, Computer-Aided Design (2024).
