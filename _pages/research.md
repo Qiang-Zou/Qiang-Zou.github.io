@@ -63,15 +63,15 @@ See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=e
 * Junhao Ding, Qiang Zou, Shuo Qu, Paulo Bartolo, Xu Song, Charlie C. L. Wang*, STL-free digital design and manufacturing paradigm for high-precision selective laser melting, CIRP Annals. 2021 70(1): 167-170.
 
 ### Highlights: Tool Path Generation (Iso-Level Method)
+* Qiang Zou, Juyong Zhang*, Bailin Deng, Jibin Zhao, Iso-level tool path planning for free-form surfaces, Computer-Aided Design 53 (11) (2014) 117–125.
 * Zirui Wang, Shibo Liu, Ligang Liu, Qiang Zou\*, Xiao-Ming Fu\*, Computing smooth preferred feed direction fields with high material removal rates for efficient CNC tool paths, Computer-Aided Design (2023): 103591.
 * Qiang Zou*, Length-optimal tool path planning for freeform surfaces with preferred feed directions based on Poisson formulation, Computer-Aided Design, 2021, 139:103072
 * Qiang Zou*, Robust and efficient tool path generation for machining low-quality mesh surfaces, International Journal of Production Research. 2021 59(24), 7457-7467.
-* Qiang Zou, Juyong Zhang*, Bailin Deng, Jibin Zhao, Iso-level tool path planning for free-form surfaces, Computer-Aided Design 53 (11) (2014) 117–125.
 * Qiang Zou, Jibin Zhao*, Iso-parametric tool-path planning for point clouds, Computer-Aided Design 45 (11) (2013) 1459–1468.
 
 ### Highlights: Direct Modeling
-* Zhihong Tang, Qiang Zou\*, Shuming Gao\*, Determining valid parameter ranges for multiparameter editing of 3D parametric CAD models, ASME Trans. JCISE. 2025.
 * Qiang Zou\*, Hsi-Yung Feng, and Shuming Gao. Variational Direct Modeling: A framework towards integration of parametric modeling and direct modeling in CAD. Computer-Aided Design 157 (2023): 103465.
+* Zhihong Tang, Qiang Zou\*, Shuming Gao\*, Determining valid parameter ranges for multiparameter editing of 3D parametric CAD models, ASME Trans. JCISE. 2025.
 * Qiang Zou*, Hsi-Yung Feng, A robust direct CAD modeling method for quadric B-rep models based on geometry-topology inconsistency tracking, Engineering with Computers 2022 38 (4), 3815-3830
 * Qiang Zou, Hsi-Yung Feng*, A decision-support method for information inconsistency resolution in direct modeling of CAD models, Advanced Engineering Informatics. 44 (2020) 101087.
 * Qiang Zou, Hsi-Yung Feng*, Push-pull direct modeling of solid CAD models, Advances in Engineering Software 127 (2019): 59-69.
