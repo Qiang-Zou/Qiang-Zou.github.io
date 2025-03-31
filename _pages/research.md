@@ -93,9 +93,16 @@ See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=e
 ### Manufacturing: Simulation & Optimization
 1. XXXX.
 
+## Awards (Selected)
+1. CCF CAD&CG Young Researcher Award, China Computer Federation CAD&CG Division, 2024
+1. Annual Provincial Best Paper Award, Zhejiang Province, 2023
+1. Best Poster Award, GDC, 2021
+1. Faculty of Applied Science Graduate Award, UBC, 2014 & 2018
+1. Departmental Scholar, UBC, 2015
+1. UBC 4YF Doctoral Fellowship, UBC, 2014
+1. Academic Research Award, Liaoning Province, China, 2014
 
-Talks
-======
+## Talks
 1. Data-Driven B-Spline Modeling, SAC, Aug, 2024
 1. Geometric Modeling for Microstructure Design and Manufacturing, SAC, April, 2024
 1. From Tool Path Generation To Tool Path Optimization: An Implicit Framework, Tianyuan Math Cener, Aug., 2024
@@ -107,15 +114,7 @@ Talks
 1. Iso-level Method: A New Framework for Tool Path Planning, Mid-term evaluation on the "973" project "Mathematics Mechanization and Digital Design and Manufacturing", USTC, June 2013.
 
 
-Awards (Selected)
-======
-1. CCF CAD&CG Young Researcher Award, China Computer Federation CAD&CG Division, 2024
-1. Annual Provincial Best Paper Award, Zhejiang Province, 2023
-1. Best Poster Award, GDC, 2021
-1. Faculty of Applied Science Graduate Award, UBC, 2014 & 2018
-1. Departmental Scholar, UBC, 2015
-1. UBC 4YF Doctoral Fellowship, UBC, 2014
-1. Academic Research Award, Liaoning Province, China, 2014
+
 
 
 <!-- Applications (Selected)
