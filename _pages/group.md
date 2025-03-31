@@ -37,22 +37,26 @@ In the short term, we are working on the following "concept-shape-process" probl
 Some [must-knows](must_knows.md) before working in our group.
 
 ### Ph.D. Students
-1. Sifan Chen, 2022.2 - , Research topic: microstructure modeling
-1. Guoyue Luo, 2022.9 - , Research topic: microstructure modeling
-1. Yuntao Ma, 2023.9 - , Research topic: GPU-based solid modeling
-1. Ziqi Hao, 2023.9 - , Research topic: GPU-based solid modeling
+1. Zhijie Yang, 2024.9 - , Research topic: AI for solid modeling
 1. Yaonaiming Zhao, 2023.9 - , Research topic: microstructure modeling
+1. Yuntao Ma, 2023.9 - , Research topic: GPU solid modeling
+1. Ziqi Hao, 2023.9 - , Research topic: GPU solid modeling
+1. Guoyue Luo, 2022.9 - , Research topic: microstructure modeling
+1. Sifan Chen, 2022.2 - , Research topic: microstructure modeling
 
 ### MASc Students
-1. Qitong Dong, 2022.3 - , Research topic: NURBS modeling
-1. Yunzhu Gao, 2022.9 - , Research topic: GPU-based solid modeling
-1. Jianan Wang, 2022.9 - , Research topic: GPU-based solid modeling
-1. Lizhen Zhu, 2023.9 - , Research topic: AI-based NURBS/B-rep modeling
-1. Shuo Liu, 2023.9 - , Research topic: AI-based B-rep modeling
-1. Jiayu Wu, 2023.9 - , Research topic: GPU-based NURBS modeling
-
+1. Yutong Sun, 2024.9 - , Research topic: AI for solid modeling
+1. Jiaming Zhu, 2024.9 - , Research topic: AI for solid modeling
+1. Ziqin Gao, 2024.9 - , Research topic: AI for solid modeling
+1. Yitong Wang, 2024.9 - , Research topic: GPU solid modeling
+1. Lizhen Zhu, 2023.9 - , Research topic: AI for solid modeling
+1. Shuo Liu, 2023.9 - , Research topic: AI for solid modeling
+1. Jiayu Wu, 2023.9 - , Research topic: GPU NURBS modeling
 
 ### Alumni
+1. Jianan Wang, 2022.9 - 2025.9, Research topic: GPU-based solid modeling
+1. Qitong Dong, 2022.3 - 2025.6, Research topic: NURBS modeling
+1. Yunzhu Gao, 2022.9 - 2025,3, Research topic: GPU-based solid modeling
 1. Ziheng Bao, 2021.9 - 2024.3, Research topic: GPU-based NURBS modeling, Now ByteDance
 
 
