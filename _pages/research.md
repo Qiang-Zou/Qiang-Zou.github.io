@@ -56,7 +56,11 @@ See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=e
 1. Qiang Zou\*, Yingcai Wu, Zhenyu Liu, Weiwei Xu, Shuming Gao, Intelligent CAD 2.0, Visual Informatics (2024).
 1. Qiang Zou\*, Lizhen Zhu, Jiayu Wu, Zhijie Yang, SplineGen: approximating unorganized points through generative AI, Computer-Aided Design (2024).
 
-### Design: Solid/Parametric Modeling
+### Design: Geometric Modeling
+#### Curve/Surface Modeling
+1. Ziheng Bao, Wu liu, and Qiang Zou\*. Parallel Inverse Evaluation of NURBS Surfaces Based on Matrix Representation. Journal of Computer-Aided Design & Computer Graphics (2023):35.
+
+#### Solid/Feature Modeling
 1. Zhihong Tang, Qiang Zou\*, Shuming Gao\*, Determining valid parameter ranges for multiparameter editing of 3D parametric CAD models, ASME Trans. JCISE. 2025.
 1. Zhihong Tang, Qiang Zou, and Shuming Gao*. A decision-support method for multi-parameter editing of parametric CAD models. Advanced Engineering Informatics 56 (2023): 101997.
 1. Qiang Zou\*, Hsi-Yung Feng, and Shuming Gao. Variational Direct Modeling: A framework towards integration of parametric modeling and direct modeling in CAD. Computer-Aided Design 157 (2023): 103465.
@@ -65,7 +69,7 @@ See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=e
 1. Qiang Zou, Hsi-Yung Feng*, Variational B-rep model analysis for direct modeling using geometric perturbation, Journal of Computational Design and Engineering. 6 (4) (2019) 606-616.
 1. Qiang Zou, Hsi-Yung Feng*, Push-pull direct modeling of solid CAD models, Advances in Engineering Software 127 (2019): 59-69.
 
-### Design: Microstructure Modeling
+#### Microstructure Modeling
 1. Qiang Zou\*, Guoyue Luo, Geometric modeling for microstructure design and manufacturing: A review, Computer-Aided Design (2024).
 1. Depeng Gao, Yuanzhi Zhang, Hongwei Lin\*, Qiang Zou, Persistent Homology-Driven Optimization of Effective Relative Density Range for Triply Periodic Minimal Surfaces, Computer-Aided Design (2024).
 1. Qiang Zou\*, Yunzhu Gao, Guoyue Luo, Sifan Chen, Meta-meshing and triangulating lattice structures at a large scale, Computer-Aided Design (2024).
@@ -86,7 +90,7 @@ See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=e
 1. Qiang Zou, Juyong Zhang*, Bailin Deng, Jibin Zhao, Iso-level tool path planning for free-form surfaces, Computer-Aided Design 53 (11) (2014) 117–125.
 1. Qiang Zou, Jibin Zhao*, Iso-parametric tool-path planning for point clouds, Computer-Aided Design 45 (11) (2013) 1459–1468.
 
-### Manufacturing: Simulation
+### Manufacturing: Simulation & Optimization
 1. XXXX.
 
 
