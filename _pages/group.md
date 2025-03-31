@@ -54,10 +54,10 @@ Some [must-knows](must_knows.md) before working in our group.
 1. Jiayu Wu, 2023.9 - , Research topic: GPU NURBS modeling
 
 ### Alumni
-1. Jianan Wang, 2022.9 - 2025.9, Research topic: GPU-based solid modeling
-1. Qitong Dong, 2022.3 - 2025.6, Research topic: NURBS modeling
-1. Yunzhu Gao, 2022.9 - 2025,3, Research topic: GPU-based solid modeling
-1. Ziheng Bao, 2021.9 - 2024.3, Research topic: GPU-based NURBS modeling, Now ByteDance
+1. Jianan Wang, MASc, 2022.9 - 2025.9, Research topic: GPU solid modeling
+1. Qitong Dong, MASc, 2022.3 - 2025.6, Research topic: NURBS modeling
+1. Yunzhu Gao, MASc, 2022.9 - 2025,3, Research topic: GPU solid modeling
+1. Ziheng Bao, MASc, 2021.9 - 2024.3, Research topic: GPU NURBS modeling, Now ByteDance
 
 
 
