@@ -51,16 +51,16 @@ See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=e
 1. Qiang Zou, Jibin Zhao*, Iso-parametric tool-path planning for point clouds, Computer-Aided Design 45 (11) (2013) 1459–1468.
 <!-- 1. Jibin Zhao*, Bo Zhong, Qiang Zou, Honjun Liu, Tool orientation planning for five-axis CNC machining of open free-form surfaces. Journal of Systems Science and Complexity 26 (5) (2013) 667–675. -->
 
-### Design: Data-Driven CAD Modeling
+### Design: AI+
 1. Aijia Zhang, Weiqiang Jia\*, Qiang Zou\*, Yixiong Feng, Xiaoxiang Wei, Ye Zhang, Diffusion-CAD: Controllable Diffusion Model for Generating Computer-Aided Design Models, IEEE TVCG, 2025
 1. Qiang Zou\*, Yingcai Wu, Zhenyu Liu, Weiwei Xu, Shuming Gao, Intelligent CAD 2.0, Visual Informatics (2024).
 1. Qiang Zou\*, Lizhen Zhu, Jiayu Wu, Zhijie Yang, SplineGen: approximating unorganized points through generative AI, Computer-Aided Design (2024).
 
-### Design: Geometric Modeling
-#### Curve/Surface Modeling
+### Design: Surface/Solid/Feature Modeling
+### Curves/Surfaces
 1. Ziheng Bao, Wu liu, and Qiang Zou\*. Parallel Inverse Evaluation of NURBS Surfaces Based on Matrix Representation. Journal of Computer-Aided Design & Computer Graphics (2023):35.
 
-#### Solid/Feature Modeling
+### Solids/Features
 1. Zhihong Tang, Qiang Zou\*, Shuming Gao\*, Determining valid parameter ranges for multiparameter editing of 3D parametric CAD models, ASME Trans. JCISE. 2025.
 1. Zhihong Tang, Qiang Zou, and Shuming Gao*. A decision-support method for multi-parameter editing of parametric CAD models. Advanced Engineering Informatics 56 (2023): 101997.
 1. Qiang Zou\*, Hsi-Yung Feng, and Shuming Gao. Variational Direct Modeling: A framework towards integration of parametric modeling and direct modeling in CAD. Computer-Aided Design 157 (2023): 103465.
@@ -69,7 +69,7 @@ See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=e
 1. Qiang Zou, Hsi-Yung Feng*, Variational B-rep model analysis for direct modeling using geometric perturbation, Journal of Computational Design and Engineering. 6 (4) (2019) 606-616.
 1. Qiang Zou, Hsi-Yung Feng*, Push-pull direct modeling of solid CAD models, Advances in Engineering Software 127 (2019): 59-69.
 
-#### Microstructure Modeling
+### Microstructures
 1. Qiang Zou\*, Guoyue Luo, Geometric modeling for microstructure design and manufacturing: A review, Computer-Aided Design (2024).
 1. Depeng Gao, Yuanzhi Zhang, Hongwei Lin\*, Qiang Zou, Persistent Homology-Driven Optimization of Effective Relative Density Range for Triply Periodic Minimal Surfaces, Computer-Aided Design (2024).
 1. Qiang Zou\*, Yunzhu Gao, Guoyue Luo, Sifan Chen, Meta-meshing and triangulating lattice structures at a large scale, Computer-Aided Design (2024).
