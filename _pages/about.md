@@ -16,7 +16,7 @@ Current research work includes CAD/CAM with emphasis on (1) the basic research o
 
 News
 ======
-Apr. 2025. Three papers accepted by the prestigious journal of Computer-Aided Design (SPM).
+Apr. 2025. Three papers accepted by the prestigious journal of Computer-Aided Design (SPM track).
 
 Feb. 2025. One paper accepted by the prestigious journal of ASME Trans. JCISE
 
@@ -32,6 +32,7 @@ Sep. 2024. One paper accepted by the prestigious journal of Computer-Aided Desig
 
 May 2024. Two papers accepted by the prestigious journal of Computer-Aided Design.
 
+<!--
 July 2023. One paper accepted by the prestigious journal of Computer-Aided Design.
 
 June 2023. One paper accepted by the prestigious journal of Computer-Aided Design.
@@ -43,3 +44,4 @@ Apr. 2023. One paper accepted by the journal of Advanced Engineering Informatics
 Feb. 2023. One paper accepted by the prestigious journal of IEEE Transactions on Antennas and Propagation.
 
 Jan. 2023. One paper accepted by the prestigious journal of Computer-Aided Design.
+-->
