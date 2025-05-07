@@ -14,16 +14,16 @@ Theses
 
 See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=en) for the complete list, and [Codes Page](https://qiang-zou.github.io//codes/) for relevant codes.
 
-### Highlights: AI+Design
+### Highlights: AI+Design/Geometric Modeling
 * Qiang Zou\*, Yingcai Wu, Zhenyu Liu, Weiwei Xu, Shuming Gao, Intelligent CAD 2.0, Visual Informatics (2024).
 * Qiang Zou\*, Lizhen Zhu, Boundary Representation Learning via Transformer, Computer-Aided Design (2025).
 * Aijia Zhang, Weiqiang Jia\*, Qiang Zou\*, Yixiong Feng, Xiaoxiang Wei, Ye Zhang, Diffusion-CAD: Controllable Diffusion Model for Generating Computer-Aided Design Models, IEEE TVCG, 2025
 * Qiang Zou\*, Lizhen Zhu, Jiayu Wu, Zhijie Yang, SplineGen: approximating unorganized points through generative AI, Computer-Aided Design (2024).
 
 
-### Highlights: Microstructure Modeling
+### Highlights: Microstructure Modeling ($\mu$-Geometric Modeling)
 * Qiang Zou\*, Guoyue Luo, Geometric modeling for microstructure design and manufacturing: A review, Computer-Aided Design (2024).
-* Sifan Chen, Guoyue Luo, Yuan Kong\*, Qiang Zou\*A Quasi-Optimal Shape Design Method for Lattice Structure Construction, ASME Trans. JMD (2025)
+* Sifan Chen, Guoyue Luo, Yuan Kong\*, Qiang Zou\* A Quasi-Optimal Shape Design Method for Lattice Structure Construction, ASME Trans. JMD (2025)
 * Guoyue Luo, Qiang Zou\*, Soap Film-inspired Subdivisional Lattice Structure Construction, Computer-Aided Design (2025).
 * Qiang Zou\*, Yunzhu Gao, Guoyue Luo, Sifan Chen, Meta-meshing and triangulating lattice structures at a large scale, Computer-Aided Design (2024).
 * Yaonaiming Zhao, Qiang Zou\*, Guoyue Luo, Jiayu Wu, Sifan Chen, Depeng Gao, Minghao Xuan, Fuyu Wang, TPMS2STEP: error-controlled and C2 continuity-preserving translation of TPMS models to STEP files based on constrained-PIA, Computer-Aided Design (2024).
