@@ -16,6 +16,8 @@ Current research work includes CAD/CAM with emphasis on (1) the basic research o
 
 News
 ======
+May 2025. One paper accepted by the prestigious journal of ASME Trans. JMD
+
 Apr. 2025. Three papers accepted by the prestigious journal of Computer-Aided Design (SPM track).
 
 Feb. 2025. One paper accepted by the prestigious journal of ASME Trans. JCISE

@@ -23,6 +23,7 @@ See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=e
 
 ### Highlights: Microstructure Modeling
 * Qiang Zou\*, Guoyue Luo, Geometric modeling for microstructure design and manufacturing: A review, Computer-Aided Design (2024).
+* Sifan Chen, Guoyue Luo, Yun Kong\*, Qiang Zou\*A Quasi-Optimal Shape Design Method for Lattice Structure Construction, ASME Trans. JMD (2025)
 * Guoyue Luo, Qiang Zou\*, Soap Film-inspired Subdivisional Lattice Structure Construction, Computer-Aided Design (2025).
 * Qiang Zou\*, Yunzhu Gao, Guoyue Luo, Sifan Chen, Meta-meshing and triangulating lattice structures at a large scale, Computer-Aided Design (2024).
 * Yaonaiming Zhao, Qiang Zou\*, Guoyue Luo, Jiayu Wu, Sifan Chen, Depeng Gao, Minghao Xuan, Fuyu Wang, TPMS2STEP: error-controlled and C2 continuity-preserving translation of TPMS models to STEP files based on constrained-PIA, Computer-Aided Design (2024).
@@ -46,6 +47,7 @@ See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=e
 * Li Ming, Chengfeng Lin, Wei Chen, Yusheng Liu, Shuming Gao, and Qiang Zou\*. XVoxel-Based Parametric Design Optimization of Feature Models. Computer-Aided Design 160 (2023): 103528.
 
 ### ------------------
+1. Sifan Chen, Guoyue Luo, Yun Kong\*, Qiang Zou\*A Quasi-Optimal Shape Design Method for Lattice Structure Construction, ASME Trans. JMD (2025)
 1. Jiayu Wu, Qiang Zou\*, Zhengwen Feng, Matrix representation and GPU-optimized parallel B-spline computing, Computer-Aided Design (2025). conditionally accepted
 1. Qiang Zou\*, Lizhen Zhu, Boundary Representation Learning via Transformer, Computer-Aided Design (2025). conditionally accepted
 1. Guoyue Luo, Qiang Zou\*, Soap Film-inspired Subdivisional Lattice Structure Construction, Computer-Aided Design (2025). conditionally accepted
