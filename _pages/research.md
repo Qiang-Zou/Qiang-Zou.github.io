@@ -48,14 +48,14 @@ See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=e
 
 ### Highlights: Physical Modeling (XVoxel Method)
 * Li Ming, Chengfeng Lin, Wei Chen, Yusheng Liu, Shuming Gao, and Qiang Zou\*. XVoxel-Based Parametric Design Optimization of Feature Models. Computer-Aided Design 160 (2023): 103528.
-<!-- 
+
 ### ------------------
-1. Jiayu Wu, Qiang Zou\*, Zhengwen Feng, Matrix representation and GPU-optimized parallel B-spline computing, Computer-Aided Design (2025). SPM Track
+<!-- 1. Jiayu Wu, Qiang Zou\*, Zhengwen Feng, Matrix representation and GPU-optimized parallel B-spline computing, Computer-Aided Design (2025). SPM Track
 1. Qiang Zou\*, Lizhen Zhu, Boundary Representation Learning via Transformer, Computer-Aided Design (2025). SPM Track
 1. Guoyue Luo, Qiang Zou\*, Soap Film-inspired Subdivisional Lattice Structure Construction, Computer-Aided Design (2025). SPM Track
 1. Sifan Chen, Guoyue Luo, Yuan Kong\*, Qiang Zou\*, A Quasi-Optimal Shape Design Method for Lattice Structure Construction, ASME Trans. JMD (2025)
 1. Zhihong Tang, Qiang Zou\*, Shuming Gao\*, Determining valid parameter ranges for multiparameter editing of 3D parametric CAD models, ASME Trans. JCISE. 2025.
-1. Aijia Zhang, Weiqiang Jia\*, Qiang Zou\*, Yixiong Feng, Xiaoxiang Wei, Ye Zhang, Diffusion-CAD: Controllable Diffusion Model for Generating Computer-Aided Design Models, IEEE TVCG, 2025-->
+1. Aijia Zhang, Weiqiang Jia\*, Qiang Zou\*, Yixiong Feng, Xiaoxiang Wei, Ye Zhang, Diffusion-CAD: Controllable Diffusion Model for Generating Computer-Aided Design Models, IEEE TVCG, 2025 -->
 <!-- 1. Yimin Feng, Ping Ge, Yanli Shao, Qiang Zou\*, and Yusheng Liu. UAF-Based Integration of Design and Simulation Model for System-of-Systems. Journal of Systems Engineering and Electronics 36, no. 1 (2025): 108-126.-->
 <!-- 1. Qiang Zou\*, Yingcai Wu, Zhenyu Liu, Weiwei Xu, Shuming Gao, Intelligent CAD 2.0, Visual Informatics (2024).
 1. Qiang Zou\*, Lizhen Zhu, Jiayu Wu, Zhijie Yang, SplineGen: approximating unorganized points through generative AI, Computer-Aided Design (2024).
