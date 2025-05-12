@@ -40,11 +40,13 @@ See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=e
 
 ### Highlights: Direct Modeling
 * Qiang Zou\*, Hsi-Yung Feng, and Shuming Gao. Variational Direct Modeling: A framework towards integration of parametric modeling and direct modeling in CAD. Computer-Aided Design 157 (2023): 103465.
-* Zhihong Tang, Qiang Zou\*, Shuming Gao\*, Determining valid parameter ranges for multiparameter editing of 3D parametric CAD models, ASME Trans. JCISE. 2025.
+* Qiang Zou, Hsi-Yung Feng*, Push-pull direct modeling of solid CAD models, Advances in Engineering Software 127 (2019): 59-69.
 * Qiang Zou*, Hsi-Yung Feng, A robust direct CAD modeling method for quadric B-rep models based on geometry-topology inconsistency tracking, Engineering with Computers 2022 38 (4), 3815-3830
 * Qiang Zou, Hsi-Yung Feng*, A decision-support method for information inconsistency resolution in direct modeling of CAD models, Advanced Engineering Informatics. 44 (2020) 101087.
 * Qiang Zou, Hsi-Yung Feng*, Variational B-rep model analysis for direct modeling using geometric perturbation, Journal of Computational Design and Engineering. 6 (4) (2019) 606-616.
-* Qiang Zou, Hsi-Yung Feng*, Push-pull direct modeling of solid CAD models, Advances in Engineering Software 127 (2019): 59-69.
+* Zhihong Tang, Qiang Zou\*, Shuming Gao\*, Determining valid parameter ranges for multiparameter editing of 3D parametric CAD models, ASME Trans. JCISE. 2025.
+* Zhihong Tang, Qiang Zou, and Shuming Gao*. A decision-support method for multi-parameter editing of parametric CAD models. Advanced Engineering Informatics 56 (2023): 101997.
+
 
 ### Highlights: Physical Modeling (XVoxel Method)
 * Li Ming, Chengfeng Lin, Wei Chen, Yusheng Liu, Shuming Gao, and Qiang Zou\*. XVoxel-Based Parametric Design Optimization of Feature Models. Computer-Aided Design 160 (2023): 103528.
