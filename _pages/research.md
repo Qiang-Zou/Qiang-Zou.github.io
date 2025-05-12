@@ -24,11 +24,11 @@ See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=e
 ### Highlights: Microstructure Modeling ($\mu$-Geometric Modeling)
 * Qiang Zou\*, Guoyue Luo, Geometric modeling for microstructure design and manufacturing: A review, Computer-Aided Design (2024).
 * Guoyue Luo, Qiang Zou\*, Soap Film-inspired Subdivisional Lattice Structure Construction, Computer-Aided Design (2025).
+* Sifan Chen, Guoyue Luo, Yuan Kong\*, Qiang Zou\* A Quasi-Optimal Shape Design Method for Lattice Structure Construction, ASME Trans. JMD (2025)
 * Qiang Zou\*, Yunzhu Gao, Guoyue Luo, Sifan Chen, Meta-meshing and triangulating lattice structures at a large scale, Computer-Aided Design (2024).
 * Yaonaiming Zhao, Qiang Zou\*, Guoyue Luo, Jiayu Wu, Sifan Chen, Depeng Gao, Minghao Xuan, Fuyu Wang, TPMS2STEP: error-controlled and C2 continuity-preserving translation of TPMS models to STEP files based on constrained-PIA, Computer-Aided Design (2024).
 * Depeng Gao, Yuanzhi Zhang, Hongwei Lin\*, Qiang Zou, Persistent Homology-Driven Optimization of Effective Relative Density Range for Triply Periodic Minimal Surfaces, Computer-Aided Design (2024).
 * Junhao Ding, Qiang Zou, Shuo Qu, Paulo Bartolo, Xu Song, Charlie C. L. Wang*, STL-free digital design and manufacturing paradigm for high-precision selective laser melting, CIRP Annals. 2021 70(1): 167-170.
-* Sifan Chen, Guoyue Luo, Yuan Kong\*, Qiang Zou\* A Quasi-Optimal Shape Design Method for Lattice Structure Construction, ASME Trans. JMD (2025)
 * Shengjun Liu, Tao Liu, Qiang Zou, Weiming Wang, Eugeni L. Doubrovski, Charlie C. L. Wang*, Memory-Efficient Modeling and Slicing of Large-Scale Adaptive Lattice Structures, ASME Trans. JCISE. 21.6 (2021): 061003.
 
 ### Highlights: Tool Path Generation (Iso-Level Method)
