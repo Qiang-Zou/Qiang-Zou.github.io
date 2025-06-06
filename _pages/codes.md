@@ -46,6 +46,10 @@ TPMS2STEP: A lightweight tool for converting TPMS models to STEP files to be use
 LatticeMetaMesher: A lightweight tool for metameshing and triangulating large-scale lattice structures (million or billion scales)\
 [Code](https://github.com/Qiang-Zou/MetaMesh) [Paper](https://doi.org/10.1016/j.cad.2024.103732)
 
+<img align="left" width="100" height="100" src="/images/codes/latticeconstruction.png"> 
+LatticeConstruction: A Quasi-Optimal Shape Design Method for Lattice Structure Construction\
+[Code](https://github.com/Qiang-Zou/LatticeConstruction) [Paper](XXX)
+
 <br />
 
 ## AI for CAD/CAM:
