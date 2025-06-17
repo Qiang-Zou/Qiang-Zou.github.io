@@ -50,7 +50,7 @@ LatticeMetaMesher: A lightweight tool for metameshing and triangulating large-sc
 
 <img align="left" width="100" height="100" src="/images/codes/latticeconstruction.png"> 
 LatticeConstruction: A Quasi-Optimal Shape Design Method for Lattice Structure Construction\
-[Code](https://github.com/Qiang-Zou/LatticeConstruction) [Paper](XXX)
+[Code](https://github.com/Qiang-Zou/LatticeConstruction) [Paper](https://doi.org/10.1115/1.4068955)
 
 <br />
 
