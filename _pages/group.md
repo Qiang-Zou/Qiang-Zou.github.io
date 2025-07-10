@@ -23,7 +23,7 @@ In the short term, we are working on the following "concept-shape-process" probl
   - Surfaces and Solids: NURBS and B-rep
   - Structures: large-scale, multi-scale microstructure representation and manipulation ($\mu$-geometric modeling)
 * Intelligent design and manufacturing:
-  - AI4CAD/CAM: concepts, CAD modeling, and CAM planning
+  - AI4CAD/CAM: concept interacting, CAD modeling, and CAM planning
   - Physics-informed CAD/CAM: surfaces, solids, microstructures, and process paths
 
 ## Funding:
