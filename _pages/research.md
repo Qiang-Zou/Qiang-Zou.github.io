@@ -16,14 +16,13 @@ See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=e
 
 ### Highlights: AI+Design/Geometric Modeling
 * Qiang Zou\*, Yingcai Wu, Zhenyu Liu, Weiwei Xu, Shuming Gao, Intelligent CAD 2.0, Visual Informatics (2024).
-* Qiang Zou\*, Lizhen Zhu, Boundary Representation Learning via Transformer, Computer-Aided Design (2025), SPM track. 
+* Qiang Zou\*, Lizhen Zhu, Boundary Representation Learning via Transformer, Computer-Aided Design (2025). 
 * Aijia Zhang, Weiqiang Jia\*, Qiang Zou\*, Yixiong Feng, Xiaoxiang Wei, Ye Zhang, Diffusion-CAD: Controllable Diffusion Model for Generating Computer-Aided Design Models, IEEE TVCG, 2025
 * Qiang Zou\*, Lizhen Zhu, Jiayu Wu, Zhijie Yang, SplineGen: approximating unorganized points through generative AI, Computer-Aided Design (2024).
 
-
 ### Highlights: Microstructure Modeling ($\mu$-Geometric Modeling)
 * Qiang Zou\*, Guoyue Luo, Geometric modeling for microstructure design and manufacturing: A review, Computer-Aided Design (2024).
-* Guoyue Luo, Qiang Zou\*, Soap Film-inspired Subdivisional Lattice Structure Construction, Computer-Aided Design (2025), SPM track.
+* Guoyue Luo, Qiang Zou\*, Soap Film-inspired Subdivisional Lattice Structure Construction, Computer-Aided Design (2025).
 * Sifan Chen, Guoyue Luo, Yuan Kong\*, Qiang Zou\* A Quasi-Optimal Shape Design Method for Lattice Structure Construction, ASME Trans. JMD (2025)
 * Qiang Zou\*, Yunzhu Gao, Guoyue Luo, Sifan Chen, Meta-meshing and triangulating lattice structures at a large scale, Computer-Aided Design (2024).
 * Yaonaiming Zhao, Qiang Zou\*, Guoyue Luo, Jiayu Wu, Sifan Chen, Depeng Gao, Minghao Xuan, Fuyu Wang, TPMS2STEP: error-controlled and C2 continuity-preserving translation of TPMS models to STEP files based on constrained-PIA, Computer-Aided Design (2024).
@@ -52,9 +51,9 @@ See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=e
 * Li Ming, Chengfeng Lin, Wei Chen, Yusheng Liu, Shuming Gao, and Qiang Zou\*. XVoxel-Based Parametric Design Optimization of Feature Models. Computer-Aided Design 160 (2023): 103528.
 
 ### ------------------
-<!-- 1. Jiayu Wu, Qiang Zou\*, Zhengwen Feng, Matrix representation and GPU-optimized parallel B-spline computing, Computer-Aided Design (2025). SPM Track
-1. Qiang Zou\*, Lizhen Zhu, Boundary Representation Learning via Transformer, Computer-Aided Design (2025). SPM Track
-1. Guoyue Luo, Qiang Zou\*, Soap Film-inspired Subdivisional Lattice Structure Construction, Computer-Aided Design (2025). SPM Track
+<!-- 1. Jiayu Wu, Qiang Zou\*, Zhengwen Feng, Matrix representation and GPU-optimized parallel B-spline computing, Computer-Aided Design (2025).
+1. Qiang Zou\*, Lizhen Zhu, Boundary Representation Learning via Transformer, Computer-Aided Design (2025).
+1. Guoyue Luo, Qiang Zou\*, Soap Film-inspired Subdivisional Lattice Structure Construction, Computer-Aided Design (2025).
 1. Sifan Chen, Guoyue Luo, Yuan Kong\*, Qiang Zou\*, A Quasi-Optimal Shape Design Method for Lattice Structure Construction, ASME Trans. JMD (2025)
 1. Zhihong Tang, Qiang Zou\*, Shuming Gao\*, Determining valid parameter ranges for multiparameter editing of 3D parametric CAD models, ASME Trans. JCISE. 2025.
 1. Aijia Zhang, Weiqiang Jia\*, Qiang Zou\*, Yixiong Feng, Xiaoxiang Wei, Ye Zhang, Diffusion-CAD: Controllable Diffusion Model for Generating Computer-Aided Design Models, IEEE TVCG, 2025 -->

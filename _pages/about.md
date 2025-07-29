@@ -20,7 +20,7 @@ July 2025. One paper accepted by the prestigious journal of ASME Trans. JMD.
 
 May 2025. One paper accepted by the prestigious journal of ASME Trans. JMD.
 
-Apr. 2025. Three papers accepted by SPM, to appear in the prestigious journal of Computer-Aided Design.
+Apr. 2025. Three papers accepted by the prestigious journal of Computer-Aided Design.
 
 Feb. 2025. One paper accepted by the prestigious journal of ASME Trans. JCISE
 
