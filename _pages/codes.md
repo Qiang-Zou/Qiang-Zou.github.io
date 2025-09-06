@@ -58,6 +58,12 @@ LatticeConstruction: A Quasi-Optimal Shape Design Method for Lattice Structure C
 
 <br />
 
+<img align="left" width="100" height="100" src="/images/codes/SubdivLattice.jpg"> 
+SubdivLattice: Soap Film-inspired Subdivisional Lattice Structure Construction\
+[Code](https://github.com/Qiang-Zou/Subdiv-Lattice) [Paper](https://doi.org/10.1016/j.cad.2025.103950)
+
+<br />
+
 ## AI for CAD/CAM:
 <img align="left" width="100" height="100" src="/images/codes/splinegen.png"> 
 SplineGen: data-driven, generative AI-based B-spline modeling\
