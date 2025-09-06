@@ -10,6 +10,8 @@ author_profile: true
 GPU-NURBS: GPU parallel evaluation and inverse evaluation of NURBS curves/surfaces\
 [Code](https://github.com/Qiang-Zou/GPU-NURBS) [Paper](https://www.jcad.cn/cn/article/doi/10.3724/SP.J.1089.2023.2023-00003)
 
+<br />
+
 <img align="left" width="100" height="100" src="/images/codes/matrix-cad.jpg"> 
 Matrix-CAD: Matrix representation and GPU-optimized B-spline computing\
 [Code](https://github.com/Qiang-Zou/Matrix-CAD) [Paper](https://doi.org/10.1016/j.cad.2025.103948)
