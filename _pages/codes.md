@@ -73,6 +73,13 @@ SplineGen: data-driven, generative AI-based B-spline modeling\
 
 <br />
 
+<img align="left" width="100" height="100" src="/images/codes/brt.jpg"> 
+BRT: Boundary Representation Learning via Transformer\
+[Code](https://github.com/Qiang-Zou/BRT) [Paper](https://doi.org/10.1016/j.cad.2025.103940)
+
+<br />
+
+
 
 
 
