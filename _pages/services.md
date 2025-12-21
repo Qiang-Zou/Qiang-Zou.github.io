@@ -5,7 +5,7 @@ permalink: /services/
 author_profile: true
 ---
 
-1. Area Chair: SPM2025, SMI2025
+1. Area Chair/Organization Chair: SPM2025, SMI2025
 1. Editorial Board: CAD, JCAD&CG
 1. Secretary: CCF SIG on CAD&CG
 1. IPC: SPM, SMI, GMP, CVM, etc.
