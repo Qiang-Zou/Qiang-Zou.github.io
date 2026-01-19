@@ -104,6 +104,7 @@ See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=e
 1. Academic Research Award, Liaoning Province, China, 2014
 
 ## Talks
+1. What is AI+CAD, GAMES, Nov. 13, 2025,
 1. Data-Driven B-Spline Modeling, SAC, Aug, 2024
 1. Geometric Modeling for Microstructure Design and Manufacturing, SAC, April, 2024
 1. From Tool Path Generation To Tool Path Optimization: An Implicit Framework, Tianyuan Math Cener, Aug., 2024
