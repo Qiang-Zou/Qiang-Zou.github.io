@@ -28,6 +28,7 @@ In the short term, we are working on the following "concept-shape-process" probl
 
 ## Funding:
 1. 3D CAD Modeler for Intelligent Engineering Design, 2024.1 - 2026.12, Key R&D Program of Zhejiang Province
+1. CAD Model Repairing for CAD/CAE Integration, 2025.1 - 2026.12, National Key R\&D Program of China
 1. Intelligent 3D CAD Modeling, 2023.1 - 2024.12, Fundamental Research Funds for the Central Universities, China
 1. Robust direct modeling for complex products, 2022.1 - 2024.12, NSF of China
 1. Intelligent direct modeling for computer-aided design, 2022.1 - 2024.12, NSF of Zhejiang Province
