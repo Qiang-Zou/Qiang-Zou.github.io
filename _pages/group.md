@@ -39,25 +39,29 @@ In the short term, we are working on the following "concept-shape-process" probl
 Some [must-knows](must_knows.md) before working in our group.
 
 ### Ph.D. Students
-1. Zhijie Yang, 2024.9 - , Research topic: AI for solid modeling
-1. Yaonaiming Zhao, 2023.9 - , Research topic: microstructure modeling
-1. Yuntao Ma, 2023.9 - , Research topic: GPU solid modeling
-1. Ziqi Hao, 2023.9 - , Research topic: GPU solid modeling
-1. Guoyue Luo, 2022.9 - , Research topic: microstructure modeling
 1. Sifan Chen, 2022.2 - , Research topic: microstructure modeling
+1. Guoyue Luo, 2022.9 - , Research topic: microstructure modeling
+1. Ziqi Hao, 2023.9 - , Research topic: GPU solid modeling
+1. Yuntao Ma, 2023.9 - , Research topic: GPU solid modeling
+1. Yaonaiming Zhao, 2023.9 - , Research topic: microstructure modeling
+1. Zhijie Yang, 2024.9 - , Research topic: AI for solid modeling
+1. Shitianyi Leng, 2025.9 - , Research topic: AI for CAD
+1. Jiajun Shen, 2026.1 - , Research topic: AI for CAD
+
 
 ### MASc Students
+1. Yitong Wang, 2024.9 - , Research topic: GPU solid modeling
 1. Yutong Sun, 2024.9 - , Research topic: AI for solid modeling
 1. Jiaming Zhu, 2024.9 - , Research topic: AI for solid modeling
 1. Ziqin Gao, 2024.9 - , Research topic: AI for solid modeling
-1. Yitong Wang, 2024.9 - , Research topic: GPU solid modeling
-1. Lizhen Zhu, 2023.9 - , Research topic: AI for solid modeling
-1. Shuo Liu, 2023.9 - , Research topic: AI for solid modeling
-1. Jiayu Wu, 2023.9 - , Research topic: GPU NURBS modeling
+
 
 ### Alumni
-1. Jianan Wang, MASc, 2022.9 - 2025.9, Research topic: GPU solid modeling
-1. Qitong Dong, MASc, 2022.3 - 2025.6, Research topic: NURBS modeling
+1. Jiayu Wu, MASc, 2023.9 - 2025.3, Research topic: GPU NURBS modeling, Won the National Scholarship, Now 
+1. Shuo Liu, MASc, 2023.9 - 2025.3, Research topic: AI for solid modeling, Now Kuaishou
+1. Lizhen Zhu, MASc, 2023.9 - 2025.3, Research topic: AI for solid modeling, Won the National Scholarship, Now Manycore
+1. Jianan Wang, MASc, 2022.9 - 2025.9, Research topic: GPU solid modeling, Now VoxelDance
+1. Qitong Dong, MASc, 2022.3 - 2025.6, Research topic: NURBS modeling, Now open3DX
 1. Yunzhu Gao, MASc, 2022.9 - 2025,3, Research topic: GPU solid modeling
 1. Ziheng Bao, MASc, 2021.9 - 2024.3, Research topic: GPU NURBS modeling, Now ByteDance
 
