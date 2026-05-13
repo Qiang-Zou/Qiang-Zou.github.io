@@ -16,6 +16,7 @@ See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=e
 
 ### Highlights: AI+Design/Geometric Modeling
 * Qiang Zou\*, Yingcai Wu, Zhenyu Liu, Weiwei Xu, Shuming Gao, Intelligent CAD 2.0, Visual Informatics (2024).
+* F Fan, J Ni, X Yin, S Wang, X Lu, Q Zou, R Tong, M Tang, P Du, CADDesigner: Conceptual Design of CAD Models Based on General-Purpose Agent, Computer-Aided Design (2026). 
 * Qiang Zou\*, Lizhen Zhu, Boundary Representation Learning via Transformer, Computer-Aided Design (2025). 
 * Aijia Zhang, Weiqiang Jia\*, Qiang Zou\*, Yixiong Feng, Xiaoxiang Wei, Ye Zhang, Diffusion-CAD: Controllable Diffusion Model for Generating Computer-Aided Design Models, IEEE TVCG, 2025
 * Qiang Zou\*, Lizhen Zhu, Jiayu Wu, Zhijie Yang, SplineGen: approximating unorganized points through generative AI, Computer-Aided Design (2024).
@@ -30,6 +31,12 @@ See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=e
 * Junhao Ding, Qiang Zou, Shuo Qu, Paulo Bartolo, Xu Song, Charlie C. L. Wang*, STL-free digital design and manufacturing paradigm for high-precision selective laser melting, CIRP Annals. 2021 70(1): 167-170.
 * Shengjun Liu, Tao Liu, Qiang Zou, Weiming Wang, Eugeni L. Doubrovski, Charlie C. L. Wang*, Memory-Efficient Modeling and Slicing of Large-Scale Adaptive Lattice Structures, ASME Trans. JCISE. 21.6 (2021): 061003.
 
+### Highlights: High-Performance Geometric Computing
+* Haopeng Fan, Min Tang\*, Leonardo Sacht, Qiang Zou, Ruofeng Tong, Peng Du,GPU-acceleratedCertifiedHausdorff Distance Between Triangle Meshes, ACM TOG (SIGGRAPH) 2026
+* J Wu, Z Feng, Q Zou\*, Matrix representation and GPU-optimized parallel B-spline computing, Computer-Aided Design, 2025
+* Q Zou\*, Y Gao, G Luo, S Chen, Meta-meshing and triangulating lattice structures at a large scale, Computer-Aided Design, 2024
+* Z Bao, W Liu, Q Zou\*, GPU Parallel Inverse Evaluation of NURBS Surfaces Based on Matrix Representation, Journal of Computer-Aided Design & Computer Graphics, 2023
+
 ### Highlights: Tool Path Generation (Iso-Level Method)
 * Qiang Zou, Juyong Zhang*, Bailin Deng, Jibin Zhao, Iso-level tool path planning for free-form surfaces, Computer-Aided Design 53 (11) (2014) 117–125.
 * Zirui Wang, Shibo Liu, Ligang Liu, Qiang Zou\*, Xiao-Ming Fu\*, Computing smooth preferred feed direction fields with high material removal rates for efficient CNC tool paths, Computer-Aided Design (2023): 103591.
@@ -37,7 +44,7 @@ See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=e
 * Qiang Zou*, Robust and efficient tool path generation for machining low-quality mesh surfaces, International Journal of Production Research. 2021 59(24), 7457-7467.
 * Qiang Zou, Jibin Zhao*, Iso-parametric tool-path planning for point clouds, Computer-Aided Design 45 (11) (2013) 1459–1468.
 
-### Highlights: Direct Modeling
+### Highlights: Direct CAD Modeling
 * Qiang Zou\*, Hsi-Yung Feng, and Shuming Gao. Variational Direct Modeling: A framework towards integration of parametric modeling and direct modeling in CAD. Computer-Aided Design 157 (2023): 103465.
 * Qiang Zou, Hsi-Yung Feng*, Push-pull direct modeling of solid CAD models, Advances in Engineering Software 127 (2019): 59-69.
 * Qiang Zou*, Hsi-Yung Feng, A robust direct CAD modeling method for quadric B-rep models based on geometry-topology inconsistency tracking, Engineering with Computers 2022 38 (4), 3815-3830
@@ -45,7 +52,6 @@ See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=e
 * Qiang Zou, Hsi-Yung Feng*, Variational B-rep model analysis for direct modeling using geometric perturbation, Journal of Computational Design and Engineering. 6 (4) (2019) 606-616.
 * Zhihong Tang, Qiang Zou\*, Shuming Gao\*, Determining valid parameter ranges for multiparameter editing of 3D parametric CAD models, ASME Trans. JCISE. 2025.
 * Zhihong Tang, Qiang Zou, and Shuming Gao*. A decision-support method for multi-parameter editing of parametric CAD models. Advanced Engineering Informatics 56 (2023): 101997.
-
 
 ### Highlights: Physical Modeling (XVoxel Method)
 * Li Ming, Chengfeng Lin, Wei Chen, Yusheng Liu, Shuming Gao, and Qiang Zou\*. XVoxel-Based Parametric Design Optimization of Feature Models. Computer-Aided Design 160 (2023): 103528.
