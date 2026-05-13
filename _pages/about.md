@@ -16,6 +16,8 @@ Current research work includes CAD/CAM with emphasis on (1) the basic research o
 
 News
 ======
+May 2025. One paper accepted by the prestigious journal of Computer-Aided Design.
+
 April 2026. Received the prestigious SMI Young Investigator Award (first Asian recipient).
 
 Mar 2026. One paper accepted by the prestigious conference of SIGGRAPH (journal track).
