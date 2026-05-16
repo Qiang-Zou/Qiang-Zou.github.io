@@ -26,9 +26,9 @@ March 2026. Serving as the Organizing Chair of ChinaGraph 2026.
 
 March 2026. One paper accepted by the prestigious conference of SIGGRAPH (journal track).
 
-Dec. 2025. Serving on the Editorial Board of the prestigious journal of Computer-Aided Design.
+Dec. 2025. Received the prestigious Lu Zeng-Yong CAD&CG High-Tech Award — First Prize (1 recipient/year)
 
-Nov. 2025. Received the prestigious Lu Zeng-Yong CAD&CG High-Tech Award — First Prize (1 recipient/year)
+Oct. 2025. Serving on the Editorial Board of the prestigious journal of Computer-Aided Design.
 
 July 2025. One paper accepted by the prestigious journal of ASME Trans. JMD.
 
