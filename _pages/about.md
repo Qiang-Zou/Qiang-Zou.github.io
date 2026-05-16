@@ -22,13 +22,21 @@ May 2026. One paper accepted by the prestigious journal of Computer-Aided Design
 
 April 2026. Received the prestigious SMI Young Investigator Award (first Asian recipient).
 
-Mar 2026. One paper accepted by the prestigious conference of SIGGRAPH (journal track).
+March 2026. Serving as the Organizing Chair of ChinaGraph 2026.
+
+March 2026. One paper accepted by the prestigious conference of SIGGRAPH (journal track).
+
+Dec. 2025. Serving on the Editorial Board of the prestigious journal of Computer-Aided Design.
+
+Nov. 2025. Received the prestigious Lu Zeng-Yong CAD&CG High-Tech Award — First Prize (1 recipient/year)
 
 July 2025. One paper accepted by the prestigious journal of ASME Trans. JMD.
 
 May 2025. One paper accepted by the prestigious journal of ASME Trans. JMD.
 
 Apr. 2025. Three papers accepted by the prestigious journal of Computer-Aided Design.
+
+Mar. 2025. Received the prestigious CCF CAD&CG Young Investigator Award.
 
 Feb. 2025. One paper accepted by the prestigious journal of ASME Trans. JCISE
 
@@ -41,6 +49,8 @@ Nov. 2024. One paper accepted by the prestigious journal of Computer-Aided Desig
 Oct. 2024. One paper accepted by the journal of Visual Informatics.
 
 Sep. 2024. One paper accepted by the prestigious journal of Computer-Aided Design.
+
+July 2024. Serving as the Organizing Chair of SPM/SMI 2025.
 
 May 2024. Two papers accepted by the prestigious journal of Computer-Aided Design.
 
