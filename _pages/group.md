@@ -50,20 +50,20 @@ Some [must-knows](must_knows.md) before working in our group.
 
 
 ### MASc Students
-1. Yitong Wang, 2024.9 - , Research topic: GPU solid modeling
 1. Yutong Sun, 2024.9 - , Research topic: AI for solid modeling
 1. Jiaming Zhu, 2024.9 - , Research topic: AI for solid modeling
 1. Ziqin Gao, 2024.9 - , Research topic: AI for solid modeling
 
 
 ### Alumni
-1. Jiayu Wu, MASc, 2023.9 - 2025.3, Research topic: GPU NURBS modeling, Won the National Scholarship, Now 
+1. Yitong Wang, 2024.9 - 2025.12, Research topic: GPU solid modeling, Now animation artist, Japan.
+1. Jiayu Wu, MASc, 2023.9 - 2025.3, Research topic: GPU NURBS modeling, Won the National Scholarship, Gap year.
 1. Shuo Liu, MASc, 2023.9 - 2025.3, Research topic: AI for solid modeling, Now Kuaishou
 1. Lizhen Zhu, MASc, 2023.9 - 2025.3, Research topic: AI for solid modeling, Won the National Scholarship, Now Manycore
 1. Jianan Wang, MASc, 2022.9 - 2025.9, Research topic: GPU solid modeling, Now VoxelDance
 1. Qitong Dong, MASc, 2022.3 - 2025.6, Research topic: NURBS modeling, Now open3DX
-1. Yunzhu Gao, MASc, 2022.9 - 2025,3, Research topic: GPU solid modeling
-1. Ziheng Bao, MASc, 2021.9 - 2024.3, Research topic: GPU NURBS modeling, Now ByteDance
+1. Yunzhu Gao, MASc, 2022.9 - 2025,3, Research topic: GPU solid modeling, Now NetEase
+1. Ziheng Bao, MASc, 2021.9 - 2024.3, Research topic: GPU NURBS modeling, Now Alibaba
 
 
 
