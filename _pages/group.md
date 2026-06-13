@@ -27,13 +27,15 @@ In the short term, we are working on the following "concept-shape-process" probl
   - Physics-informed CAD/CAM: surfaces, solids, microstructures, and process paths
 
 ## Funding:
-1. 3D CAD Modeler for Intelligent Engineering Design, 2024.1 - 2026.12, Key R&D Program of Zhejiang Province
-1. CAD Model Repairing for CAD/CAE Integration, 2025.1 - 2026.12, National Key R\&D Program of China
-1. Intelligent 3D CAD Modeling, 2023.1 - 2024.12, Fundamental Research Funds for the Central Universities, China
-1. Robust direct modeling for complex products, 2022.1 - 2024.12, NSF of China
-1. Intelligent direct modeling for computer-aided design, 2022.1 - 2024.12, NSF of Zhejiang Province
-1. Geometric modeling and constraint solving kernels, 2022.1 - 2023.6, Sponsored by Manycore Tech
-1. 3D Generative Design Engine, 2024.9 - 2025.12, Sponsored by Shenzhen JLC Technology Group
+1. ZJU–Yuanhui Joint Research Center on 3D Product Data Interoperability and Intelligent Applications, Director
+1. B-rep simplification and repair for CAD/CAE Integration, 2025.1 - 2027.12, National R&D Program, Co-PI
+1. 3D CAD Modeler for Intelligent Engineering Design, 2024.1 - 2026.12, Key R&D Program of Zhejiang Province, PI
+1. Intelligent 3D CAD Modeling, 2023.1 - 2027.12, Fundamental Research Funds for the Central Universities, China, PI
+1. Robust direct modeling for complex products, 2022.1 - 2024.12, NSF of China, PI
+1. Intelligent direct modeling for computer-aided design, 2022.1 - 2024.12, NSF of Zhejiang Province, PI
+1. Geometric modeling and constraint solving kernels, 2022.1 - 2023.6, Sponsored by Manycore Tech, PI
+1. 3D Generative Design Engine, 2024.9 - 2025.12, Sponsored by Shenzhen JLC Technology Group, PI
+
 
 ## Students:
 Some [must-knows](must_knows.md) before working in our group.
@@ -45,18 +47,20 @@ Some [must-knows](must_knows.md) before working in our group.
 1. Yuntao Ma, 2023.9 - , Research topic: GPU solid modeling
 1. Yaonaiming Zhao, 2023.9 - , Research topic: microstructure modeling
 1. Zhijie Yang, 2024.9 - , Research topic: AI for solid modeling
-1. Shitianyi Leng, 2025.9 - , Research topic: AI for CAD
-1. Jiajun Shen, 2026.1 - , Research topic: AI for CAD
-
-
+1. Shitianyi Leng, 2025.9 - , Research topic: 3D generation
+1. Jiajun Shen, 2026.1 - , Research topic: 3D generation
+1. Yuhao Wang, 2026.9 - , Research topic: 3D generation
+1. Haopeng Fan, 2026.9 - , Research topic: High-performance geometric computing
+ 
 ### MASc Students
-1. Yutong Sun, 2024.9 - , Research topic: AI for solid modeling
-1. Jiaming Zhu, 2024.9 - , Research topic: AI for solid modeling
-1. Ziqin Gao, 2024.9 - , Research topic: AI for solid modeling
+1. Yutong Sun, 2024.9 - , Research topic: AI for CAD
+1. Jiaming Zhu, 2024.9 - , Research topic: AI for CAD
+1. Ziqin Gao, 2024.9 - , Research topic: AI for CAD
+1. Dongshuo Yin, 2026.9 - , Research topic: AI for CAD
 
 
 ### Alumni
-1. Yitong Wang, 2024.9 - 2025.12, Research topic: GPU solid modeling, Now animation artist, Japan.
+1. Yitong Wang, 2024.9 - 2025.12, Research topic: GPU solid modeling, Now pursuing her passion as an animation artist in Japan
 1. Jiayu Wu, MASc, 2023.9 - 2025.3, Research topic: GPU NURBS modeling, Won the National Scholarship, Gap year.
 1. Shuo Liu, MASc, 2023.9 - 2025.3, Research topic: AI for solid modeling, Now Kuaishou
 1. Lizhen Zhu, MASc, 2023.9 - 2025.3, Research topic: AI for solid modeling, Won the National Scholarship, Now Manycore

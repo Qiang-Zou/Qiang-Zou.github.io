@@ -16,7 +16,7 @@ Current research work includes CAD/CAM with emphasis on (1) the basic research o
 
 News
 ======
-June 2026. Founded the ZJU–Yuanhui Joint Research Center on 3D Product Data Interoperability and Intelligent Applications, supported by 12M CNY industry funding, and serve as the Founding Director.
+June 2026. Founded the ZJU–Yuanhui Joint Research Center on 3D Product Data Interoperability and Intelligent Applications, 12M CNY industry funding, Serving as the Director.
 
 May 2026. One paper accepted by the conference of ASME IDETC/CIE 2026.
 
