@@ -60,7 +60,7 @@ Some [must-knows](must_knows.md) before working in our group.
 
 
 ### Alumni
-1. Yitong Wang, 2024.9 - 2025.12, Research topic: GPU solid modeling, Now pursuing her passion as an animation artist in Japan
+1. Yitong Wang, MASc, 2024.9 - 2025.12, Research topic: GPU solid modeling, Now pursuing her passion as an animation artist in Japan
 1. Jiayu Wu, MASc, 2023.9 - 2025.3, Research topic: GPU NURBS modeling, Won the National Scholarship, Gap year.
 1. Shuo Liu, MASc, 2023.9 - 2025.3, Research topic: AI for solid modeling, Now Kuaishou
 1. Lizhen Zhu, MASc, 2023.9 - 2025.3, Research topic: AI for solid modeling, Won the National Scholarship, Now Manycore
