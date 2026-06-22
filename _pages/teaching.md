@@ -13,7 +13,9 @@ author_profile: true
 
 1. 2023 – , 3D CAD Modeling, ZJU, Instructor.
 
-1. 2021 – , Software Engineering, ZJU, Instructor.
+1. 2026 – , Introduction to Artificial Intelligence, ZJU, Instructor.
+
+1. 2021 – 2025, Software Engineering, ZJU, Instructor.
 
 1. 2018, Geometric Modeling (CPSC 424) UBC, TA.
 
