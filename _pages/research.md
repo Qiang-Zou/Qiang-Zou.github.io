@@ -16,6 +16,7 @@ See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=e
 
 ### Highlights: AI+Design/Geometric Modeling
 * Qiang Zou\*, Yingcai Wu, Zhenyu Liu, Weiwei Xu, Shuming Gao, Intelligent CAD 2.0, Visual Informatics (2024).
+* Ziqin Gao, Zhijie Yang, Qiang Zou*, KDH-CAD: Knowledge–data hybrid CAD learning under data scarcity, Computer-Aided Design (2026).
 * F Fan, J Ni, X Yin, S Wang, X Lu, Q Zou, R Tong, M Tang, P Du, CADDesigner: Conceptual Design of CAD Models Based on General-Purpose Agent, Computer-Aided Design (2026). 
 * Qiang Zou\*, Lizhen Zhu, Boundary Representation Learning via Transformer, Computer-Aided Design (2025). 
 * Aijia Zhang, Weiqiang Jia\*, Qiang Zou\*, Yixiong Feng, Xiaoxiang Wei, Ye Zhang, Diffusion-CAD: Controllable Diffusion Model for Generating Computer-Aided Design Models, IEEE TVCG, 2025
