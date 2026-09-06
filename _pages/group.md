@@ -27,6 +27,7 @@ In the short term, we are working on the following "concept-shape-process" probl
   - Physics-informed CAD/CAM: surfaces, solids, microstructures, and process paths
 
 ## Funding:
+1. $\mu$-geometric modeling of large-scale and non-periodic microstructures, 2027.1 - 2030.12, NSF of China, PI
 1. ZJU–Yuanhui Joint Research Center on 3D Product Data Interoperability and Intelligent Applications, Director
 1. B-rep simplification and repair for CAD/CAE Integration, 2025.1 - 2027.12, National R&D Program, Co-PI
 1. 3D CAD Modeler for Intelligent Engineering Design, 2024.1 - 2026.12, Key R&D Program of Zhejiang Province, PI
