@@ -100,6 +100,7 @@ See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=e
 
 
 ## Awards (Selected)
+1. World's Top 2% Scientists, Stanford/Elsevier, 2026
 1. SMI Young Investigator Award, The Association of Shape Modeling International, first Asian recipient, 2026
 1. Lu Zeng-Yong CAD&CG High-Tech Award — First Prize (1 recipient/year), Lu Zeng-Yong Fund Committee, 2025
 1. CCF CAD&CG Young Researcher Award, China Computer Federation, 2024
