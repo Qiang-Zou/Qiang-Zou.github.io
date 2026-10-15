@@ -26,6 +26,9 @@ In the short term, we are working on the following "concept-shape-process" probl
   - AI4CAD/CAM: concept interacting, CAD modeling, and CAM planning
   - Physics-informed CAD/CAM: surfaces, solids, microstructures, and process paths
 
+## Reports:
+1. CAD Capabilities of General-Purpose AI Models: An Evaluation of GPT-6 Astra [Project Page](/projects/cad-report/)
+
 ## Funding:
 1. $\mu$-geometric modeling of large-scale and non-periodic microstructures, 2027.1 - 2030.12, NSF of China, PI
 1. ZJU–Yuanhui Joint Research Center on 3D Product Data Interoperability and Intelligent Applications, 2026, Director
