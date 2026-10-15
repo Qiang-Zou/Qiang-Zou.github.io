@@ -14,6 +14,11 @@ Theses
 
 See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=en) for the complete list, and [Codes Page](https://qiang-zou.github.io//codes/) for relevant codes.
 
+## Technical Reports:
+1. Assessing the CAD Capabilities of General-Purpose AI Models: A Case Study of GPT-6 Astra  [Project Page](/projects/icad-eval-report/)
+
+
+## Papers:
 ### Highlights: AI+Design/Geometric Modeling
 * Qiang Zou\*, Yingcai Wu, Zhenyu Liu, Weiwei Xu, Shuming Gao, Intelligent CAD 2.0, Visual Informatics (2024).
 * Ziqin Gao, Zhijie Yang, Qiang Zou*, KDH-CAD: Knowledge–data hybrid CAD learning under data scarcity, Computer-Aided Design (2026).
