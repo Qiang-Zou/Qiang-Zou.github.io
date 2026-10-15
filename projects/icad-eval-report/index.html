@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Assessing CAD Capabilities of General-Purpose AI Models: An Evaluation of GPT-6 Astra</title>
-  <meta name="description" content="A technical report from Zhejiang University evaluating GPT-6 Astra on CAD model understanding, generation, and parametric reconstruction. 通用大模型的CAD能力评测报告——以GPT-6 Astra为例。">
+  <meta name="description" content="A technical report from Zhejiang University evaluating GPT-6 Astra on CAD model understanding, generation, and parametric reconstruction. 通用大模型的 CAD 能力评测报告——以 GPT-6 Astra 为例。">
   <meta name="author" content="Qiang Zou, Jiajun Shen, Zhijie Yang, Yuhao Wang, Shitianyi Leng, Dongshuo Yin">
   <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#ffffff">
@@ -12,16 +12,16 @@
 
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="DMA Lab, Zhejiang University">
-  <meta property="og:title" content="CAD Capabilities of General-Purpose AI Models: An Evaluation of GPT-6 Astra">
+  <meta property="og:title" content="Assessing CAD Capabilities of General-Purpose AI Models: An Evaluation of GPT-6 Astra">
   <meta property="og:description" content="通用大模型的 CAD 能力评测报告——以 GPT-6 Astra 为例。A technical report from Zhejiang University.">
   <meta property="og:url" content="https://qiang-zou.github.io/projects/icad-eval-report/">
   <meta property="og:locale" content="en_US">
   <meta property="og:locale:alternate" content="zh_CN">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="CAD Capabilities of General-Purpose AI Models: An Evaluation of GPT-6 Astra">
+  <meta name="twitter:title" content="Assessing CAD Capabilities of General-Purpose AI Models: An Evaluation of GPT-6 Astra">
   <meta name="twitter:description" content="A technical report from DMA Lab, Zhejiang University.">
 
-  <meta name="citation_title" content="CAD Capabilities of General-Purpose AI Models: An Evaluation of GPT-6 Astra">
+  <meta name="citation_title" content="Assessing CAD Capabilities of General-Purpose AI Models: An Evaluation of GPT-6 Astra">
   <meta name="citation_author" content="Zou, Qiang">
   <meta name="citation_author" content="Shen, Jiajun">
   <meta name="citation_author" content="Yang, Zhijie">
@@ -36,7 +36,7 @@
   {
     "@context": "https://schema.org",
     "@type": "ScholarlyArticle",
-    "headline": "CAD Capabilities of General-Purpose AI Models: An Evaluation of GPT-6 Astra",
+    "headline": "Assessing CAD Capabilities of General-Purpose AI Models: An Evaluation of GPT-6 Astra",
     "alternativeHeadline": "通用大模型的 CAD 能力评测报告——以 GPT-6 Astra 为例",
     "description": "A technical report evaluating GPT-6 Astra on part classification, feature recognition, CAD model generation from engineering drawings, text and images, and parametric reconstruction of B-rep models.",
     "author": [
@@ -55,18 +55,17 @@
   </script>
 
   <!--
-  ==================== 编辑区：只需补齐下面五项 ====================
+  ==================== 编辑区：补齐报告链接 ====================
   1. summary：摘要版的公开链接。
   2. arxiv：arXiv 摘要页面链接，例如 https://arxiv.org/abs/真实编号。
   3. english：全文英文版的公开链接。
-  4. chinese：全文中文版的公开链接。
-  5. collectionImage：你的模型合集图路径。
+  4. chinese：中文报告版本的公开链接。
+  5. collectionImage：已设为与 index.html 同目录的 model-collect.png。
 
   链接可以是完整网址，也可以是相对路径，例如 ./reports/full-zh.pdf。
-  尚未发布的版本保持空字符串，页面会显示“暂未提供”且不可点击。
+  尚未发布的版本保持空字符串，页面会显示“Not yet available”且不可点击。
   图片建议从 PPT“导出”为 PNG，宽度约 2400–3200 像素，避免屏幕截图。
-  上传到 static/images/cad-model-collection.png 后，把 collectionImage 改为：
-  "./static/images/cad-model-collection.png"
+  将 model-collect.png 与 index.html 放在同一目录即可。
 
   本文件内置 CSS 和 JavaScript，替换现有项目目录中的 index.html 即可。
   不需要额外的网页依赖，不需要修改主页主题或 Pages 设置。
@@ -78,7 +77,7 @@
       arxiv: "",
       english: "",
       chinese: "",
-      collectionImage: ""
+      collectionImage: "./model-collect.png"
     });
   </script>
 
@@ -361,34 +360,30 @@
         <p class="affiliation affiliation-zh">浙江大学 DMA 实验室 · CAD&amp;CG 全国重点实验室</p>
       </div>
 
-      <nav id="reports" class="publication-links" aria-label="Report versions / 报告版本">
+      <nav id="reports" class="publication-links" aria-label="Report versions">
         <a class="report-link" data-report="summary" aria-disabled="true" role="link">
           <span class="link-title">Summary</span>
-          <span class="link-translation" lang="zh-CN">摘要版</span>
-          <span class="link-status">Not yet available · 暂未提供</span>
+          <span class="link-status">Not yet available</span>
         </a>
         <a class="report-link" data-report="arxiv" aria-disabled="true" role="link">
           <span class="link-title">arXiv</span>
-          <span class="link-translation" lang="zh-CN">arXiv 版</span>
-          <span class="link-status">Not yet available · 暂未提供</span>
+          <span class="link-status">Not yet available</span>
         </a>
         <a class="report-link" data-report="english" aria-disabled="true" role="link">
           <span class="link-title">Full Report · EN</span>
-          <span class="link-translation" lang="zh-CN">全文英文版</span>
-          <span class="link-status">Not yet available · 暂未提供</span>
+          <span class="link-status">Not yet available</span>
         </a>
         <a class="report-link" data-report="chinese" aria-disabled="true" role="link">
-          <span class="link-title">Full Report · 中文</span>
-          <span class="link-translation" lang="zh-CN">全文中文版</span>
-          <span class="link-status">Not yet available · 暂未提供</span>
+          <span class="link-title" lang="zh-CN">中文报告版本</span>
+          <span class="link-status">Not yet available</span>
         </a>
       </nav>
-      <noscript><p class="noscript-note">Enable JavaScript to load the report links. <span lang="zh-CN">请启用 JavaScript 以加载报告链接。</span></p></noscript>
+      <noscript><p class="noscript-note">Enable JavaScript to load the report links.</p></noscript>
     </header>
 
-    <section class="model-collection container" aria-label="CAD model collection / 测试模型合集">
+    <section class="model-collection container" aria-label="CAD model collection">
       <figure class="collection-figure">
-        <img id="collection-image" class="collection-image" hidden alt="Collection of CAD parts and assemblies used in the evaluation / 本报告评测使用的 CAD 零件与装配体合集" decoding="async">
+        <img id="collection-image" class="collection-image" hidden alt="Collection of CAD parts and assemblies used in the evaluation" decoding="async">
         <div id="collection-placeholder" class="collection-placeholder">
           <svg viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="1.35" aria-hidden="true">
             <rect x="5" y="5" width="26" height="26" rx="3"></rect>
@@ -396,19 +391,18 @@
             <circle cx="24" cy="12" r="2.4"></circle>
           </svg>
           <p class="placeholder-title">CAD model collection</p>
-          <p class="placeholder-note" lang="zh-CN">测试模型合集图待添加</p>
+          <p class="placeholder-note">Collection image unavailable.</p>
         </div>
         <figcaption>
           CAD models used in the evaluation.
-          <span class="caption-zh" lang="zh-CN">本报告评测使用的 CAD 模型。</span>
         </figcaption>
       </figure>
     </section>
 
     <section class="citation container" aria-labelledby="citation-title">
       <div class="citation-heading">
-        <h2 id="citation-title">Citation <span lang="zh-CN">引用</span></h2>
-        <button id="copy-citation" class="copy-button" type="button" hidden aria-label="Copy BibTeX citation / 复制 BibTeX 引用">
+        <h2 id="citation-title">Citation</h2>
+        <button id="copy-citation" class="copy-button" type="button" hidden aria-label="Copy BibTeX citation">
           <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
             <rect x="7" y="7" width="10" height="10" rx="1.5"></rect>
             <path d="M12 4V3H3v9h1"></path>
@@ -473,7 +467,7 @@
         image.addEventListener("error", () => {
           image.hidden = true;
           placeholder.hidden = false;
-          placeholder.querySelector(".placeholder-note").textContent = "模型合集图暂不可用";
+          placeholder.querySelector(".placeholder-note").textContent = "Collection image unavailable.";
         });
         image.src = imageURL;
       }
@@ -520,14 +514,14 @@
         if (!copied) copied = legacyCopy(citation);
         if (copied) {
           label.textContent = "Copied ✓";
-          status.textContent = "Citation copied. / 引用已复制。";
+          status.textContent = "Citation copied.";
         } else {
           const range = document.createRange();
           range.selectNodeContents(code);
           const selection = window.getSelection();
           selection.removeAllRanges();
           selection.addRange(range);
-          status.textContent = "Citation selected. Press Ctrl+C or ⌘C. / 引用已选中，请手动复制。";
+          status.textContent = "Citation selected. Press Ctrl+C or ⌘C.";
         }
         resetTimer = setTimeout(() => {
           label.textContent = "Copy BibTeX";
