@@ -3,518 +3,538 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <!-- Primary Meta Tags -->
-  <!-- TODO: Replace with your paper title and author names -->
-  <meta name="title" content="通用大模型的CAD能力评测报告">
-  <!-- TODO: Write a compelling 150-160 character description of your research -->
-  <meta name="description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Add 5-10 relevant keywords for your research area -->
-  <meta name="keywords" content="KEYWORD1, KEYWORD2, KEYWORD3, machine learning, computer vision, AI">
-  <!-- TODO: List all authors -->
-  <meta name="author" content="邹强  沈佳军  杨智杰  王禹皓  冷石天一  尹东硕">
+  <title>Assessing CAD Capabilities of General-Purpose AI Models: An Evaluation of GPT-6 Astra</title>
+  <meta name="description" content="A technical report from Zhejiang University evaluating GPT-6 Astra on CAD model understanding, generation, and parametric reconstruction. 通用大模型的CAD能力评测报告——以GPT-6 Astra为例。">
+  <meta name="author" content="Qiang Zou, Jiajun Shen, Zhijie Yang, Yuhao Wang, Shitianyi Leng, Dongshuo Yin">
   <meta name="robots" content="index, follow">
-  <meta name="language" content="English">
-  
-  <!-- Open Graph / Facebook -->
+  <meta name="theme-color" content="#ffffff">
+  <link rel="canonical" href="https://qiang-zou.github.io/projects/icad-eval-report/">
+
   <meta property="og:type" content="article">
-  <!-- TODO: Replace with your institution or lab name -->
-  <meta property="og:site_name" content="INSTITUTION_OR_LAB_NAME">
-  <!-- TODO: Same as paper title above -->
-  <meta property="og:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta property="og:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Replace with your actual website URL -->
-  <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
-  <!-- TODO: Create a 1200x630px preview image and update path -->
-  <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="PAPER_TITLE - Research Preview">
-  <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
-  <meta property="article:author" content="FIRST_AUTHOR_NAME">
-  <meta property="article:section" content="Research">
-  <meta property="article:tag" content="KEYWORD1">
-  <meta property="article:tag" content="KEYWORD2">
+  <meta property="og:site_name" content="DMA Lab, Zhejiang University">
+  <meta property="og:title" content="CAD Capabilities of General-Purpose AI Models: An Evaluation of GPT-6 Astra">
+  <meta property="og:description" content="通用大模型的 CAD 能力评测报告——以 GPT-6 Astra 为例。A technical report from Zhejiang University.">
+  <meta property="og:url" content="https://qiang-zou.github.io/projects/icad-eval-report/">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="CAD Capabilities of General-Purpose AI Models: An Evaluation of GPT-6 Astra">
+  <meta name="twitter:description" content="A technical report from DMA Lab, Zhejiang University.">
 
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <!-- TODO: Replace with your lab/institution Twitter handle -->
-  <meta name="twitter:site" content="@YOUR_TWITTER_HANDLE">
-  <!-- TODO: Replace with first author's Twitter handle -->
-  <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE">
-  <!-- TODO: Same as paper title above -->
-  <meta name="twitter:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta name="twitter:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Same as social preview image above -->
-  <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
-  <meta name="twitter:image:alt" content="PAPER_TITLE - Research Preview">
+  <meta name="citation_title" content="CAD Capabilities of General-Purpose AI Models: An Evaluation of GPT-6 Astra">
+  <meta name="citation_author" content="Zou, Qiang">
+  <meta name="citation_author" content="Shen, Jiajun">
+  <meta name="citation_author" content="Yang, Zhijie">
+  <meta name="citation_author" content="Wang, Yuhao">
+  <meta name="citation_author" content="Leng, Shitianyi">
+  <meta name="citation_author" content="Yin, Dongshuo">
+  <meta name="citation_publication_date" content="2026/10">
+  <meta name="citation_technical_report_institution" content="State Key Laboratory of CAD&amp;CG, Zhejiang University">
+  <!-- 发布全文后，可在此添加 citation_pdf_url，值为可公开访问的全文 PDF 绝对网址。 -->
 
-  <!-- Academic/Research Specific -->
-  <meta name="citation_title" content="PAPER_TITLE">
-  <meta name="citation_author" content="FIRST_AUTHOR_LAST, FIRST_AUTHOR_FIRST">
-  <meta name="citation_author" content="SECOND_AUTHOR_LAST, SECOND_AUTHOR_FIRST">
-  <meta name="citation_publication_date" content="2024">
-  <meta name="citation_conference_title" content="CONFERENCE_NAME">
-  <meta name="citation_pdf_url" content="https://YOUR_DOMAIN.com/static/pdfs/paper.pdf">
-  
-  <!-- Additional SEO -->
-  <meta name="theme-color" content="#2563eb">
-  <meta name="msapplication-TileColor" content="#2563eb">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  
-  <!-- Preconnect for performance -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://ajax.googleapis.com">
-  <link rel="preconnect" href="https://documentcloud.adobe.com">
-  <link rel="preconnect" href="https://cdn.jsdelivr.net">
-
-
-  <!-- TODO: Replace with your paper title and authors -->
-  <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
-  
-  <!-- Favicon and App Icons -->
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-  <link rel="apple-touch-icon" href="static/images/favicon.ico">
-  
-  <!-- Critical CSS - Load synchronously -->
-  <link rel="stylesheet" href="static/css/bulma.min.css">
-  <link rel="stylesheet" href="static/css/index.css">
-  
-  <!-- Non-critical CSS - Load asynchronously -->
-  <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  
-  <!-- Fallback for browsers that don't support preload -->
-  <noscript>
-    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
-    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
-    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  </noscript>
-  
-  <!-- Fonts - Optimized loading -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  
-  <!-- Defer non-critical JavaScript -->
-  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
-  <script defer src="static/js/fontawesome.all.min.js"></script>
-  <script defer src="static/js/bulma-carousel.min.js"></script>
-  <script defer src="static/js/bulma-slider.min.js"></script>
-  <script defer src="static/js/index.js"></script>
-  
-  <!-- Structured Data for Academic Papers -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "ScholarlyArticle",
-    "headline": "PAPER_TITLE",
-    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
+    "headline": "CAD Capabilities of General-Purpose AI Models: An Evaluation of GPT-6 Astra",
+    "alternativeHeadline": "通用大模型的 CAD 能力评测报告——以 GPT-6 Astra 为例",
+    "description": "A technical report evaluating GPT-6 Astra on part classification, feature recognition, CAD model generation from engineering drawings, text and images, and parametric reconstruction of B-rep models.",
     "author": [
-      {
-        "@type": "Person",
-        "name": "FIRST_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
-      },
-      {
-        "@type": "Person",
-        "name": "SECOND_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
-      }
+      {"@type": "Person", "name": "Qiang Zou", "alternateName": "邹强", "url": "https://qiang-zou.github.io/"},
+      {"@type": "Person", "name": "Jiajun Shen", "alternateName": "沈佳军"},
+      {"@type": "Person", "name": "Zhijie Yang", "alternateName": "杨智杰"},
+      {"@type": "Person", "name": "Yuhao Wang", "alternateName": "王禹皓"},
+      {"@type": "Person", "name": "Shitianyi Leng", "alternateName": "冷石天一"},
+      {"@type": "Person", "name": "Dongshuo Yin", "alternateName": "尹东硕"}
     ],
-    "datePublished": "2024-01-01",
-    "publisher": {
-      "@type": "Organization",
-      "name": "CONFERENCE_OR_JOURNAL_NAME"
-    },
-    "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
-    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
-    "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
-    "abstract": "FULL_ABSTRACT_TEXT_HERE",
-    "citation": "BIBTEX_CITATION_HERE",
-    "isAccessibleForFree": true,
-    "license": "https://creativecommons.org/licenses/by/4.0/",
-    "mainEntity": {
-      "@type": "WebPage",
-      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
-    },
-    "about": [
-      {
-        "@type": "Thing",
-        "name": "RESEARCH_AREA_1"
-      },
-      {
-        "@type": "Thing", 
-        "name": "RESEARCH_AREA_2"
-      }
-    ]
+    "publisher": {"@type": "Organization", "name": "State Key Laboratory of CAD&CG, Zhejiang University"},
+    "datePublished": "2026-10",
+    "url": "https://qiang-zou.github.io/projects/icad-eval-report/",
+    "inLanguage": ["en", "zh-CN"]
   }
   </script>
-  
-  <!-- Website/Organization Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "INSTITUTION_OR_LAB_NAME",
-    "url": "https://YOUR_INSTITUTION_WEBSITE.com",
-    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
-    "sameAs": [
-      "https://twitter.com/YOUR_TWITTER_HANDLE",
-      "https://github.com/YOUR_GITHUB_USERNAME"
-    ]
-  }
+
+  <!--
+  ==================== 编辑区：只需补齐下面五项 ====================
+  1. summary：摘要版的公开链接。
+  2. arxiv：arXiv 摘要页面链接，例如 https://arxiv.org/abs/真实编号。
+  3. english：全文英文版的公开链接。
+  4. chinese：全文中文版的公开链接。
+  5. collectionImage：你的模型合集图路径。
+
+  链接可以是完整网址，也可以是相对路径，例如 ./reports/full-zh.pdf。
+  尚未发布的版本保持空字符串，页面会显示“暂未提供”且不可点击。
+  图片建议从 PPT“导出”为 PNG，宽度约 2400–3200 像素，避免屏幕截图。
+  上传到 static/images/cad-model-collection.png 后，把 collectionImage 改为：
+  "./static/images/cad-model-collection.png"
+
+  本文件内置 CSS 和 JavaScript，替换现有项目目录中的 index.html 即可。
+  不需要额外的网页依赖，不需要修改主页主题或 Pages 设置。
+  ==============================================================
+  -->
+  <script id="page-config">
+    const PAGE_CONFIG = Object.freeze({
+      summary: "",
+      arxiv: "",
+      english: "",
+      chinese: "",
+      collectionImage: ""
+    });
   </script>
+
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #202936;
+      --muted: #5f6b79;
+      --accent: #315f8f;
+      --rule: #e2e7ed;
+      --soft: #f7f9fb;
+      --font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: #fff;
+      font-family: var(--font);
+      font-size: 16px;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: var(--accent); text-underline-offset: .2em; }
+    a:hover { text-decoration: underline; }
+    button { font: inherit; }
+    button, a { -webkit-tap-highlight-color: transparent; }
+    :focus-visible { outline: 3px solid #86a8ce; outline-offset: 5px; }
+    [hidden] { display: none !important; }
+    .skip-link {
+      position: absolute;
+      top: -80px;
+      left: 16px;
+      z-index: 2;
+      padding: 8px 16px;
+      background: #fff;
+      border: 1px solid var(--rule);
+    }
+    .skip-link:focus { top: 12px; }
+    .container { width: min(1080px, calc(100% - 64px)); margin: 0 auto; }
+
+    /* Retains the template's centered academic publication layout. */
+    .publication-header { padding: 66px 0 38px; text-align: center; }
+    .report-meta {
+      margin: 0 0 22px;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    .publication-title {
+      margin: 0 auto;
+      max-width: 1050px;
+      font-size: clamp(28px, 3.4vw, 42px);
+      font-weight: 750;
+      line-height: 1.23;
+      letter-spacing: -.035em;
+      text-wrap: balance;
+    }
+    .title-main, .title-subtitle { display: block; }
+    .title-subtitle {
+      margin-top: 9px;
+      font-size: .83em;
+      font-weight: 500;
+      letter-spacing: -.025em;
+    }
+    .publication-authors {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 6px 23px;
+      padding: 0;
+      margin: 25px 0 12px;
+      list-style: none;
+      font-size: 17px;
+      font-weight: 500;
+    }
+    .publication-authors li { white-space: nowrap; }
+    .publication-authors a { text-decoration: none; }
+    .publication-authors a:hover { text-decoration: underline; }
+    .affiliation { margin: 0; color: var(--muted); font-size: 15px; line-height: 1.75; }
+    .affiliation span { display: block; }
+    .translation {
+      margin: 28px auto 0;
+      padding-top: 24px;
+      position: relative;
+    }
+    .translation::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: calc(50% - 28px);
+      width: 56px;
+      border-top: 1px solid #cbd4df;
+    }
+    .title-zh { margin: 0; font-size: clamp(21px, 2.4vw, 27px); font-weight: 600; line-height: 1.5; text-wrap: balance; }
+    .subtitle-zh { display: block; margin-top: 2px; font-size: .79em; font-weight: 400; }
+    .authors-zh { margin: 14px 0 7px; gap: 5px 24px; font-size: 16px; font-weight: 400; }
+    .affiliation-zh { font-size: 14px; }
+
+    /* Four publication links, in the order requested. */
+    .publication-links {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      max-width: 850px;
+      margin: 30px auto 0;
+    }
+    .report-link {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 2px;
+      min-height: 91px;
+      padding: 12px 10px;
+      border: 1px solid #283747;
+      border-radius: 8px;
+      color: #fff;
+      background: #283747;
+      text-decoration: none;
+      transition: background .15s, border-color .15s;
+    }
+    .report-link:hover { background: var(--accent); border-color: var(--accent); text-decoration: none; }
+    .link-title { font-size: 15px; font-weight: 600; line-height: 1.4; }
+    .link-translation { font-size: 13px; line-height: 1.5; opacity: .9; }
+    .link-status { margin-top: 2px; font-size: 10px; line-height: 1.4; font-weight: 400; }
+    .report-link[aria-disabled="true"] { color: #627080; background: #f5f7fa; border-color: #e0e6ed; cursor: default; }
+    .report-link[aria-disabled="true"] .link-title { color: #4b5969; }
+    .noscript-note { font-size: 13px; color: var(--muted); }
+
+    /* One full-width image. The eventual image retains its own aspect ratio. */
+    .model-collection { padding: 0 0 38px; }
+    .collection-figure { margin: 0; }
+    .collection-image {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 3px;
+    }
+    .collection-placeholder {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      aspect-ratio: 16 / 9;
+      min-height: 220px;
+      padding: 30px;
+      text-align: center;
+      border: 1px dashed #c8d1dc;
+      border-radius: 8px;
+      color: #6c7887;
+      background: #fafbfd;
+    }
+    .collection-placeholder svg { width: 38px; height: 38px; margin-bottom: 12px; color: #9ca8b7; }
+    .placeholder-title { margin: 0; font-size: 18px; font-weight: 500; }
+    .placeholder-note { margin: 5px 0 0; font-size: 13px; }
+    figcaption { margin: 15px auto 0; text-align: center; color: var(--muted); font-size: 14px; line-height: 1.7; }
+    .caption-zh { display: block; font-size: 13px; }
+
+    /* Citation remains readable and selectable on narrow screens. */
+    .citation { padding: 29px 0 50px; border-top: 1px solid var(--rule); }
+    .citation-heading { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 16px; }
+    .citation h2 { margin: 0; font-size: 23px; font-weight: 600; letter-spacing: -.025em; }
+    .citation h2 span { margin-left: 8px; font-size: 15px; font-weight: 400; color: var(--muted); }
+    .copy-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      min-height: 42px;
+      padding: 7px 13px;
+      background: #fff;
+      border: 1px solid #d7dfe8;
+      border-radius: 6px;
+      color: #3f5165;
+      font-size: 13px;
+      cursor: pointer;
+    }
+    .copy-button:hover { border-color: #9fadc0; background: var(--soft); }
+    .copy-button svg { width: 15px; height: 15px; }
+    .bibtex {
+      margin: 0;
+      padding: 23px 25px;
+      border: 1px solid var(--rule);
+      border-radius: 8px;
+      background: var(--soft);
+      color: #344356;
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+      font-size: 13px;
+      line-height: 1.8;
+      tab-size: 2;
+    }
+    .copy-status { min-height: 20px; margin: 7px 0 0; font-size: 12px; color: var(--muted); text-align: right; }
+    .site-footer { border-top: 1px solid var(--rule); padding: 24px 24px 30px; text-align: center; color: #77808b; font-size: 11px; line-height: 1.8; }
+    .site-footer p { margin: 4px 0; }
+    .site-footer a { color: #647488; text-decoration: none; }
+    .site-footer a:hover { text-decoration: underline; }
+    .site-footer .lab-link { display: inline-block; margin-bottom: 7px; font-size: 13px; color: var(--accent); }
+
+    @media (max-width: 700px) {
+      .container { width: calc(100% - 36px); }
+      .publication-header { padding: 40px 0 29px; }
+      .report-meta { margin-bottom: 18px; font-size: 10px; letter-spacing: .11em; }
+      .publication-title { font-size: 30px; }
+      .title-subtitle { margin-top: 11px; font-size: .8em; }
+      .publication-authors { gap: 5px 17px; font-size: 15px; margin-top: 21px; }
+      .affiliation { font-size: 13px; }
+      .translation { margin-top: 23px; padding-top: 21px; }
+      .title-zh { font-size: 22px; }
+      .authors-zh { margin-top: 13px; font-size: 15px; gap: 5px 18px; }
+      .publication-links { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-top: 24px; }
+      .report-link { min-height: 86px; }
+      .collection-placeholder { min-height: 200px; }
+      .placeholder-title { font-size: 16px; }
+      figcaption { font-size: 13px; }
+      .caption-zh { font-size: 12px; }
+      .model-collection { padding-bottom: 28px; }
+      .citation { padding: 23px 0 32px; }
+      .citation h2 { font-size: 21px; }
+      .bibtex { padding: 17px 16px; font-size: 11px; line-height: 1.8; }
+    }
+    @media (max-width: 380px) {
+      .publication-title { font-size: 27px; }
+      .title-zh { font-size: 20px; }
+      .link-title { font-size: 14px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .report-link { transition: none; }
+    }
+    @media print {
+      .publication-header { padding-top: 12px; }
+      .publication-links, .copy-button, .copy-status, .skip-link { display: none; }
+      .container { width: 100%; }
+      .citation { break-inside: avoid; }
+      .bibtex { background: #fff; font-size: 10px; }
+    }
+  </style>
 </head>
 <body>
+  <a class="skip-link" href="#reports">Skip to report links</a>
+  <main>
+    <header class="publication-header container">
+      <p class="report-meta">Technical Report <span aria-hidden="true">·</span> October 2026</p>
+      <h1 class="publication-title">
+        <span class="title-main">CAD Capabilities of General-Purpose AI Models:</span>
+        <span class="title-subtitle">An Evaluation of GPT-6 Astra</span>
+      </h1>
+      <ul class="publication-authors" aria-label="Authors">
+        <li><a href="https://qiang-zou.github.io/" rel="author">Qiang Zou</a></li>
+        <li>Jiajun Shen</li>
+        <li>Zhijie Yang</li>
+        <li>Yuhao Wang</li>
+        <li>Shitianyi Leng</li>
+        <li>Dongshuo Yin</li>
+      </ul>
+      <p class="affiliation">
+        <span>Design and Manufacturing Automation Lab (DMA Lab)</span>
+        <span>State Key Laboratory of CAD&amp;CG, Zhejiang University</span>
+      </p>
 
+      <div class="translation" lang="zh-CN">
+        <p class="title-zh">
+          通用大模型的 CAD 能力评测报告
+          <span class="subtitle-zh">——以 GPT-6 Astra 为例</span>
+        </p>
+        <ul class="publication-authors authors-zh" aria-label="作者">
+          <li><a href="https://qiang-zou.github.io/" rel="author">邹强</a></li>
+          <li>沈佳军</li>
+          <li>杨智杰</li>
+          <li>王禹皓</li>
+          <li>冷石天一</li>
+          <li>尹东硕</li>
+        </ul>
+        <p class="affiliation affiliation-zh">浙江大学 DMA 实验室 · CAD&amp;CG 全国重点实验室</p>
+      </div>
 
-  <!-- Scroll to Top Button -->
-  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
-    <i class="fas fa-chevron-up"></i>
-  </button>
+      <nav id="reports" class="publication-links" aria-label="Report versions / 报告版本">
+        <a class="report-link" data-report="summary" aria-disabled="true" role="link">
+          <span class="link-title">Summary</span>
+          <span class="link-translation" lang="zh-CN">摘要版</span>
+          <span class="link-status">Not yet available · 暂未提供</span>
+        </a>
+        <a class="report-link" data-report="arxiv" aria-disabled="true" role="link">
+          <span class="link-title">arXiv</span>
+          <span class="link-translation" lang="zh-CN">arXiv 版</span>
+          <span class="link-status">Not yet available · 暂未提供</span>
+        </a>
+        <a class="report-link" data-report="english" aria-disabled="true" role="link">
+          <span class="link-title">Full Report · EN</span>
+          <span class="link-translation" lang="zh-CN">全文英文版</span>
+          <span class="link-status">Not yet available · 暂未提供</span>
+        </a>
+        <a class="report-link" data-report="chinese" aria-disabled="true" role="link">
+          <span class="link-title">Full Report · 中文</span>
+          <span class="link-translation" lang="zh-CN">全文中文版</span>
+          <span class="link-status">Not yet available · 暂未提供</span>
+        </a>
+      </nav>
+      <noscript><p class="noscript-note">Enable JavaScript to load the report links. <span lang="zh-CN">请启用 JavaScript 以加载报告链接。</span></p></noscript>
+    </header>
 
-  <!-- More Works Dropdown -->
-  <div class="more-works-container">
-    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works from Our Lab">
-      <i class="fas fa-flask"></i>
-      More Works
-      <i class="fas fa-chevron-down dropdown-arrow"></i>
-    </button>
-    <div class="more-works-dropdown" id="moreWorksDropdown">
-      <div class="dropdown-header">
-        <h4>More Works from Our Lab</h4>
-        <button class="close-btn" onclick="toggleMoreWorks()">
-          <i class="fas fa-times"></i>
+    <section class="model-collection container" aria-label="CAD model collection / 测试模型合集">
+      <figure class="collection-figure">
+        <img id="collection-image" class="collection-image" hidden alt="Collection of CAD parts and assemblies used in the evaluation / 本报告评测使用的 CAD 零件与装配体合集" decoding="async">
+        <div id="collection-placeholder" class="collection-placeholder">
+          <svg viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="1.35" aria-hidden="true">
+            <rect x="5" y="5" width="26" height="26" rx="3"></rect>
+            <path d="M5 25l8-8 6 6 5-5 7 7"></path>
+            <circle cx="24" cy="12" r="2.4"></circle>
+          </svg>
+          <p class="placeholder-title">CAD model collection</p>
+          <p class="placeholder-note" lang="zh-CN">测试模型合集图待添加</p>
+        </div>
+        <figcaption>
+          CAD models used in the evaluation.
+          <span class="caption-zh" lang="zh-CN">本报告评测使用的 CAD 模型。</span>
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="citation container" aria-labelledby="citation-title">
+      <div class="citation-heading">
+        <h2 id="citation-title">Citation <span lang="zh-CN">引用</span></h2>
+        <button id="copy-citation" class="copy-button" type="button" hidden aria-label="Copy BibTeX citation / 复制 BibTeX 引用">
+          <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <rect x="7" y="7" width="10" height="10" rx="1.5"></rect>
+            <path d="M12 4V3H3v9h1"></path>
+          </svg>
+          <span id="copy-label">Copy BibTeX</span>
         </button>
       </div>
-      <div class="works-list">
-        <!-- TODO: Replace with your lab's related works -->
-        <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
-          <div class="work-info">
-            <!-- TODO: Replace with actual paper title -->
-            <h5>Paper Title 1</h5>
-            <!-- TODO: Replace with brief description -->
-            <p>Brief description of the work and its main contribution.</p>
-            <!-- TODO: Replace with venue and year -->
-            <span class="work-venue">Conference/Journal 2024</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <!-- TODO: Add more related works or remove extra items -->
-        <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 2</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <a href="https://arxiv.org/abs/PAPER_ID_3" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 3</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <main id="main-content">
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered">
-          <div class="column has-text-centered">
-            <!-- TODO: Replace with your paper title -->
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
-            <div class="is-size-5 publication-authors">
-              <!-- TODO: Replace with your paper authors and their personal links -->
-              <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
-                <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
-                  </div>
-
-                  <div class="is-size-5 publication-authors">
-                    <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">Institution Name<br>Conference name and year</span>
-                    <!-- TODO: Remove this line if no equal contribution -->
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
-                  </div>
-
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- TODO: Update with your arXiv paper ID -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
-
-                    <!-- TODO: Add your supplementary material PDF or remove this section -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
-
-                  <!-- TODO: Replace with your GitHub repository URL -->
-                  <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
-                  </a>
-                </span>
-
-                <!-- TODO: Update with your arXiv paper ID -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <!-- TODO: Replace with your teaser video -->
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
-      </video>
-      <!-- TODO: Replace with your video description -->
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
-
-<!-- Paper abstract -->
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <!-- TODO: Replace with your paper abstract -->
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End paper abstract -->
-
-
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
-
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- TODO: Replace with your YouTube video ID -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
-
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
-
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <!-- TODO: Replace with your poster PDF -->
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section>
-<!--End paper poster -->
-
-
-
-<!--BibTex citation -->
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <div class="bibtex-header">
-        <h2 class="title">BibTeX</h2>
-        <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
-          <i class="fas fa-copy"></i>
-          <span class="copy-text">Copy</span>
-        </button>
-      </div>
-      <pre id="bibtex-code"><code>@article{YourPaperKey2024,
-  title={Your Paper Title Here},
-  author={First Author and Second Author and Third Author},
-  journal={Conference/Journal Name},
-  year={2024},
-  url={https://your-domain.com/your-project-page}
+      <pre class="bibtex"><code id="bibtex">@techreport{zou2026gpt6cad,
+  author      = {Zou, Qiang and Shen, Jiajun and Yang, Zhijie and
+                 Wang, Yuhao and Leng, Shitianyi and Yin, Dongshuo},
+  title       = {{CAD} Capabilities of General-Purpose {AI} Models:
+                 An Evaluation of {GPT-6 Astra}},
+  institution = {State Key Laboratory of CAD\&amp;CG, Zhejiang University},
+  year        = {2026},
+  month       = oct,
+  type        = {Technical Report},
+  url         = {https://qiang-zou.github.io/projects/icad-eval-report/}
 }</code></pre>
-    </div>
-</section>
-<!--End BibTex citation -->
+      <p id="copy-status" class="copy-status" role="status" aria-live="polite"></p>
+    </section>
+  </main>
 
+  <footer class="site-footer">
+    <a class="lab-link" href="https://qiang-zou.github.io/group/">DMA Lab · Zhejiang University</a>
+    <p>Adapted from the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template">Academic Project Page Template</a> and <a href="https://nerfies.github.io/">Nerfies</a>.</p>
+    <p>Website code: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
+  </footer>
 
-  <footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
+  <script>
+    (() => {
+      "use strict";
 
-          <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
+      // Accept HTTPS/HTTP and site-relative files, including local file previews.
+      function allowedURL(value) {
+        if (typeof value !== "string" || !value.trim()) return null;
+        try {
+          const url = new URL(value.trim(), document.baseURI);
+          const protocols = location.protocol === "file:" ? ["https:", "http:", "file:"] : ["https:", "http:"];
+          return protocols.includes(url.protocol) ? url.href : null;
+        } catch (_) {
+          return null;
+        }
+      }
 
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
+      document.querySelectorAll("[data-report]").forEach(link => {
+        const url = allowedURL(PAGE_CONFIG[link.dataset.report]);
+        if (!url) return;
+        link.href = url;
+        link.removeAttribute("aria-disabled");
+        link.removeAttribute("role");
+        link.querySelector(".link-status").hidden = true;
+      });
 
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+      const image = document.getElementById("collection-image");
+      const placeholder = document.getElementById("collection-placeholder");
+      const imageURL = allowedURL(PAGE_CONFIG.collectionImage);
+      if (imageURL) {
+        image.addEventListener("load", () => {
+          image.hidden = false;
+          placeholder.hidden = true;
+        });
+        image.addEventListener("error", () => {
+          image.hidden = true;
+          placeholder.hidden = false;
+          placeholder.querySelector(".placeholder-note").textContent = "模型合集图暂不可用";
+        });
+        image.src = imageURL;
+      }
 
-    <!-- End of Statcounter Code -->
+      const copyButton = document.getElementById("copy-citation");
+      const code = document.getElementById("bibtex");
+      const label = document.getElementById("copy-label");
+      const status = document.getElementById("copy-status");
+      let resetTimer;
+      copyButton.hidden = false;
 
-  </body>
-  </html>
+      function legacyCopy(text) {
+        const field = document.createElement("textarea");
+        field.value = text;
+        field.setAttribute("readonly", "");
+        field.style.cssText = "position:fixed;left:-9999px;top:0;opacity:0;";
+        document.body.appendChild(field);
+        let copied = false;
+        try {
+          field.select();
+          field.setSelectionRange(0, field.value.length);
+          copied = document.execCommand("copy");
+        } catch (_) {
+          copied = false;
+        } finally {
+          field.remove();
+          copyButton.focus({preventScroll: true});
+        }
+        return copied;
+      }
+
+      copyButton.addEventListener("click", async () => {
+        clearTimeout(resetTimer);
+        const citation = code.textContent.trim();
+        let copied = false;
+        if (navigator.clipboard && window.isSecureContext) {
+          try {
+            await navigator.clipboard.writeText(citation);
+            copied = true;
+          } catch (_) {
+            copied = false;
+          }
+        }
+        if (!copied) copied = legacyCopy(citation);
+        if (copied) {
+          label.textContent = "Copied ✓";
+          status.textContent = "Citation copied. / 引用已复制。";
+        } else {
+          const range = document.createRange();
+          range.selectNodeContents(code);
+          const selection = window.getSelection();
+          selection.removeAllRanges();
+          selection.addRange(range);
+          status.textContent = "Citation selected. Press Ctrl+C or ⌘C. / 引用已选中，请手动复制。";
+        }
+        resetTimer = setTimeout(() => {
+          label.textContent = "Copy BibTeX";
+          status.textContent = "";
+        }, 6000);
+      });
+    })();
+  </script>
+</body>
+</html>
