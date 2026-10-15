@@ -27,8 +27,9 @@ In the short term, we are working on the following "concept-shape-process" probl
   - Physics-informed CAD/CAM: surfaces, solids, microstructures, and process paths
 
 ## Reports:
-1. CAD Capabilities of General-Purpose AI Models: An Evaluation of GPT-6 Astra 
-[Project Page](/projects/icad-eval-report/)
+1. CAD Capabilities of General-Purpose AI Models: An Evaluation of GPT-6 Astra\
+通用大模型的CAD能力评测报告——以GPT-6 Astra为例\
+[Project Page](/projects/icad-eval-report/)|[Report Brief](/projects/icad-eval-report/)
 
 ## Funding:
 1. $\mu$-geometric modeling of large-scale and non-periodic microstructures, 2027.1 - 2030.12, NSF of China, PI
