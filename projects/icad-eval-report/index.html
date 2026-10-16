@@ -56,13 +56,13 @@
 
   <!--
   ==================== 编辑区：报告链接与模型合集图 ====================
-  英文按钮：Brief Report、Full Report、arXiv。
-  中文按钮：报告摘要版本、全文报告版本。
-  四个 PDF 和 model-collect.png 均与 index.html 放在同一目录。
+  三个入口：arXiv (Full report)、中文摘要版、完整中文报告。
+  brief-zh.pdf、full-zh.pdf 和 model-collect.png 均与 index.html 放在同一目录。
   arxiv：发布后填入摘要页面链接，例如 https://arxiv.org/abs/真实编号。
+  中文 PDF 大小按提供的信息标为 1 MB 和 15 MB；更换文件后可更新按钮下方标注。
 
   链接可以是完整网址，也可以是相对路径，例如 ./full-zh.pdf。
-  尚未发布的版本保持空字符串，页面会显示“Not yet available”且不可点击。
+  arxiv 保持空字符串时，按钮置灰并显示“To be published”，不可点击。
   图片建议从 PPT“导出”为 PNG，宽度约 2400–3200 像素，避免屏幕截图。
   将 model-collect.png 与 index.html 放在同一目录即可。
 
@@ -72,8 +72,6 @@
   -->
   <script id="page-config">
     const PAGE_CONFIG = Object.freeze({
-      briefEnglish: "./brief-en.pdf",
-      fullEnglish: "./full-en.pdf",
       arxiv: "",
       briefChinese: "./brief-zh.pdf",
       fullChinese: "./full-zh.pdf",
@@ -83,7 +81,7 @@
 
   <style>
     :root {
-      color-scheme: light;
+color-scheme: light;
       --ink: #202936;
       --muted: #5f6b79;
       --accent: #315f8f;
@@ -94,13 +92,13 @@
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
     body {
-      margin: 0;
-      color: var(--ink);
-      background: #fff;
-      font-family: var(--font);
-      font-size: 16px;
-      line-height: 1.65;
-      -webkit-font-smoothing: antialiased;
+margin: 0;
+color: var(--ink);
+background: #fff;
+font-family: var(--font);
+font-size: 16px;
+line-height: 1.65;
+-webkit-font-smoothing: antialiased;
     }
     a { color: var(--accent); text-underline-offset: .2em; }
     a:hover { text-decoration: underline; }
@@ -109,13 +107,13 @@
     :focus-visible { outline: 3px solid #86a8ce; outline-offset: 5px; }
     [hidden] { display: none !important; }
     .skip-link {
-      position: absolute;
-      top: -80px;
-      left: 16px;
-      z-index: 2;
-      padding: 8px 16px;
-      background: #fff;
-      border: 1px solid var(--rule);
+position: absolute;
+top: -80px;
+left: 16px;
+z-index: 2;
+padding: 8px 16px;
+background: #fff;
+border: 1px solid var(--rule);
     }
     .skip-link:focus { top: 12px; }
     .container { width: min(1080px, calc(100% - 64px)); margin: 0 auto; }
@@ -123,39 +121,39 @@
     /* Retains the template's centered academic publication layout. */
     .publication-header { padding: 66px 0 38px; text-align: center; }
     .report-meta {
-      margin: 0 0 22px;
-      font-size: 12px;
-      font-weight: 600;
-      letter-spacing: .14em;
-      text-transform: uppercase;
-      color: var(--muted);
+margin: 0 0 22px;
+font-size: 12px;
+font-weight: 600;
+letter-spacing: .14em;
+text-transform: uppercase;
+color: var(--muted);
     }
     .publication-title {
-      margin: 0 auto;
-      max-width: 1050px;
-      font-size: clamp(28px, 3.2vw, 40px);
-      font-weight: 750;
-      line-height: 1.23;
-      letter-spacing: -.035em;
-      text-wrap: balance;
+margin: 0 auto;
+max-width: 1050px;
+font-size: clamp(28px, 3.2vw, 40px);
+font-weight: 750;
+line-height: 1.23;
+letter-spacing: -.035em;
+text-wrap: balance;
     }
     .title-main, .title-subtitle { display: block; }
     .title-subtitle {
-      margin-top: 9px;
-      font-size: .83em;
-      font-weight: 500;
-      letter-spacing: -.025em;
+margin-top: 9px;
+font-size: .83em;
+font-weight: 500;
+letter-spacing: -.025em;
     }
     .publication-authors {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 6px 23px;
-      padding: 0;
-      margin: 25px 0 12px;
-      list-style: none;
-      font-size: 17px;
-      font-weight: 500;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 6px 23px;
+padding: 0;
+margin: 25px 0 12px;
+list-style: none;
+font-size: 17px;
+font-weight: 500;
     }
     .publication-authors li { white-space: nowrap; }
     .publication-authors a { text-decoration: none; }
@@ -163,17 +161,17 @@
     .affiliation { margin: 0; color: var(--muted); font-size: 15px; line-height: 1.75; }
     .affiliation span { display: block; }
     .translation {
-      margin: 28px auto 0;
-      padding-top: 24px;
-      position: relative;
+margin: 28px auto 0;
+padding-top: 24px;
+position: relative;
     }
     .translation::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: calc(50% - 28px);
-      width: 56px;
-      border-top: 1px solid #cbd4df;
+content: "";
+position: absolute;
+top: 0;
+left: calc(50% - 28px);
+width: 56px;
+border-top: 1px solid #cbd4df;
     }
     .title-zh { margin: 0; font-size: clamp(21px, 2.4vw, 27px); font-weight: 600; line-height: 1.5; text-wrap: balance; }
     .subtitle-zh { display: block; margin-top: 2px; font-size: .79em; font-weight: 400; }
@@ -182,58 +180,59 @@
 
     /* English versions together on the left; Chinese versions on the right. */
     .publication-links {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-      gap: 12px 24px;
-      margin: 28px auto 0;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 12px 24px;
+margin: 28px auto 0;
     }
     .report-group { display: flex; gap: 10px; }
     .report-link {
-      position: relative;
-      display: inline-flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: 2px;
-      min-width: 0;
-      min-height: 50px;
-      padding: 6px 18px;
-      border: 1px solid #cbd7e2;
-      border-radius: 6px;
-      color: #35556f;
-      background: #f3f6f9;
-      text-decoration: none;
-      transition: background .15s, border-color .15s, color .15s;
+position: relative;
+display: inline-flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 2px;
+min-width: 0;
+min-height: 50px;
+padding: 6px 18px;
+border: 1px solid #cbd7e2;
+border-radius: 6px;
+color: #35556f;
+background: #f3f6f9;
+text-decoration: none;
+transition: background .15s, border-color .15s, color .15s;
     }
     .report-link:hover { color: #254761; background: #e9f0f6; border-color: #9fb4c7; text-decoration: none; }
     .link-title { font-size: 15px; font-weight: 500; line-height: 1.4; white-space: nowrap; }
-    .link-status { margin: 0; font-size: 10px; line-height: 1.2; font-weight: 400; }
+    .link-status, .link-meta { margin: 0; font-size: 11px; line-height: 1.25; font-weight: 400; }
+    .link-meta { color: var(--muted); }
     .report-link[aria-disabled="true"] { color: #737e89; background: #fafbfc; border-color: #e1e6eb; cursor: default; }
 
     /* One full-width image. The eventual image retains its own aspect ratio. */
     .model-collection { padding: 0 0 38px; }
     .collection-figure { margin: 0; }
     .collection-image {
-      display: block;
-      width: 100%;
-      height: auto;
-      border-radius: 3px;
+display: block;
+width: 100%;
+height: auto;
+border-radius: 3px;
     }
     .collection-placeholder {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      aspect-ratio: 16 / 9;
-      min-height: 220px;
-      padding: 30px;
-      text-align: center;
-      border: 1px dashed #c8d1dc;
-      border-radius: 8px;
-      color: #6c7887;
-      background: #fafbfd;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+aspect-ratio: 16 / 9;
+min-height: 220px;
+padding: 30px;
+text-align: center;
+border: 1px dashed #c8d1dc;
+border-radius: 8px;
+color: #6c7887;
+background: #fafbfd;
     }
     .collection-placeholder svg { width: 38px; height: 38px; margin-bottom: 12px; color: #9ca8b7; }
     .placeholder-title { margin: 0; font-size: 18px; font-weight: 500; }
@@ -247,34 +246,34 @@
     .citation h2 { margin: 0; font-size: 23px; font-weight: 600; letter-spacing: -.025em; }
     .citation h2 span { margin-left: 8px; font-size: 15px; font-weight: 400; color: var(--muted); }
     .copy-button {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 7px;
-      min-height: 42px;
-      padding: 7px 13px;
-      background: #fff;
-      border: 1px solid #d7dfe8;
-      border-radius: 6px;
-      color: #3f5165;
-      font-size: 13px;
-      cursor: pointer;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+gap: 7px;
+min-height: 42px;
+padding: 7px 13px;
+background: #fff;
+border: 1px solid #d7dfe8;
+border-radius: 6px;
+color: #3f5165;
+font-size: 13px;
+cursor: pointer;
     }
     .copy-button:hover { border-color: #9fadc0; background: var(--soft); }
     .copy-button svg { width: 15px; height: 15px; }
     .bibtex {
-      margin: 0;
-      padding: 23px 25px;
-      border: 1px solid var(--rule);
-      border-radius: 8px;
-      background: var(--soft);
-      color: #344356;
-      white-space: pre-wrap;
-      overflow-wrap: anywhere;
-      font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
-      font-size: 13px;
-      line-height: 1.8;
-      tab-size: 2;
+margin: 0;
+padding: 23px 25px;
+border: 1px solid var(--rule);
+border-radius: 8px;
+background: var(--soft);
+color: #344356;
+white-space: pre-wrap;
+overflow-wrap: anywhere;
+font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+font-size: 13px;
+line-height: 1.8;
+tab-size: 2;
     }
     .copy-status { min-height: 20px; margin: 7px 0 0; font-size: 12px; color: var(--muted); text-align: right; }
     .site-footer { border-top: 1px solid var(--rule); padding: 24px 24px 30px; text-align: center; color: #77808b; font-size: 11px; line-height: 1.8; }
@@ -296,7 +295,7 @@
       .authors-zh { margin-top: 13px; font-size: 15px; gap: 5px 18px; }
       .publication-links { flex-direction: column; gap: 10px; margin-top: 24px; }
       .report-group { display: grid; gap: 8px; width: 100%; max-width: 420px; }
-      .report-group-en { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .report-group-en { grid-template-columns: minmax(0, 1fr); }
       .report-group-zh { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .report-link { min-height: 48px; padding: 6px 10px; }
       .link-title { font-size: 14px; }
@@ -314,7 +313,7 @@
       .title-zh { font-size: 20px; }
       .report-link { padding-inline: 6px; }
       .link-title { font-size: 13px; }
-      .link-status { font-size: 9px; }
+      .link-status, .link-meta { font-size: 11px; }
     }
     @media (prefers-reduced-motion: reduce) {
       html { scroll-behavior: auto; }
@@ -369,26 +368,20 @@
 
       <nav id="reports" class="publication-links" aria-label="Report versions">
         <div class="report-group report-group-en" role="group" aria-label="English report versions">
-          <a class="report-link" data-report="briefEnglish" href="./brief-en.pdf">
-            <span class="link-title">Brief Report (1MB)</span>
-            <span class="link-status" hidden>Not yet available</span>
-          </a>
-          <a class="report-link" data-report="fullEnglish" href="./full-en.pdf">
-            <span class="link-title">Full Report (15MB)</span>
-            <span class="link-status" hidden>Not yet available</span>
-          </a>
           <a class="report-link" data-report="arxiv" aria-disabled="true" role="link">
-            <span class="link-title">arXiv</span>
-            <span class="link-status">To Be Published</span>
+            <span class="link-title">arXiv (Full report)</span>
+            <span class="link-status">To be published</span>
           </a>
         </div>
         <div class="report-group report-group-zh" role="group" aria-label="Chinese report versions" lang="zh-CN">
           <a class="report-link" data-report="briefChinese" href="./brief-zh.pdf">
-            <span class="link-title">报告摘要版本（1MB）</span>
+            <span class="link-title">中文摘要版</span>
+            <span class="link-meta" lang="en">PDF · 1 MB</span>
             <span class="link-status" lang="en" hidden>Not yet available</span>
           </a>
           <a class="report-link" data-report="fullChinese" href="./full-zh.pdf">
-            <span class="link-title">全文报告版本（15MB）</span>
+            <span class="link-title">完整中文报告</span>
+            <span class="link-meta" lang="en">PDF · 15 MB</span>
             <span class="link-status" lang="en" hidden>Not yet available</span>
           </a>
         </div>
@@ -450,11 +443,11 @@
       "use strict";
 
       // Accept HTTPS/HTTP and site-relative files, including local file previews.
-      function allowedURL(value) {
+function allowedURL(value) {
         if (typeof value !== "string" || !value.trim()) return null;
         try {
-          const url = new URL(value.trim(), document.baseURI);
-          const protocols = location.protocol === "file:" ? ["https:", "http:", "file:"] : ["https:", "http:"];
+const url = new URL(value.trim(), document.baseURI);
+const protocols = location.protocol === "file:" ? ["https:", "http:", "file:"] : ["https:", "http:"];
           return protocols.includes(url.protocol) ? url.href : null;
         } catch (_) {
           return null;
@@ -462,23 +455,23 @@
       }
 
       document.querySelectorAll("[data-report]").forEach(link => {
-        const url = allowedURL(PAGE_CONFIG[link.dataset.report]);
+const url = allowedURL(PAGE_CONFIG[link.dataset.report]);
         if (!url) {
-          link.removeAttribute("href");
-          link.setAttribute("aria-disabled", "true");
-          link.setAttribute("role", "link");
-          link.querySelector(".link-status").hidden = false;
+link.removeAttribute("href");
+link.setAttribute("aria-disabled", "true");
+link.setAttribute("role", "link");
+link.querySelector(".link-status").hidden = false;
           return;
         }
-        link.href = url;
-        link.removeAttribute("aria-disabled");
-        link.removeAttribute("role");
-        link.querySelector(".link-status").hidden = true;
+link.href = url;
+link.removeAttribute("aria-disabled");
+link.removeAttribute("role");
+link.querySelector(".link-status").hidden = true;
       });
 
-      const image = document.getElementById("collection-image");
-      const placeholder = document.getElementById("collection-placeholder");
-      const imageURL = allowedURL(PAGE_CONFIG.collectionImage);
+const image = document.getElementById("collection-image");
+const placeholder = document.getElementById("collection-placeholder");
+const imageURL = allowedURL(PAGE_CONFIG.collectionImage);
       if (imageURL) {
         image.addEventListener("load", () => {
           image.hidden = false;
@@ -492,20 +485,20 @@
         image.src = imageURL;
       }
 
-      const copyButton = document.getElementById("copy-citation");
-      const code = document.getElementById("bibtex");
-      const label = document.getElementById("copy-label");
-      const status = document.getElementById("copy-status");
-      let resetTimer;
+const copyButton = document.getElementById("copy-citation");
+const code = document.getElementById("bibtex");
+const label = document.getElementById("copy-label");
+const status = document.getElementById("copy-status");
+let resetTimer;
       copyButton.hidden = false;
 
-      function legacyCopy(text) {
-        const field = document.createElement("textarea");
+function legacyCopy(text) {
+const field = document.createElement("textarea");
         field.value = text;
         field.setAttribute("readonly", "");
         field.style.cssText = "position:fixed;left:-9999px;top:0;opacity:0;";
         document.body.appendChild(field);
-        let copied = false;
+let copied = false;
         try {
           field.select();
           field.setSelectionRange(0, field.value.length);
@@ -521,8 +514,8 @@
 
       copyButton.addEventListener("click", async () => {
         clearTimeout(resetTimer);
-        const citation = code.textContent.trim();
-        let copied = false;
+const citation = code.textContent.trim();
+let copied = false;
         if (navigator.clipboard && window.isSecureContext) {
           try {
             await navigator.clipboard.writeText(citation);
@@ -536,9 +529,9 @@
           label.textContent = "Copied ✓";
           status.textContent = "Citation copied.";
         } else {
-          const range = document.createRange();
+const range = document.createRange();
           range.selectNodeContents(code);
-          const selection = window.getSelection();
+const selection = window.getSelection();
           selection.removeAllRanges();
           selection.addRange(range);
           status.textContent = "Citation selected. Press Ctrl+C or ⌘C.";
