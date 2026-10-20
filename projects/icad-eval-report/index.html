@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Assessing the CAD Capabilities of General-Purpose AI Models: A Case Study of GPT-6 Astra</title>
-  <meta name="description" content="A technical report from Zhejiang University evaluating GPT-6 Astra on CAD model understanding, generation, and parametric reconstruction. 通用大模型的 CAD 能力评测报告——以 GPT-6 Astra 为例。">
+  <meta name="description" content="An arXiv preprint by Zhejiang University researchers evaluating GPT-6 Astra on CAD model understanding, generation, and parametric reconstruction. 通用大模型的 CAD 能力评测报告——以 GPT-6 Astra 为例。">
   <meta name="author" content="Qiang Zou, Jiajun Shen, Zhijie Yang, Yuhao Wang, Shitianyi Leng, Dongshuo Yin">
   <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#ffffff">
@@ -13,13 +13,13 @@
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="DMA Lab, Zhejiang University">
   <meta property="og:title" content="Assessing the CAD Capabilities of General-Purpose AI Models: A Case Study of GPT-6 Astra">
-  <meta property="og:description" content="通用大模型的 CAD 能力评测报告——以 GPT-6 Astra 为例。A technical report from Zhejiang University.">
+  <meta property="og:description" content="通用大模型的 CAD 能力评测报告——以 GPT-6 Astra 为例。An arXiv preprint from Zhejiang University.">
   <meta property="og:url" content="https://qiang-zou.github.io/projects/icad-eval-report/">
   <meta property="og:locale" content="en_US">
   <meta property="og:locale:alternate" content="zh_CN">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Assessing the CAD Capabilities of General-Purpose AI Models: A Case Study of GPT-6 Astra">
-  <meta name="twitter:description" content="A technical report from DMA Lab, Zhejiang University.">
+  <meta name="twitter:description" content="An arXiv preprint from DMA Lab, Zhejiang University.">
 
   <meta name="citation_title" content="Assessing the CAD Capabilities of General-Purpose AI Models: A Case Study of GPT-6 Astra">
   <meta name="citation_author" content="Zou, Qiang">
@@ -28,9 +28,10 @@
   <meta name="citation_author" content="Wang, Yuhao">
   <meta name="citation_author" content="Leng, Shitianyi">
   <meta name="citation_author" content="Yin, Dongshuo">
-  <meta name="citation_publication_date" content="2026/10">
-  <meta name="citation_technical_report_institution" content="State Key Laboratory of CAD&amp;CG, Zhejiang University">
-  <!-- 发布全文后，可在此添加 citation_pdf_url，值为可公开访问的全文 PDF 绝对网址。 -->
+  <meta name="citation_publication_date" content="2026/10/17">
+  <meta name="citation_arxiv_id" content="2610.24451">
+  <meta name="citation_abstract_html_url" content="https://arxiv.org/abs/2610.24451">
+  <meta name="citation_pdf_url" content="https://arxiv.org/pdf/2610.24451">
 
   <script type="application/ld+json">
   {
@@ -38,7 +39,7 @@
     "@type": "ScholarlyArticle",
     "headline": "Assessing the CAD Capabilities of General-Purpose AI Models: A Case Study of GPT-6 Astra",
     "alternativeHeadline": "通用大模型的 CAD 能力评测报告——以 GPT-6 Astra 为例",
-    "description": "A technical report evaluating GPT-6 Astra on part classification, feature recognition, CAD model generation from engineering drawings, text and images, and parametric reconstruction of B-rep models.",
+    "description": "An arXiv preprint evaluating GPT-6 Astra on part classification, feature recognition, CAD model generation from engineering drawings, text and images, and parametric reconstruction of B-rep models.",
     "author": [
       {"@type": "Person", "name": "Qiang Zou", "alternateName": "邹强", "url": "https://qiang-zou.github.io/"},
       {"@type": "Person", "name": "Jiajun Shen", "alternateName": "沈佳军"},
@@ -47,9 +48,11 @@
       {"@type": "Person", "name": "Shitianyi Leng", "alternateName": "冷石天一"},
       {"@type": "Person", "name": "Dongshuo Yin", "alternateName": "尹东硕"}
     ],
-    "publisher": {"@type": "Organization", "name": "State Key Laboratory of CAD&CG, Zhejiang University"},
-    "datePublished": "2026-10",
+    "publisher": {"@type": "Organization", "name": "arXiv"},
+    "datePublished": "2026-10-17",
     "url": "https://qiang-zou.github.io/projects/icad-eval-report/",
+    "sameAs": "https://arxiv.org/abs/2610.24451",
+    "identifier": "arXiv:2610.24451",
     "inLanguage": ["en", "zh-CN"]
   }
   </script>
@@ -58,11 +61,11 @@
   ==================== 编辑区：报告链接与模型合集图 ====================
   三个入口：arXiv (Full report)、中文摘要版、完整中文报告。
   brief-zh.pdf、full-zh.pdf 和 model-collect.png 均与 index.html 放在同一目录。
-  arxiv：发布后填入摘要页面链接，例如 https://arxiv.org/abs/真实编号。
+  arxiv：已发布 https://arxiv.org/abs/2610.24451。
   中文 PDF 大小按提供的信息标为 1 MB 和 15 MB；更换文件后可更新按钮下方标注。
 
   链接可以是完整网址，也可以是相对路径，例如 ./full-zh.pdf。
-  arxiv 保持空字符串时，按钮置灰并显示“To be published”，不可点击。
+  arxiv 配置为有效链接时按钮可点击；若留空则禁用。
   图片建议从 PPT“导出”为 PNG，宽度约 2400–3200 像素，避免屏幕截图。
   将 model-collect.png 与 index.html 放在同一目录即可。
 
@@ -72,7 +75,7 @@
   -->
   <script id="page-config">
     const PAGE_CONFIG = Object.freeze({
-      arxiv: "",
+      arxiv: "https://arxiv.org/abs/2610.24451",
       briefChinese: "./brief-zh.pdf",
       fullChinese: "./full-zh.pdf",
       collectionImage: "./model-collect.png"
@@ -332,7 +335,7 @@ tab-size: 2;
   <a class="skip-link" href="#reports">Skip to report links</a>
   <main>
     <header class="publication-header container">
-      <p class="report-meta">Technical Report <span aria-hidden="true">·</span> October 2026</p>
+      <p class="report-meta">arXiv Preprint <span aria-hidden="true">·</span> October 2026</p>
       <h1 class="publication-title">
         <span class="title-main">Assessing the CAD Capabilities of General-Purpose AI Models:</span>
         <span class="title-subtitle">A Case Study of GPT-6 Astra</span>
@@ -368,9 +371,10 @@ tab-size: 2;
 
       <nav id="reports" class="publication-links" aria-label="Report versions">
         <div class="report-group report-group-en" role="group" aria-label="English report versions">
-          <a class="report-link" data-report="arxiv" aria-disabled="true" role="link">
+          <a class="report-link" data-report="arxiv" href="https://arxiv.org/abs/2610.24451">
             <span class="link-title">arXiv (Full report, English)</span>
-            <span class="link-status">https://arxiv.org/abs/2610.24451</span>
+            <span class="link-meta">arXiv:2610.24451</span>
+            <span class="link-status" hidden>Not yet available</span>
           </a>
         </div>
         <div class="report-group report-group-zh" role="group" aria-label="Chinese report versions" lang="zh-CN">
@@ -417,16 +421,14 @@ tab-size: 2;
           <span id="copy-label">Copy BibTeX</span>
         </button>
       </div>
-      <pre class="bibtex"><code id="bibtex">@techreport{zou2026gpt6cad,
-  author      = {Zou, Qiang and Shen, Jiajun and Yang, Zhijie and
-                 Wang, Yuhao and Leng, Shitianyi and Yin, Dongshuo},
-  title       = {Assessing the {CAD} Capabilities of General-Purpose {AI} Models:
-                 A Case Study of {GPT-6 Astra}},
-  institution = {State Key Laboratory of CAD\&amp;CG, Zhejiang University},
-  year        = {2026},
-  month       = oct,
-  type        = {Technical Report},
-  url         = {https://qiang-zou.github.io/projects/icad-eval-report/}
+      <pre class="bibtex"><code id="bibtex">@article{zou2026gpt6cad,
+      title={Assessing the CAD Capabilities of General-Purpose AI Models: A Case Study of GPT-6 Astra},
+      author={Qiang Zou and Jiajun Shen and Zhijie Yang and Yuhao Wang and Shitianyi Leng and Dongshuo Yin},
+      year={2026},
+      eprint={2610.24451},
+      archivePrefix={arXiv},
+      primaryClass={cs.GR},
+      url={https://arxiv.org/abs/2610.24451},
 }</code></pre>
       <p id="copy-status" class="copy-status" role="status" aria-live="polite"></p>
     </section>
