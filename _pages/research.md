@@ -5,7 +5,7 @@ title: "Research"
 permalink: /research/
 page_class: research-page
 ---
-Publications · [Full list on Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=en) · [Code](/codes/)
+**Selected Publications** · [Full list on Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=en) · [Code](/codes/)
 
 ### Technical Reports {#technical-reports}
 
