@@ -18,6 +18,16 @@ Jekyll source for <https://qiang-zou.github.io/>.
 
 保留文件顶部 `---` 之间的页面配置，正文使用普通 Markdown。首页侧栏的姓名、照片、身份和地点在 `about.md` 顶部的 `profile` 配置中修改。
 
+## 四个主页面与首页目录
+
+主导航为 **Home、Code、Group、Chinese**。首页按 About、News、Research、Teaching、Service 排列；研究、教学和服务仍分别编辑原来的 Markdown 文件，由 `_layouts/home.html` 读取并组合，不要把正文复制到模板里。
+
+`_data/home.yml` 只维护首页合并栏目的标题、锚点和源文件路径。源文件中的 `##` 分类标题会在首页自动降为三级标题，与首页的五个二级栏目区分；Markdown 的写法不变。
+
+大屏右侧显示固定目录，滚动时高亮当前栏目；窄屏目录移到正文上方，可展开收起。每个研究分类默认显示前三篇，Awards 和 Talks 各显示前三条，Service 各列表显示前四条，其余自动生成展开入口。调整顺序即可改变优先展示内容，数量在 `assets/js/home.js` 中统一修改；全部内容仍保留在页面中，禁用 JavaScript 时完整显示。News 继续由 `about.md` 中的 `<details>` 手动控制。
+
+`/research/`、`/teaching/`、`/services/` 保留为跳转入口，指向首页对应栏目；旧研究分类锚点也保留。请保留这三个文件顶部的 `layout: section-redirect` 和 `home_section` 配置。
+
 ## 新增一条 News
 
 在 `about.md` 的 `## News` 下方插入一行即可：
@@ -112,11 +122,13 @@ Write your introduction here.
 ## 模板和样式
 
 - `_layouts/default.html`：共用页头、主内容区域和页脚。
-- `_layouts/home.html`：首页头像侧栏与正文两栏框架。
+- `_layouts/home.html`：首页头像侧栏、组合正文和右侧目录框架。
+- `_layouts/section-redirect.html`：旧研究、教学和服务链接的跳转页。
 - `_layouts/page.html`：其他页面的标题和正文框架。
 - `_includes/`：共用导航、页头元信息和页脚。
 - `assets/css/site.css`：全站蓝色配色、字号，以及普通 Markdown 标题、列表、论文和项目的排版。
-- `assets/css/home.css`：圆形头像、原侧栏图标、News 日期对齐与折叠样式。
+- `assets/css/home.css`：圆形头像、侧栏图标、News、右侧目录与响应式布局。
+- `assets/js/home.js`：目录高亮、自动折叠列表、手机端联系信息展开。
 
 新闻、论文和项目正文都在各自的 Markdown 文件中，不存放在模板或额外的 JSON 文件里。无需为每一条内容手写 CSS 类名。当前保留 29 条 News、31 篇论文与 14 个代码项目；独立报告 `projects/icad-eval-report/` 保持自身布局。
 

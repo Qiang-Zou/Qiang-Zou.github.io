@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: section-redirect
+home_section: service
 title: "Academic service"
 permalink: /services/
 ---

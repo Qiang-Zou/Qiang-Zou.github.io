@@ -28,6 +28,23 @@ layout: default
       <div class="home-reading-column">
         <h1 id="home-title" class="visually-hidden">{{ page.profile.name | default: site.author.name | escape }} — Home</h1>
         <div class="prose home-bio">{{ content }}</div>
+        {% for section in site.data.home.sections %}
+        {% assign source_page = site.pages | where: 'path', section.source | first %}
+        <section id="{{ section.id }}" class="home-section {{ section.id }}-page" aria-labelledby="{{ section.id }}-title">
+          <h2 id="{{ section.id }}-title">{{ section.title }}</h2>
+          <div class="prose">{{ source_page.content | markdownify | replace: '<h3', '<h4' | replace: '</h3>', '</h4>' | replace: '<h2', '<h3' | replace: '</h2>', '</h3>' }}</div>
+        </section>
+        {% endfor %}
       </div>
     </article>
+    <details class="section-index" open>
+      <summary>On this page</summary>
+      <nav aria-label="On this page">
+        <a href="#about-title" aria-current="location">About</a>
+        <a href="#news-title">News</a>
+        {% for section in site.data.home.sections %}
+        <a href="#{{ section.id }}">{{ section.title }}</a>
+        {% endfor %}
+      </nav>
+    </details>
 </div>

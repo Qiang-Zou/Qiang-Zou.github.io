@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: section-redirect
+home_section: teaching
 title: "Teaching"
 permalink: /teaching/
 ---

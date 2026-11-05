@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: section-redirect
+home_section: research
 title: "Research"
 permalink: /research/
 page_class: research-page
