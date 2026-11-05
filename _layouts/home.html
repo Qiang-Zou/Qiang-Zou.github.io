@@ -5,16 +5,16 @@ layout: default
     <aside class="sidebar sticky" aria-label="Profile and contact">
       <div itemscope itemtype="https://schema.org/Person">
         <div class="author__avatar">
-          <img src="{{ site.author.avatar | relative_url }}" class="author__avatar" alt="Qiang Zou" width="400" height="400" fetchpriority="high">
+          <img src="{{ page.profile.avatar | default: site.author.avatar | relative_url }}" class="author__avatar" alt="{{ page.profile.name | default: site.author.name | escape }}" width="400" height="400" fetchpriority="high">
         </div>
         <div class="author__content">
-          <h3 class="author__name">Qiang Zou</h3>
-          <p class="author__bio">Mechanical Engineer + Computer Scientist</p>
+          <h3 class="author__name">{{ page.profile.name | default: site.author.name | escape }}</h3>
+          <p class="author__bio">{{ page.profile.bio | escape }}</p>
         </div>
         <div class="author__urls-wrapper">
           <button type="button" class="btn btn--inverse" aria-expanded="false" aria-controls="author-links">Follow</button>
           <ul id="author-links" class="author__urls social-icons">
-            <li><i class="fas fa-fw fa-map-marker" aria-hidden="true"></i> Hangzhou, China, 310027</li>
+            <li><i class="fas fa-fw fa-map-marker" aria-hidden="true"></i> {{ page.profile.location | escape }}</li>
             <li><a href="mailto:{{ site.author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
             <li><a href="{{ site.author.linkedin }}"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
             <li><a href="{{ site.author.scholar }}"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></li>
@@ -26,7 +26,7 @@ layout: default
     </aside>
     <article class="home-content" aria-labelledby="about-title">
       <div class="home-reading-column">
-        <header class="page-heading"><h1 id="about-title">About</h1></header>
+        <header class="page-heading"><h1 id="about-title">{{ page.title | escape }}</h1></header>
         <section class="prose home-bio">{{ content }}</section>
       </div>
     </article>

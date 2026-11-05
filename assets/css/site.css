@@ -49,7 +49,7 @@ strong { font-weight: 600; }
 .section-nav a { text-decoration: none; }
 .section-nav a:hover { text-decoration: underline; }
 .prose { max-width: 960px; overflow-wrap: break-word; }
-.prose h2, .news-section h2 { margin: 32px 0 16px; padding-bottom: 9px; border-bottom: 1px solid var(--line); }
+.prose h2 { margin: 32px 0 16px; padding-bottom: 9px; border-bottom: 1px solid var(--line); }
 .prose > h2:first-child, .prose > section:first-child > h2 { margin-top: 0; }
 .prose h3 { margin: 24px 0 10px; }
 .prose ul, .prose ol { padding-left: 25px; margin: 0 0 24px; }
@@ -64,30 +64,30 @@ strong { font-weight: 600; }
 .prose th { font-weight: 550; }
 .prose pre { overflow: auto; padding: 20px; background: var(--wash); font-size: var(--small); }
 .prose :not(pre) > code { font-size: .95em; background: var(--wash); padding: 2px 5px; }
-.resource-links { display: flex; gap: 18px; flex-wrap: wrap; line-height: 1.5; }
-.resource-links a { font-size: var(--small); font-weight: 400; text-decoration: none; }
-.resource-links a:hover { text-decoration: underline; }
+/* Page templates style ordinary Markdown lists; content needs no CSS classes. */
+.research-page .prose > p:first-child { margin: -12px 0 28px; font-size: var(--small); color: var(--muted); }
+.research-page .prose > p:first-child a { text-decoration: none; }
+.research-page .prose > p:first-child a:hover { text-decoration: underline; }
+.research-page .prose > h2:first-of-type { margin-top: 0; }
+.research-page .prose > ul, .code-page > ul { list-style: none; margin: 0 0 32px; padding: 0; }
+.research-page .prose > ul > li { margin: 0 0 24px; padding: 0; line-height: 1.65; }
+.research-page .prose > ul > li:last-child { margin-bottom: 0; }
+.research-page .prose > ul > li > p { margin: 0; font-size: var(--small); color: var(--muted); }
+.research-page .prose > ul > li > p:first-child { margin-bottom: 5px; font-size: var(--item); line-height: 1.45; color: var(--heading); }
+.research-page .prose > ul > li strong { font-weight: 550; }
+.research-page .prose > ul > li > p > a { display: inline-block; margin-top: 5px; text-decoration: none; }
+.research-page .prose > ul > li > p > a:hover { text-decoration: underline; }
 .code-page { max-width: none; }
-.project-section, .publication-section { margin-bottom: 32px; }
-.project-row { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 28px; align-items: start; padding: 16px 0 24px; }
-.project-image { display: flex; align-items: center; justify-content: center; height: 156px; padding: 6px; background: #fff; border: 1px solid var(--line); border-radius: 3px; }
-.project-image img { display: block; max-width: 100%; width: auto; height: auto; max-height: 100%; object-fit: contain; }
-.project-image:hover { border-color: var(--accent); }
-.project-content h3, .code-page .project-content h3 { margin: 0 0 7px; font-size: var(--item); line-height: 1.45; }
-.project-content p { margin: 0 0 10px; font-size: var(--small); line-height: 1.7; }
-.publication-intro { margin: -12px 0 28px; font-size: var(--small); color: var(--muted); }
-.publication-intro a { text-decoration: none; }
-.publication-intro a:hover { text-decoration: underline; }
-.publication-section:first-of-type h2 { margin-top: 0; }
-.publication-list { list-style: none; margin: 0 !important; padding: 0 !important; }
-.publication-list li { margin: 0 0 24px; padding: 0; line-height: 1.6; }
-.publication-list li:last-child { margin-bottom: 0; }
-.publication-list p { margin: 0; }
-.publication-list .paper-title { display: block; margin-bottom: 5px; color: var(--heading); font-size: var(--item); font-weight: 550; line-height: 1.45; }
-.publication-list .paper-title strong { color: inherit; font-weight: inherit; }
-.publication-list .citation { color: var(--muted); font-size: var(--small); line-height: 1.65; }
-.publication-list strong { color: var(--ink); font-weight: 550; }
-.publication-list .resource-links { margin-top: 5px; }
+.code-page > ul > li { display: grid; grid-template-columns: 200px minmax(0, 1fr); column-gap: 28px; row-gap: 7px; align-items: start; padding: 16px 0 24px; margin: 0; }
+.code-page > ul > li > p { grid-column: 2; margin: 0; font-size: var(--small); line-height: 1.7; }
+.code-page > ul > li > p:first-child { grid-column: 1; grid-row: 1 / span 3; }
+.code-page > ul > li > p:first-child > a { display: flex; align-items: center; justify-content: center; height: 156px; padding: 6px; background: #fff; border: 1px solid var(--line); border-radius: 3px; }
+.code-page > ul > li > p:first-child img { display: block; width: auto; height: auto; max-width: 100%; max-height: 100%; object-fit: contain; }
+.code-page > ul > li > p:first-child > a:hover { border-color: var(--accent); }
+.code-page > ul > li > p:nth-child(2) { font-size: var(--item); color: var(--heading); line-height: 1.45; }
+.code-page > ul > li > p:nth-child(2) strong { font-weight: 550; }
+.code-page > ul > li > p > a { text-decoration: none; }
+.code-page > ul > li > p > a:hover { text-decoration: underline; }
 .site-footer { background: var(--wash); border-top: 1px solid var(--line); }
 .footer-inner { min-height: 90px; display: flex; align-items: center; justify-content: space-between; gap: 24px; color: var(--muted); font-size: 16px; }
 .footer-inner p { margin: 0; }
@@ -106,8 +106,9 @@ strong { font-weight: 600; }
   .main-nav { width: 100%; justify-content: flex-start; gap: 4px 20px; }
   .page-shell, .home-shell { padding-top: 30px; padding-bottom: 48px; }
   .page-heading { margin-bottom: 22px; }
-  .project-row { grid-template-columns: 1fr; gap: 16px; }
-  .project-image { width: 200px; max-width: 100%; }
+  .code-page > ul > li { grid-template-columns: 1fr; gap: 10px; }
+  .code-page > ul > li > p { grid-column: 1; }
+  .code-page > ul > li > p:first-child { grid-row: auto; width: 200px; max-width: 100%; margin-bottom: 6px; }
   .prose li { padding-left: 0; }
   .footer-inner { padding-top: 22px; padding-bottom: 22px; flex-direction: column; align-items: flex-start; gap: 10px; }
 }
@@ -116,5 +117,5 @@ strong { font-weight: 600; }
   .site-header, .site-footer, .skip-link, .section-nav { display: none; }
   .page-shell { max-width: none; padding: 0; }
   a { color: inherit; }
-  .project-row, .publication-list li { break-inside: avoid; }
+  .code-page > ul > li, .research-page .prose > ul > li { break-inside: avoid; }
 }
