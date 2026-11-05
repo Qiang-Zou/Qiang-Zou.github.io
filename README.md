@@ -6,8 +6,7 @@ Jekyll source for <https://qiang-zou.github.io/>. The site uses a small custom t
 
 | Content | Location |
 | --- | --- |
-| Biography | `_pages/about.md` |
-| News, newest first | `_data/news.json` |
+| Original biography, recruitment note, and news | `_pages/about.md` |
 | Research publications, grouped by topic | `_data/publications.json` |
 | Code projects and their paper links | `_data/projects.json` |
 | Group, teaching, service, Chinese profile | `_pages/` |
@@ -19,7 +18,7 @@ Jekyll source for <https://qiang-zou.github.io/>. The site uses a small custom t
 
 For a new code project, add one object to `_data/projects.json` with `id`, `name`, `category`, `description`, `image`, and `code`. `title` and `paper` are optional. `image` is a site-relative path, for example `/images/codes/kdh-cad.png`. Existing category names are `AI for CAD/CAM`, `Surface and Solid Modeling`, and `Microstructure Modeling`.
 
-The homepage keeps a profile sidebar beside the biography and news. Its layout is in `_layouts/home.html`; it displays the first eight news items and puts older news in an expandable archive. All code-page illustrations keep their proportions and link to their original files.
+The homepage keeps a profile photo and contact links on the left, with the original biography, recruitment note, and full news list on the right. Its layout is in `_layouts/home.html`; all homepage text is edited directly in `_pages/about.md`. All code-page illustrations keep their proportions and link to their original files.
 
 ## Build and check
 

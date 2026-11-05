@@ -7,8 +7,7 @@ layout: default
       <img class="profile-photo" src="{{ site.author.avatar | relative_url }}" width="180" height="180" alt="Qiang Zou" fetchpriority="high">
       <div class="profile-details">
         <h2>Qiang Zou <span lang="zh-CN">邹强</span></h2>
-        <p class="profile-role">{{ site.author.role }}</p>
-        <p class="profile-affiliation">{{ site.author.lab }}<br>{{ site.author.affiliation }}</p>
+        <p class="profile-affiliation">Mechanical Engineer +<br>Computer Scientist</p>
         <p class="profile-location">Hangzhou, China</p>
         <nav class="profile-contacts" aria-label="Academic profiles">
           <a class="profile-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
@@ -19,17 +18,9 @@ layout: default
         </nav>
       </div>
     </aside>
-    <div class="home-content">
-      <section class="home-about" aria-labelledby="about-title">
-        <h1 id="about-title">About</h1>
-        <div class="home-bio">{{ content }}</div>
-        <p class="recruiting-note"><strong>Prospective students.</strong> Motivated undergraduate and graduate students are welcome to join our group to develop next-generation software for design and manufacturing. A background in mechanical engineering and programming is a plus. <a href="mailto:{{ site.author.email }}">Get in touch</a> or <a href="{{ '/group/' | relative_url }}">learn about DMA Lab</a>.</p>
-      </section>
-      <section class="news-section" aria-labelledby="news-title">
-        <h2 id="news-title">News</h2>
-        <ul class="news-list">{% for item in site.data.news limit:8 %}{% include news-item.html item=item %}{% endfor %}</ul>
-        <details class="news-archive"><summary>Earlier news</summary><ul class="news-list">{% for item in site.data.news offset:8 %}{% include news-item.html item=item %}{% endfor %}</ul></details>
-      </section>
-    </div>
+    <section class="home-content" aria-labelledby="about-title">
+      <h1 id="about-title">About</h1>
+      <div class="home-bio">{{ content }}</div>
+    </section>
   </div>
 </div>
