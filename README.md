@@ -13,12 +13,13 @@ Jekyll source for <https://qiang-zou.github.io/>. The site uses a small custom t
 | Navigation | `_data/navigation.yml` |
 | Contact details and site settings | `_config.yml` |
 | Shared page structure | `_layouts/` and `_includes/` |
-| All shared styling | `assets/css/site.css` |
+| Inner-page styling | `assets/css/site.css` |
+| Original homepage styling | `assets/css/home-original.css` |
 | Research illustrations | `images/codes/` |
 
 For a new code project, add one object to `_data/projects.json` with `id`, `name`, `category`, `description`, `image`, and `code`. `title` and `paper` are optional. `image` is a site-relative path, for example `/images/codes/kdh-cad.png`. Existing category names are `AI for CAD/CAM`, `Surface and Solid Modeling`, and `Microstructure Modeling`.
 
-The homepage keeps a profile photo and contact links on the left, with the original biography, recruitment note, and full news list on the right. Its layout is in `_layouts/home.html`; all homepage text is edited directly in `_pages/about.md`. All code-page illustrations keep their proportions and link to their original files.
+The homepage restores the original Minimal Mistakes layout from commit `a69978b`: a circular portrait and compact icon links on the left, with the original biography, recruitment note, and full news list on the right. Its layout is in `_layouts/home.html`; all homepage text is edited directly in `_pages/about.md`. All code-page illustrations keep their proportions and link to their original files.
 
 ## Build and check
 
@@ -40,6 +41,6 @@ Commit source changes and push to the website's GitHub Pages branch to publish. 
 
 ## Theme cleanup
 
-The 2026 redesign replaces the old Minimal Mistakes layout, Sass dependencies, jQuery plugins, icon fonts, comment providers, and sample comment data. These removed files remain recoverable in Git history before this change. No Node/npm build is needed; the shared website uses plain CSS and native HTML disclosure controls.
+The 2026 redesign replaces the old Minimal Mistakes layout, Sass dependencies, jQuery plugins, icon fonts, comment providers, and sample comment data. These removed files remain recoverable in Git history before this change. The homepage now uses an isolated stylesheet compiled from that original theme, plus three original icon fonts. Its small native script in `assets/js/home.js` handles the mobile Follow button and navigation overflow; the legacy theme source and jQuery plugins are not required. No Node/npm build is needed; the shared website uses plain CSS and native HTML disclosure controls.
 
 The site contains 14 code projects (including the newly added CADDesigner), 32 selected publication entries, and 22 news entries. Existing page URLs and the standalone report and PDFs are retained. The unused research illustration `images/isolevel.png` is retained as original research material. Commented publication notes remain in `_pages/research.md`.

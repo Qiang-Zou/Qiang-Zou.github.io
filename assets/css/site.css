@@ -29,7 +29,6 @@ p { margin: 0 0 1.15em; }
 .main-nav a:hover, .main-nav a[aria-current] { color: var(--accent); }
 .main-nav a[aria-current]::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 2px; background: var(--accent); }
 .site-main { min-height: 65vh; }
-.home-shell { max-width: 1144px; padding: 52px 32px 80px; margin: 0 auto; }
 .eyebrow { color: var(--muted); letter-spacing: .035em; font-size: 14px; line-height: 1.6; font-weight: 650; margin: 0 0 20px; }
 .resource-links { display: flex; gap: 22px; flex-wrap: wrap; }
 .resource-links a { font-size: 16px; font-weight: 600; text-decoration: none; }
@@ -90,42 +89,12 @@ p { margin: 0 0 1.15em; }
 .footer-links a { color: var(--muted); text-decoration: none; }
 .footer-links a:hover { color: var(--accent); }
 
-/* A quiet academic homepage: profile on the left, biography and news on the right. */
-.home-layout { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 58px; align-items: start; }
-.home-profile { padding-top: 5px; }
-.profile-photo { display: block; width: 180px; height: 180px; border-radius: 4px; margin-bottom: 22px; }
-.profile-details h2 { font-size: 24px; line-height: 1.35; margin: 0 0 9px; letter-spacing: -.025em; }
-.profile-details h2 span { font-size: 17px; font-weight: 400; margin-left: 7px; white-space: nowrap; }
-.profile-affiliation, .profile-location { color: var(--muted); font-size: 15px; line-height: 1.65; margin: 0 0 12px; }
-.profile-contacts { display: flex; flex-direction: column; align-items: flex-start; gap: 7px; margin-top: 22px; }
-.profile-contacts a { font-size: 15px; text-decoration: none; }
-.profile-contacts a:hover { text-decoration: underline; }
-.profile-contacts .profile-email { font-size: 14px; overflow-wrap: anywhere; margin-bottom: 6px; }
-.home-content { min-width: 0; max-width: 790px; }
-.home-content h1 { font-size: 30px; font-weight: 600; margin: 0 0 22px; }
-.home-bio p { font-size: 18px; line-height: 1.8; margin-bottom: 20px; }
-.home-bio h2 { font-size: 26px; margin: 34px 0 22px; padding-top: 24px; border-top: 1px solid var(--line); }
-.home-bio strong { font-weight: 600; }
-.home-bio .recruiting-note { border-left: 3px solid #aab8cc; padding-left: 18px; margin: 27px 0 34px; font-size: 16px; line-height: 1.8; }
-.recruiting-note strong { font-weight: 600; }
 
 @media (max-width: 860px) {
-  .home-layout { grid-template-columns: 180px minmax(0, 1fr); gap: 34px; }
-  .profile-photo { width: 160px; height: 160px; }
   .header-inner { padding-top: 20px; padding-bottom: 16px; align-items: flex-start; gap: 15px 25px; }
   .main-nav { gap: 8px 20px; justify-content: flex-end; }
 }
 @media (max-width: 640px) {
-  .home-layout { grid-template-columns: 1fr; gap: 32px; }
-  .home-profile { display: grid; grid-template-columns: 104px minmax(0, 1fr); gap: 20px; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
-  .profile-photo { width: 104px; height: 104px; margin: 0; }
-  .profile-details h2 { font-size: 23px; }
-  .profile-affiliation, .profile-location { font-size: 15px; }
-  .profile-contacts { margin-top: 14px; gap: 8px 16px; flex-direction: row; flex-wrap: wrap; }
-  .profile-email { flex-basis: 100%; }
-  .home-content h1 { font-size: 27px; margin-bottom: 18px; }
-  .home-bio h2 { font-size: 24px; }
-  .home-bio p { font-size: 17px; }
 
   body { font-size: 17px; }
   .header-inner, .footer-inner { padding-left: 22px; padding-right: 22px; }
@@ -133,7 +102,6 @@ p { margin: 0 0 1.15em; }
   .main-nav { width: 100%; justify-content: flex-start; gap: 4px 19px; }
   .main-nav a { font-size: 15px; }
   .wordmark { font-size: 19px; }
-  .home-shell { padding: 30px 22px 48px; }
   .project-row { grid-template-columns: 1fr; gap: 18px; padding: 26px 0; align-items: start; }
   .project-image { width: 180px; height: 140px; padding: 5px; }
   .project-content h3, .code-page .project-content h3 { font-size: 19px; }
@@ -154,7 +122,7 @@ p { margin: 0 0 1.15em; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 @media print {
   .site-header, .site-footer, .skip-link, .section-nav { display: none; }
-  .page-shell, .home-shell { max-width: none; padding: 0; }
+  .page-shell { max-width: none; padding: 0; }
   a { color: inherit; }
   .project-row, .publication-list li { break-inside: avoid; }
 }

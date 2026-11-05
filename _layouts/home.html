@@ -1,26 +1,63 @@
----
-layout: default
----
-<div class="home-shell">
-  <div class="home-layout">
-    <aside class="home-profile" aria-label="Profile and contact">
-      <img class="profile-photo" src="{{ site.author.avatar | relative_url }}" width="180" height="180" alt="Qiang Zou" fetchpriority="high">
-      <div class="profile-details">
-        <h2>Qiang Zou <span lang="zh-CN">邹强</span></h2>
-        <p class="profile-affiliation">Mechanical Engineer +<br>Computer Scientist</p>
-        <p class="profile-location">Hangzhou, China</p>
-        <nav class="profile-contacts" aria-label="Academic profiles">
-          <a class="profile-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
-          <a href="{{ site.author.scholar }}">Google Scholar</a>
-          <a href="{{ site.author.orcid }}">ORCID</a>
-          <a href="{{ site.author.github }}">GitHub</a>
-          <a href="{{ site.author.linkedin }}">LinkedIn</a>
+<!doctype html>
+<html lang="en">
+<head>
+  {% include head.html stylesheet='/assets/css/home-original.css' %}
+  <script src="{{ '/assets/js/home.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
+</head>
+<body>
+  <a class="screen-reader-shortcut" href="#main">Skip to content</a>
+  <div class="masthead">
+    <div class="masthead__inner-wrap">
+      <div class="masthead__menu">
+        <nav id="site-nav" class="greedy-nav" aria-label="Main navigation">
+          <button type="button" class="hidden" aria-label="More navigation links" aria-expanded="false" aria-controls="overflow-links"><span class="navicon"></span></button>
+          <ul class="visible-links">
+            <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ '/' | relative_url }}">Qiang Zou | Homepage</a></li>
+            <li class="masthead__menu-item"><a href="{{ '/research/' | relative_url }}">Research</a></li>
+            <li class="masthead__menu-item"><a href="{{ '/teaching/' | relative_url }}">Teaching</a></li>
+            <li class="masthead__menu-item"><a href="{{ '/services/' | relative_url }}">Services</a></li>
+            <li class="masthead__menu-item"><a href="{{ '/codes/' | relative_url }}">Codes</a></li>
+            <li class="masthead__menu-item"><a href="{{ '/group/' | relative_url }}">Group</a></li>
+            <li class="masthead__menu-item"><a href="{{ '/about-chinese/' | relative_url }}">About-Chinese</a></li>
+          </ul>
+          <ul id="overflow-links" class="hidden-links hidden"></ul>
         </nav>
       </div>
-    </aside>
-    <section class="home-content" aria-labelledby="about-title">
-      <h1 id="about-title">About</h1>
-      <div class="home-bio">{{ content }}</div>
-    </section>
+    </div>
   </div>
-</div>
+  <main id="main" tabindex="-1">
+    <aside class="sidebar sticky" aria-label="Profile and contact">
+      <div itemscope itemtype="https://schema.org/Person">
+        <div class="author__avatar">
+          <img src="{{ site.author.avatar | relative_url }}" class="author__avatar" alt="Qiang Zou" width="400" height="400" fetchpriority="high">
+        </div>
+        <div class="author__content">
+          <h3 class="author__name">Qiang Zou</h3>
+          <p class="author__bio">Mechanical Engineer + Computer Scientist</p>
+        </div>
+        <div class="author__urls-wrapper">
+          <button type="button" class="btn btn--inverse" aria-expanded="false" aria-controls="author-links">Follow</button>
+          <ul id="author-links" class="author__urls social-icons">
+            <li><i class="fas fa-fw fa-map-marker" aria-hidden="true"></i> Hangzhou, China, 310027</li>
+            <li><a href="mailto:{{ site.author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
+            <li><a href="{{ site.author.linkedin }}"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+            <li><a href="{{ site.author.scholar }}"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></li>
+            <li><a href="{{ site.author.orcid }}"><i class="ai ai-orcid-square ai-fw" aria-hidden="true"></i> ORCID</a></li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+    <article class="page" aria-labelledby="about-title">
+      <div class="page__inner-wrap">
+        <header><h1 id="about-title" class="page__title">About</h1></header>
+        <section class="page__content">{{ content }}</section>
+      </div>
+    </article>
+  </main>
+  <div class="page__footer">
+    <footer>
+      <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name }}. Powered by <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+    </footer>
+  </div>
+</body>
+</html>
