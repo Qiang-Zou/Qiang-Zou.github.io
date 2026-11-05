@@ -12,7 +12,7 @@ content_class: code-page
 
   **KDH-CAD**
 
-  Knowledge–data hybrid CAD learning under data scarcity.
+  Knowledge–data hybrid CAD learning under data scarcity
 
   [Code](https://github.com/Qiang-Zou/KDH-CAD) · [Paper](https://doi.org/10.1016/j.cad.2026.104158)
 
@@ -20,7 +20,7 @@ content_class: code-page
 
   **CADDesigner**
 
-  An LLM-powered agent for conceptual CAD design from text and sketches.
+  An LLM-powered agent for conceptual CAD design from text and sketches
 
   [Code](https://github.com/562590763/CADDesigner-Code) · [Paper](https://doi.org/10.1016/j.cad.2026.104087)
 

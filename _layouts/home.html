@@ -24,10 +24,10 @@ layout: default
         </div>
       </div>
     </aside>
-    <article class="home-content" aria-labelledby="about-title">
+    <article class="home-content" aria-labelledby="home-title">
       <div class="home-reading-column">
-        <header class="page-heading"><h1 id="about-title">{{ page.title | escape }}</h1></header>
-        <section class="prose home-bio">{{ content }}</section>
+        <h1 id="home-title" class="visually-hidden">{{ page.profile.name | default: site.author.name | escape }} — Home</h1>
+        <div class="prose home-bio">{{ content }}</div>
       </div>
     </article>
 </div>
