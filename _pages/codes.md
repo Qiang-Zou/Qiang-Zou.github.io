@@ -10,17 +10,17 @@ content_class: code-page
 
 - [![KDH-CAD research illustration](/images/codes/kdh-cad.png)](/images/codes/kdh-cad.png){: #kdh-cad}
 
-  **KDH-CAD: Knowledge–data hybrid CAD learning under data scarcity**
+  **KDH-CAD**
 
-  Knowledge elicitation and calibration with a frozen foundation model and a small CAD dataset.
+  Knowledge–data hybrid CAD learning under data scarcity.
 
   [Code](https://github.com/Qiang-Zou/KDH-CAD) · [Paper](https://doi.org/10.1016/j.cad.2026.104158)
 
 - [![CADDesigner research illustration](/images/codes/caddesigner.png)](/images/codes/caddesigner.png){: #caddesigner}
 
-  **CADDesigner: Conceptual CAD model generation with a general-purpose agent**
+  **CADDesigner**
 
-  An LLM-powered agent for conceptual CAD design from text and sketches, with requirement refinement and visual feedback.
+  An LLM-powered agent for conceptual CAD design from text and sketches.
 
   [Code](https://github.com/562590763/CADDesigner-Code) · [Paper](https://doi.org/10.1016/j.cad.2026.104087)
 
