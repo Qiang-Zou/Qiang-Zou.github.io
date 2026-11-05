@@ -16,15 +16,3 @@ Current research work includes CAD/CAM with emphasis on (1) the basic research o
 
 **Pinned**: Highly motivated students (both undergrads and grads) are welcome to join our group to develop next-generation software for design and manufacturing. A solid background in Mechanical Engineering and Programming is a plus. Please shoot me an email if you are interested in working with me.
 {:.recruiting-note}
-
-<!-- July 2023. One paper accepted by the prestigious journal of Computer-Aided Design.
-
-June 2023. One paper accepted by the prestigious journal of Computer-Aided Design.
-
-May 2023. One paper accepted by the prestigious journal of Computer-Aided Design.
-
-Apr. 2023. One paper accepted by the journal of Advanced Engineering Informatics.
-
-Feb. 2023. One paper accepted by the prestigious journal of IEEE Transactions on Antennas and Propagation.
-
-Jan. 2023. One paper accepted by the prestigious journal of Computer-Aided Design. -->
