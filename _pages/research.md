@@ -6,6 +6,16 @@ page_class: research-page
 ---
 <p class="publication-intro">Selected publications · <a href="{{ site.author.scholar }}">Full list on Google Scholar</a> · <a href="{{ '/codes/' | relative_url }}">Code</a></p>
 
+<section class="publication-section" aria-labelledby="technical-reports">
+  <h2 id="technical-reports">Technical reports</h2>
+  <ul class="publication-list">
+    <li>
+      <span class="paper-title">Assessing the CAD Capabilities of General-Purpose AI Models: A Case Study of GPT-6 Astra</span>
+      <div class="resource-links"><a href="{{ '/projects/icad-eval-report/' | relative_url }}">Read report</a></div>
+    </li>
+  </ul>
+</section>
+
 {% for group in site.data.publications %}
 <section class="publication-section" aria-labelledby="{{ group.id }}">
   <h2 id="{{ group.id }}">{{ group.title }}</h2>
@@ -20,16 +30,6 @@ page_class: research-page
   </ul>
 </section>
 {% endfor %}
-
-<section class="publication-section" aria-labelledby="technical-reports">
-  <h2 id="technical-reports">Technical reports</h2>
-  <ul class="publication-list">
-    <li>
-      <span class="paper-title">Assessing the CAD Capabilities of General-Purpose AI Models: A Case Study of GPT-6 Astra</span>
-      <div class="resource-links"><a href="{{ '/projects/icad-eval-report/' | relative_url }}">Read report</a></div>
-    </li>
-  </ul>
-</section>
 
 ## Awards (Selected)
 
