@@ -76,7 +76,7 @@ Jekyll source for <https://qiang-zou.github.io/>.
 - 默认展示该分类中所有标记为 `true` 的论文，按 Markdown 中的顺序排列。
 - 点击 **View all … publications** 后，同一列表切换为该分类的全部论文，按 `data-year` 倒序排列。代表作不固定在顶部，也不会重复出现；同年论文保留源文件的相对顺序。
 - 点击 **Show selected publications**，恢复你选择的论文及其源文件顺序。
-- 一个分类没有任何 `true` 标记时，默认完整展示并按年份倒序排列，不自动选取前几篇。
+- 一个分类没有任何 `true` 标记时，默认收起论文，保留 **View all … publications** 入口；展开后全部按年份倒序排列，可用 **Collapse publications** 再次收起。不自动选取前几篇作为代表作。
 - 禁用 JavaScript 时仍能阅读源文件中的完整论文列表。
 
 当前没有代你标记代表作；请将你选中的条目改为 `true`。不要复制一份代表作清单，每篇论文只维护一次。

@@ -47,35 +47,31 @@
     const heading = list.previousElementSibling;
     const context = heading?.textContent.trim() || 'Publications';
     list.id = list.id || `publication-list-${listIndex}`;
-    let button;
-    let status;
-    let selectedView = selected.length > 0;
-    if (selected.length) {
-      const controls = document.createElement('div');
-      controls.className = 'publication-controls';
-      status = document.createElement('span');
-      status.setAttribute('aria-live', 'polite');
-      button = document.createElement('button');
-      button.type = 'button';
-      button.setAttribute('aria-controls', list.id);
-      controls.append(status, button);
-      list.before(controls);
-      button.addEventListener('click', () => { render(!selectedView); scheduleUpdate(); });
-    }
+    let selectedView = true;
+    const controls = document.createElement('div');
+    controls.className = 'publication-controls';
+    const status = document.createElement('span');
+    status.setAttribute('aria-live', 'polite');
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.setAttribute('aria-controls', list.id);
+    controls.append(status, button);
+    list.before(controls);
+    button.addEventListener('click', () => { render(!selectedView); scheduleUpdate(); });
     function render(showSelected) {
       selectedView = showSelected;
+      list.hidden = showSelected && selected.length === 0;
       const order = showSelected ? records : chronological;
       order.forEach(record => {
         record.item.hidden = showSelected && !record.selected;
         list.appendChild(record.item);
       });
-      if (button) {
-        const label = showSelected ? `View all ${records.length} publications` : 'Show selected publications';
-        button.textContent = label;
-        button.setAttribute('aria-label', `${context}: ${label}`);
-        button.setAttribute('aria-expanded', String(!showSelected));
-        status.textContent = showSelected ? `Selected publications (${selected.length})` : 'All publications · newest first';
-      }
+      const label = showSelected ? `View all ${records.length} publications` : (selected.length ? 'Show selected publications' : 'Collapse publications');
+      button.textContent = label;
+      button.setAttribute('aria-label', `${context}: ${label}`);
+      button.setAttribute('aria-expanded', String(!showSelected));
+      status.hidden = showSelected && selected.length === 0;
+      status.textContent = showSelected ? (selected.length ? `Selected publications (${selected.length})` : '') : 'All publications · newest first';
     }
     render(selectedView);
     publicationViews.push({ items, showAll: () => render(false) });
