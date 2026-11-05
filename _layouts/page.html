@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="page-shell">
+  <header class="page-heading">
+    <p class="eyebrow">{{ page.eyebrow | default: 'Qiang Zou · Zhejiang University' }}</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.description %}<p class="page-description">{{ page.description }}</p>{% endif %}
+  </header>
+  {% if page.section_nav %}
+  <nav class="section-nav" aria-label="On this page">
+    {% for section in page.section_nav %}<a href="#{{ section.id }}">{{ section.title }}</a>{% endfor %}
+  </nav>
+  {% endif %}
+  <div class="prose {{ page.content_class }}">{{ content }}</div>
+</div>

@@ -1,9 +1,84 @@
 ---
-layout: archive
-title: "Selected Publications"
-permalink: research/
-author_profile: true
+layout: page
+title: "Research & publications"
+permalink: /research/
+eyebrow: Geometric computing · Intelligent CAD
+description: "Selected work on geometric modeling, learning, and the automation of design and manufacturing."
+section_nav:
+  - title: AI & design
+    id: ai-design
+  - title: Microstructures
+    id: microstructures
+  - title: Geometric computing
+    id: geometric-computing
+  - title: Tool paths
+    id: tool-paths
+  - title: Physical modeling
+    id: physical-modeling
+  - title: Awards
+    id: awards-selected
+  - title: Talks
+    id: talks
 ---
+See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=en) for the complete publication list, and [Code & software](/codes/) for implementations.
+
+<div class="report-link"><span>Technical report</span><a href="{{ '/projects/icad-eval-report/' | relative_url }}">Assessing the CAD Capabilities of General-Purpose AI Models: A Case Study of GPT-6 Astra ↗</a></div>
+
+{% for group in site.data.publications %}
+<section class="publication-section" aria-labelledby="{{ group.id }}">
+  <h2 id="{{ group.id }}">{{ group.title }}</h2>
+  <ul class="publication-list">
+    {% for paper in group.papers %}
+    <li>
+      <span class="paper-title">{% if paper.paper %}<a href="{{ paper.paper }}">{{ paper.title | escape }}</a>{% else %}{{ paper.title | escape }}{% endif %}</span>
+      <div class="citation">{{ paper.authors | escape | replace: 'Qiang Zou', '<strong>Qiang Zou</strong>' | replace: 'Q Zou', '<strong>Q Zou</strong>' }}<br><em>{{ paper.venue | escape }}</em></div>
+      {% if paper.code or paper.paper %}<div class="resource-links">{% if paper.paper %}<a href="{{ paper.paper }}">Paper ↗</a>{% endif %}{% if paper.code %}<a href="{{ paper.code }}">Code ↗</a>{% endif %}</div>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}
+
+## Awards (Selected)
+
+1. World's Top 2% Scientists, Stanford/Elsevier, 2026
+1. SMI Young Investigator Award, The Association of Shape Modeling International, first Asian recipient, 2026
+1. Lu Zeng-Yong CAD&CG High-Tech Award — First Prize (1 recipient/year), Lu Zeng-Yong Fund Committee, 2025
+1. CCF CAD&CG Young Researcher Award, China Computer Federation, 2024
+1. Best Paper Award (Top 1%, Provincial), Zhejiang Province, 2023
+1. Best Poster Award, GDC, 2021
+1. Faculty of Applied Science Graduate Award, UBC, 2014 & 2018
+1. Departmental Scholar, UBC, 2015
+1. UBC 4YF Doctoral Fellowship, UBC, 2014
+1. Academic Research Award, Liaoning Province, China, 2014
+
+## Talks
+1. What is AI+CAD, GAMES, Nov. 13, 2025,
+1. Data-Driven B-Spline Modeling, SAC, Aug, 2024
+1. Geometric Modeling for Microstructure Design and Manufacturing, SAC, April, 2024
+1. From Tool Path Generation To Tool Path Optimization: An Implicit Framework, Tianyuan Math Cener, Aug., 2024
+1. Structure Modeling: Efficient and Robust Geometric Modeling for Highly Complex Structures (HCS), GDC, Aug., 2022
+1. Implicit Tool Path Optimization: Iso-Level Framework, Tool Path in Diffusion, Poisson Tool Path Generation, UCAS, Dec. 27, 2021
+1. On Flexibility and robustness of Computer-Aided Design Modeling, GAMES, Oct. 2021. [GAMES webinar](http://games-cn.org/games-webinar-20211014-203/)
+1. Direct Modeling for Computer Aided Design, State Key Lab of CAD&CG, Zhejiang University, Jan. 2020.
+1. Fabrication in Computer Graphics, G&GC Lab at school of mathematical sciences, USTC, May 2014.
+1. Iso-level Method: A New Framework for Tool Path Planning, Mid-term evaluation on the "973" project "Mathematics Mechanization and Digital Design and Manufacturing", USTC, June 2013.
+
+
+
+
+
+<!-- Applications (Selected)
+====
+1. Academic Research Award, Liaoning Province, China, 2014
+
+1. Academic Research Award, Liaoning Province, China, 2014
+
+1. Academic Research Award, Liaoning Province, China, 2014
+-->
+
+
+
 <!-- 
 Theses 
 ======
@@ -11,57 +86,6 @@ Theses
 
 1. Conformal geometry-based tool path planning for point clouds, Master's degree, University of Chinese Academy of Sciences. (In Chinese)
 -->
-
-See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=en) for the complete list, and [Codes Page](https://qiang-zou.github.io//codes/) for relevant codes.
-
-## Technical Reports:
-1. Assessing the CAD Capabilities of General-Purpose AI Models: A Case Study of GPT-6 Astra  [Project Page](/projects/icad-eval-report/)
-
-
-## Papers:
-### Highlights: AI+Design/Geometric Modeling
-* Qiang Zou\*, Yingcai Wu, Zhenyu Liu, Weiwei Xu, Shuming Gao, Intelligent CAD 2.0, Visual Informatics (2024).
-* Ziqin Gao, Zhijie Yang, Qiang Zou*, KDH-CAD: Knowledge–data hybrid CAD learning under data scarcity, Computer-Aided Design (2026).
-* F Fan, J Ni, X Yin, S Wang, X Lu, Q Zou, R Tong, M Tang, P Du, CADDesigner: Conceptual Design of CAD Models Based on General-Purpose Agent, Computer-Aided Design (2026). 
-* Qiang Zou\*, Lizhen Zhu, Boundary Representation Learning via Transformer, Computer-Aided Design (2025). 
-* Aijia Zhang, Weiqiang Jia\*, Qiang Zou\*, Yixiong Feng, Xiaoxiang Wei, Ye Zhang, Diffusion-CAD: Controllable Diffusion Model for Generating Computer-Aided Design Models, IEEE TVCG, 2025
-* Qiang Zou\*, Lizhen Zhu, Jiayu Wu, Zhijie Yang, SplineGen: approximating unorganized points through generative AI, Computer-Aided Design (2024).
-
-### Highlights: Microstructure Modeling ($\mu$-Geometric Modeling)
-* Qiang Zou\*, Guoyue Luo, Geometric modeling for microstructure design and manufacturing: A review, Computer-Aided Design (2024).
-* Yaonaiming Zhao, Yuntao Ma, Guoyue Luo, Qiang Zou\*, Cubic Hermite Lattice Structures, ASME IDETC/CIE 2026
-* Guoyue Luo, Qiang Zou\*, Soap Film-inspired Subdivisional Lattice Structure Construction, Computer-Aided Design (2025).
-* Sifan Chen, Guoyue Luo, Yuan Kong\*, Qiang Zou\* A Quasi-Optimal Shape Design Method for Lattice Structure Construction, ASME Trans. JMD (2025)
-* Qiang Zou\*, Yunzhu Gao, Guoyue Luo, Sifan Chen, Meta-meshing and triangulating lattice structures at a large scale, Computer-Aided Design (2024).
-* Yaonaiming Zhao, Qiang Zou\*, Guoyue Luo, Jiayu Wu, Sifan Chen, Depeng Gao, Minghao Xuan, Fuyu Wang, TPMS2STEP: error-controlled and C2 continuity-preserving translation of TPMS models to STEP files based on constrained-PIA, Computer-Aided Design (2024).
-* Depeng Gao, Yuanzhi Zhang, Hongwei Lin\*, Qiang Zou, Persistent Homology-Driven Optimization of Effective Relative Density Range for Triply Periodic Minimal Surfaces, Computer-Aided Design (2024).
-* Junhao Ding, Qiang Zou, Shuo Qu, Paulo Bartolo, Xu Song, Charlie C. L. Wang*, STL-free digital design and manufacturing paradigm for high-precision selective laser melting, CIRP Annals. 2021 70(1): 167-170.
-* Shengjun Liu, Tao Liu, Qiang Zou, Weiming Wang, Eugeni L. Doubrovski, Charlie C. L. Wang*, Memory-Efficient Modeling and Slicing of Large-Scale Adaptive Lattice Structures, ASME Trans. JCISE. 21.6 (2021): 061003.
-
-### Highlights: High-Performance Geometric Computing
-* Haopeng Fan, Min Tang\*, Leonardo Sacht, Qiang Zou, Ruofeng Tong, Peng Du,GPU-acceleratedCertifiedHausdorff Distance Between Triangle Meshes, ACM TOG (SIGGRAPH) 2026
-* J Wu, Z Feng, Q Zou\*, Matrix representation and GPU-optimized parallel B-spline computing, Computer-Aided Design, 2025
-* Q Zou\*, Y Gao, G Luo, S Chen, Meta-meshing and triangulating lattice structures at a large scale, Computer-Aided Design, 2024
-* Z Bao, W Liu, Q Zou\*, GPU Parallel Inverse Evaluation of NURBS Surfaces Based on Matrix Representation, Journal of Computer-Aided Design & Computer Graphics, 2023
-* Qiang Zou\*, Hsi-Yung Feng, and Shuming Gao. Variational Direct Modeling: A framework towards integration of parametric modeling and direct modeling in CAD. Computer-Aided Design 157 (2023): 103465.
-* Qiang Zou, Hsi-Yung Feng*, Push-pull direct modeling of solid CAD models, Advances in Engineering Software 127 (2019): 59-69.
-* Qiang Zou*, Hsi-Yung Feng, A robust direct CAD modeling method for quadric B-rep models based on geometry-topology inconsistency tracking, Engineering with Computers 2022 38 (4), 3815-3830
-* Qiang Zou, Hsi-Yung Feng*, A decision-support method for information inconsistency resolution in direct modeling of CAD models, Advanced Engineering Informatics. 44 (2020) 101087.
-* Qiang Zou, Hsi-Yung Feng*, Variational B-rep model analysis for direct modeling using geometric perturbation, Journal of Computational Design and Engineering. 6 (4) (2019) 606-616.
-* Zhihong Tang, Qiang Zou\*, Shuming Gao\*, Determining valid parameter ranges for multiparameter editing of 3D parametric CAD models, ASME Trans. JCISE. 2025.
-* Zhihong Tang, Qiang Zou, and Shuming Gao*. A decision-support method for multi-parameter editing of parametric CAD models. Advanced Engineering Informatics 56 (2023): 101997.
-
-### Highlights: Tool Path Generation (Iso-Level Method)
-* Qiang Zou, Juyong Zhang*, Bailin Deng, Jibin Zhao, Iso-level tool path planning for free-form surfaces, Computer-Aided Design 53 (11) (2014) 117–125.
-* Zirui Wang, Shibo Liu, Ligang Liu, Qiang Zou\*, Xiao-Ming Fu\*, Computing smooth preferred feed direction fields with high material removal rates for efficient CNC tool paths, Computer-Aided Design (2023): 103591.
-* Qiang Zou*, Length-optimal tool path planning for freeform surfaces with preferred feed directions based on Poisson formulation, Computer-Aided Design, 2021, 139:103072
-* Qiang Zou*, Robust and efficient tool path generation for machining low-quality mesh surfaces, International Journal of Production Research. 2021 59(24), 7457-7467.
-* Qiang Zou, Jibin Zhao*, Iso-parametric tool-path planning for point clouds, Computer-Aided Design 45 (11) (2013) 1459–1468.
-
-### Highlights: Physical Modeling (XVoxel Method)
-* Li Ming, Chengfeng Lin, Wei Chen, Yusheng Liu, Shuming Gao, and Qiang Zou\*. XVoxel-Based Parametric Design Optimization of Feature Models. Computer-Aided Design 160 (2023): 103528.
-
-### ------------------
 <!-- 1. Jiayu Wu, Qiang Zou\*, Zhengwen Feng, Matrix representation and GPU-optimized parallel B-spline computing, Computer-Aided Design (2025).
 1. Qiang Zou\*, Lizhen Zhu, Boundary Representation Learning via Transformer, Computer-Aided Design (2025).
 1. Guoyue Luo, Qiang Zou\*, Soap Film-inspired Subdivisional Lattice Structure Construction, Computer-Aided Design (2025).
@@ -102,47 +126,3 @@ See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=e
 <!-- 1. Qiang Zou, Jibin Zhao*, Yanguo Zhao, Guangbao Liu, Haiyang Jin, Geodesic based conformal mesh parameterization, Proceedings of SPIE, Fifth International Conference on Graphics and Image Processing. 2014. -->
 <!-- 1. Qiang Zou, Jibin Zhao*, Iso-parametric tool-path planning for point clouds, Computer-Aided Design 45 (11) (2013) 1459–1468. -->
 <!-- 1. Jibin Zhao*, Bo Zhong, Qiang Zou, Honjun Liu, Tool orientation planning for five-axis CNC machining of open free-form surfaces. Journal of Systems Science and Complexity 26 (5) (2013) 667–675. -->
-
-
-## Awards (Selected)
-1. World's Top 2% Scientists, Stanford/Elsevier, 2026
-1. SMI Young Investigator Award, The Association of Shape Modeling International, first Asian recipient, 2026
-1. Lu Zeng-Yong CAD&CG High-Tech Award — First Prize (1 recipient/year), Lu Zeng-Yong Fund Committee, 2025
-1. CCF CAD&CG Young Researcher Award, China Computer Federation, 2024
-1. Best Paper Award (Top 1%, Provincial), Zhejiang Province, 2023
-1. Best Poster Award, GDC, 2021
-1. Faculty of Applied Science Graduate Award, UBC, 2014 & 2018
-1. Departmental Scholar, UBC, 2015
-1. UBC 4YF Doctoral Fellowship, UBC, 2014
-1. Academic Research Award, Liaoning Province, China, 2014
-
-## Talks
-1. What is AI+CAD, GAMES, Nov. 13, 2025,
-1. Data-Driven B-Spline Modeling, SAC, Aug, 2024
-1. Geometric Modeling for Microstructure Design and Manufacturing, SAC, April, 2024
-1. From Tool Path Generation To Tool Path Optimization: An Implicit Framework, Tianyuan Math Cener, Aug., 2024
-1. Structure Modeling: Efficient and Robust Geometric Modeling for Highly Complex Structures (HCS), GDC, Aug., 2022
-1. Implicit Tool Path Optimization: Iso-Level Framework, Tool Path in Diffusion, Poisson Tool Path Generation, UCAS, Dec. 27, 2021
-1. On Flexibility and robustness of Computer-Aided Design Modeling, GAMES, Oct. 2021. http://games-cn.org/games-webinar-20211014-203/
-1. Direct Modeling for Computer Aided Design, State Key Lab of CAD&CG, Zhejiang University, Jan. 2020.
-1. Fabrication in Computer Graphics, G&GC Lab at school of mathematical sciences, USTC, May 2014.
-1. Iso-level Method: A New Framework for Tool Path Planning, Mid-term evaluation on the "973" project "Mathematics Mechanization and Digital Design and Manufacturing", USTC, June 2013.
-
-
-
-
-
-<!-- Applications (Selected)
-====
-1. Academic Research Award, Liaoning Province, China, 2014
-
-1. Academic Research Award, Liaoning Province, China, 2014
-
-1. Academic Research Award, Liaoning Province, China, 2014
--->
-
-<!-- {% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %} -->

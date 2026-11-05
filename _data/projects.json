@@ -1,0 +1,119 @@
+[
+  {
+    "category": "AI for CAD/CAM",
+    "image": "/images/codes/kdh-cad.png",
+    "name": "KDH-CAD",
+    "description": "Knowledge elicitation and calibration with a frozen foundation model and a small CAD dataset.",
+    "code": "https://github.com/Qiang-Zou/KDH-CAD",
+    "paper": "https://doi.org/10.1016/j.cad.2026.104158",
+    "id": "kdh-cad",
+    "title": "KDH-CAD: Knowledge–data hybrid CAD learning under data scarcity"
+  },
+  {
+    "category": "AI for CAD/CAM",
+    "image": "/images/codes/brt.jpg",
+    "name": "BRT",
+    "description": "Boundary Representation Learning via Transformer",
+    "code": "https://github.com/Qiang-Zou/BRT",
+    "paper": "https://doi.org/10.1016/j.cad.2025.103940",
+    "id": "brt"
+  },
+  {
+    "category": "AI for CAD/CAM",
+    "image": "/images/codes/splinegen.png",
+    "name": "SplineGen",
+    "description": "data-driven, generative AI-based B-spline modeling",
+    "code": "https://github.com/Qiang-Zou/SplineGen",
+    "paper": "https://doi.org/10.1016/j.cad.2024.103809",
+    "id": "splinegen"
+  },
+  {
+    "category": "Surface and Solid Modeling",
+    "image": "/images/codes/matrix-cad.jpg",
+    "name": "Matrix-CAD",
+    "description": "Matrix representation and GPU-optimized B-spline computing",
+    "code": "https://github.com/Qiang-Zou/Matrix-CAD",
+    "paper": "https://doi.org/10.1016/j.cad.2025.103948",
+    "id": "matrix-cad"
+  },
+  {
+    "category": "Surface and Solid Modeling",
+    "image": "/images/codes/GPU-NURBS.png",
+    "name": "GPU-NURBS",
+    "description": "GPU parallel evaluation and inverse evaluation of NURBS curves/surfaces",
+    "code": "https://github.com/Qiang-Zou/GPU-NURBS",
+    "paper": "https://www.jcad.cn/cn/article/doi/10.3724/SP.J.1089.2023.2023-00003",
+    "id": "gpu-nurbs"
+  },
+  {
+    "category": "Microstructure Modeling",
+    "image": "/images/codes/ImplicitSlicer.png",
+    "name": "ImplicitSlicer",
+    "description": "Implicit and Direct Slicer for Highly Complex Structures",
+    "code": "https://github.com/Qiang-Zou/ImplicitSlicer",
+    "paper": "https://asmedigitalcollection.asme.org/computingengineering/article/21/6/061003/1100541/Memory-Efficient-Modeling-and-Slicing-of-Large",
+    "id": "implicitslicer"
+  },
+  {
+    "category": "Microstructure Modeling",
+    "image": "/images/codes/TPMSSlicer.png",
+    "name": "TPMSSlicer",
+    "description": "A lightweight slicer for TPMS models",
+    "code": "https://github.com/Qiang-Zou/TPMSSlicer",
+    "paper": "https://www.sciencedirect.com/science/article/abs/pii/S0007850621000123",
+    "id": "tpmsslicer"
+  },
+  {
+    "category": "Microstructure Modeling",
+    "image": "/images/codes/GPULatticeSlicer.png",
+    "name": "GPULatticeSlicer",
+    "description": "A GPU-based parallel implicit slicing method for modeling and fabricating highly complex lattice structures",
+    "code": "https://github.com/Qiang-Zou/GPULatticeSlicer",
+    "paper": "https://www.sciencedirect.com/science/article/abs/pii/S0007850621000123",
+    "id": "gpulatticeslicer"
+  },
+  {
+    "category": "Microstructure Modeling",
+    "image": "/images/codes/DirtyMeshSlicer.png",
+    "name": "DirtyMeshSlicer",
+    "description": "A robust slicer for meshes with defects such as holes, cracks, and flipped normals",
+    "code": "https://github.com/Qiang-Zou/DirtyMeshSlicer",
+    "id": "dirtymeshslicer"
+  },
+  {
+    "category": "Microstructure Modeling",
+    "image": "/images/codes/TPMS2STEP.jpg",
+    "name": "TPMS2STEP",
+    "description": "A lightweight tool for converting TPMS models to STEP files to be used in conventional CAD/CAM/CAE pipeline",
+    "code": "https://github.com/Qiang-Zou/TPMS2STEP",
+    "paper": "https://doi.org/10.1016/j.cad.2024.103726",
+    "id": "tpms2step"
+  },
+  {
+    "category": "Microstructure Modeling",
+    "image": "/images/codes/MetaMesh.png",
+    "name": "LatticeMetaMesher",
+    "description": "A lightweight tool for metameshing and triangulating large-scale lattice structures (million or billion scales)",
+    "code": "https://github.com/Qiang-Zou/MetaMesh",
+    "paper": "https://doi.org/10.1016/j.cad.2024.103732",
+    "id": "latticemetamesher"
+  },
+  {
+    "category": "Microstructure Modeling",
+    "image": "/images/codes/latticeconstruction.png",
+    "name": "LatticeConstruction",
+    "description": "A Quasi-Optimal Shape Design Method for Lattice Structure Construction",
+    "code": "https://github.com/Qiang-Zou/LatticeConstruction",
+    "paper": "https://doi.org/10.1115/1.4068955",
+    "id": "latticeconstruction"
+  },
+  {
+    "category": "Microstructure Modeling",
+    "image": "/images/codes/SubdivLattice.jpg",
+    "name": "SubdivLattice",
+    "description": "Soap Film-inspired Subdivisional Lattice Structure Construction",
+    "code": "https://github.com/Qiang-Zou/Subdiv-Lattice",
+    "paper": "https://doi.org/10.1016/j.cad.2025.103950",
+    "id": "subdivlattice"
+  }
+]

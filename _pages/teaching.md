@@ -1,15 +1,9 @@
 ---
-layout: archive
+layout: page
 title: "Teaching"
 permalink: /teaching/
-author_profile: true
 ---
 
-<!-- {% include base_path %}
-
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %} -->
 
 1. 2023 – , 3D CAD Modeling, ZJU, Instructor.
 

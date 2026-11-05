@@ -1,8 +1,7 @@
 ---
-layout: archive
-title: "Services"
+layout: page
+title: "Academic service"
 permalink: /services/
-author_profile: true
 ---
 
 1. Area Chair/Organization Chair: SPM2025, SMI2025, ChinaGraph2026
@@ -14,8 +13,8 @@ author_profile: true
 
 ## Webinars Hosted:
 ### AI for CAD/CAM  
-1. What is AI+CAD, Nov. 13, 2025, [Video]() 
-1. AI and Datasets for Shipbuilding, Nov. 13, 2025, [Video]() 
+1. What is AI+CAD, Nov. 13, 2025
+1. AI and Datasets for Shipbuilding, Nov. 13, 2025
 1. Field-Based Intelligent Process Planning for 3D Printing, June 13, 2024, [Video](https://www.bilibili.com/video/BV1Qy411q7xP) [Pdf](https://games-1312234642.cos.ap-guangzhou.myqcloud.com/pdf/Games2024327%E7%8E%8B%E6%98%8C%E5%87%8C.pdf)
 1. Automating CAD Design with Deep Generative Models, June 13, 2024, [Video](https://www.bilibili.com/video/BV1sr421F7DX)
 1. AI-Based TPMS Structure Design, Dec. 21, 2023, [Video](https://www.bilibili.com/video/BV19b4y1379m) [Pdf](https://games-1312234642.cos.ap-guangzhou.myqcloud.com/pdf/Games2023305%E5%90%95%E7%90%B3.pdf)

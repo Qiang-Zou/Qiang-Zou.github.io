@@ -1,10 +1,7 @@
 ---
-layout: archive
+layout: page
 title: Graduate Student Must-Knows
 permalink: /group/must_know/
-author_profile: true
-toc: true
-toc_sticky: true
 ---
 <!-- # Graduate Student Must-Knows -->
 

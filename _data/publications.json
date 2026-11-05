@@ -1,0 +1,214 @@
+[
+  {
+    "id": "ai-design",
+    "title": "AI & geometric learning",
+    "papers": [
+      {
+        "title": "Intelligent CAD 2.0",
+        "authors": "Qiang Zou*, Yingcai Wu, Zhenyu Liu, Weiwei Xu, Shuming Gao",
+        "venue": "Visual Informatics (2024)"
+      },
+      {
+        "title": "KDH-CAD: Knowledge–data hybrid CAD learning under data scarcity",
+        "authors": "Ziqin Gao, Zhijie Yang, Qiang Zou*",
+        "venue": "Computer-Aided Design 202 (2027), 104158",
+        "code": "https://github.com/Qiang-Zou/KDH-CAD",
+        "paper": "https://doi.org/10.1016/j.cad.2026.104158"
+      },
+      {
+        "title": "CADDesigner: Conceptual Design of CAD Models Based on General-Purpose Agent",
+        "authors": "F Fan, J Ni, X Yin, S Wang, X Lu, Q Zou, R Tong, M Tang, P Du",
+        "venue": "Computer-Aided Design (2026)"
+      },
+      {
+        "title": "Boundary Representation Learning via Transformer",
+        "authors": "Qiang Zou*, Lizhen Zhu",
+        "venue": "Computer-Aided Design (2025)",
+        "code": "https://github.com/Qiang-Zou/BRT",
+        "paper": "https://doi.org/10.1016/j.cad.2025.103940"
+      },
+      {
+        "title": "Diffusion-CAD: Controllable Diffusion Model for Generating Computer-Aided Design Models",
+        "authors": "Aijia Zhang, Weiqiang Jia*, Qiang Zou*, Yixiong Feng, Xiaoxiang Wei, Ye Zhang",
+        "venue": "IEEE TVCG, 2025"
+      },
+      {
+        "title": "SplineGen: approximating unorganized points through generative AI",
+        "authors": "Qiang Zou*, Lizhen Zhu, Jiayu Wu, Zhijie Yang",
+        "venue": "Computer-Aided Design (2024)",
+        "code": "https://github.com/Qiang-Zou/SplineGen",
+        "paper": "https://doi.org/10.1016/j.cad.2024.103809"
+      }
+    ]
+  },
+  {
+    "id": "microstructures",
+    "title": "Microstructure modeling",
+    "papers": [
+      {
+        "title": "Geometric modeling for microstructure design and manufacturing: A review",
+        "authors": "Qiang Zou*, Guoyue Luo",
+        "venue": "Computer-Aided Design (2024)"
+      },
+      {
+        "title": "Cubic Hermite Lattice Structures",
+        "authors": "Yaonaiming Zhao, Yuntao Ma, Guoyue Luo, Qiang Zou*",
+        "venue": "ASME IDETC/CIE 2026"
+      },
+      {
+        "title": "Soap Film-inspired Subdivisional Lattice Structure Construction",
+        "authors": "Guoyue Luo, Qiang Zou*",
+        "venue": "Computer-Aided Design (2025)",
+        "code": "https://github.com/Qiang-Zou/Subdiv-Lattice",
+        "paper": "https://doi.org/10.1016/j.cad.2025.103950"
+      },
+      {
+        "title": "A Quasi-Optimal Shape Design Method for Lattice Structure Construction",
+        "authors": "Sifan Chen, Guoyue Luo, Yuan Kong*, Qiang Zou*",
+        "venue": "ASME Trans. JMD (2025)",
+        "code": "https://github.com/Qiang-Zou/LatticeConstruction",
+        "paper": "https://doi.org/10.1115/1.4068955"
+      },
+      {
+        "title": "Meta-meshing and triangulating lattice structures at a large scale",
+        "authors": "Qiang Zou*, Yunzhu Gao, Guoyue Luo, Sifan Chen",
+        "venue": "Computer-Aided Design (2024)",
+        "code": "https://github.com/Qiang-Zou/MetaMesh",
+        "paper": "https://doi.org/10.1016/j.cad.2024.103732"
+      },
+      {
+        "title": "TPMS2STEP: error-controlled and C2 continuity-preserving translation of TPMS models to STEP files based on constrained-PIA",
+        "authors": "Yaonaiming Zhao, Qiang Zou*, Guoyue Luo, Jiayu Wu, Sifan Chen, Depeng Gao, Minghao Xuan, Fuyu Wang",
+        "venue": "Computer-Aided Design (2024)",
+        "code": "https://github.com/Qiang-Zou/TPMS2STEP",
+        "paper": "https://doi.org/10.1016/j.cad.2024.103726"
+      },
+      {
+        "title": "Persistent Homology-Driven Optimization of Effective Relative Density Range for Triply Periodic Minimal Surfaces",
+        "authors": "Depeng Gao, Yuanzhi Zhang, Hongwei Lin*, Qiang Zou",
+        "venue": "Computer-Aided Design (2024)"
+      },
+      {
+        "title": "STL-free digital design and manufacturing paradigm for high-precision selective laser melting",
+        "authors": "Junhao Ding, Qiang Zou, Shuo Qu, Paulo Bartolo, Xu Song, Charlie C. L. Wang*",
+        "venue": "CIRP Annals. 2021 70(1): 167-170"
+      },
+      {
+        "title": "Memory-Efficient Modeling and Slicing of Large-Scale Adaptive Lattice Structures",
+        "authors": "Shengjun Liu, Tao Liu, Qiang Zou, Weiming Wang, Eugeni L. Doubrovski, Charlie C. L. Wang*",
+        "venue": "ASME Trans. JCISE. 21.6 (2021): 061003",
+        "code": "https://github.com/Qiang-Zou/ImplicitSlicer",
+        "paper": "https://asmedigitalcollection.asme.org/computingengineering/article/21/6/061003/1100541/Memory-Efficient-Modeling-and-Slicing-of-Large"
+      }
+    ]
+  },
+  {
+    "id": "geometric-computing",
+    "title": "High-performance geometric computing",
+    "papers": [
+      {
+        "title": "GPU-accelerated Certified Hausdorff Distance Between Triangle Meshes",
+        "authors": "Haopeng Fan, Min Tang*, Leonardo Sacht, Qiang Zou, Ruofeng Tong, Peng Du",
+        "venue": "ACM TOG (SIGGRAPH) 2026"
+      },
+      {
+        "title": "Matrix representation and GPU-optimized parallel B-spline computing",
+        "authors": "J Wu, Z Feng, Q Zou*",
+        "venue": "Computer-Aided Design, 2025",
+        "code": "https://github.com/Qiang-Zou/Matrix-CAD",
+        "paper": "https://doi.org/10.1016/j.cad.2025.103948"
+      },
+      {
+        "title": "Meta-meshing and triangulating lattice structures at a large scale",
+        "authors": "Q Zou*, Y Gao, G Luo, S Chen",
+        "venue": "Computer-Aided Design, 2024",
+        "code": "https://github.com/Qiang-Zou/MetaMesh",
+        "paper": "https://doi.org/10.1016/j.cad.2024.103732"
+      },
+      {
+        "title": "GPU Parallel Inverse Evaluation of NURBS Surfaces Based on Matrix Representation",
+        "authors": "Z Bao, W Liu, Q Zou*",
+        "venue": "Journal of Computer-Aided Design & Computer Graphics, 2023",
+        "code": "https://github.com/Qiang-Zou/GPU-NURBS",
+        "paper": "https://www.jcad.cn/cn/article/doi/10.3724/SP.J.1089.2023.2023-00003"
+      },
+      {
+        "title": "Variational Direct Modeling: A framework towards integration of parametric modeling and direct modeling in CAD",
+        "authors": "Qiang Zou*, Hsi-Yung Feng, and Shuming Gao.",
+        "venue": "Computer-Aided Design 157 (2023): 103465"
+      },
+      {
+        "title": "Push-pull direct modeling of solid CAD models",
+        "authors": "Qiang Zou, Hsi-Yung Feng*",
+        "venue": "Advances in Engineering Software 127 (2019): 59-69"
+      },
+      {
+        "title": "A robust direct CAD modeling method for quadric B-rep models based on geometry-topology inconsistency tracking",
+        "authors": "Qiang Zou*, Hsi-Yung Feng",
+        "venue": "Engineering with Computers 2022 38 (4), 3815-3830"
+      },
+      {
+        "title": "A decision-support method for information inconsistency resolution in direct modeling of CAD models",
+        "authors": "Qiang Zou, Hsi-Yung Feng*",
+        "venue": "Advanced Engineering Informatics. 44 (2020) 101087"
+      },
+      {
+        "title": "Variational B-rep model analysis for direct modeling using geometric perturbation",
+        "authors": "Qiang Zou, Hsi-Yung Feng*",
+        "venue": "Journal of Computational Design and Engineering. 6 (4) (2019) 606-616"
+      },
+      {
+        "title": "Determining valid parameter ranges for multiparameter editing of 3D parametric CAD models",
+        "authors": "Zhihong Tang, Qiang Zou*, Shuming Gao*",
+        "venue": "ASME Trans. JCISE. 2025"
+      },
+      {
+        "title": "A decision-support method for multi-parameter editing of parametric CAD models",
+        "authors": "Zhihong Tang, Qiang Zou, and Shuming Gao*.",
+        "venue": "Advanced Engineering Informatics 56 (2023): 101997"
+      }
+    ]
+  },
+  {
+    "id": "tool-paths",
+    "title": "Tool path generation",
+    "papers": [
+      {
+        "title": "Iso-level tool path planning for free-form surfaces",
+        "authors": "Qiang Zou, Juyong Zhang*, Bailin Deng, Jibin Zhao",
+        "venue": "Computer-Aided Design 53 (11) (2014) 117–125"
+      },
+      {
+        "title": "Computing smooth preferred feed direction fields with high material removal rates for efficient CNC tool paths",
+        "authors": "Zirui Wang, Shibo Liu, Ligang Liu, Qiang Zou*, Xiao-Ming Fu*",
+        "venue": "Computer-Aided Design (2023): 103591"
+      },
+      {
+        "title": "Length-optimal tool path planning for freeform surfaces with preferred feed directions based on Poisson formulation",
+        "authors": "Qiang Zou*",
+        "venue": "Computer-Aided Design, 2021, 139:103072"
+      },
+      {
+        "title": "Robust and efficient tool path generation for machining low-quality mesh surfaces",
+        "authors": "Qiang Zou*",
+        "venue": "International Journal of Production Research. 2021 59(24), 7457-7467"
+      },
+      {
+        "title": "Iso-parametric tool-path planning for point clouds",
+        "authors": "Qiang Zou, Jibin Zhao*",
+        "venue": "Computer-Aided Design 45 (11) (2013) 1459–1468"
+      }
+    ]
+  },
+  {
+    "id": "physical-modeling",
+    "title": "Physical modeling",
+    "papers": [
+      {
+        "title": "XVoxel-Based Parametric Design Optimization of Feature Models",
+        "authors": "Li Ming, Chengfeng Lin, Wei Chen, Yusheng Liu, Shuming Gao, and Qiang Zou*.",
+        "venue": "Computer-Aided Design 160 (2023): 103528"
+      }
+    ]
+  }
+]

@@ -1,19 +1,13 @@
-# main links links
 main:
-  - title: "Research"
+  - title: Research
     url: /research/
-
-  - title: "Teaching"
-    url: /teaching/  
-
-  - title: "Services"
-    url: /services/    
-
-  - title: "Codes"
+  - title: Code
     url: /codes/
-        
-  - title: "Group"
+  - title: Group
     url: /group/
-
-  - title: "About-Chinese"
+  - title: Teaching
+    url: /teaching/
+  - title: Service
+    url: /services/
+  - title: 中文
     url: /about-chinese/
