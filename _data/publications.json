@@ -16,9 +16,11 @@
         "paper": "https://doi.org/10.1016/j.cad.2026.104158"
       },
       {
-        "title": "CADDesigner: Conceptual Design of CAD Models Based on General-Purpose Agent",
-        "authors": "F Fan, J Ni, X Yin, S Wang, X Lu, Q Zou, R Tong, M Tang, P Du",
-        "venue": "Computer-Aided Design (2026)"
+        "title": "CADDesigner: Conceptual CAD model generation with a general-purpose agent",
+        "authors": "Fengxiao Fan, Jingzhe Ni, Xiaolong Yin, Sirui Wang, Xingyu Lu, Qiang Zou, Ruofeng Tong, Min Tang, Peng Du",
+        "venue": "Computer-Aided Design 198 (2026), 104087",
+        "code": "https://github.com/562590763/CADDesigner-Code",
+        "paper": "https://doi.org/10.1016/j.cad.2026.104087"
       },
       {
         "title": "Boundary Representation Learning via Transformer",

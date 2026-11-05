@@ -11,6 +11,17 @@
   },
   {
     "category": "AI for CAD/CAM",
+    "image": "/images/codes/caddesigner.png",
+    "image_source": "https://github.com/562590763/CADDesigner-Code/blob/main/assets/framework.png",
+    "name": "CADDesigner",
+    "title": "CADDesigner: Conceptual CAD model generation with a general-purpose agent",
+    "description": "An LLM-powered agent for conceptual CAD design from text and sketches, with requirement refinement and visual feedback.",
+    "code": "https://github.com/562590763/CADDesigner-Code",
+    "paper": "https://doi.org/10.1016/j.cad.2026.104087",
+    "id": "caddesigner"
+  },
+  {
+    "category": "AI for CAD/CAM",
     "image": "/images/codes/brt.jpg",
     "name": "BRT",
     "description": "Boundary Representation Learning via Transformer",
