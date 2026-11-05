@@ -1,1 +1,1 @@
-<li><time datetime="{{ include.item.date }}">{{ include.item.label }}</time><span>{{ include.item.text | escape }}</span></li>
+<li><time datetime="{{ include.item.date }}">{{ include.item.label }}</time><span>{{ include.item.text | escape }}{% if include.item.url %} <a href="{{ include.item.url | relative_url }}">{{ include.item.link_label | default: 'Read more' | escape }}</a>{% endif %}</span></li>
