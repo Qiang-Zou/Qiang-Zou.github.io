@@ -112,7 +112,7 @@ Write your introduction here.
 - `assets/css/site.css`：全站蓝色配色、字号，以及普通 Markdown 标题、列表、论文和项目的排版。
 - `assets/css/home.css`：圆形头像、原侧栏图标、News 日期对齐与折叠样式。
 
-新闻、论文和项目正文都在各自的 Markdown 文件中，不存放在模板或额外的 JSON 文件里。无需为每一条内容手写 CSS 类名。当前保留 29 条 News、32 篇论文与 14 个代码项目；独立报告 `projects/icad-eval-report/` 保持自身布局。
+新闻、论文和项目正文都在各自的 Markdown 文件中，不存放在模板或额外的 JSON 文件里。无需为每一条内容手写 CSS 类名。当前保留 29 条 News、31 篇论文与 14 个代码项目；独立报告 `projects/icad-eval-report/` 保持自身布局。
 
 ## 本地预览与检查
 

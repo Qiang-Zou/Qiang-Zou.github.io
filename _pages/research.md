@@ -19,7 +19,7 @@ Selected publications · [Full list on Google Scholar](https://scholar.google.co
   **Qiang Zou**\*, Yingcai Wu, Zhenyu Liu, Weiwei Xu, Shuming Gao
 
   *Visual Informatics (2024)*
-
+  
 - **KDH-CAD: Knowledge–data hybrid CAD learning under data scarcity**
 
   Ziqin Gao, Zhijie Yang, **Qiang Zou**\*
@@ -58,19 +58,19 @@ Selected publications · [Full list on Google Scholar](https://scholar.google.co
 
   [Paper](https://doi.org/10.1016/j.cad.2024.103809) · [Code](https://github.com/Qiang-Zou/SplineGen)
 
-## Microstructure modeling {#microstructures}
-
-- **Geometric modeling for microstructure design and manufacturing: A review**
-
-  **Qiang Zou**\*, Guoyue Luo
-
-  *Computer-Aided Design (2024)*
+## Scalable Geometric Computation for Surfaces, Solids, and Microstructures <span id="microstructures"></span> {#geometric-computing}
 
 - **Cubic Hermite Lattice Structures**
 
   Yaonaiming Zhao, Yuntao Ma, Guoyue Luo, **Qiang Zou**\*
 
   *ASME IDETC/CIE 2026*
+
+- **GPU-accelerated Certified Hausdorff Distance Between Triangle Meshes**
+
+  Haopeng Fan, Min Tang\*, Leonardo Sacht, **Qiang Zou**, Ruofeng Tong, Peng Du
+
+  *ACM TOG (SIGGRAPH) 2026*
 
 - **Soap Film-inspired Subdivisional Lattice Structure Construction**
 
@@ -87,6 +87,26 @@ Selected publications · [Full list on Google Scholar](https://scholar.google.co
   *ASME Trans. JMD (2025)*
 
   [Paper](https://doi.org/10.1115/1.4068955) · [Code](https://github.com/Qiang-Zou/LatticeConstruction)
+
+- **Matrix representation and GPU-optimized parallel B-spline computing**
+
+  J Wu, Z Feng, **Q Zou**\*
+
+  *Computer-Aided Design, 2025*
+
+  [Paper](https://doi.org/10.1016/j.cad.2025.103948) · [Code](https://github.com/Qiang-Zou/Matrix-CAD)
+
+- **Determining valid parameter ranges for multiparameter editing of 3D parametric CAD models**
+
+  Zhihong Tang, **Qiang Zou**\*, Shuming Gao\*
+
+  *ASME Trans. JCISE. 2025*
+
+- **Geometric modeling for microstructure design and manufacturing: A review**
+
+  **Qiang Zou**\*, Guoyue Luo
+
+  *Computer-Aided Design (2024)*
 
 - **Meta-meshing and triangulating lattice structures at a large scale**
 
@@ -110,44 +130,6 @@ Selected publications · [Full list on Google Scholar](https://scholar.google.co
 
   *Computer-Aided Design (2024)*
 
-- **STL-free digital design and manufacturing paradigm for high-precision selective laser melting**
-
-  Junhao Ding, **Qiang Zou**, Shuo Qu, Paulo Bartolo, Xu Song, Charlie C. L. Wang\*
-
-  *CIRP Annals. 2021 70(1): 167-170*
-
-- **Memory-Efficient Modeling and Slicing of Large-Scale Adaptive Lattice Structures**
-
-  Shengjun Liu, Tao Liu, **Qiang Zou**, Weiming Wang, Eugeni L. Doubrovski, Charlie C. L. Wang\*
-
-  *ASME Trans. JCISE. 21.6 (2021): 061003*
-
-  [Paper](https://asmedigitalcollection.asme.org/computingengineering/article/21/6/061003/1100541/Memory-Efficient-Modeling-and-Slicing-of-Large) · [Code](https://github.com/Qiang-Zou/ImplicitSlicer)
-
-## High-performance geometric computing {#geometric-computing}
-
-- **GPU-accelerated Certified Hausdorff Distance Between Triangle Meshes**
-
-  Haopeng Fan, Min Tang\*, Leonardo Sacht, **Qiang Zou**, Ruofeng Tong, Peng Du
-
-  *ACM TOG (SIGGRAPH) 2026*
-
-- **Matrix representation and GPU-optimized parallel B-spline computing**
-
-  J Wu, Z Feng, **Q Zou**\*
-
-  *Computer-Aided Design, 2025*
-
-  [Paper](https://doi.org/10.1016/j.cad.2025.103948) · [Code](https://github.com/Qiang-Zou/Matrix-CAD)
-
-- **Meta-meshing and triangulating lattice structures at a large scale**
-
-  **Q Zou**\*, Y Gao, G Luo, S Chen
-
-  *Computer-Aided Design, 2024*
-
-  [Paper](https://doi.org/10.1016/j.cad.2024.103732) · [Code](https://github.com/Qiang-Zou/MetaMesh)
-
 - **GPU Parallel Inverse Evaluation of NURBS Surfaces Based on Matrix Representation**
 
   Z Bao, W Liu, **Q Zou**\*
@@ -162,11 +144,11 @@ Selected publications · [Full list on Google Scholar](https://scholar.google.co
 
   *Computer-Aided Design 157 (2023): 103465*
 
-- **Push-pull direct modeling of solid CAD models**
+- **A decision-support method for multi-parameter editing of parametric CAD models**
 
-  **Qiang Zou**, Hsi-Yung Feng\*
+  Zhihong Tang, **Qiang Zou**, and Shuming Gao\*.
 
-  *Advances in Engineering Software 127 (2019): 59-69*
+  *Advanced Engineering Informatics 56 (2023): 101997*
 
 - **A robust direct CAD modeling method for quadric B-rep models based on geometry-topology inconsistency tracking**
 
@@ -174,11 +156,31 @@ Selected publications · [Full list on Google Scholar](https://scholar.google.co
 
   *Engineering with Computers 2022 38 (4), 3815-3830*
 
+- **STL-free digital design and manufacturing paradigm for high-precision selective laser melting**
+
+  Junhao Ding, **Qiang Zou**, Shuo Qu, Paulo Bartolo, Xu Song, Charlie C. L. Wang\*
+
+  *CIRP Annals. 2021 70(1): 167-170*
+
+- **Memory-Efficient Modeling and Slicing of Large-Scale Adaptive Lattice Structures**
+
+  Shengjun Liu, Tao Liu, **Qiang Zou**, Weiming Wang, Eugeni L. Doubrovski, Charlie C. L. Wang\*
+
+  *ASME Trans. JCISE. 21.6 (2021): 061003*
+
+  [Paper](https://asmedigitalcollection.asme.org/computingengineering/article/21/6/061003/1100541/Memory-Efficient-Modeling-and-Slicing-of-Large) · [Code](https://github.com/Qiang-Zou/ImplicitSlicer)
+
 - **A decision-support method for information inconsistency resolution in direct modeling of CAD models**
 
   **Qiang Zou**, Hsi-Yung Feng\*
 
   *Advanced Engineering Informatics. 44 (2020) 101087*
+
+- **Push-pull direct modeling of solid CAD models**
+
+  **Qiang Zou**, Hsi-Yung Feng\*
+
+  *Advances in Engineering Software 127 (2019): 59-69*
 
 - **Variational B-rep model analysis for direct modeling using geometric perturbation**
 
@@ -186,31 +188,19 @@ Selected publications · [Full list on Google Scholar](https://scholar.google.co
 
   *Journal of Computational Design and Engineering. 6 (4) (2019) 606-616*
 
-- **Determining valid parameter ranges for multiparameter editing of 3D parametric CAD models**
-
-  Zhihong Tang, **Qiang Zou**\*, Shuming Gao\*
-
-  *ASME Trans. JCISE. 2025*
-
-- **A decision-support method for multi-parameter editing of parametric CAD models**
-
-  Zhihong Tang, **Qiang Zou**, and Shuming Gao\*.
-
-  *Advanced Engineering Informatics 56 (2023): 101997*
-
-## Tool path generation {#tool-paths}
-
-- **Iso-level tool path planning for free-form surfaces**
-
-  **Qiang Zou**, Juyong Zhang\*, Bailin Deng, Jibin Zhao
-
-  *Computer-Aided Design 53 (11) (2014) 117–125*
+## CAD/CAM Integration <span id="physical-modeling"></span> {#tool-paths}
 
 - **Computing smooth preferred feed direction fields with high material removal rates for efficient CNC tool paths**
 
   Zirui Wang, Shibo Liu, Ligang Liu, **Qiang Zou**\*, Xiao-Ming Fu\*
 
   *Computer-Aided Design (2023): 103591*
+
+- **XVoxel-Based Parametric Design Optimization of Feature Models**
+
+  Li Ming, Chengfeng Lin, Wei Chen, Yusheng Liu, Shuming Gao, and **Qiang Zou**\*.
+
+  *Computer-Aided Design 160 (2023): 103528*
 
 - **Length-optimal tool path planning for freeform surfaces with preferred feed directions based on Poisson formulation**
 
@@ -224,19 +214,17 @@ Selected publications · [Full list on Google Scholar](https://scholar.google.co
 
   *International Journal of Production Research. 2021 59(24), 7457-7467*
 
+- **Iso-level tool path planning for free-form surfaces**
+
+  **Qiang Zou**, Juyong Zhang\*, Bailin Deng, Jibin Zhao
+
+  *Computer-Aided Design 53 (11) (2014) 117–125*
+
 - **Iso-parametric tool-path planning for point clouds**
 
   **Qiang Zou**, Jibin Zhao\*
 
   *Computer-Aided Design 45 (11) (2013) 1459–1468*
-
-## Physical modeling {#physical-modeling}
-
-- **XVoxel-Based Parametric Design Optimization of Feature Models**
-
-  Li Ming, Chengfeng Lin, Wei Chen, Yusheng Liu, Shuming Gao, and **Qiang Zou**\*.
-
-  *Computer-Aided Design 160 (2023): 103528*
 
 ## Awards (Selected)
 
