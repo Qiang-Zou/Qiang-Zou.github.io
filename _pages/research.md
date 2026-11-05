@@ -58,7 +58,7 @@ Selected publications · [Full list on Google Scholar](https://scholar.google.co
 
   [Paper](https://doi.org/10.1016/j.cad.2024.103809) · [Code](https://github.com/Qiang-Zou/SplineGen)
 
-## Scalable Geometric Computation for Surfaces, Solids, and Microstructures <span id="microstructures"></span> {#geometric-computing}
+## Geometric Modeling and Computing <span id="microstructures"></span> {#geometric-computing}
 
 - **Cubic Hermite Lattice Structures**
 
