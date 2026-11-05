@@ -11,7 +11,7 @@ permalink: /services/
 1. Session Chair: ICED16, CAD16
 1. Reviewer: CAD, ASME JCISE, CAGD etc.
 
-## Webinars Hosted:
+## Webinars Hosted
 ### AI for CAD/CAM  
 1. What is AI+CAD, Nov. 13, 2025
 1. AI and Datasets for Shipbuilding, Nov. 13, 2025

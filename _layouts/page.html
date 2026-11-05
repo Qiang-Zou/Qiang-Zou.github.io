@@ -2,10 +2,14 @@
 layout: default
 ---
 <div class="page-shell">
+  {% if page.show_title %}
   <header class="page-heading">
-    <h1>{{ page.title }}</h1>
-    {% if page.description %}<p class="page-description">{{ page.description }}</p>{% endif %}
+    <h1>{{ page.title | escape }}</h1>
+    {% if page.show_description and page.description %}<p class="page-description">{{ page.description }}</p>{% endif %}
   </header>
+  {% else %}
+  <h1 class="visually-hidden">{{ page.title | escape }}</h1>
+  {% endif %}
   {% if page.section_nav %}
   <nav class="section-nav" aria-label="On this page">
     {% for section in page.section_nav %}<a href="#{{ section.id }}">{{ section.title }}</a>{% endfor %}

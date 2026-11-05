@@ -6,13 +6,13 @@ page_class: research-page
 ---
 Selected publications · [Full list on Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=en) · [Code](/codes/)
 
-## Technical reports {#technical-reports}
+## Technical Reports {#technical-reports}
 
 - **Assessing the CAD Capabilities of General-Purpose AI Models: A Case Study of GPT-6 Astra**
 
   [Read report](/projects/icad-eval-report/)
 
-## AI & geometric learning {#ai-design}
+## AI & Geometric Learning {#ai-design}
 
 - **Intelligent CAD 2.0**
 

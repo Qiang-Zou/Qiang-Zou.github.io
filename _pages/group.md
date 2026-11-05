@@ -26,7 +26,7 @@ In the short term, we are working on the following "concept-shape-process" probl
   - AI4CAD/CAM: concept interacting, CAD modeling, and CAM planning
   - Physics-informed CAD/CAM: surfaces, solids, microstructures, and process paths
 
-## Funding:
+## Funding
 1. μ-geometric modeling of large-scale and non-periodic microstructures, 2027.1 - 2030.12, NSF of China, PI
 1. ZJU–Yuanhui Joint Research Center on 3D Product Data Interoperability and Intelligent Applications, 2026, Director
 1. B-rep simplification and repair for CAD/CAE Integration, 2025.1 - 2027.12, National R&D Program, Co-PI
@@ -38,7 +38,7 @@ In the short term, we are working on the following "concept-shape-process" probl
 1. 3D Generative Design Engine, 2024.9 - 2025.12, Sponsored by Shenzhen JLC Technology Group, PI
 
 
-## Students:
+## Students
 Some [must-knows](/group/must_know/) before working in our group.
 
 ### Ph.D. Students
