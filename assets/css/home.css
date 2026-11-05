@@ -18,9 +18,9 @@
 .home-shell { display: grid; grid-template-columns: 244px minmax(0, 1fr); gap: 48px; align-items: start; }
 .sidebar { position: sticky; top: 32px; min-width: 0; padding-right: 24px; border-right: 1px solid var(--line); }
 .author__avatar img { display: block; width: 175px; height: 175px; padding: 5px; border: 1px solid var(--sky); border-radius: 50%; box-shadow: 0 0 0 5px var(--wash); }
-.author__name { margin: 14px 0 8px; font-size: 24px; font-weight: 500; line-height: 1.35; color: var(--heading); }
-.author__bio { margin: 0 0 20px; font-size: 19px; line-height: 1.6; color: var(--muted); }
-.author__urls { margin: 0; padding: 19px 0 0; border-top: 1px solid var(--line); list-style: none; font-size: 19px; line-height: 1.6; }
+.author__name { margin: 14px 0 8px; font-size: 22px; font-weight: 700; line-height: 1.35; color: var(--heading); }
+.author__bio { margin: 0 0 20px; font-size: 16px; line-height: 1.6; color: var(--muted); }
+.author__urls { margin: 0; padding: 19px 0 0; border-top: 1px solid var(--line); list-style: none; font-size: 16px; line-height: 1.6; }
 .author__urls li { margin-bottom: 11px; }
 .author__urls a { color: var(--accent); text-decoration: none; }
 .author__urls a:hover { color: var(--accent); text-decoration: underline; }
@@ -33,7 +33,7 @@
 .home-bio :is(#news-title + ul, #news-title + ul + details > ul) > li > p { margin: 0; }
 .home-bio :is(#news-title + ul, #news-title + ul + details > ul) > li { position: relative; margin: 0; padding: 12px 0 12px 140px; font-size: var(--small); line-height: 1.65; }
 .home-bio :is(#news-title + ul, #news-title + ul + details > ul) > li + li { border-top: 1px solid var(--rule); }
-.home-bio :is(#news-title + ul, #news-title + ul + details > ul) > li > strong:first-child, .home-bio :is(#news-title + ul, #news-title + ul + details > ul) > li > p:first-child > strong:first-child { position: absolute; left: 0; width: 122px; color: var(--nav); font-size: 19px; font-weight: 500; line-height: 1.75; white-space: nowrap; }
+.home-bio :is(#news-title + ul, #news-title + ul + details > ul) > li > strong:first-child, .home-bio :is(#news-title + ul, #news-title + ul + details > ul) > li > p:first-child > strong:first-child { position: absolute; left: 0; width: 122px; color: var(--nav); font-size: 16px; font-weight: 500; line-height: 1.75; white-space: nowrap; }
 .home-bio #news-title + ul + details { margin-top: 12px; border-top: 1px solid var(--line); }
 .home-bio #news-title + ul + details > summary { padding: 14px 0; font-size: var(--small); color: var(--accent); cursor: pointer; }
 .home-bio #news-title + ul + details > summary:hover { text-decoration: underline; text-underline-offset: 4px; }
@@ -51,8 +51,8 @@
   .author__name { margin-top: 0; }
   .author__bio { margin-bottom: 12px; }
   .author__urls-wrapper { grid-column: 2; }
-  .author__urls-wrapper button { display: inline-block; font-size: 19px; }
-  .author__urls { display: none; margin-top: 16px; font-size: 19px; }
+  .author__urls-wrapper button { display: inline-block; font-size: 16px; }
+  .author__urls { display: none; margin-top: 16px; font-size: 16px; }
   .author__urls-wrapper.is-open .author__urls { display: block; }
 }
 @media print {

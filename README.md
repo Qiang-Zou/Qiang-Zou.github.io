@@ -24,7 +24,7 @@ Jekyll source for <https://qiang-zou.github.io/>.
 
 Research 的三个主栏目是 `## Publications (Selected)`、`## Awards`、`## Talks`。Technical Reports 和各研究分类使用 `###`，属于 Publications 下一级。论文题目继续使用普通列表条目中的加粗文字。列表按 Markdown 中的顺序显示，需要调整展示内容或顺序时直接编辑源文件，无需任何筛选标记。
 
-主栏目使用大号深蓝标题与分隔线；子栏目使用浅蓝底色；论文条目使用深灰色文字。保持这些结构即可沿用全站样式。
+全站使用 Open Sans。主栏目使用大号深蓝粗体；子栏目使用较小的粗体和留白；论文标题、作者、发表信息按字号、字重和颜色区分，不使用子标题底框或逐篇分隔线。保持这些结构即可沿用全站样式。
 
 ## 新增一条 News
 
@@ -101,7 +101,9 @@ Write your introduction here.
 
 正文用普通段落；栏目用 `##`，栏目内的子标题用 `###`。论文题目仍用条目内的 `**加粗文字**`，不要把论文题目写成栏目标题。英文栏目标题统一使用标题式大小写，不加末尾冒号。
 
-桌面端正文 22px、作者与链接 20px；主栏目标题 36px、子栏目 25px、论文题目 23px。主栏目使用深蓝大字和分隔线，子栏目使用浅蓝底色，论文题目使用深灰色。手机端正文 20px、作者与链接 19px，主栏目标题 30px。字号统一在 `assets/css/site.css` 的变量中维护。
+文字排版参考 [MIT HAN Lab Publications](https://hanlab.mit.edu/publications)：Research 论文标题 18px / 600 字重、作者与发表信息 16px / 24px 行高；主栏目 38px / 800 字重，子栏目 24px / 700 字重。发表信息显示为正体。全站一般正文 18px，手机端 17px；手机主栏目 30px、子栏目 22px，论文保持 18px / 16px。字号统一在 `assets/css/site.css` 的变量中维护。
+
+Open Sans 正体和斜体使用本地 WOFF2 可变字体，页面加载不依赖 Google Fonts 网络请求。字体来源为 Google Fonts（Open Sans），SIL OFL 许可证保存在 `assets/fonts/OpenSans-OFL.txt`。参考站的品牌、图片和宣传文案不属于本网站内容。
 
 ## 模板和样式
 
