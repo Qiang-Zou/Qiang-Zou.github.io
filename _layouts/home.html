@@ -8,7 +8,7 @@ layout: default
           <img src="{{ page.profile.avatar | default: site.author.avatar | relative_url }}" class="author__avatar" alt="{{ page.profile.name | default: site.author.name | escape }}" width="400" height="400" fetchpriority="high">
         </div>
         <div class="author__content">
-          <h3 class="author__name">{{ page.profile.name | default: site.author.name | escape }}</h3>
+          <p class="author__name">{{ page.profile.name | default: site.author.name | escape }}</p>
           <p class="author__bio">{{ page.profile.bio | escape }}</p>
         </div>
         <div class="author__urls-wrapper">
@@ -32,7 +32,7 @@ layout: default
         {% assign source_page = site.pages | where: 'path', section.source | first %}
         <section id="{{ section.id }}" class="home-section {{ section.id }}-page" aria-labelledby="{{ section.id }}-title">
           <h2 id="{{ section.id }}-title">{{ section.title }}</h2>
-          <div class="prose">{{ source_page.content | markdownify | replace: '<h3', '<h4' | replace: '</h3>', '</h4>' | replace: '<h2', '<h3' | replace: '</h2>', '</h3>' }}</div>
+          <div class="prose">{{ source_page.content | markdownify }}</div>
         </section>
         {% endfor %}
       </div>

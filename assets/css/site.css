@@ -78,8 +78,8 @@ strong { font-weight: 600; }
 .research-page .prose > p:first-child a { text-decoration: none; }
 .research-page .prose > p:first-child a:hover { text-decoration: underline; }
 .research-page .prose > h2:first-of-type { margin-top: 0; }
-.research-page .prose > ul, .research-page .more-items > ul, .code-page > ul { list-style: none; margin: 0 0 32px; padding: 0; }
-.research-page .prose :is(ul, .more-items > ul) > li { margin: 0 0 24px; padding: 0 0 24px; border-bottom: 1px solid var(--rule); line-height: 1.65; }
+.research-page .prose > ul, .code-page > ul { list-style: none; margin: 0 0 32px; padding: 0; }
+.research-page .prose ul > li { margin: 0 0 20px; padding: 0 0 20px; border-bottom: 1px solid var(--rule); line-height: 1.65; }
 .research-page .prose ul > li:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: 0; }
 .research-page .prose ul > li > p { margin: 0; font-size: var(--small); color: var(--muted); }
 .research-page .prose ul > li > p:first-child { margin-bottom: 7px; font-size: var(--item); line-height: 1.4; color: var(--ink); }

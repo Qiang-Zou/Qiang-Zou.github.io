@@ -25,18 +25,22 @@
 .section-index a:hover { color: var(--accent); background: var(--wash); }
 .section-index a[aria-current="location"] { color: var(--accent); font-weight: 600; border-left-color: var(--accent); background: var(--wash); border-radius: 0 4px 4px 0; }
 .home-section { scroll-margin-top: 28px; }
-.home-section > h2 { margin-top: 64px; }
-.home-section .prose > h3 { margin-top: 36px; padding-top: 8px; }
+/* Main sections, subsection bands, and item titles have distinct visual roles. */
+.home-bio > h2, .home-section > h2 { margin: 72px 0 28px; padding-bottom: 16px; font-size: var(--title); font-weight: 700; border-bottom: 2px solid var(--sky); }
+.home-bio > h2:first-child { margin-top: 0; }
+.home-bio > h2::after, .home-section > h2::after { display: none; }
+.home-section .prose > h3 { margin: 40px 0 24px; padding: 12px 16px; font-size: var(--subsection); font-weight: 650; border-left: 3px solid var(--sky); background: var(--wash); }
 .home-section .prose > h3:first-child { margin-top: 0; }
-.more-items { margin: -8px 0 32px; }
-.more-items > summary { cursor: pointer; color: var(--accent); font-size: var(--small); padding: 8px 0; }
-.more-items > summary:hover { text-decoration: underline; text-underline-offset: 4px; }
-.more-items[open] > summary { margin-bottom: 18px; }
-.more-items > ol > li { padding: 12px 0 15px 6px; margin: 0; border-bottom: 1px solid var(--rule); }
-.more-items > ol > li:last-child { border-bottom: 0; }
+.home-section .prose > h4 { margin: 28px 0 12px; padding-left: 16px; color: var(--heading); font-size: var(--text); font-weight: 600; }
+.home-section .prose > h4 + ol { margin-left: 16px; }
+.home-section .prose > ol > li { padding: 7px 0 7px 4px; border: 0; }
+.publication-controls { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px 16px; margin: -8px 0 24px; font-size: 18px; color: var(--muted); }
+.publication-controls button { font: inherit; color: var(--accent); background: #fff; border: 1px solid var(--line); border-radius: 4px; padding: 6px 12px; cursor: pointer; }
+.publication-controls button:hover { background: var(--wash); border-color: var(--accent); }
+.research-page .prose li[hidden] { display: none; }
 .sidebar { position: sticky; top: 32px; min-width: 0; padding-right: 24px; border-right: 1px solid var(--line); }
 .author__avatar img { display: block; width: 175px; height: 175px; padding: 5px; border: 1px solid var(--sky); border-radius: 50%; box-shadow: 0 0 0 5px var(--wash); }
-.author__name { margin: 14px 0 8px; font-size: 24px; font-weight: 500; line-height: 1.35; }
+.author__name { margin: 14px 0 8px; font-size: 24px; font-weight: 500; line-height: 1.35; color: var(--heading); }
 .author__bio { margin: 0 0 20px; font-size: 19px; line-height: 1.6; color: var(--muted); }
 .author__urls { margin: 0; padding: 19px 0 0; border-top: 1px solid var(--line); list-style: none; font-size: 19px; line-height: 1.6; }
 .author__urls li { margin-bottom: 11px; }

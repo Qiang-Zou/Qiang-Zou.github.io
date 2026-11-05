@@ -32,38 +32,63 @@
   setIndexLayout();
   wide.addEventListener('change', setIndexLayout);
 
-  function foldList(list, limit, noun) {
+  const publicationViews = [];
+  document.querySelectorAll('#research .prose > ul').forEach((list, listIndex) => {
     const items = Array.from(list.children);
-    if (items.length <= limit) return;
-    const details = document.createElement('details');
-    details.className = 'more-items';
-    const summary = document.createElement('summary');
-    const heading = list.previousElementSibling;
-    const context = heading && /^H[2-4]$/.test(heading.tagName) ? heading.textContent.trim() : 'Service';
-    const closedLabel = `Show ${items.length - limit} more ${noun}`;
-    summary.textContent = closedLabel;
-    summary.setAttribute('aria-label', `${context}: ${closedLabel}`);
-    const rest = document.createElement(list.tagName.toLowerCase());
-    if (list.tagName === 'OL') rest.start = limit + 1;
-    items.slice(limit).forEach(item => rest.appendChild(item));
-    details.append(summary, rest);
-    list.after(details);
-    details.addEventListener('toggle', () => {
-      const label = details.open ? `Show fewer ${noun}` : closedLabel;
-      summary.textContent = label;
-      summary.setAttribute('aria-label', `${context}: ${label}`);
-      scheduleUpdate();
+    // Only publication lists with explicit author-maintained metadata participate.
+    if (!items.some(item => item.querySelector('[data-year]'))) return;
+    const records = items.map((item, position) => {
+      const metadata = item.querySelector('[data-year]');
+      const year = Number(metadata?.getAttribute('data-year')) || 0;
+      return { item, position, year, selected: metadata?.getAttribute('data-selected') === 'true' };
     });
-  }
-  document.querySelectorAll('#research .prose > ul').forEach(list => foldList(list, 3, 'publications'));
-  document.querySelectorAll('#research .prose > ol').forEach(list => foldList(list, 3, 'entries'));
-  document.querySelectorAll('#service .prose > ol').forEach(list => foldList(list, 4, 'entries'));
+    const selected = records.filter(record => record.selected);
+    const chronological = records.slice().sort((a, b) => b.year - a.year || a.position - b.position);
+    const heading = list.previousElementSibling;
+    const context = heading?.textContent.trim() || 'Publications';
+    list.id = list.id || `publication-list-${listIndex}`;
+    let button;
+    let status;
+    let selectedView = selected.length > 0;
+    if (selected.length) {
+      const controls = document.createElement('div');
+      controls.className = 'publication-controls';
+      status = document.createElement('span');
+      status.setAttribute('aria-live', 'polite');
+      button = document.createElement('button');
+      button.type = 'button';
+      button.setAttribute('aria-controls', list.id);
+      controls.append(status, button);
+      list.before(controls);
+      button.addEventListener('click', () => { render(!selectedView); scheduleUpdate(); });
+    }
+    function render(showSelected) {
+      selectedView = showSelected;
+      const order = showSelected ? records : chronological;
+      order.forEach(record => {
+        record.item.hidden = showSelected && !record.selected;
+        list.appendChild(record.item);
+      });
+      if (button) {
+        const label = showSelected ? `View all ${records.length} publications` : 'Show selected publications';
+        button.textContent = label;
+        button.setAttribute('aria-label', `${context}: ${label}`);
+        button.setAttribute('aria-expanded', String(!showSelected));
+        status.textContent = showSelected ? `Selected publications (${selected.length})` : 'All publications · newest first';
+      }
+    }
+    render(selectedView);
+    publicationViews.push({ items, showAll: () => render(false) });
+  });
 
   function revealHash() {
     let id;
     try { id = decodeURIComponent(window.location.hash.slice(1)); } catch (_) { return; }
     const target = document.getElementById(id);
     if (!target) return;
+    publicationViews.forEach(view => {
+      if (view.items.some(item => item.hidden && item.contains(target))) view.showAll();
+    });
     for (let parent = target.parentElement; parent; parent = parent.parentElement) {
       if (parent.tagName === 'DETAILS') parent.open = true;
     }

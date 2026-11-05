@@ -5,23 +5,28 @@ title: "Research"
 permalink: /research/
 page_class: research-page
 ---
-Selected publications · [Full list on Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=en) · [Code](/codes/)
+Publications · [Full list on Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=en) · [Code](/codes/)
 
-## Technical Reports {#technical-reports}
+### Technical Reports {#technical-reports}
 
 - **Assessing the CAD Capabilities of General-Purpose AI Models: A Case Study of GPT-6 Astra**
 
   [Read report](/projects/icad-eval-report/)
 
-## AI for CAD {#ai-design}
+<!-- Set data-selected="true" on any paper to feature it. No fixed limit.
+     Keep data-year equal to the publication year for the complete-list order. -->
+
+### AI for CAD {#ai-design}
 
 - **Intelligent CAD 2.0**
+  {: data-year="2024" data-selected="false"}
 
   **Qiang Zou**\*, Yingcai Wu, Zhenyu Liu, Weiwei Xu, Shuming Gao
 
   *Visual Informatics (2024)*
   
 - **KDH-CAD: Knowledge–data hybrid CAD learning under data scarcity**
+  {: data-year="2027" data-selected="false"}
 
   Ziqin Gao, Zhijie Yang, **Qiang Zou**\*
 
@@ -30,6 +35,7 @@ Selected publications · [Full list on Google Scholar](https://scholar.google.co
   [Paper](https://doi.org/10.1016/j.cad.2026.104158) · [Code](https://github.com/Qiang-Zou/KDH-CAD)
 
 - **CADDesigner: Conceptual CAD model generation with a general-purpose agent**
+  {: data-year="2026" data-selected="false"}
 
   Fengxiao Fan, Jingzhe Ni, Xiaolong Yin, Sirui Wang, Xingyu Lu, **Qiang Zou**, Ruofeng Tong, Min Tang, Peng Du
 
@@ -38,6 +44,7 @@ Selected publications · [Full list on Google Scholar](https://scholar.google.co
   [Paper](https://doi.org/10.1016/j.cad.2026.104087) · [Code](https://github.com/562590763/CADDesigner-Code)
 
 - **Boundary Representation Learning via Transformer**
+  {: data-year="2025" data-selected="false"}
 
   **Qiang Zou**\*, Lizhen Zhu
 
@@ -46,12 +53,14 @@ Selected publications · [Full list on Google Scholar](https://scholar.google.co
   [Paper](https://doi.org/10.1016/j.cad.2025.103940) · [Code](https://github.com/Qiang-Zou/BRT)
 
 - **Diffusion-CAD: Controllable Diffusion Model for Generating Computer-Aided Design Models**
+  {: data-year="2025" data-selected="false"}
 
   Aijia Zhang, Weiqiang Jia\*, **Qiang Zou**\*, Yixiong Feng, Xiaoxiang Wei, Ye Zhang
 
   *IEEE TVCG, 2025*
 
 - **SplineGen: approximating unorganized points through generative AI**
+  {: data-year="2024" data-selected="false"}
 
   **Qiang Zou**\*, Lizhen Zhu, Jiayu Wu, Zhijie Yang
 
@@ -59,21 +68,24 @@ Selected publications · [Full list on Google Scholar](https://scholar.google.co
 
   [Paper](https://doi.org/10.1016/j.cad.2024.103809) · [Code](https://github.com/Qiang-Zou/SplineGen)
 
-## Geometric Computing & CAD Modeling <span id="microstructures"></span> {#geometric-computing}
+### Geometric Computing & CAD Modeling <span id="microstructures"></span> {#geometric-computing}
 
 - **Cubic Hermite Lattice Structures**
+  {: data-year="2026" data-selected="false"}
 
   Yaonaiming Zhao, Yuntao Ma, Guoyue Luo, **Qiang Zou**\*
 
   *ASME IDETC/CIE 2026*
 
 - **GPU-accelerated Certified Hausdorff Distance Between Triangle Meshes**
+  {: data-year="2026" data-selected="false"}
 
   Haopeng Fan, Min Tang\*, Leonardo Sacht, **Qiang Zou**, Ruofeng Tong, Peng Du
 
   *ACM TOG (SIGGRAPH) 2026*
 
 - **Soap Film-inspired Subdivisional Lattice Structure Construction**
+  {: data-year="2025" data-selected="false"}
 
   Guoyue Luo, **Qiang Zou**\*
 
@@ -82,6 +94,7 @@ Selected publications · [Full list on Google Scholar](https://scholar.google.co
   [Paper](https://doi.org/10.1016/j.cad.2025.103950) · [Code](https://github.com/Qiang-Zou/Subdiv-Lattice)
 
 - **A Quasi-Optimal Shape Design Method for Lattice Structure Construction**
+  {: data-year="2025" data-selected="false"}
 
   Sifan Chen, Guoyue Luo, Yuan Kong\*, **Qiang Zou**\*
 
@@ -90,6 +103,7 @@ Selected publications · [Full list on Google Scholar](https://scholar.google.co
   [Paper](https://doi.org/10.1115/1.4068955) · [Code](https://github.com/Qiang-Zou/LatticeConstruction)
 
 - **Matrix representation and GPU-optimized parallel B-spline computing**
+  {: data-year="2025" data-selected="false"}
 
   J Wu, Z Feng, **Q Zou**\*
 
@@ -98,18 +112,21 @@ Selected publications · [Full list on Google Scholar](https://scholar.google.co
   [Paper](https://doi.org/10.1016/j.cad.2025.103948) · [Code](https://github.com/Qiang-Zou/Matrix-CAD)
 
 - **Determining valid parameter ranges for multiparameter editing of 3D parametric CAD models**
+  {: data-year="2025" data-selected="false"}
 
   Zhihong Tang, **Qiang Zou**\*, Shuming Gao\*
 
   *ASME Trans. JCISE. 2025*
 
 - **Geometric modeling for microstructure design and manufacturing: A review**
+  {: data-year="2024" data-selected="false"}
 
   **Qiang Zou**\*, Guoyue Luo
 
   *Computer-Aided Design (2024)*
 
 - **Meta-meshing and triangulating lattice structures at a large scale**
+  {: data-year="2024" data-selected="false"}
 
   **Qiang Zou**\*, Yunzhu Gao, Guoyue Luo, Sifan Chen
 
@@ -118,6 +135,7 @@ Selected publications · [Full list on Google Scholar](https://scholar.google.co
   [Paper](https://doi.org/10.1016/j.cad.2024.103732) · [Code](https://github.com/Qiang-Zou/MetaMesh)
 
 - **TPMS2STEP: error-controlled and C2 continuity-preserving translation of TPMS models to STEP files based on constrained-PIA**
+  {: data-year="2024" data-selected="false"}
 
   Yaonaiming Zhao, **Qiang Zou**\*, Guoyue Luo, Jiayu Wu, Sifan Chen, Depeng Gao, Minghao Xuan, Fuyu Wang
 
@@ -126,12 +144,14 @@ Selected publications · [Full list on Google Scholar](https://scholar.google.co
   [Paper](https://doi.org/10.1016/j.cad.2024.103726) · [Code](https://github.com/Qiang-Zou/TPMS2STEP)
 
 - **Persistent Homology-Driven Optimization of Effective Relative Density Range for Triply Periodic Minimal Surfaces**
+  {: data-year="2024" data-selected="false"}
 
   Depeng Gao, Yuanzhi Zhang, Hongwei Lin\*, **Qiang Zou**
 
   *Computer-Aided Design (2024)*
 
 - **GPU Parallel Inverse Evaluation of NURBS Surfaces Based on Matrix Representation**
+  {: data-year="2023" data-selected="false"}
 
   Z Bao, W Liu, **Q Zou**\*
 
@@ -140,30 +160,35 @@ Selected publications · [Full list on Google Scholar](https://scholar.google.co
   [Paper](https://www.jcad.cn/cn/article/doi/10.3724/SP.J.1089.2023.2023-00003) · [Code](https://github.com/Qiang-Zou/GPU-NURBS)
 
 - **Variational Direct Modeling: A framework towards integration of parametric modeling and direct modeling in CAD**
+  {: data-year="2023" data-selected="false"}
 
   **Qiang Zou**\*, Hsi-Yung Feng, and Shuming Gao.
 
   *Computer-Aided Design 157 (2023): 103465*
 
 - **A decision-support method for multi-parameter editing of parametric CAD models**
+  {: data-year="2023" data-selected="false"}
 
   Zhihong Tang, **Qiang Zou**, and Shuming Gao\*.
 
   *Advanced Engineering Informatics 56 (2023): 101997*
 
 - **A robust direct CAD modeling method for quadric B-rep models based on geometry-topology inconsistency tracking**
+  {: data-year="2022" data-selected="false"}
 
   **Qiang Zou**\*, Hsi-Yung Feng
 
   *Engineering with Computers 2022 38 (4), 3815-3830*
 
 - **STL-free digital design and manufacturing paradigm for high-precision selective laser melting**
+  {: data-year="2021" data-selected="false"}
 
   Junhao Ding, **Qiang Zou**, Shuo Qu, Paulo Bartolo, Xu Song, Charlie C. L. Wang\*
 
   *CIRP Annals. 2021 70(1): 167-170*
 
 - **Memory-Efficient Modeling and Slicing of Large-Scale Adaptive Lattice Structures**
+  {: data-year="2021" data-selected="false"}
 
   Shengjun Liu, Tao Liu, **Qiang Zou**, Weiming Wang, Eugeni L. Doubrovski, Charlie C. L. Wang\*
 
@@ -172,62 +197,71 @@ Selected publications · [Full list on Google Scholar](https://scholar.google.co
   [Paper](https://asmedigitalcollection.asme.org/computingengineering/article/21/6/061003/1100541/Memory-Efficient-Modeling-and-Slicing-of-Large) · [Code](https://github.com/Qiang-Zou/ImplicitSlicer)
 
 - **A decision-support method for information inconsistency resolution in direct modeling of CAD models**
+  {: data-year="2020" data-selected="false"}
 
   **Qiang Zou**, Hsi-Yung Feng\*
 
   *Advanced Engineering Informatics. 44 (2020) 101087*
 
 - **Push-pull direct modeling of solid CAD models**
+  {: data-year="2019" data-selected="false"}
 
   **Qiang Zou**, Hsi-Yung Feng\*
 
   *Advances in Engineering Software 127 (2019): 59-69*
 
 - **Variational B-rep model analysis for direct modeling using geometric perturbation**
+  {: data-year="2019" data-selected="false"}
 
   **Qiang Zou**, Hsi-Yung Feng\*
 
   *Journal of Computational Design and Engineering. 6 (4) (2019) 606-616*
 
-## CAD/CAM Integration <span id="physical-modeling"></span> {#tool-paths}
+### CAD/CAM Integration <span id="physical-modeling"></span> {#tool-paths}
 
 - **Computing smooth preferred feed direction fields with high material removal rates for efficient CNC tool paths**
+  {: data-year="2023" data-selected="false"}
 
   Zirui Wang, Shibo Liu, Ligang Liu, **Qiang Zou**\*, Xiao-Ming Fu\*
 
   *Computer-Aided Design (2023): 103591*
 
 - **XVoxel-Based Parametric Design Optimization of Feature Models**
+  {: data-year="2023" data-selected="false"}
 
   Li Ming, Chengfeng Lin, Wei Chen, Yusheng Liu, Shuming Gao, and **Qiang Zou**\*.
 
   *Computer-Aided Design 160 (2023): 103528*
 
 - **Length-optimal tool path planning for freeform surfaces with preferred feed directions based on Poisson formulation**
+  {: data-year="2021" data-selected="false"}
 
   **Qiang Zou**\*
 
   *Computer-Aided Design, 2021, 139:103072*
 
 - **Robust and efficient tool path generation for machining low-quality mesh surfaces**
+  {: data-year="2021" data-selected="false"}
 
   **Qiang Zou**\*
 
   *International Journal of Production Research. 2021 59(24), 7457-7467*
 
 - **Iso-level tool path planning for free-form surfaces**
+  {: data-year="2014" data-selected="false"}
 
   **Qiang Zou**, Juyong Zhang\*, Bailin Deng, Jibin Zhao
 
   *Computer-Aided Design 53 (11) (2014) 117–125*
 
 - **Iso-parametric tool-path planning for point clouds**
+  {: data-year="2013" data-selected="false"}
 
   **Qiang Zou**, Jibin Zhao\*
 
   *Computer-Aided Design 45 (11) (2013) 1459–1468*
 
-## Awards (Selected)
+### Awards (Selected)
 
 1. World's Top 2% Scientists, Stanford/Elsevier, 2026
 1. SMI Young Investigator Award, The Association of Shape Modeling International, first Asian recipient, 2026
@@ -240,7 +274,7 @@ Selected publications · [Full list on Google Scholar](https://scholar.google.co
 1. UBC 4YF Doctoral Fellowship, UBC, 2014
 1. Academic Research Award, Liaoning Province, China, 2014
 
-## Talks
+### Talks
 1. What is AI+CAD, GAMES, Nov. 13, 2025,
 1. Data-Driven B-Spline Modeling, SAC, Aug, 2024
 1. Geometric Modeling for Microstructure Design and Manufacturing, SAC, April, 2024

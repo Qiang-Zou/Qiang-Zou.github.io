@@ -12,8 +12,8 @@ permalink: /services/
 1. Session Chair: ICED16, CAD16
 1. Reviewer: CAD, ASME JCISE, CAGD etc.
 
-## Webinars Hosted
-### AI for CAD/CAM  
+### Webinars Hosted
+#### AI for CAD/CAM
 1. What is AI+CAD, Nov. 13, 2025
 1. AI and Datasets for Shipbuilding, Nov. 13, 2025
 1. Field-Based Intelligent Process Planning for 3D Printing, June 13, 2024, [Video](https://www.bilibili.com/video/BV1Qy411q7xP) [Pdf](https://games-1312234642.cos.ap-guangzhou.myqcloud.com/pdf/Games2024327%E7%8E%8B%E6%98%8C%E5%87%8C.pdf)
@@ -24,7 +24,7 @@ permalink: /services/
 1. Deep Learning-Based CAD Modeling, June 15, 2023, [Video](https://www.bilibili.com/video/BV1PW4y1X73m) 
 
 
-### Geometric and Physical Modeling for CAD/CAM
+#### Geometric and Physical Modeling for CAD/CAM
 1. Multi-body Simulation with Affine Body Dynamics, Aug. 14, 2022, [Video](https://www.bilibili.com/video/BV1BV4y1s77u) [Pdf](https://games-1312234642.cos.ap-guangzhou.myqcloud.com/pdf/Games2022242%E6%9D%8E%E6%97%BB%E8%BE%B0.pdf)
 1. Mesh Distortion Optimization, Aug. 14, 2022, [Video](https://www.bilibili.com/video/BV1dt4y1g7Wd) [Pdf](https://games-1312234642.cos.ap-guangzhou.myqcloud.com/pdf/Games2022242%E6%9C%B1%E5%AE%87%E5%B3%B0.pdf)
 1. Introduction to ZW3D CAD: All-in-One CAX, Mar. 24, 2022, [Video](https://www.bilibili.com/video/BV1jT4y1i7ej) [Pdf](https://games-1312234642.cos.ap-guangzhou.myqcloud.com/pdf/Games2022222%E6%9D%8E%E4%BC%9A%E6%B1%9F.pdf)
