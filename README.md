@@ -40,7 +40,7 @@ Research 的三个主栏目是 `## Publications (Selected)`、`## Awards`、`## 
 
 ## 新增一篇论文
 
-在 `research.md` 的相应分类下复制以下结构。空行和条目内的两个空格缩进用于区分标题、作者、期刊与链接，模板自动完成排版。
+在 `research.md` 的相应分类下复制以下结构。空行和条目内的两个空格缩进用于区分标题、作者与期刊，模板自动完成排版。
 
 ```markdown
 - **Paper title**
@@ -48,11 +48,9 @@ Research 的三个主栏目是 `## Publications (Selected)`、`## Awards`、`## 
   First Author, **Qiang Zou**
 
   *Journal name (2026)*
-
-  [Paper](https://example.org/paper) · [Code](https://example.org/code)
 ```
 
-没有 Code 链接时直接删去，没有链接时整行删去。论文标题本身保留为文字。新增研究分类用 `### 分类名称`；现有标题后的 `{#...}` 是稳定的页面锚点，请保留。奖项和 Talks 继续使用普通有序列表。
+Research 的论文条目统一只显示标题、作者和发表信息，不单独放 Paper / Code 链接；资源链接在 Code 页面维护。Technical Reports 保留 Read report 链接。论文标题本身保留为文字。新增研究分类用 `### 分类名称`；现有标题后的 `{#...}` 是稳定的页面锚点，请保留。奖项和 Talks 继续使用普通有序列表。
 
 Technical report 可以使用更短的结构：
 

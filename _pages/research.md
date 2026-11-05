@@ -28,23 +28,17 @@ page_class: research-page
 
   *Computer-Aided Design 202 (2027), 104158*
 
-  [Paper](https://doi.org/10.1016/j.cad.2026.104158) · [Code](https://github.com/Qiang-Zou/KDH-CAD)
-
 - **CADDesigner: Conceptual CAD model generation with a general-purpose agent**
 
   Fengxiao Fan, Jingzhe Ni, Xiaolong Yin, Sirui Wang, Xingyu Lu, **Qiang Zou**, Ruofeng Tong, Min Tang, Peng Du
 
   *Computer-Aided Design 198 (2026), 104087*
 
-  [Paper](https://doi.org/10.1016/j.cad.2026.104087) · [Code](https://github.com/562590763/CADDesigner-Code)
-
-- **Boundary Representation Learning via Transformer**
+- **BRT: Boundary Representation Learning via Transformer**
 
   **Qiang Zou**\*, Lizhen Zhu
 
   *Computer-Aided Design (2025)*
-
-  [Paper](https://doi.org/10.1016/j.cad.2025.103940) · [Code](https://github.com/Qiang-Zou/BRT)
 
 - **Diffusion-CAD: Controllable Diffusion Model for Generating Computer-Aided Design Models**
 
@@ -57,8 +51,6 @@ page_class: research-page
   **Qiang Zou**\*, Lizhen Zhu, Jiayu Wu, Zhijie Yang
 
   *Computer-Aided Design (2024)*
-
-  [Paper](https://doi.org/10.1016/j.cad.2024.103809) · [Code](https://github.com/Qiang-Zou/SplineGen)
 
 ### Geometric Computing & CAD Modeling <span id="microstructures"></span> {#geometric-computing}
 
@@ -80,23 +72,17 @@ page_class: research-page
 
   *Computer-Aided Design (2025)*
 
-  [Paper](https://doi.org/10.1016/j.cad.2025.103950) · [Code](https://github.com/Qiang-Zou/Subdiv-Lattice)
-
 - **A Quasi-Optimal Shape Design Method for Lattice Structure Construction**
 
   Sifan Chen, Guoyue Luo, Yuan Kong\*, **Qiang Zou**\*
 
   *ASME Trans. JMD (2025)*
 
-  [Paper](https://doi.org/10.1115/1.4068955) · [Code](https://github.com/Qiang-Zou/LatticeConstruction)
-
 - **Matrix representation and GPU-optimized parallel B-spline computing**
 
   J Wu, Z Feng, **Q Zou**\*
 
   *Computer-Aided Design, 2025*
-
-  [Paper](https://doi.org/10.1016/j.cad.2025.103948) · [Code](https://github.com/Qiang-Zou/Matrix-CAD)
 
 - **Determining valid parameter ranges for multiparameter editing of 3D parametric CAD models**
 
@@ -116,15 +102,11 @@ page_class: research-page
 
   *Computer-Aided Design (2024)*
 
-  [Paper](https://doi.org/10.1016/j.cad.2024.103732) · [Code](https://github.com/Qiang-Zou/MetaMesh)
-
 - **TPMS2STEP: error-controlled and C2 continuity-preserving translation of TPMS models to STEP files based on constrained-PIA**
 
   Yaonaiming Zhao, **Qiang Zou**\*, Guoyue Luo, Jiayu Wu, Sifan Chen, Depeng Gao, Minghao Xuan, Fuyu Wang
 
   *Computer-Aided Design (2024)*
-
-  [Paper](https://doi.org/10.1016/j.cad.2024.103726) · [Code](https://github.com/Qiang-Zou/TPMS2STEP)
 
 - **Persistent Homology-Driven Optimization of Effective Relative Density Range for Triply Periodic Minimal Surfaces**
 
@@ -137,8 +119,6 @@ page_class: research-page
   Z Bao, W Liu, **Q Zou**\*
 
   *Journal of Computer-Aided Design & Computer Graphics, 2023*
-
-  [Paper](https://www.jcad.cn/cn/article/doi/10.3724/SP.J.1089.2023.2023-00003) · [Code](https://github.com/Qiang-Zou/GPU-NURBS)
 
 - **Variational Direct Modeling: A framework towards integration of parametric modeling and direct modeling in CAD**
 
@@ -169,8 +149,6 @@ page_class: research-page
   Shengjun Liu, Tao Liu, **Qiang Zou**, Weiming Wang, Eugeni L. Doubrovski, Charlie C. L. Wang\*
 
   *ASME Trans. JCISE. 21.6 (2021): 061003*
-
-  [Paper](https://asmedigitalcollection.asme.org/computingengineering/article/21/6/061003/1100541/Memory-Efficient-Modeling-and-Slicing-of-Large) · [Code](https://github.com/Qiang-Zou/ImplicitSlicer)
 
 - **A decision-support method for information inconsistency resolution in direct modeling of CAD models**
 
