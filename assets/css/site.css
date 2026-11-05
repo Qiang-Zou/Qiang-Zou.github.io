@@ -41,8 +41,6 @@ p { margin: 0 0 1.15em; }
 .project-image img { display: block; max-width: 100%; width: auto; height: auto; max-height: 100%; object-fit: contain; }
 .project-image:hover { border-color: #aab8cc; }
 .project-content h3 { margin: 0 0 9px; font-size: 20px; font-weight: 600; line-height: 1.4; text-wrap: pretty; }
-.project-content h3 a { color: var(--ink); text-decoration: none; }
-.project-content h3 a:hover { color: var(--accent); }
 .project-content p { margin: 0 0 14px; color: var(--ink); font-size: 17px; line-height: 1.8; }
 .page-shell { max-width: 1024px; margin: 0 auto; padding: 64px 32px 80px; }
 .page-heading { max-width: 850px; margin-bottom: 36px; }
@@ -80,8 +78,6 @@ p { margin: 0 0 1.15em; }
 .publication-list strong { color: var(--ink); font-weight: 600; }
 .publication-list .paper-title { display: block; font-size: 19px; line-height: 1.55; margin-bottom: 5px; font-weight: 600; }
 .publication-list .citation { color: var(--muted); }
-.publication-list .paper-title a { color: var(--ink); text-decoration: none; }
-.publication-list .paper-title a:hover { color: var(--accent); text-decoration: underline; }
 .publication-list .resource-links { margin-top: 9px; }
 .report-link { display: block; border-left: 3px solid #aab8cc; padding: 13px 22px; margin: 24px 0 40px; background: var(--wash); }
 .report-link a { font-weight: 500; text-decoration: none; }

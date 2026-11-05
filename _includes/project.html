@@ -3,7 +3,7 @@
     <img src="{{ include.project.image | relative_url }}" alt="{{ include.project.name | escape }} research illustration" loading="lazy" decoding="async">
   </a>
   <div class="project-content">
-    <h3><a href="{{ include.project.code }}">{{ include.project.title | default: include.project.name }}</a></h3>
+    <h3>{{ include.project.title | default: include.project.name | escape }}</h3>
     <p>{{ include.project.description }}</p>
     <div class="resource-links"><a href="{{ include.project.code }}">Code <span aria-hidden="true">↗</span></a>{% if include.project.paper %}<a href="{{ include.project.paper }}">Paper <span aria-hidden="true">↗</span></a>{% endif %}</div>
   </div>

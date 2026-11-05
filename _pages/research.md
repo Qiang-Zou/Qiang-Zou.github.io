@@ -30,7 +30,7 @@ See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=e
   <ul class="publication-list">
     {% for paper in group.papers %}
     <li>
-      <span class="paper-title">{% if paper.paper %}<a href="{{ paper.paper }}">{{ paper.title | escape }}</a>{% else %}{{ paper.title | escape }}{% endif %}</span>
+      <span class="paper-title">{{ paper.title | escape }}</span>
       <div class="citation">{{ paper.authors | escape | replace: 'Qiang Zou', '<strong>Qiang Zou</strong>' | replace: 'Q Zou', '<strong>Q Zou</strong>' }}<br><em>{{ paper.venue | escape }}</em></div>
       {% if paper.code or paper.paper %}<div class="resource-links">{% if paper.paper %}<a href="{{ paper.paper }}">Paper ↗</a>{% endif %}{% if paper.code %}<a href="{{ paper.code }}">Code ↗</a>{% endif %}</div>{% endif %}
     </li>
