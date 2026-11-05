@@ -1,7 +1,13 @@
 main:
+  - title: Research
+    url: /research/
   - title: Code
     url: /codes/
   - title: Group
     url: /group/
+  - title: Teaching
+    url: /teaching/
+  - title: Service
+    url: /services/
   - title: Chinese
     url: /about-chinese/

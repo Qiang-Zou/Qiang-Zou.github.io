@@ -1,10 +1,11 @@
 ---
-layout: section-redirect
-home_section: teaching
+layout: page
 title: "Teaching"
 permalink: /teaching/
 ---
 
+
+## Courses
 
 1. 2023 – , 3D CAD Modeling, ZJU, Instructor.
 

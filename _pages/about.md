@@ -36,9 +36,6 @@ Current research work includes CAD/CAM with emphasis on (1) the basic research o
 - **March 2026** Serving as the Organizing Chair of ChinaGraph 2026.
 - **March 2026** One paper accepted by the prestigious conference of SIGGRAPH (journal track).
 
-<details markdown="1">
-<summary>Earlier news</summary>
-
 - **Dec 2025** Received the prestigious Lu Zeng-Yong CAD&CG High-Tech Award — First Prize (1 recipient/year)
 - **Oct 2025** Serving on the Editorial Board of the prestigious journal of Computer-Aided Design.
 - **July 2025** One paper accepted by the prestigious journal of ASME Trans. JMD.
@@ -59,5 +56,3 @@ Current research work includes CAD/CAM with emphasis on (1) the basic research o
 - **Apr 2023** One paper accepted by the journal of Advanced Engineering Informatics.
 - **Feb 2023** One paper accepted by the prestigious journal of IEEE Transactions on Antennas and Propagation.
 - **Jan 2023** One paper accepted by the prestigious journal of Computer-Aided Design.
-
-</details>
