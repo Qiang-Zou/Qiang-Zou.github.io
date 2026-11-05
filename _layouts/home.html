@@ -1,31 +1,7 @@
-<!doctype html>
-<html lang="en">
-<head>
-  {% include head.html stylesheet='/assets/css/home-original.css' %}
-  <script src="{{ '/assets/js/home.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
-</head>
-<body>
-  <a class="screen-reader-shortcut" href="#main">Skip to content</a>
-  <div class="masthead">
-    <div class="masthead__inner-wrap">
-      <div class="masthead__menu">
-        <nav id="site-nav" class="greedy-nav" aria-label="Main navigation">
-          <button type="button" class="hidden" aria-label="More navigation links" aria-expanded="false" aria-controls="overflow-links"><span class="navicon"></span></button>
-          <ul class="visible-links">
-            <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ '/' | relative_url }}">Qiang Zou</a></li>
-            <li class="masthead__menu-item"><a href="{{ '/research/' | relative_url }}">Research</a></li>
-            <li class="masthead__menu-item"><a href="{{ '/teaching/' | relative_url }}">Teaching</a></li>
-            <li class="masthead__menu-item"><a href="{{ '/services/' | relative_url }}">Services</a></li>
-            <li class="masthead__menu-item"><a href="{{ '/codes/' | relative_url }}">Codes</a></li>
-            <li class="masthead__menu-item"><a href="{{ '/group/' | relative_url }}">Group</a></li>
-            <li class="masthead__menu-item"><a href="{{ '/about-chinese/' | relative_url }}">About-Chinese</a></li>
-          </ul>
-          <ul id="overflow-links" class="hidden-links hidden"></ul>
-        </nav>
-      </div>
-    </div>
-  </div>
-  <main id="main" tabindex="-1">
+---
+layout: default
+---
+<div class="home-shell">
     <aside class="sidebar sticky" aria-label="Profile and contact">
       <div itemscope itemtype="https://schema.org/Person">
         <div class="author__avatar">
@@ -48,10 +24,10 @@
         </div>
       </div>
     </aside>
-    <article class="page" aria-labelledby="about-title">
-      <div class="page__inner-wrap">
-        <header><h1 id="about-title" class="page__title">About</h1></header>
-        <section class="page__content">{{ content }}</section>
+    <article class="home-content" aria-labelledby="about-title">
+      <div class="home-reading-column">
+        <header class="page-heading"><h1 id="about-title">About</h1></header>
+        <section class="prose home-bio">{{ content }}</section>
         <section class="news-section" aria-labelledby="news-title">
           <h2 id="news-title">News</h2>
           <ul class="news-list">{% for item in site.data.news limit:8 %}{% include news-item.html item=item %}{% endfor %}</ul>
@@ -62,11 +38,4 @@
         </section>
       </div>
     </article>
-  </main>
-  <div class="page__footer">
-    <footer>
-      <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name }}. Powered by <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
-    </footer>
-  </div>
-</body>
-</html>
+</div>

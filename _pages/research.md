@@ -3,7 +3,6 @@ layout: page
 title: "Research"
 permalink: /research/
 page_class: research-page
-compact_header: true
 ---
 <p class="publication-intro">Selected publications · <a href="{{ site.author.scholar }}">Full list on Google Scholar</a> · <a href="{{ '/codes/' | relative_url }}">Code</a></p>
 

@@ -5,6 +5,6 @@
   <div class="project-content">
     <h3>{{ include.project.title | default: include.project.name | escape }}</h3>
     <p>{{ include.project.description }}</p>
-    <div class="resource-links"><a href="{{ include.project.code }}">Code <span aria-hidden="true">↗</span></a>{% if include.project.paper %}<a href="{{ include.project.paper }}">Paper <span aria-hidden="true">↗</span></a>{% endif %}</div>
+    <div class="resource-links"><a href="{{ include.project.code }}">Code</a>{% if include.project.paper %}<a href="{{ include.project.paper }}">Paper</a>{% endif %}</div>
   </div>
 </article>
