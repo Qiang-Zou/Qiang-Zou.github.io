@@ -2404,3 +2404,8 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
   .news-list li { grid-template-columns: 1fr; gap: .15rem; padding: .7rem 0; }
   .news-section { margin-top: 1.6rem; padding-top: 1.4rem; }
 }
+
+/* A restrained name treatment shared with the inner-page masthead. */
+.greedy-nav .visible-links li:first-child { font-weight: 500; }
+.masthead__menu-item--lg { font-weight: 500; letter-spacing: 0; }
+.sidebar .author__name { font-size: 1.05rem; font-weight: 500; letter-spacing: 0; line-height: 1.35; }

@@ -21,12 +21,12 @@ p { margin: 0 0 1.15em; }
 .skip-link:focus { top: 12px; color: #fff; }
 .site-header { border-bottom: 1px solid var(--line); }
 .header-inner, .footer-inner { max-width: 1184px; margin: 0 auto; padding: 0 32px; }
-.header-inner { min-height: 90px; display: flex; align-items: center; justify-content: space-between; gap: 32px; }
-.wordmark { font-size: 21px; font-weight: 650; color: var(--ink); text-decoration: none; white-space: nowrap; letter-spacing: -.025em; }
+.header-inner { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 32px; }
+.wordmark { font-size: 20px; font-weight: 500; color: var(--ink); text-decoration: none; white-space: nowrap; letter-spacing: 0; }
 .main-nav { display: flex; align-items: center; gap: 27px; flex-wrap: wrap; }
-.main-nav a { position: relative; padding: 8px 0; color: var(--ink); font-size: 16px; font-weight: 500; text-decoration: none; }
+.main-nav a { position: relative; padding: 8px 0; color: var(--ink); font-size: 16px; font-weight: 400; text-decoration: none; }
 .main-nav a:hover, .main-nav a[aria-current] { color: var(--accent); }
-.main-nav a[aria-current]::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 2px; background: var(--accent); }
+.main-nav a[aria-current] { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 7px; }
 .site-main { min-height: 65vh; }
 .eyebrow { color: var(--muted); letter-spacing: .035em; font-size: 14px; line-height: 1.6; font-weight: 650; margin: 0 0 20px; }
 .resource-links { display: flex; gap: 22px; flex-wrap: wrap; }
@@ -77,9 +77,25 @@ p { margin: 0 0 1.15em; }
 .publication-list .paper-title { display: block; font-size: 19px; line-height: 1.55; margin-bottom: 5px; font-weight: 600; }
 .publication-list .citation { color: var(--muted); }
 .publication-list .resource-links { margin-top: 9px; }
-.report-link { display: block; border-left: 3px solid #aab8cc; padding: 13px 22px; margin: 24px 0 40px; background: var(--wash); }
-.report-link a { font-weight: 500; text-decoration: none; }
-.report-link span { display: block; margin-bottom: 5px; font-size: 14px; color: var(--muted); letter-spacing: .035em; }
+.research-page .page-shell { max-width: 1024px; padding-top: 40px; }
+.research-page .page-heading { margin-bottom: 9px; }
+.research-page .page-heading h1 { margin: 0; font-size: 28px; font-weight: 550; letter-spacing: -.015em; }
+.research-page .prose { max-width: none; }
+.research-page .publication-intro { margin: 0 0 30px; font-size: 15px; line-height: 1.7; color: var(--muted); }
+.research-page .publication-intro a { text-decoration: none; }
+.research-page .publication-intro a:hover { text-decoration: underline; }
+.research-page .prose h2 { margin: 30px 0 13px; padding: 0 0 8px; border-top: 0; border-bottom: 1px solid var(--line); font-size: 20px; font-weight: 550; letter-spacing: 0; }
+.research-page .publication-section:first-of-type h2 { margin-top: 0; }
+.research-page .publication-section { margin-bottom: 28px; }
+.research-page .publication-list li { margin: 0 0 21px; padding: 0; border: 0; line-height: 1.55; }
+.research-page .publication-list li:last-child { margin-bottom: 0; }
+.research-page .publication-list .paper-title { margin-bottom: 4px; font-size: 18px; font-weight: 550; line-height: 1.45; text-wrap: auto; }
+.research-page .publication-list .citation { color: #42484f; font-size: 15.5px; line-height: 1.6; }
+.research-page .publication-list strong { font-weight: 550; }
+.research-page .publication-list .resource-links { margin-top: 4px; gap: 16px; line-height: 1.5; }
+.research-page .publication-list .resource-links a { font-size: 14px; font-weight: 400; }
+.research-page .prose > ol { font-size: 16px; line-height: 1.7; }
+.research-page .prose > ol > li { margin-bottom: 8px; }
 .site-footer { border-top: 1px solid var(--line); }
 .footer-inner { min-height: 94px; display: flex; align-items: center; justify-content: space-between; gap: 25px; color: var(--muted); font-size: 14px; }
 .footer-inner p { margin: 0; }

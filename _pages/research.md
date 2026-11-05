@@ -1,28 +1,11 @@
 ---
 layout: page
-title: "Research & publications"
+title: "Research"
 permalink: /research/
-eyebrow: Geometric computing · Intelligent CAD
-description: "Selected work on geometric modeling, learning, and the automation of design and manufacturing."
-section_nav:
-  - title: AI & design
-    id: ai-design
-  - title: Microstructures
-    id: microstructures
-  - title: Geometric computing
-    id: geometric-computing
-  - title: Tool paths
-    id: tool-paths
-  - title: Physical modeling
-    id: physical-modeling
-  - title: Awards
-    id: awards-selected
-  - title: Talks
-    id: talks
+page_class: research-page
+compact_header: true
 ---
-See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=en) for the complete publication list, and [Code & software](/codes/) for implementations.
-
-<div class="report-link"><span>Technical report</span><a href="{{ '/projects/icad-eval-report/' | relative_url }}">Assessing the CAD Capabilities of General-Purpose AI Models: A Case Study of GPT-6 Astra ↗</a></div>
+<p class="publication-intro">Selected publications · <a href="{{ site.author.scholar }}">Full list on Google Scholar</a> · <a href="{{ '/codes/' | relative_url }}">Code</a></p>
 
 {% for group in site.data.publications %}
 <section class="publication-section" aria-labelledby="{{ group.id }}">
@@ -32,12 +15,22 @@ See [Google Scholar](https://scholar.google.com/citations?user=9FwFNqAAAAAJ&hl=e
     <li>
       <span class="paper-title">{{ paper.title | escape }}</span>
       <div class="citation">{{ paper.authors | escape | replace: 'Qiang Zou', '<strong>Qiang Zou</strong>' | replace: 'Q Zou', '<strong>Q Zou</strong>' }}<br><em>{{ paper.venue | escape }}</em></div>
-      {% if paper.code or paper.paper %}<div class="resource-links">{% if paper.paper %}<a href="{{ paper.paper }}">Paper ↗</a>{% endif %}{% if paper.code %}<a href="{{ paper.code }}">Code ↗</a>{% endif %}</div>{% endif %}
+      {% if paper.code or paper.paper %}<div class="resource-links">{% if paper.paper %}<a href="{{ paper.paper }}">Paper</a>{% endif %}{% if paper.code %}<a href="{{ paper.code }}">Code</a>{% endif %}</div>{% endif %}
     </li>
     {% endfor %}
   </ul>
 </section>
 {% endfor %}
+
+<section class="publication-section" aria-labelledby="technical-reports">
+  <h2 id="technical-reports">Technical reports</h2>
+  <ul class="publication-list">
+    <li>
+      <span class="paper-title">Assessing the CAD Capabilities of General-Purpose AI Models: A Case Study of GPT-6 Astra</span>
+      <div class="resource-links"><a href="{{ '/projects/icad-eval-report/' | relative_url }}">Read report</a></div>
+    </li>
+  </ul>
+</section>
 
 ## Awards (Selected)
 
