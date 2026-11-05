@@ -79,6 +79,12 @@ BRT: Boundary Representation Learning via Transformer\
 
 <br />
 
+<img align="left" width="100" height="100" src="/images/codes/kdh-cad.png" alt="KDH-CAD: foundation-model knowledge and limited CAD data for downstream tasks">
+KDH-CAD: Knowledge–data hybrid CAD learning under data scarcity\
+[Code](https://github.com/Qiang-Zou/KDH-CAD) [Paper](https://doi.org/10.1016/j.cad.2026.104158)
+
+<br />
+
 
 
 
