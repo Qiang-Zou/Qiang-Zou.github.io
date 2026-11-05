@@ -28,14 +28,6 @@ layout: default
       <div class="home-reading-column">
         <header class="page-heading"><h1 id="about-title">About</h1></header>
         <section class="prose home-bio">{{ content }}</section>
-        <section class="news-section" aria-labelledby="news-title">
-          <h2 id="news-title">News</h2>
-          <ul class="news-list">{% for item in site.data.news limit:8 %}{% include news-item.html item=item %}{% endfor %}</ul>
-          <details class="news-archive">
-            <summary>Earlier news <span>({{ site.data.news.size | minus: 8 }})</span></summary>
-            <ul class="news-list">{% for item in site.data.news offset:8 %}{% include news-item.html item=item %}{% endfor %}</ul>
-          </details>
-        </section>
       </div>
     </article>
 </div>

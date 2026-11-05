@@ -6,9 +6,8 @@ Jekyll source for <https://qiang-zou.github.io/>. The site uses a small custom t
 
 | Content | Location |
 | --- | --- |
-| Original biography and recruitment note | `_pages/about.md` |
-| News (eight recent entries visible, earlier entries collapsed) | `_data/news.json` |
-| Research publications, grouped by topic | `_data/publications.json` |
+| Biography, recruitment note and all News | `_pages/about.md` |
+| Technical report, publications, awards and talks | `_pages/research.md` |
 | Code projects and their paper links | `_data/projects.json` |
 | Group, teaching, service, Chinese profile | `_pages/` |
 | Navigation | `_data/navigation.yml` |
@@ -20,7 +19,7 @@ Jekyll source for <https://qiang-zou.github.io/>. The site uses a small custom t
 
 For a new code project, add one object to `_data/projects.json` with `id`, `name`, `category`, `description`, `image`, and `code`. `title` and `paper` are optional. `image` is a site-relative path, for example `/images/codes/kdh-cad.png`. Existing category names are `AI for CAD/CAM`, `Surface and Solid Modeling`, and `Microstructure Modeling`.
 
-The homepage retains the original profile arrangement: a circular portrait and compact icon links on the left, with the original biography and recruitment note on the right. All pages share the same header, footer, font family, colors and heading scale. Desktop body text is 20px, supporting text and resource links are 18px; mobile uses 18px and 17px respectively. These sizes are defined once as CSS variables in `assets/css/site.css`. News uses aligned dates, with the latest eight entries visible and the remaining entries under a native “Earlier news” disclosure. Its layout is in `_layouts/home.html`; biography text is edited in `_pages/about.md` and news in `_data/news.json`. All code-page illustrations keep their proportions and link to their original files.
+The homepage retains the original profile arrangement: a circular portrait and compact icon links on the left, with the original biography and recruitment note on the right. All pages share the same header, footer, font family, colors and heading scale. Desktop body text is 20px, supporting text and resource links are 18px; mobile uses 18px and 17px respectively. These sizes are defined once as CSS variables in `assets/css/site.css`. News uses aligned dates, with the latest eight entries visible and the remaining entries under a native “Earlier news” disclosure. Its layout is in `_layouts/home.html`; biography and News are edited directly in `_pages/about.md`. Recent news is the list before `<details>`; earlier news is the list inside it. All publication text and resource links are edited directly in `_pages/research.md`. These two pages keep their content in Markdown, with no news/publication JSON files or content-generating template loops. All code-page illustrations keep their proportions and link to their original files.
 
 ## Build and check
 
