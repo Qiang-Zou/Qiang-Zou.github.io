@@ -20,7 +20,7 @@ Jekyll source for <https://qiang-zou.github.io/>.
 
 ## 页面结构与标题层级
 
-顶部导航为 **Home、Research、Teaching、Service、Group、Code、Chinese**。每个页面独立维护；首页只显示个人信息、About 和 News。论文及其他页面正文完整展示，不使用代表作筛选或固定数量截断；首页旧 News 单独折叠。
+顶部导航为 **Home、Research、Teaching、Service、Code、Group、Chinese**。每个页面独立维护；首页只显示个人信息、About 和 News。论文及其他页面正文完整展示，不使用代表作筛选或固定数量截断；首页旧 News 单独折叠。
 
 Research 的三个主栏目是 `## Publications (Selected)`、`## Awards`、`## Talks`。Technical Reports 和各研究分类使用 `###`，属于 Publications 下一级。论文题目继续使用普通列表条目中的加粗文字。列表按 Markdown 中的顺序显示，需要调整展示内容或顺序时直接编辑源文件，无需任何筛选标记。
 

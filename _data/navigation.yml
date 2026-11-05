@@ -5,9 +5,9 @@ main:
     url: /teaching/
   - title: Service
     url: /services/
-  - title: Group
-    url: /group/
   - title: Code
     url: /codes/
+  - title: Group
+    url: /group/
   - title: Chinese
     url: /about-chinese/
