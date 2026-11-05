@@ -29,15 +29,18 @@
 .home-content { min-width: 0; }
 /* News are plain Markdown bullets: bold date, then text and optional links. */
 .home-bio > blockquote { margin: 30px 0 0; padding: 17px 22px; border-left: 3px solid var(--sky); border-radius: 0 6px 6px 0; background: var(--wash); font-size: var(--small); color: var(--ink); }
-.home-bio #news-title + ul { list-style: none; margin: 0; padding: 0; }
-.home-bio #news-title + ul > li > p { margin: 0; }
-.home-bio #news-title + ul > li { position: relative; margin: 0; padding: 12px 0 12px 140px; font-size: var(--small); line-height: 1.65; }
-.home-bio #news-title + ul > li + li { border-top: 1px solid var(--rule); }
-.home-bio #news-title + ul > li > strong:first-child, .home-bio #news-title + ul > li > p:first-child > strong:first-child { position: absolute; left: 0; width: 122px; color: var(--nav); font-size: 19px; font-weight: 500; line-height: 1.75; white-space: nowrap; }
+.home-bio :is(#news-title + ul, #news-title + ul + details > ul) { list-style: none; margin: 0; padding: 0; }
+.home-bio :is(#news-title + ul, #news-title + ul + details > ul) > li > p { margin: 0; }
+.home-bio :is(#news-title + ul, #news-title + ul + details > ul) > li { position: relative; margin: 0; padding: 12px 0 12px 140px; font-size: var(--small); line-height: 1.65; }
+.home-bio :is(#news-title + ul, #news-title + ul + details > ul) > li + li { border-top: 1px solid var(--rule); }
+.home-bio :is(#news-title + ul, #news-title + ul + details > ul) > li > strong:first-child, .home-bio :is(#news-title + ul, #news-title + ul + details > ul) > li > p:first-child > strong:first-child { position: absolute; left: 0; width: 122px; color: var(--nav); font-size: 19px; font-weight: 500; line-height: 1.75; white-space: nowrap; }
+.home-bio #news-title + ul + details { margin-top: 12px; border-top: 1px solid var(--line); }
+.home-bio #news-title + ul + details > summary { padding: 14px 0; font-size: var(--small); color: var(--accent); cursor: pointer; }
+.home-bio #news-title + ul + details > summary:hover { text-decoration: underline; text-underline-offset: 4px; }
 @media (max-width: 900px) {
   .home-shell { grid-template-columns: 220px minmax(0, 1fr); gap: 32px; }
-  .home-bio #news-title + ul > li { padding-left: 0; }
-  .home-bio #news-title + ul > li > strong:first-child, .home-bio #news-title + ul > li > p:first-child > strong:first-child { display: block; position: static; width: auto; margin-bottom: 2px; }
+  .home-bio :is(#news-title + ul, #news-title + ul + details > ul) > li { padding-left: 0; }
+  .home-bio :is(#news-title + ul, #news-title + ul + details > ul) > li > strong:first-child, .home-bio :is(#news-title + ul, #news-title + ul + details > ul) > li > p:first-child > strong:first-child { display: block; position: static; width: auto; margin-bottom: 2px; }
 }
 @media (max-width: 700px) {
   .home-shell { grid-template-columns: 1fr; gap: 32px; }

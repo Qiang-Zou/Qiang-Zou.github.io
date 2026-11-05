@@ -20,7 +20,7 @@ Jekyll source for <https://qiang-zou.github.io/>.
 
 ## 页面结构与标题层级
 
-顶部导航为 **Home、Research、Teaching、Service、Group、Code、Chinese**。每个页面独立维护；首页只显示个人信息、About 和 News。所有正文完整展示，不使用代表作筛选、固定数量截断或折叠。
+顶部导航为 **Home、Research、Teaching、Service、Group、Code、Chinese**。每个页面独立维护；首页只显示个人信息、About 和 News。论文及其他页面正文完整展示，不使用代表作筛选或固定数量截断；首页旧 News 单独折叠。
 
 Research 的三个主栏目是 `## Publications (Selected)`、`## Awards`、`## Talks`。Technical Reports 和各研究分类使用 `###`，属于 Publications 下一级。论文题目继续使用普通列表条目中的加粗文字。列表按 Markdown 中的顺序显示，需要调整展示内容或顺序时直接编辑源文件，无需任何筛选标记。
 
@@ -36,7 +36,7 @@ Research 的三个主栏目是 `## Publications (Selected)`、`## Awards`、`## 
 
 最新消息放在列表顶部；不需要链接时，删去链接即可。日期与正文之间不需要 HTML 标签，也不需要填写样式类名。
 
-所有 News 直接显示，旧消息接在同一列表后面。
+2026 年 News 直接显示，2025 年及更早消息放在 `<details markdown="1">` 与 `</details>` 之间，默认折叠，入口为 **Earlier news**。可直接在 `about.md` 中移动条目调整折叠范围；请保留 `markdown="1"`。
 
 ## 新增一篇论文
 
