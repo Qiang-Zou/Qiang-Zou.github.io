@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Design and Manufacturing Automation Lab"
-show_title: true
+show_title: false
 description: "Design and Manufacturing Automation Lab · Zhejiang University"
 permalink: /group/
 ---

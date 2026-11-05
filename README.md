@@ -24,7 +24,7 @@ Jekyll source for <https://qiang-zou.github.io/>.
 
 Research 的三个主栏目是 `## Publications (Selected)`、`## Awards`、`## Talks`。Technical Reports 和各研究分类使用 `###`，属于 Publications 下一级。论文题目继续使用普通列表条目中的加粗文字。列表按 Markdown 中的顺序显示，需要调整展示内容或顺序时直接编辑源文件，无需任何筛选标记。
 
-全站使用 Open Sans。主栏目使用大号深蓝粗体；子栏目使用较小的粗体和留白；论文标题、作者、发表信息按字号、字重和颜色区分，不使用子标题底框或逐篇分隔线。保持这些结构即可沿用全站样式。
+全站使用 Open Sans。主栏目使用大号深蓝粗体；子栏目使用较小的粗体和右侧细线；论文标题、作者、发表信息按字号、字重和颜色区分，不使用子标题底框或逐篇分隔线。保持这些结构即可沿用全站样式。
 
 ## 新增一条 News
 
@@ -101,16 +101,20 @@ Write your introduction here.
 
 正文用普通段落；栏目用 `##`，栏目内的子标题用 `###`。论文题目仍用条目内的 `**加粗文字**`，不要把论文题目写成栏目标题。英文栏目标题统一使用标题式大小写，不加末尾冒号。
 
-文字排版参考 [MIT HAN Lab Publications](https://hanlab.mit.edu/publications)：Research 论文标题 18px / 600 字重、作者与发表信息 16px / 24px 行高；主栏目 38px / 800 字重，子栏目 24px / 700 字重。发表信息显示为正体。全站一般正文 18px，手机端 17px；手机主栏目 30px、子栏目 22px，论文保持 18px / 16px。字号统一在 `assets/css/site.css` 的变量中维护。
+文字排版参考 [MIT HAN Lab Publications](https://hanlab.mit.edu/publications)：Research 论文标题 19px / 600 字重、作者与发表信息 16px / 24px 行高；主栏目 38px / 800 字重，子栏目 22px / 700 字重。发表信息显示为正体。全站一般正文 18px，手机端 17px；手机主栏目 30px、子栏目 21px，论文保持 18px / 16px。字号统一在 `assets/css/site.css` 的变量中维护。
 
 Open Sans 正体和斜体使用本地 WOFF2 可变字体，页面加载不依赖 Google Fonts 网络请求。字体来源为 Google Fonts（Open Sans），SIL OFL 许可证保存在 `assets/fonts/OpenSans-OFL.txt`。参考站的品牌、图片和宣传文案不属于本网站内容。
+
+## 实验室横幅
+
+所有主页面共用实验室横幅。名称和两行研究理念在 `_config.yml` 的 `lab_identity` 中维护；装饰性曲面线稿为本地矢量文件 `assets/images/cad-surface.svg`。Group 页的实验室名由横幅展示，正文不再重复同名标题；其他页保留各自的栏目标题。手机上会自动隐藏右侧线稿。
 
 ## 模板和样式
 
 - `_layouts/default.html`：共用页头、主内容区域和页脚。
 - `_layouts/home.html`：首页头像侧栏与 About、News 正文的两栏框架。
 - `_layouts/page.html`：其他页面的标题和正文框架。
-- `_includes/`：共用导航、页头元信息和页脚。
+- `_includes/`：共用导航、页头元信息和页脚；`lab-banner.html` 为实验室横幅。
 - `assets/css/site.css`：全站蓝色配色、字号，以及普通 Markdown 标题、列表、论文和项目的排版。
 - `assets/css/home.css`：圆形头像、侧栏图标、News 日期排版与响应式布局。
 - `assets/js/home.js`：手机端联系信息菜单。

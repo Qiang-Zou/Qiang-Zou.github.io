@@ -6,6 +6,7 @@
 <body class="{{ page.page_class | default: 'standard-page' }}">
   <a class="skip-link" href="#main">Skip to content</a>
   {% include masthead.html %}
+  {% include lab-banner.html %}
   <main id="main" class="site-main" tabindex="-1">{{ content }}</main>
   {% include footer.html %}
 </body>
