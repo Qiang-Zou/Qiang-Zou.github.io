@@ -12,7 +12,7 @@
         <nav id="site-nav" class="greedy-nav" aria-label="Main navigation">
           <button type="button" class="hidden" aria-label="More navigation links" aria-expanded="false" aria-controls="overflow-links"><span class="navicon"></span></button>
           <ul class="visible-links">
-            <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ '/' | relative_url }}">Qiang Zou | Homepage</a></li>
+            <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ '/' | relative_url }}">Qiang Zou</a></li>
             <li class="masthead__menu-item"><a href="{{ '/research/' | relative_url }}">Research</a></li>
             <li class="masthead__menu-item"><a href="{{ '/teaching/' | relative_url }}">Teaching</a></li>
             <li class="masthead__menu-item"><a href="{{ '/services/' | relative_url }}">Services</a></li>
@@ -43,6 +43,7 @@
             <li><a href="{{ site.author.linkedin }}"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
             <li><a href="{{ site.author.scholar }}"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></li>
             <li><a href="{{ site.author.orcid }}"><i class="ai ai-orcid-square ai-fw" aria-hidden="true"></i> ORCID</a></li>
+            <li><a href="{{ site.author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
           </ul>
         </div>
       </div>
@@ -51,6 +52,14 @@
       <div class="page__inner-wrap">
         <header><h1 id="about-title" class="page__title">About</h1></header>
         <section class="page__content">{{ content }}</section>
+        <section class="news-section" aria-labelledby="news-title">
+          <h2 id="news-title">News</h2>
+          <ul class="news-list">{% for item in site.data.news limit:8 %}{% include news-item.html item=item %}{% endfor %}</ul>
+          <details class="news-archive">
+            <summary>Earlier news <span>({{ site.data.news.size | minus: 8 }})</span></summary>
+            <ul class="news-list">{% for item in site.data.news offset:8 %}{% include news-item.html item=item %}{% endfor %}</ul>
+          </details>
+        </section>
       </div>
     </article>
   </main>

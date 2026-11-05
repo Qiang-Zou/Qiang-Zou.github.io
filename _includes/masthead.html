@@ -1,6 +1,6 @@
 <header class="site-header">
   <div class="header-inner">
-    <a class="wordmark" href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Qiang Zou<span lang="zh-CN">邹强</span></a>
+    <a class="wordmark" href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Qiang Zou</a>
     <nav class="main-nav" aria-label="Main navigation">
       {% for item in site.data.navigation.main %}
       <a href="{{ item.url | relative_url }}"{% if page.url == item.url or item.url == '/group/' and page.url contains '/group/' %} aria-current="page"{% endif %}{% if item.title == '中文' %} lang="zh-CN"{% endif %}>{{ item.title }}</a>

@@ -6,7 +6,8 @@ Jekyll source for <https://qiang-zou.github.io/>. The site uses a small custom t
 
 | Content | Location |
 | --- | --- |
-| Original biography, recruitment note, and news | `_pages/about.md` |
+| Original biography and recruitment note | `_pages/about.md` |
+| News (eight recent entries visible, earlier entries collapsed) | `_data/news.json` |
 | Research publications, grouped by topic | `_data/publications.json` |
 | Code projects and their paper links | `_data/projects.json` |
 | Group, teaching, service, Chinese profile | `_pages/` |
@@ -19,7 +20,7 @@ Jekyll source for <https://qiang-zou.github.io/>. The site uses a small custom t
 
 For a new code project, add one object to `_data/projects.json` with `id`, `name`, `category`, `description`, `image`, and `code`. `title` and `paper` are optional. `image` is a site-relative path, for example `/images/codes/kdh-cad.png`. Existing category names are `AI for CAD/CAM`, `Surface and Solid Modeling`, and `Microstructure Modeling`.
 
-The homepage restores the original Minimal Mistakes layout from commit `a69978b`: a circular portrait and compact icon links on the left, with the original biography, recruitment note, and full news list on the right. Its layout is in `_layouts/home.html`; all homepage text is edited directly in `_pages/about.md`. All code-page illustrations keep their proportions and link to their original files.
+The homepage restores the original Minimal Mistakes layout from commit `a69978b`: a circular portrait and compact icon links on the left, with the original biography and recruitment note on the right. The reading column has refined typography and paragraph spacing. News uses aligned dates, with the latest eight entries visible and the remaining entries under a native “Earlier news” disclosure. Its layout is in `_layouts/home.html`; biography text is edited in `_pages/about.md` and news in `_data/news.json`. All code-page illustrations keep their proportions and link to their original files.
 
 ## Build and check
 
