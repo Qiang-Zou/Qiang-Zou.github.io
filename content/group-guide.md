@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Graduate Student Must-Knows
 permalink: /group/must_know/
 ---

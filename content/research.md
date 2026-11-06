@@ -1,8 +1,6 @@
 ---
-layout: page
 title: "Research"
 permalink: /research/
-page_class: research-page
 ---
 ## Publications (Selected) {#publications}
 

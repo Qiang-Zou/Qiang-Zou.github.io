@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "Academic service"
 permalink: /services/
 ---

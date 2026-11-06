@@ -24,12 +24,13 @@ author:
   github: "https://github.com/Qiang-Zou"
   linkedin: "https://www.linkedin.com/in/qiang-zou"
 
-include:
-  - _pages
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - Makefile
+  - docs
+  - templates
   - scripts
   - vendor
   - .bundle
@@ -55,3 +56,16 @@ defaults:
       type: pages
     values:
       layout: page
+  - scope:
+      path: "content/about.md"
+    values:
+      layout: home
+      page_class: home-page
+  - scope:
+      path: "content/research.md"
+    values:
+      page_class: research-page
+  - scope:
+      path: "content/code.md"
+    values:
+      content_class: code-page

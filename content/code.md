@@ -1,9 +1,7 @@
 ---
-layout: page
 title: "Code"
 permalink: /codes/
 description: "Code accompanying our research."
-content_class: code-page
 ---
 
 ## AI for CAD/CAM {#ai-cad}

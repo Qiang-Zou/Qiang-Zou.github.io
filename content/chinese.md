@@ -1,5 +1,4 @@
 ---
-layout: page
 title: 个人简介
 lang: zh-CN
 permalink: /about-chinese/

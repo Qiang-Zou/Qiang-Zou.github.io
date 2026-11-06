@@ -1,142 +1,60 @@
 # Qiang Zou — academic website
 
-Jekyll source for <https://qiang-zou.github.io/>.
+网站：<https://qiang-zou.github.io/>
 
-**模板负责排版，Markdown 文件负责内容。** 新增新闻、论文或项目，只需编辑对应的 `.md` 文件，不需要修改 HTML 模板、CSS 或 JSON 数据文件。
+**在 `content/` 填写内容，模板负责排版；提交到 GitHub 后自动发布。**
 
-## 内容放在哪里
+## 我应该编辑哪里？
 
-| 要修改的内容 | 文件 |
+| 要更新的内容 | 文件 |
 | --- | --- |
-| 首页侧栏信息、简介、招生说明、全部 News | `_pages/about.md` |
-| Technical reports、论文、奖项、Talks | `_pages/research.md` |
-| 代码项目、图片、Code / Paper 链接 | `_pages/codes.md` |
-| 课题组与学生 | `_pages/group.md` |
-| 教学、学术服务、中文简介 | `_pages/teaching.md`、`_pages/services.md`、`_pages/about-cn.md` |
-| 导航栏目及顺序 | `_data/navigation.yml` |
-| 邮箱、学术主页等共用链接 | `_config.yml` |
+| 首页简介、侧栏、News | [content/about.md](content/about.md) |
+| 论文、Technical Reports、Awards、Talks | [content/research.md](content/research.md) |
+| 开源项目 | [content/code.md](content/code.md) |
+| 实验室与学生 | [content/group.md](content/group.md) |
+| 教学 | [content/teaching.md](content/teaching.md) |
+| 学术服务 | [content/service.md](content/service.md) |
+| 中文简介 | [content/chinese.md](content/chinese.md) |
+| 学生须知 | [content/group-guide.md](content/group-guide.md) |
+| 实验室名称、共用联系方式 | [_config.yml](_config.yml) |
+| 导航名称与顺序 | [_data/navigation.yml](_data/navigation.yml) |
 
-保留文件顶部 `---` 之间的页面配置，正文使用普通 Markdown。首页侧栏的姓名、照片、身份和地点在 `about.md` 顶部的 `profile` 配置中修改。
+新增一条内容时，复制 [内容填写模板](templates/entries.md) 中对应的格式即可。
+新增页面时，复制 [页面模板](templates/page.md) 到 `content/`。
+图片放在 `images/`；代码项目图片放在 `images/codes/`。
 
-## 页面结构与标题层级
+## 更新流程
 
-顶部导航为 **Home、Research、Teaching、Service、Code、Group、Chinese**。每个页面独立维护；首页只显示个人信息、About 和 News。论文及其他页面正文完整展示，不使用代表作筛选或固定数量截断；首页旧 News 单独折叠。
+1. 编辑对应 Markdown，填写正文。
+2. 本地运行 `make preview` 预览，保存后自动重新生成并刷新。
+3. 运行 `make check` 检查页面和站内链接。
+4. 提交并同步到 GitHub 的 `main` 分支，GitHub Pages 自动发布。
 
-Research 的三个主栏目是 `## Publications (Selected)`、`## Awards`、`## Talks`。Technical Reports 和各研究分类使用 `###`，属于 Publications 下一级。论文题目继续使用普通列表条目中的加粗文字。列表按 Markdown 中的顺序显示，需要调整展示内容或顺序时直接编辑源文件，无需任何筛选标记。
+首次本地使用先运行 `make setup`；需要 Ruby、Bundler、Python 3 和 Make。
+也可以直接在 GitHub 编辑 `content/` 中的文件并提交，无需本地安装。
+**本地保存只更新本地预览；线上更新需要提交并同步到 GitHub。**
 
-全站使用 Open Sans。主栏目使用大号深蓝粗体；子栏目使用较小的粗体和右侧细线；论文标题、作者、发表信息按字号、字重和颜色区分，不使用子标题底框或逐篇分隔线。保持这些结构即可沿用全站样式。
+## 目录分工
 
-## 新增一条 News
+```text
+content/       日常填写的 Markdown 内容
+images/        头像、项目图片
+projects/      独立报告及附件
 
-在 `about.md` 的 `## News` 下方插入一行即可：
+templates/     可复制的填写示例（不发布）
+docs/          编辑说明和结构文档（不发布）
 
-```markdown
-- **Nov 2026** Your news text. [Read more](https://example.org/)
+_layouts/      共用页面模板
+_includes/     导航、横幅、页头和页脚
+_data/         导航等共用数据
+assets/        CSS、脚本、字体、装饰图片
+scripts/       检查工具
+_config.yml    全站配置与页面样式关联
+Makefile       预览、构建、检查命令
 ```
 
-最新消息放在列表顶部；不需要链接时，删去链接即可。日期与正文之间不需要 HTML 标签，也不需要填写样式类名。
+详细说明见 [编辑指南](docs/editing.md) 和 [项目结构](docs/architecture.md)。
 
-2026 年 News 直接显示，2025 年及更早消息放在 `<details markdown="1">` 与 `</details>` 之间，默认折叠，入口为 **Earlier news**。可直接在 `about.md` 中移动条目调整折叠范围；请保留 `markdown="1"`。
-
-## 新增一篇论文
-
-在 `research.md` 的相应分类下复制以下结构。空行和条目内的两个空格缩进用于区分标题、作者与期刊，模板自动完成排版。
-
-```markdown
-- **Paper title**
-
-  First Author, **Qiang Zou**
-
-  *Journal name (2026)*
-```
-
-Research 的论文条目统一只显示标题、作者和发表信息，不单独放 Paper / Code 链接；资源链接在 Code 页面维护。Technical Reports 保留 Read report 链接。论文标题本身保留为文字。新增研究分类用 `### 分类名称`；现有标题后的 `{#...}` 是稳定的页面锚点，请保留。奖项和 Talks 继续使用普通有序列表。
-
-Technical report 使用相同的标题、作者、发表信息结构，并在末尾保留报告链接：
-
-```markdown
-- **Report title**
-
-  **Qiang Zou**, Other Authors
-
-  *arXiv preprint arXiv:XXXX.XXXXX (2026)*
-
-  [Read report](/projects/your-report/)
-```
-
-## 新增一个代码项目
-
-把图片放入 `images/codes/`，然后在 `codes.md` 的相应分类下添加：
-
-```markdown
-- [![Project illustration](/images/codes/example.png)](/images/codes/example.png)
-
-  **Project title**
-
-  A short project description.
-
-  [Code](https://example.org/code) · [Paper](https://example.org/paper)
-```
-
-每个项目是一条 Markdown 列表项：图片、标题、说明和链接各占一个段落。模板自动显示为左图右文，手机上自动上下排列。图片外层链接用于查看原图。请替换示例路径和链接；现有图片链接后的 `{: #project-id}` 是可选的项目锚点，不是样式配置。
-
-## 新建其他页面
-
-在 `_pages/` 下新建 Markdown 文件：
-
-```markdown
----
-layout: page
-title: "Page title"
-permalink: /new-page/
----
-
-Write your introduction here.
-
-## Section title
-
-- First item
-- Second item
-```
-
-它会自动使用全站相同的导航、字号、颜色和页脚。`title` 用于浏览器标签和无障碍页面名称，默认不会在正文上方重复显示。若某页需要可见页标题，在顶部配置中加入 `show_title: true`；描述文字另用 `show_description: true` 开启。如需出现在导航栏，再向 `_data/navigation.yml` 添加标题与路径。
-
-## 标题与字号
-
-正文用普通段落；栏目用 `##`，栏目内的子标题用 `###`。论文题目仍用条目内的 `**加粗文字**`，不要把论文题目写成栏目标题。英文栏目标题统一使用标题式大小写，不加末尾冒号。
-
-文字风格与分区参考 [MIT HAN Lab Publications](https://hanlab.mit.edu/publications)，字号按本站阅读需求放大：一般正文 21px、论文标题 22px / 600 字重、作者与发表信息 19px；主栏目 40px / 800 字重、子栏目 26px / 700 字重。发表信息显示为正体。导航、侧栏与 News 为 19px。手机正文 19px，辅助信息 18px，主栏目 32px、子栏目 24px、论文标题 20px。字号统一在 `assets/css/site.css` 的变量中维护。
-
-Open Sans 正体和斜体使用本地 WOFF2 可变字体，页面加载不依赖 Google Fonts 网络请求。字体来源为 Google Fonts（Open Sans），SIL OFL 许可证保存在 `assets/fonts/OpenSans-OFL.txt`。参考站的品牌、图片和宣传文案不属于本网站内容。
-
-## 实验室横幅
-
-所有主页面共用实验室横幅。名称和两行研究理念在 `_config.yml` 的 `lab_identity` 中维护；装饰性曲面线稿为本地矢量文件 `assets/images/cad-surface.svg`。Group 页的实验室名由横幅展示，正文不再重复同名标题；其他页保留各自的栏目标题。手机上会自动隐藏右侧线稿。
-
-## 模板和样式
-
-- `_layouts/default.html`：共用页头、主内容区域和页脚。
-- `_layouts/home.html`：首页头像侧栏与 About、News 正文的两栏框架。
-- `_layouts/page.html`：其他页面的标题和正文框架。
-- `_includes/`：共用导航、页头元信息和页脚；`lab-banner.html` 为实验室横幅。
-- `assets/css/site.css`：全站蓝色配色、字号，以及普通 Markdown 标题、列表、论文和项目的排版。
-- `assets/css/home.css`：圆形头像、侧栏图标、News 日期排版与响应式布局。
-- `assets/js/home.js`：手机端联系信息菜单。
-
-新闻、论文和项目正文都在各自的 Markdown 文件中，不存放在模板或额外的 JSON 文件里。无需为每一条内容手写 CSS 类名。当前保留 29 条 News、31 篇论文与 14 个代码项目；独立报告 `projects/icad-eval-report/` 保持自身布局。
-
-## 本地预览与检查
-
-```sh
-bundle install
-bundle exec jekyll serve --config _config.yml,_config.dev.yml
-```
-
-打开 <http://127.0.0.1:4000/>。发布前运行：
-
-```sh
-bundle exec jekyll build
-python3 scripts/check_site.py _site
-```
-
-提交源码并推送到 GitHub Pages 分支后发布。不要提交 `_site/`、本地 gem 安装目录或 `.DS_Store`。
+页面内容不写入 HTML 模板，不需要另行维护 JSON 数据。
+News 的折叠范围在 `content/about.md` 调整；论文完整展示，按你填写的顺序排列。
+现有网站样式、导航顺序、公开网址和独立报告均保留。

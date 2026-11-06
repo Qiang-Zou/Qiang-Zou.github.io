@@ -1,9 +1,6 @@
 ---
-layout: home
 title: "About"
-browser_title: "Qiang Zou · Design and Manufacturing Automation Lab"
 permalink: /
-page_class: home-page
 profile:
   name: "Qiang Zou"
   avatar: "/images/profile.jpeg"

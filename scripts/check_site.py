@@ -39,6 +39,9 @@ def check(root):
         "teaching/index.html", "services/index.html", "about-chinese/index.html",
         "projects/icad-eval-report/index.html", "404.html",
     )
+    for private_path in ("docs", "templates", "scripts", "README.md", "Makefile", "Gemfile", "Gemfile.lock"):
+        if (root / private_path).exists():
+            failures.append(f"Maintenance file or directory accidentally published: {private_path}")
     for route in required_routes:
         if not (root / route).is_file():
             failures.append(f"Missing required page or redirect: {route}")
