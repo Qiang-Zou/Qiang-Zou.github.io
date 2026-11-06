@@ -140,18 +140,6 @@ permalink: /research/
 
   *Engineering with Computers 2022 38 (4), 3815-3830*
 
-- **STL-free digital design and manufacturing paradigm for high-precision selective laser melting**
-
-  Junhao Ding, **Qiang Zou**, Shuo Qu, Paulo Bartolo, Xu Song, Charlie C. L. Wang\*
-
-  *CIRP Annals. 2021 70(1): 167-170*
-
-- **Memory-Efficient Modeling and Slicing of Large-Scale Adaptive Lattice Structures**
-
-  Shengjun Liu, Tao Liu, **Qiang Zou**, Weiming Wang, Eugeni L. Doubrovski, Charlie C. L. Wang\*
-
-  *ASME Trans. JCISE. 21.6 (2021): 061003*
-
 - **A decision-support method for information inconsistency resolution in direct modeling of CAD models**
 
   **Qiang Zou**, Hsi-Yung Feng\*
@@ -195,6 +183,18 @@ permalink: /research/
   **Qiang Zou**\*
 
   *International Journal of Production Research. 2021 59(24), 7457-7467*
+
+- **STL-free digital design and manufacturing paradigm for high-precision selective laser melting**
+
+  Junhao Ding, **Qiang Zou**, Shuo Qu, Paulo Bartolo, Xu Song, Charlie C. L. Wang\*
+
+  *CIRP Annals. 2021 70(1): 167-170*
+
+- **Memory-Efficient Modeling and Slicing of Large-Scale Adaptive Lattice Structures**
+
+  Shengjun Liu, Tao Liu, **Qiang Zou**, Weiming Wang, Eugeni L. Doubrovski, Charlie C. L. Wang\*
+
+  *ASME Trans. JCISE. 21.6 (2021): 061003*
 
 - **Iso-level tool path planning for free-form surfaces**
 
