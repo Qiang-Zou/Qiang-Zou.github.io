@@ -9,8 +9,8 @@ repository: "Qiang-Zou/Qiang-Zou.github.io"
 
 lab_identity:
   name: "Design and Manufacturing Automation Lab"
-  line_one: "Design by the computer."
-  line_two: "Manufacture in the computer."
+  line_one: "Design by the computer"
+  line_two: "Manufacture in the computer"
 
 author:
   name: "Qiang Zou"

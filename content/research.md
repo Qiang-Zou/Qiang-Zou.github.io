@@ -116,12 +116,6 @@ permalink: /research/
 
   *Computer-Aided Design (2024)*
 
-- **GPU Parallel Inverse Evaluation of NURBS Surfaces Based on Matrix Representation**
-
-  Z Bao, W Liu, **Q Zou**\*
-
-  *Journal of Computer-Aided Design & Computer Graphics, 2023*
-
 - **Variational Direct Modeling: A framework towards integration of parametric modeling and direct modeling in CAD**
 
   **Qiang Zou**\*, Hsi-Yung Feng, and Shuming Gao.
@@ -151,12 +145,6 @@ permalink: /research/
   **Qiang Zou**, Hsi-Yung Feng\*
 
   *Advances in Engineering Software 127 (2019): 59-69*
-
-- **Variational B-rep model analysis for direct modeling using geometric perturbation**
-
-  **Qiang Zou**, Hsi-Yung Feng\*
-
-  *Journal of Computational Design and Engineering. 6 (4) (2019) 606-616*
 
 ### CAD/CAM Integration <span id="physical-modeling"></span> {#tool-paths}
 
