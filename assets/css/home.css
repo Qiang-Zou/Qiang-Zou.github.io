@@ -32,9 +32,8 @@
 .home-bio :is(#news-title + ul, #news-title + ul + details > ul) { list-style: none; margin: 0; padding: 0; }
 .home-bio :is(#news-title + ul, #news-title + ul + details > ul) > li > p { margin: 0; }
 .home-bio :is(#news-title + ul, #news-title + ul + details > ul) > li { position: relative; margin: 0; padding: 12px 0 12px 140px; font-size: var(--small); line-height: 1.65; }
-.home-bio :is(#news-title + ul, #news-title + ul + details > ul) > li + li { border-top: 1px solid var(--rule); }
 .home-bio :is(#news-title + ul, #news-title + ul + details > ul) > li > strong:first-child, .home-bio :is(#news-title + ul, #news-title + ul + details > ul) > li > p:first-child > strong:first-child { position: absolute; left: 0; width: 122px; color: var(--nav); font-size: var(--small); font-weight: 500; line-height: 1.75; white-space: nowrap; }
-.home-bio #news-title + ul + details { margin-top: 12px; border-top: 1px solid var(--line); }
+.home-bio #news-title + ul + details { margin-top: 12px; }
 .home-bio #news-title + ul + details > summary { padding: 14px 0; font-size: var(--small); color: var(--accent); cursor: pointer; }
 .home-bio #news-title + ul + details > summary:hover { text-decoration: underline; text-underline-offset: 4px; }
 @media (max-width: 900px) {
