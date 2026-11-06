@@ -36,7 +36,7 @@ content/*.md + _config.yml + _data/navigation.yml
 ## 样式约定
 
 沿用蓝白视觉、实验室横幅和 Open Sans 本地字体。
-栏目标题使用深蓝色；论文和报告题目使用深棕色（`--publication-title`）及 700 字重，区分两种层级。
+栏目标题使用深蓝色；论文和报告题目使用比作者文字更深的中性灰色（`--publication-title`）及 700 字重，区分两种层级。
 `site.css` 中的 `--text`、`--small`、`--section` 等变量统一控制桌面和手机字号。
 新增内容应沿用相应 Markdown 结构，不给单条内容添加字体或颜色。
 
