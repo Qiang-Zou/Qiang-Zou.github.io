@@ -101,7 +101,7 @@ Write your introduction here.
 
 正文用普通段落；栏目用 `##`，栏目内的子标题用 `###`。论文题目仍用条目内的 `**加粗文字**`，不要把论文题目写成栏目标题。英文栏目标题统一使用标题式大小写，不加末尾冒号。
 
-文字排版参考 [MIT HAN Lab Publications](https://hanlab.mit.edu/publications)：Research 论文标题 19px / 600 字重、作者与发表信息 16px / 24px 行高；主栏目 38px / 800 字重，子栏目 22px / 700 字重。发表信息显示为正体。全站一般正文 18px，手机端 17px；手机主栏目 30px、子栏目 21px，论文保持 18px / 16px。字号统一在 `assets/css/site.css` 的变量中维护。
+文字风格与分区参考 [MIT HAN Lab Publications](https://hanlab.mit.edu/publications)，字号按本站阅读需求放大：一般正文 21px、论文标题 22px / 600 字重、作者与发表信息 19px；主栏目 40px / 800 字重、子栏目 26px / 700 字重。发表信息显示为正体。导航、侧栏与 News 为 19px。手机正文 19px，辅助信息 18px，主栏目 32px、子栏目 24px、论文标题 20px。字号统一在 `assets/css/site.css` 的变量中维护。
 
 Open Sans 正体和斜体使用本地 WOFF2 可变字体，页面加载不依赖 Google Fonts 网络请求。字体来源为 Google Fonts（Open Sans），SIL OFL 许可证保存在 `assets/fonts/OpenSans-OFL.txt`。参考站的品牌、图片和宣传文案不属于本网站内容。
 
