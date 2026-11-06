@@ -12,6 +12,10 @@ page_class: research-page
 
 - **Assessing the CAD Capabilities of General-Purpose AI Models: A Case Study of GPT-6 Astra**
 
+  **Qiang Zou**, Jiajun Shen, Zhijie Yang, Yuhao Wang, Shitianyi Leng, Dongshuo Yin
+
+  *arXiv preprint arXiv:2610.24451 (2026)*
+
   [Read report](/projects/icad-eval-report/)
 
 ### AI for CAD {#ai-design}

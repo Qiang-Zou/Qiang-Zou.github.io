@@ -52,10 +52,14 @@ Research 的三个主栏目是 `## Publications (Selected)`、`## Awards`、`## 
 
 Research 的论文条目统一只显示标题、作者和发表信息，不单独放 Paper / Code 链接；资源链接在 Code 页面维护。Technical Reports 保留 Read report 链接。论文标题本身保留为文字。新增研究分类用 `### 分类名称`；现有标题后的 `{#...}` 是稳定的页面锚点，请保留。奖项和 Talks 继续使用普通有序列表。
 
-Technical report 可以使用更短的结构：
+Technical report 使用相同的标题、作者、发表信息结构，并在末尾保留报告链接：
 
 ```markdown
 - **Report title**
+
+  **Qiang Zou**, Other Authors
+
+  *arXiv preprint arXiv:XXXX.XXXXX (2026)*
 
   [Read report](/projects/your-report/)
 ```
