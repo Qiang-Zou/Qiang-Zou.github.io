@@ -27,10 +27,10 @@
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
   <div class="header-inner">
-    <a class="wordmark" href="{{ '/' | relative_url }}?v={{ site.time | date: '%s' }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Home</a>
+    <a class="wordmark" href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Home</a>
     <nav class="main-nav" aria-label="Main navigation">
       {% for item in site.navigation %}
-      <a href="{{ item.url | relative_url }}?v={{ site.time | date: '%s' }}"{% if page.url == item.url or item.url == '/group/' and page.url contains '/group/' %} aria-current="page"{% endif %}{% if item.title == '中文' %} lang="zh-CN"{% endif %}>{{ item.title }}</a>
+      <a href="{{ item.url | relative_url }}"{% if page.url == item.url or item.url == '/group/' and page.url contains '/group/' %} aria-current="page"{% endif %}{% if item.title == '中文' %} lang="zh-CN"{% endif %}>{{ item.title }}</a>
       {% endfor %}
     </nav>
   </div>
