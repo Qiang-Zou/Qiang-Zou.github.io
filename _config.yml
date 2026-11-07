@@ -24,14 +24,28 @@ author:
   github: "https://github.com/Qiang-Zou"
   linkedin: "https://www.linkedin.com/in/qiang-zou"
 
+layouts_dir: .site
+
+navigation:
+  - title: Research
+    url: /research/
+  - title: Teaching
+    url: /teaching/
+  - title: Service
+    url: /services/
+  - title: Code
+    url: /codes/
+  - title: Group
+    url: /group/
+  - title: Chinese
+    url: /about-chinese/
+
 exclude:
+  - .site
   - Gemfile
   - Gemfile.lock
   - README.md
   - Makefile
-  - docs
-  - templates
-  - scripts
   - vendor
   - .bundle
   - .jekyll-cache

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="{{ page.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% capture document_title %}{% if page.browser_title %}{{ page.browser_title }}{% elsif page.url == '/' %}{{ site.author.name | default: site.title }} · {{ site.lab_identity.name }}{% else %}{{ page.title }} · {{ site.title }}{% endif %}{% endcapture %}
+<title>{{ document_title | strip | escape }}</title>
+<meta name="description" content="{{ page.description | default: site.description | escape }}">
+<meta name="theme-color" content="#ffffff">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+<link rel="preload" href="{{ '/assets/fonts/open-sans-normal.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+{% if page.layout == 'home' %}
+<script src="{{ '/assets/home.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
+{% endif %}
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.title | escape }}">
+<meta property="og:title" content="{{ document_title | strip | escape }}">
+<meta property="og:description" content="{{ page.description | default: site.description | escape }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:image" content="{{ page.profile.avatar | default: site.author.avatar | absolute_url }}">
+<meta name="twitter:card" content="summary">
+
+</head>
+<body class="{{ page.page_class | default: 'standard-page' }}">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+  <div class="header-inner">
+    <a class="wordmark" href="{{ '/' | relative_url }}?v={{ site.time | date: '%s' }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Home</a>
+    <nav class="main-nav" aria-label="Main navigation">
+      {% for item in site.navigation %}
+      <a href="{{ item.url | relative_url }}?v={{ site.time | date: '%s' }}"{% if page.url == item.url or item.url == '/group/' and page.url contains '/group/' %} aria-current="page"{% endif %}{% if item.title == '中文' %} lang="zh-CN"{% endif %}>{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>
+
+  <div class="lab-banner" aria-label="{{ site.lab_identity.name | escape }}">
+  <div class="lab-banner-inner">
+    <div class="lab-banner-copy">
+      <p class="lab-banner-name">{{ site.lab_identity.name | escape }}</p>
+      <p class="lab-banner-motto">{{ site.lab_identity.line_one | escape }}<br>{{ site.lab_identity.line_two | escape }}</p>
+    </div>
+    <img class="lab-banner-art" src="{{ '/assets/cad-surface.svg' | relative_url }}" alt="" width="640" height="240" aria-hidden="true">
+  </div>
+</div>
+
+  <main id="main" class="site-main" tabindex="-1">{{ content }}</main>
+  <footer class="site-footer">
+  <div class="footer-inner">
+    <p>© {{ site.time | date: '%Y' }} Qiang Zou <span>·</span> Zhejiang University</p>
+    <div class="footer-links"><a href="mailto:{{ site.author.email }}">Email</a><a href="{{ site.author.scholar }}">Google Scholar</a><a href="{{ site.author.orcid }}">ORCID</a></div>
+  </div>
+</footer>
+
+</body>
+</html>

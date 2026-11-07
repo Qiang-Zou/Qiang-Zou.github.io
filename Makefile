@@ -14,10 +14,10 @@ setup:
 	$(BUNDLE) install
 
 preview:
-	$(BUNDLE) exec jekyll serve --config _config.yml,_config.dev.yml --livereload
+	JEKYLL_ENV=development $(BUNDLE) exec jekyll serve --host 127.0.0.1 --livereload
 
 build:
 	JEKYLL_ENV=production $(BUNDLE) exec jekyll build --safe --destination "$(DEST)"
 
 check: build
-	$(PYTHON) scripts/check_site.py "$(DEST)"
+	$(PYTHON) .site/check.py "$(DEST)"
