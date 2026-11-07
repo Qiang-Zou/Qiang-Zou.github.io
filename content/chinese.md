@@ -1,5 +1,5 @@
 ---
-title: 个人简介
+title: 中文
 lang: zh-CN
 permalink: /about-chinese/
 ---

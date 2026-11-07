@@ -37,7 +37,7 @@ navigation:
     url: /codes/
   - title: Group
     url: /group/
-  - title: Chinese
+  - title: 中文
     url: /about-chinese/
 
 exclude:
