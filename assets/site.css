@@ -50,8 +50,8 @@ strong { font-weight: 600; }
 .main-nav a[aria-current] { color: var(--accent); font-weight: 600; text-decoration: underline; text-decoration-color: var(--accent); text-decoration-thickness: 2px; text-underline-offset: 10px; }
 .lab-banner { overflow: hidden; color: #fff; background: linear-gradient(115deg, #102e45 8%, #194c6a 100%); border-bottom: 4px solid #acd3e9; }
 .lab-banner-inner { position: relative; min-height: 202px; display: flex; align-items: center; padding-top: 30px; padding-bottom: 32px; }
-.lab-banner-copy { position: relative; z-index: 1; }
-.lab-banner-name { max-width: 690px; margin: 0 0 14px; font-size: clamp(28px, 3vw, 36px); line-height: 1.3; font-weight: 700; letter-spacing: -.025em; color: #fff; }
+.lab-banner-copy { position: relative; z-index: 1; width: 100%; }
+.lab-banner-name { max-width: 100%; margin: 0 0 14px; font-size: clamp(28px, 3vw, 36px); line-height: 1.3; font-weight: 700; letter-spacing: -.025em; color: #fff; }
 .lab-banner-motto { margin: 0; font-size: var(--small); line-height: 1.55; font-weight: 400; color: #c8e4f3; }
 .lab-banner-art { position: absolute; width: 600px; max-width: 58%; height: 240px; right: -26px; top: 50%; transform: translateY(-50%); opacity: .78; mask-image: linear-gradient(to right, transparent, #000 30%); }
 .site-main { min-height: 65vh; }
@@ -146,7 +146,7 @@ strong { font-weight: 600; }
   .header-inner { flex-direction: column; gap: 8px; }
   .main-nav { width: 100%; justify-content: flex-start; gap: 4px 20px; }
   .lab-banner-inner { min-height: 184px; padding-top: 24px; padding-bottom: 26px; }
-  .lab-banner-name { max-width: 480px; font-size: 28px; }
+  .lab-banner-name { font-size: 28px; }
   .lab-banner-art { display: none; }
   .page-shell, .home-shell { padding-top: 30px; padding-bottom: 48px; }
   .page-heading { margin-bottom: 22px; }
