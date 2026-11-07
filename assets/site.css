@@ -73,6 +73,12 @@ strong { font-weight: 600; }
 .prose li { padding-left: 3px; margin-bottom: 10px; }
 .prose li > ul { margin: 10px 0; }
 .prose li > ul > li { margin-bottom: 6px; }
+/* Keep introductory text and nested lists together as one content block. */
+.prose > p:has(+ ul > li > ul) { margin-bottom: 8px; }
+.prose > ul:has(> li > ul) { line-height: 1.5; }
+.prose > ul:has(> li > ul) li { margin-bottom: 4px; }
+.prose > ul:has(> li > ul) ul { margin: 4px 0 0; }
+.prose > ul:has(> li > ul) > li + li { margin-top: 10px; }
 .prose li::marker { color: var(--accent); }
 .prose > ol > li { margin: 0; padding: 10px 0 10px 8px; }
 .prose > ol > li > p { margin: 0; }
