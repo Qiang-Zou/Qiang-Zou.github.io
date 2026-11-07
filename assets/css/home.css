@@ -28,13 +28,14 @@
 .author__urls-wrapper button { display: none; font: inherit; color: var(--accent); background: none; border: 1px solid var(--line); border-radius: 3px; padding: 5px 12px; cursor: pointer; }
 .home-content { min-width: 0; }
 /* News are plain Markdown bullets: bold date, then text and optional links. */
+.home-bio #news-title { margin-bottom: 18px; }
 .home-bio > blockquote { margin: 30px 0 0; padding: 18px 22px; border: 1px solid #dce9f2; border-left: 3px solid var(--accent); border-radius: 0 6px 6px 0; background: var(--wash); font-size: var(--small); color: var(--ink); }
 .home-bio :is(#news-title + ul, #news-title + ul + details > ul) { list-style: none; margin: 0; padding: 0; }
 .home-bio :is(#news-title + ul, #news-title + ul + details > ul) > li > p { margin: 0; }
-.home-bio :is(#news-title + ul, #news-title + ul + details > ul) > li { position: relative; margin: 0; padding: 12px 0 12px 140px; font-size: var(--small); line-height: 1.65; }
-.home-bio :is(#news-title + ul, #news-title + ul + details > ul) > li > strong:first-child, .home-bio :is(#news-title + ul, #news-title + ul + details > ul) > li > p:first-child > strong:first-child { position: absolute; left: 0; width: 122px; color: var(--nav); font-size: var(--small); font-weight: 500; line-height: 1.75; white-space: nowrap; }
-.home-bio #news-title + ul + details { margin-top: 12px; }
-.home-bio #news-title + ul + details > summary { padding: 14px 0; font-size: var(--small); color: var(--accent); cursor: pointer; }
+.home-bio :is(#news-title + ul, #news-title + ul + details > ul) > li { position: relative; margin: 0; padding: 6px 0 6px 140px; font-size: var(--small); line-height: 1.5; }
+.home-bio :is(#news-title + ul, #news-title + ul + details > ul) > li > strong:first-child, .home-bio :is(#news-title + ul, #news-title + ul + details > ul) > li > p:first-child > strong:first-child { position: absolute; left: 0; width: 122px; color: var(--nav); font-size: var(--small); font-weight: 500; line-height: 1.5; white-space: nowrap; }
+.home-bio #news-title + ul + details { margin-top: 8px; }
+.home-bio #news-title + ul + details > summary { padding: 8px 0; font-size: var(--small); color: var(--accent); cursor: pointer; }
 .home-bio #news-title + ul + details > summary:hover { text-decoration: underline; text-underline-offset: 4px; }
 @media (max-width: 900px) {
   .home-shell { grid-template-columns: 220px minmax(0, 1fr); gap: 32px; }

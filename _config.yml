@@ -69,3 +69,7 @@ defaults:
       path: "content/code.md"
     values:
       content_class: code-page
+  - scope:
+      path: "content/chinese.md"
+    values:
+      page_class: chinese-page

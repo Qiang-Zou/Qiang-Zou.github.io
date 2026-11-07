@@ -84,6 +84,9 @@ strong { font-weight: 600; }
 .prose table { display: block; width: 100%; overflow-x: auto; border-collapse: collapse; margin: 24px 0; font-size: var(--small); }
 .prose th, .prose td { border-bottom: 1px solid var(--line); text-align: left; padding: 12px 18px 12px 0; min-width: 160px; vertical-align: top; }
 .prose th { color: var(--heading); font-weight: 600; background: var(--wash); }
+/* Use the shared heading hierarchy and whitespace on the Chinese profile. */
+.chinese-page .prose h2 { border-top: 0; padding-top: 0; }
+.chinese-page .prose td { border-bottom: 0; }
 .prose pre { overflow: auto; padding: 20px; background: var(--wash); font-size: var(--small); }
 .prose :not(pre) > code { font-size: .95em; background: var(--wash); padding: 2px 5px; }
 /* Page templates style ordinary Markdown lists; content needs no CSS classes. */
