@@ -5,11 +5,10 @@ permalink: /services/
 
 ## Professional Service
 
-1. Area Chair/Organization Chair: SPM2025, SMI2025, ChinaGraph2026
+1. Conference Chair: SPM2025 (Organizing Chair), SMI2025 (Organizing Chair), ChinaGraph2026 (Organizing Chair), ICED16 (Session Chair), CAD16 (Session Chair)
 1. Editorial Board: CAD, JCAD&CG
 1. Secretary: CCF SIG on CAD&CG
 1. IPC: SPM, SMI, GMP, CVM, etc.
-1. Session Chair: ICED16, CAD16
 1. Reviewer: CAD, ASME JCISE, CAGD etc.
 
 ## Webinars Hosted
