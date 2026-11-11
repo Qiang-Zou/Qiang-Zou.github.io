@@ -54,7 +54,7 @@ permalink: /about-chinese/
 
 有意向报考的学生可联系本人：
 
-**Email:** [qiangzou@zju.edu.cn](mailto:qiangzou@zju.edu.cn)
+**Email:** qiangzou at zju dot edu dot cn
 
 ### 博士后
 
